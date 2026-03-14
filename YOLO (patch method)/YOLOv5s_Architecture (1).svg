@@ -1,0 +1,229 @@
+<svg viewBox="0 0 640 900" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', system-ui, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0e1016"/>
+      <stop offset="100%" stop-color="#181b24"/>
+    </linearGradient>
+    <linearGradient id="focusG" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#1e3a5f"/><stop offset="100%" stop-color="#163050"/></linearGradient>
+    <linearGradient id="convG"  x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#2a1f4a"/><stop offset="100%" stop-color="#1e1638"/></linearGradient>
+    <linearGradient id="c3G"   x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#1a3d2e"/><stop offset="100%" stop-color="#143325"/></linearGradient>
+    <linearGradient id="upG"   x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#4a3518"/><stop offset="100%" stop-color="#3a2a12"/></linearGradient>
+    <linearGradient id="catG"  x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#3a2050"/><stop offset="100%" stop-color="#2e1a42"/></linearGradient>
+    <linearGradient id="detG"  x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#4a1818"/><stop offset="100%" stop-color="#3a1212"/></linearGradient>
+    <marker id="arr" markerWidth="7" markerHeight="5" refX="6" refY="2.5" orient="auto"><polygon points="0 0,7 2.5,0 5" fill="#4a5568"/></marker>
+    <marker id="arrLat" markerWidth="6" markerHeight="5" refX="5" refY="2.5" orient="auto"><polygon points="0 0,6 2.5,0 5" fill="#60a5fa"/></marker>
+    <filter id="dotGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2.2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="shadow"><feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.35"/></filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="640" height="900" fill="url(#bg)"/>
+
+  <!-- Title -->
+  <text x="320" y="30" text-anchor="middle" fill="#e2e4e8" font-size="18" font-weight="600" letter-spacing="0.5">YOLOv5s Architecture</text>
+  <text x="320" y="48" text-anchor="middle" fill="#5a6070" font-size="10">with RTRM reconstruction points marked</text>
+
+  <!-- Legend box -->
+  <rect x="100" y="56" width="440" height="46" rx="7" fill="#131518" stroke="#2a2d35" stroke-width="0.6"/>
+  <circle cx="125" cy="72" r="5" fill="#34d399" filter="url(#dotGlow)"/>
+  <text x="135" y="76" fill="#a0aec0" font-size="9">RTRM reconstruction point</text>
+  <line x1="310" y1="72" x2="345" y2="72" stroke="#60a5fa" stroke-width="1.2" stroke-dasharray="4,2.5" marker-end="url(#arrLat)"/>
+  <text x="352" y="76" fill="#a0aec0" font-size="9">lateral connection</text>
+  <rect x="118" y="84" width="9" height="9" rx="2" fill="#1e3a5f"/><text x="130" y="92" fill="#a0aec0" font-size="7.5">Focus</text>
+  <rect x="178" y="84" width="9" height="9" rx="2" fill="#2a1f4a"/><text x="190" y="92" fill="#a0aec0" font-size="7.5">Conv</text>
+  <rect x="233" y="84" width="9" height="9" rx="2" fill="#1a3d2e"/><text x="245" y="92" fill="#a0aec0" font-size="7.5">C3</text>
+  <rect x="275" y="84" width="9" height="9" rx="2" fill="#4a3518"/><text x="287" y="92" fill="#a0aec0" font-size="7.5">Up</text>
+  <rect x="320" y="84" width="9" height="9" rx="2" fill="#3a2050"/><text x="332" y="92" fill="#a0aec0" font-size="7.5">Cat</text>
+  <rect x="375" y="84" width="9" height="9" rx="2" fill="#4a1818"/><text x="387" y="92" fill="#a0aec0" font-size="7.5">Detect</text>
+
+  <!-- Section side-bars -->
+  <rect x="8" y="108" width="16" height="422" rx="4" fill="#2563eb" fill-opacity="0.12" stroke="#2563eb" stroke-opacity="0.25" stroke-width="1"/>
+  <text x="16" y="330" text-anchor="middle" fill="#60a5fa" font-size="9.5" font-weight="600" transform="rotate(-90 16 330)" letter-spacing="1">BACKBONE</text>
+  <rect x="8" y="545" width="16" height="215" rx="4" fill="#f59e0b" fill-opacity="0.10" stroke="#f59e0b" stroke-opacity="0.22" stroke-width="1"/>
+  <text x="16" y="656" text-anchor="middle" fill="#fbbf24" font-size="9.5" font-weight="600" transform="rotate(-90 16 656)" letter-spacing="1">NECK</text>
+  <rect x="8" y="775" width="16" height="55" rx="4" fill="#ef4444" fill-opacity="0.10" stroke="#ef4444" stroke-opacity="0.22" stroke-width="1"/>
+  <text x="16" y="806" text-anchor="middle" fill="#f87171" font-size="8" font-weight="600" transform="rotate(-90 16 806)" letter-spacing="0.5">HEADS</text>
+
+  <!-- Input -->
+  <rect x="95" y="108" width="130" height="38" rx="7" fill="#1a2840" stroke="#2e5080" stroke-width="1" filter="url(#shadow)"/>
+  <text x="160" y="126" text-anchor="middle" fill="#93c5fd" font-size="11" font-weight="600">Input Image</text>
+  <text x="160" y="140" text-anchor="middle" fill="#4a6a8a" font-size="8.5">640 x 640</text>
+  <line x1="160" y1="146" x2="160" y2="152" stroke="#4a5568" stroke-width="1.4" marker-end="url(#arr)"/>
+
+  <!-- L0 Focus -->
+  <rect x="95" y="154" width="130" height="32" rx="6" fill="url(#focusG)" stroke="#3b6ea5" stroke-width="0.9" filter="url(#shadow)"/>
+  <text x="155" y="174" text-anchor="middle" fill="#93c5fd" font-size="10" font-weight="600">L0  Focus</text>
+  <circle cx="233" cy="170" r="5.5" fill="#34d399" filter="url(#dotGlow)"/>
+  <line x1="160" y1="186" x2="160" y2="190" stroke="#4a5568" stroke-width="1.3" marker-end="url(#arr)"/>
+
+  <!-- L1 Conv -->
+  <rect x="95" y="192" width="130" height="32" rx="6" fill="url(#convG)" stroke="#5b4d8a" stroke-width="0.9" filter="url(#shadow)"/>
+  <text x="150" y="208" text-anchor="middle" fill="#c4b5fd" font-size="10" font-weight="600">L1  Conv</text>
+  <text x="210" y="212" text-anchor="middle" fill="#6b5b95" font-size="7.5">320</text>
+  <circle cx="233" cy="208" r="5.5" fill="#34d399" filter="url(#dotGlow)"/>
+  <line x1="160" y1="224" x2="160" y2="228" stroke="#4a5568" stroke-width="1.3" marker-end="url(#arr)"/>
+
+  <!-- L2 C3 -->
+  <rect x="95" y="230" width="130" height="40" rx="6" fill="url(#c3G)" stroke="#2d6b4a" stroke-width="0.9" filter="url(#shadow)"/>
+  <text x="155" y="248" text-anchor="middle" fill="#6ee7b7" font-size="10" font-weight="600">L2  C3</text>
+  <text x="155" y="262" text-anchor="middle" fill="#4a8a6b" font-size="7">cv1 / cv2 / cv3</text>
+  <circle cx="233" cy="250" r="5.5" fill="#34d399" filter="url(#dotGlow)"/>
+  <line x1="160" y1="270" x2="160" y2="274" stroke="#4a5568" stroke-width="1.3" marker-end="url(#arr)"/>
+
+  <!-- L3 Conv -->
+  <rect x="95" y="276" width="130" height="32" rx="6" fill="url(#convG)" stroke="#5b4d8a" stroke-width="0.9" filter="url(#shadow)"/>
+  <text x="150" y="292" text-anchor="middle" fill="#c4b5fd" font-size="10" font-weight="600">L3  Conv</text>
+  <text x="210" y="296" text-anchor="middle" fill="#6b5b95" font-size="7.5">160</text>
+  <circle cx="233" cy="292" r="5.5" fill="#34d399" filter="url(#dotGlow)"/>
+  <line x1="160" y1="308" x2="160" y2="312" stroke="#4a5568" stroke-width="1.3" marker-end="url(#arr)"/>
+
+  <!-- L4 C3 -->
+  <rect x="95" y="314" width="130" height="40" rx="6" fill="url(#c3G)" stroke="#2d6b4a" stroke-width="0.9" filter="url(#shadow)"/>
+  <text x="155" y="332" text-anchor="middle" fill="#6ee7b7" font-size="10" font-weight="600">L4  C3</text>
+  <text x="155" y="346" text-anchor="middle" fill="#4a8a6b" font-size="7">cv1 / cv2 / cv3</text>
+  <circle cx="233" cy="334" r="5.5" fill="#34d399" filter="url(#dotGlow)"/>
+  <line x1="160" y1="354" x2="160" y2="358" stroke="#4a5568" stroke-width="1.3" marker-end="url(#arr)"/>
+
+  <!-- L5 Conv -->
+  <rect x="95" y="360" width="130" height="32" rx="6" fill="url(#convG)" stroke="#5b4d8a" stroke-width="0.9" filter="url(#shadow)"/>
+  <text x="150" y="376" text-anchor="middle" fill="#c4b5fd" font-size="10" font-weight="600">L5  Conv</text>
+  <text x="210" y="380" text-anchor="middle" fill="#6b5b95" font-size="7.5">80</text>
+  <circle cx="233" cy="376" r="5.5" fill="#34d399" filter="url(#dotGlow)"/>
+  <line x1="160" y1="392" x2="160" y2="396" stroke="#4a5568" stroke-width="1.3" marker-end="url(#arr)"/>
+
+  <!-- L6 C3 -->
+  <rect x="95" y="398" width="130" height="40" rx="6" fill="url(#c3G)" stroke="#2d6b4a" stroke-width="0.9" filter="url(#shadow)"/>
+  <text x="155" y="416" text-anchor="middle" fill="#6ee7b7" font-size="10" font-weight="600">L6  C3</text>
+  <text x="155" y="430" text-anchor="middle" fill="#4a8a6b" font-size="7">cv1 / cv2 / cv3</text>
+  <circle cx="233" cy="418" r="5.5" fill="#34d399" filter="url(#dotGlow)"/>
+  <line x1="160" y1="438" x2="160" y2="442" stroke="#4a5568" stroke-width="1.3" marker-end="url(#arr)"/>
+
+  <!-- L7 Conv -->
+  <rect x="95" y="444" width="130" height="32" rx="6" fill="url(#convG)" stroke="#5b4d8a" stroke-width="0.9" filter="url(#shadow)"/>
+  <text x="150" y="460" text-anchor="middle" fill="#c4b5fd" font-size="10" font-weight="600">L7  Conv</text>
+  <text x="210" y="464" text-anchor="middle" fill="#6b5b95" font-size="7.5">40</text>
+  <circle cx="233" cy="460" r="5.5" fill="#34d399" filter="url(#dotGlow)"/>
+  <line x1="160" y1="476" x2="160" y2="480" stroke="#4a5568" stroke-width="1.3" marker-end="url(#arr)"/>
+
+  <!-- L8 C3 -->
+  <rect x="95" y="482" width="130" height="40" rx="6" fill="url(#c3G)" stroke="#2d6b4a" stroke-width="0.9" filter="url(#shadow)"/>
+  <text x="155" y="500" text-anchor="middle" fill="#6ee7b7" font-size="10" font-weight="600">L8  C3</text>
+  <text x="155" y="514" text-anchor="middle" fill="#4a8a6b" font-size="7">cv1 / cv2 / cv3</text>
+  <circle cx="233" cy="502" r="5.5" fill="#34d399" filter="url(#dotGlow)"/>
+
+  <!-- Arrow L8 down to neck -->
+  <line x1="160" y1="522" x2="160" y2="548" stroke="#4a5568" stroke-width="1.3" marker-end="url(#arr)"/>
+
+  <!-- Neck column labels -->
+  <text x="150" y="545" text-anchor="middle" fill="#fbbf24" font-size="8" font-weight="600" letter-spacing="0.5">FPN (top-down)</text>
+  <text x="440" y="613" text-anchor="middle" fill="#fbbf24" font-size="8" font-weight="600" letter-spacing="0.5">PAN (bottom-up)</text>
+
+  <!-- FPN column: centre x=160, boxes x=95..205, w=110, h=30 -->
+
+  <!-- L9 Up -->
+  <rect x="95" y="550" width="110" height="30" rx="5" fill="url(#upG)" stroke="#7a6a30" stroke-width="0.8"/>
+  <text x="150" y="570" text-anchor="middle" fill="#fde68a" font-size="10" font-weight="600">L9  Up</text>
+  <circle cx="213" cy="565" r="5" fill="#34d399" filter="url(#dotGlow)"/>
+  <line x1="160" y1="580" x2="160" y2="582" stroke="#4a5568" stroke-width="1.2" marker-end="url(#arr)"/>
+
+  <!-- L10 Cat -->
+  <rect x="95" y="584" width="110" height="30" rx="5" fill="url(#catG)" stroke="#6a4a8a" stroke-width="0.8"/>
+  <text x="150" y="604" text-anchor="middle" fill="#d8b4fe" font-size="10" font-weight="600">L10  Cat</text>
+  <circle cx="213" cy="599" r="5" fill="#34d399" filter="url(#dotGlow)"/>
+  <line x1="160" y1="614" x2="160" y2="616" stroke="#4a5568" stroke-width="1.2" marker-end="url(#arr)"/>
+  <!-- lateral from backbone L6 -->
+  <path d="M 95 418 L 72 418 L 72 599 L 93 599" fill="none" stroke="#60a5fa" stroke-width="1.1" stroke-dasharray="4,2.5" marker-end="url(#arrLat)"/>
+
+  <!-- L11 C3 -->
+  <rect x="95" y="618" width="110" height="30" rx="5" fill="url(#c3G)" stroke="#2d6b4a" stroke-width="0.8"/>
+  <text x="150" y="638" text-anchor="middle" fill="#6ee7b7" font-size="10" font-weight="600">L11  C3</text>
+  <circle cx="213" cy="633" r="5" fill="#34d399" filter="url(#dotGlow)"/>
+  <line x1="160" y1="648" x2="160" y2="650" stroke="#4a5568" stroke-width="1.2" marker-end="url(#arr)"/>
+
+  <!-- L12 Conv -->
+  <rect x="95" y="652" width="110" height="30" rx="5" fill="url(#convG)" stroke="#5b4d8a" stroke-width="0.8"/>
+  <text x="150" y="672" text-anchor="middle" fill="#c4b5fd" font-size="10" font-weight="600">L12  Conv</text>
+  <circle cx="213" cy="667" r="5" fill="#34d399" filter="url(#dotGlow)"/>
+  <line x1="160" y1="682" x2="160" y2="684" stroke="#4a5568" stroke-width="1.2" marker-end="url(#arr)"/>
+
+  <!-- L13 Cat -->
+  <rect x="95" y="686" width="110" height="30" rx="5" fill="url(#catG)" stroke="#6a4a8a" stroke-width="0.8"/>
+  <text x="150" y="706" text-anchor="middle" fill="#d8b4fe" font-size="10" font-weight="600">L13  Cat</text>
+  <circle cx="213" cy="701" r="5" fill="#34d399" filter="url(#dotGlow)"/>
+  <line x1="160" y1="716" x2="160" y2="718" stroke="#4a5568" stroke-width="1.2" marker-end="url(#arr)"/>
+  <!-- lateral from backbone L4 -->
+  <path d="M 95 334 L 58 334 L 58 701 L 93 701" fill="none" stroke="#60a5fa" stroke-width="1.1" stroke-dasharray="4,2.5" marker-end="url(#arrLat)"/>
+
+  <!-- L14 C3 -->
+  <rect x="95" y="720" width="110" height="30" rx="5" fill="url(#c3G)" stroke="#2d6b4a" stroke-width="0.8"/>
+  <text x="150" y="740" text-anchor="middle" fill="#6ee7b7" font-size="10" font-weight="600">L14  C3</text>
+  <circle cx="213" cy="735" r="5" fill="#34d399" filter="url(#dotGlow)"/>
+
+  <!-- PAN column: centre x=440, boxes x=385..495, w=110, h=30 -->
+
+  <!-- Arrow from L14 across to L15 -->
+  <path d="M 205 735 L 250 735 L 250 633 L 383 633" fill="none" stroke="#4a5568" stroke-width="1.2" marker-end="url(#arr)"/>
+
+  <!-- L15 Conv -->
+  <rect x="385" y="618" width="110" height="30" rx="5" fill="url(#convG)" stroke="#5b4d8a" stroke-width="0.8"/>
+  <text x="440" y="638" text-anchor="middle" fill="#c4b5fd" font-size="10" font-weight="600">L15  Conv</text>
+  <circle cx="503" cy="633" r="5" fill="#34d399" filter="url(#dotGlow)"/>
+  <line x1="440" y1="648" x2="440" y2="650" stroke="#4a5568" stroke-width="1.2" marker-end="url(#arr)"/>
+
+  <!-- L16 Cat -->
+  <rect x="385" y="652" width="110" height="30" rx="5" fill="url(#catG)" stroke="#6a4a8a" stroke-width="0.8"/>
+  <text x="440" y="672" text-anchor="middle" fill="#d8b4fe" font-size="10" font-weight="600">L16  Cat</text>
+  <circle cx="503" cy="667" r="5" fill="#34d399" filter="url(#dotGlow)"/>
+  <line x1="440" y1="682" x2="440" y2="684" stroke="#4a5568" stroke-width="1.2" marker-end="url(#arr)"/>
+  <!-- lateral from FPN L10 -->
+  <path d="M 205 599 L 260 599 L 260 667 L 383 667" fill="none" stroke="#60a5fa" stroke-width="1.1" stroke-dasharray="4,2.5" marker-end="url(#arrLat)"/>
+
+  <!-- L17 C3 -->
+  <rect x="385" y="686" width="110" height="30" rx="5" fill="url(#c3G)" stroke="#2d6b4a" stroke-width="0.8"/>
+  <text x="440" y="706" text-anchor="middle" fill="#6ee7b7" font-size="10" font-weight="600">L17  C3</text>
+  <circle cx="503" cy="701" r="5" fill="#34d399" filter="url(#dotGlow)"/>
+  <line x1="440" y1="716" x2="440" y2="718" stroke="#4a5568" stroke-width="1.2" marker-end="url(#arr)"/>
+
+  <!-- L18 Conv -->
+  <rect x="385" y="720" width="110" height="30" rx="5" fill="url(#convG)" stroke="#5b4d8a" stroke-width="0.8"/>
+  <text x="440" y="740" text-anchor="middle" fill="#c4b5fd" font-size="10" font-weight="600">L18  Conv</text>
+  <circle cx="503" cy="735" r="5" fill="#34d399" filter="url(#dotGlow)"/>
+  <line x1="440" y1="750" x2="440" y2="752" stroke="#4a5568" stroke-width="1.2" marker-end="url(#arr)"/>
+
+  <!-- L19 Cat -->
+  <rect x="385" y="754" width="110" height="30" rx="5" fill="url(#catG)" stroke="#6a4a8a" stroke-width="0.8"/>
+  <text x="440" y="774" text-anchor="middle" fill="#d8b4fe" font-size="10" font-weight="600">L19  Cat</text>
+  <circle cx="503" cy="769" r="5" fill="#34d399" filter="url(#dotGlow)"/>
+  <!-- lateral from FPN L13 -->
+  <path d="M 205 701 L 270 701 L 270 769 L 383 769" fill="none" stroke="#60a5fa" stroke-width="1.1" stroke-dasharray="4,2.5" marker-end="url(#arrLat)"/>
+
+  <!-- Detection heads -->
+  <!-- Arrow L14 down to head 1 -->
+  <line x1="150" y1="750" x2="150" y2="798" stroke="#4a5568" stroke-width="1" stroke-dasharray="3,2"/>
+  <!-- Arrow L17 to head 2 -->
+  <path d="M 440 716 L 440 730 L 390 730 L 390 798" fill="none" stroke="#4a5568" stroke-width="1" stroke-dasharray="3,2"/>
+  <!-- Arrow L19 to head 3 -->
+  <path d="M 440 784 L 540 784 L 540 798" fill="none" stroke="#4a5568" stroke-width="1" stroke-dasharray="3,2"/>
+
+  <!-- Head 1 -->
+  <rect x="82" y="800" width="136" height="32" rx="5" fill="url(#detG)" stroke="#8a3030" stroke-width="0.9"/>
+  <text x="150" y="813" text-anchor="middle" fill="#fca5a5" font-size="9.5" font-weight="600">Detect  80x80</text>
+  <text x="150" y="826" text-anchor="middle" fill="#7a3030" font-size="7.5">large objects</text>
+
+  <!-- Head 2 -->
+  <rect x="322" y="800" width="136" height="32" rx="5" fill="url(#detG)" stroke="#8a3030" stroke-width="0.9"/>
+  <text x="390" y="813" text-anchor="middle" fill="#fca5a5" font-size="9.5" font-weight="600">Detect  40x40</text>
+  <text x="390" y="826" text-anchor="middle" fill="#7a3030" font-size="7.5">medium objects</text>
+
+  <!-- Head 3 -->
+  <rect x="472" y="800" width="136" height="32" rx="5" fill="url(#detG)" stroke="#8a3030" stroke-width="0.9"/>
+  <text x="540" y="813" text-anchor="middle" fill="#fca5a5" font-size="9.5" font-weight="600">Detect  20x20</text>
+  <text x="540" y="826" text-anchor="middle" fill="#7a3030" font-size="7.5">small objects</text>
+
+  <!-- Bottom notes -->
+  <text x="320" y="858" text-anchor="middle" fill="#4a5060" font-size="8">Green dots mark every layer where RTRM produces a reconstruction from activations.</text>
+  <text x="320" y="872" text-anchor="middle" fill="#4a5060" font-size="8">Blue dashed lines show lateral/skip connections used by the FPN and PAN paths.</text>
+</svg>

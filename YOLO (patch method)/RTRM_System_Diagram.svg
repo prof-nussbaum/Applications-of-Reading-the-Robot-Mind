@@ -1,0 +1,293 @@
+<svg viewBox="0 0 1100 720" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', system-ui, sans-serif">
+  <defs>
+    <!-- Background gradient -->
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0f1117"/>
+      <stop offset="100%" stop-color="#1a1d27"/>
+    </linearGradient>
+    <!-- Section box fills -->
+    <linearGradient id="inputGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1e3a5f"/>
+      <stop offset="100%" stop-color="#1a3050"/>
+    </linearGradient>
+    <linearGradient id="modelGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2d2246"/>
+      <stop offset="100%" stop-color="#241c3a"/>
+    </linearGradient>
+    <linearGradient id="patchGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1a3d2e"/>
+      <stop offset="100%" stop-color="#163325"/>
+    </linearGradient>
+    <linearGradient id="reconGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4a2818"/>
+      <stop offset="100%" stop-color="#3d2014"/>
+    </linearGradient>
+    <linearGradient id="vizGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2a1f4a"/>
+      <stop offset="100%" stop-color="#231a3f"/>
+    </linearGradient>
+    <!-- Arrow marker -->
+    <marker id="arrowWhite" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#6b7280"/>
+    </marker>
+    <marker id="arrowOrange" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#f59e0b"/>
+    </marker>
+    <marker id="arrowGreen" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#34d399"/>
+    </marker>
+    <!-- Subtle glow filter -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <!-- Shadow for boxes -->
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1100" height="720" fill="url(#bgGrad)" rx="0"/>
+
+  <!-- Title -->
+  <text x="550" y="38" text-anchor="middle" fill="#e5e7eb" font-size="20" font-weight="600" letter-spacing="1">RTRM for YOLOv5s — System Diagram</text>
+  <text x="550" y="58" text-anchor="middle" fill="#6b7280" font-size="11">Reading the Robot Mind · Nussbaum (2023)</text>
+
+  <!-- ============================================================ -->
+  <!-- ROW 1: INPUT → MODEL  -->
+  <!-- ============================================================ -->
+
+  <!-- 1. Input Stage -->
+  <rect x="22" y="80" width="190" height="155" rx="10" fill="url(#inputGrad)" filter="url(#shadow)" stroke="#2e5a8a" stroke-width="1"/>
+  <rect x="22" y="80" width="190" height="26" rx="10" fill="#2563eb" fill-opacity="0.25"/>
+  <rect x="22" y="96" width="190" height="10" rx="10" fill="#2563eb" fill-opacity="0.25"/>
+  <text x="117" y="98" text-anchor="middle" fill="#60a5fa" font-size="11" font-weight="600" letter-spacing="0.5">INPUT</text>
+
+  <!-- Image icon -->
+  <rect x="52" y="118" width="50" height="40" rx="4" fill="#1a2a44" stroke="#3b6ea5" stroke-width="1"/>
+  <circle cx="62" cy="128" r="4" fill="#f59e0b"/>
+  <polygon points="52,158 72,138 82,148 92,132 102,158" fill="#3b6ea5"/>
+  <text x="77" y="175" text-anchor="middle" fill="#93c5fd" font-size="9">Image File</text>
+
+  <!-- Letterbox icon -->
+  <rect x="120" y="118" width="50" height="40" rx="4" fill="#1a2a44" stroke="#3b6ea5" stroke-width="1"/>
+  <rect x="122" y="130" width="46" height="26" rx="2" fill="#2563eb" fill-opacity="0.15" stroke="#3b6ea5" stroke-width="0.5"/>
+  <rect x="127" y="134" width="36" height="18" rx="1" fill="#3b6ea5" fill-opacity="0.4"/>
+  <text x="145" y="175" text-anchor="middle" fill="#93c5fd" font-size="9">Letterbox</text>
+
+  <!-- Arrow: Input → Model -->
+  <line x1="214" y1="158" x2="248" y2="158" stroke="#6b7280" stroke-width="2" marker-end="url(#arrowWhite)"/>
+
+  <!-- 2. YOLOv5s Model -->
+  <rect x="250" y="80" width="240" height="155" rx="10" fill="url(#modelGrad)" filter="url(#shadow)" stroke="#4a3d6e" stroke-width="1"/>
+  <rect x="250" y="80" width="240" height="26" rx="10" fill="#7c3aed" fill-opacity="0.25"/>
+  <rect x="250" y="96" width="240" height="10" rx="10" fill="#7c3aed" fill-opacity="0.25"/>
+  <text x="370" y="98" text-anchor="middle" fill="#a78bfa" font-size="11" font-weight="600" letter-spacing="0.5">YOLOv5s MODEL</text>
+
+  <!-- Backbone -->
+  <rect x="262" y="115" width="68" height="52" rx="5" fill="#4a3d6e" fill-opacity="0.5" stroke="#6b5b95" stroke-width="0.8"/>
+  <text x="296" y="136" text-anchor="middle" fill="#c4b5fd" font-size="9" font-weight="600">Backbone</text>
+  <text x="296" y="149" text-anchor="middle" fill="#7c6ba8" font-size="7.5">L0–L8</text>
+  <text x="296" y="159" text-anchor="middle" fill="#7c6ba8" font-size="7.5">Conv / C3</text>
+
+  <!-- Arrow inside model -->
+  <line x1="330" y1="141" x2="340" y2="141" stroke="#6b5b95" stroke-width="1.2" marker-end="url(#arrowWhite)"/>
+
+  <!-- Neck -->
+  <rect x="342" y="115" width="68" height="52" rx="5" fill="#4a3d6e" fill-opacity="0.5" stroke="#6b5b95" stroke-width="0.8"/>
+  <text x="376" y="136" text-anchor="middle" fill="#c4b5fd" font-size="9" font-weight="600">Neck</text>
+  <text x="376" y="149" text-anchor="middle" fill="#7c6ba8" font-size="7.5">L9–L19</text>
+  <text x="376" y="159" text-anchor="middle" fill="#7c6ba8" font-size="7.5">FPN / PANet</text>
+
+  <!-- Arrow inside model -->
+  <line x1="410" y1="141" x2="420" y2="141" stroke="#6b5b95" stroke-width="1.2" marker-end="url(#arrowWhite)"/>
+
+  <!-- Detect Heads -->
+  <rect x="422" y="115" width="56" height="52" rx="5" fill="#4a3d6e" fill-opacity="0.5" stroke="#6b5b95" stroke-width="0.8"/>
+  <text x="450" y="136" text-anchor="middle" fill="#c4b5fd" font-size="9" font-weight="600">Heads</text>
+  <text x="450" y="149" text-anchor="middle" fill="#7c6ba8" font-size="7.5">L20–23</text>
+  <text x="450" y="159" text-anchor="middle" fill="#7c6ba8" font-size="7.5">Detect</text>
+
+  <!-- Activations output (down arrow label) -->
+  <text x="370" y="192" text-anchor="middle" fill="#a78bfa" font-size="8" font-style="italic">activations at each layer</text>
+
+  <!-- ============================================================ -->
+  <!-- ROW 2: PATCH BUILDER + RECONSTRUCTOR (side by side, below) -->
+  <!-- ============================================================ -->
+
+  <!-- Connector: Model → Patch Builder (down-left) -->
+  <path d="M 300 235 L 300 260 L 140 260 L 140 280" fill="none" stroke="#f59e0b" stroke-width="1.8" stroke-dasharray="5,3" marker-end="url(#arrowOrange)"/>
+  <text x="200" y="255" text-anchor="middle" fill="#f59e0b" font-size="8" font-style="italic">weights</text>
+
+  <!-- Connector: Model → Reconstructor (down-right) -->
+  <path d="M 440 235 L 440 260 L 660 260 L 660 280" fill="none" stroke="#34d399" stroke-width="1.8" stroke-dasharray="5,3" marker-end="url(#arrowGreen)"/>
+  <text x="560" y="255" text-anchor="middle" fill="#34d399" font-size="8" font-style="italic">activations</text>
+
+  <!-- 3. Patch Builder -->
+  <rect x="22" y="282" width="276" height="200" rx="10" fill="url(#patchGrad)" filter="url(#shadow)" stroke="#2d6b4a" stroke-width="1"/>
+  <rect x="22" y="282" width="276" height="26" rx="10" fill="#10b981" fill-opacity="0.25"/>
+  <rect x="22" y="298" width="276" height="10" rx="10" fill="#10b981" fill-opacity="0.25"/>
+  <text x="160" y="300" text-anchor="middle" fill="#6ee7b7" font-size="11" font-weight="600" letter-spacing="0.5">PATCH BUILDER</text>
+
+  <!-- Sub-steps inside Patch Builder -->
+  <rect x="36" y="318" width="248" height="30" rx="5" fill="#163325" stroke="#2d6b4a" stroke-width="0.6"/>
+  <text x="160" y="337" text-anchor="middle" fill="#a7f3d0" font-size="9">① Extract conv weights per layer</text>
+
+  <line x1="160" y1="348" x2="160" y2="356" stroke="#34d399" stroke-width="1"/>
+
+  <rect x="36" y="357" width="248" height="30" rx="5" fill="#163325" stroke="#2d6b4a" stroke-width="0.6"/>
+  <text x="160" y="376" text-anchor="middle" fill="#a7f3d0" font-size="9">② Cumulative patch composition</text>
+
+  <line x1="160" y1="387" x2="160" y2="395" stroke="#34d399" stroke-width="1"/>
+
+  <rect x="36" y="396" width="248" height="30" rx="5" fill="#163325" stroke="#2d6b4a" stroke-width="0.6"/>
+  <text x="160" y="415" text-anchor="middle" fill="#a7f3d0" font-size="9">③ Handle stride / upsample / concat</text>
+
+  <line x1="160" y1="426" x2="160" y2="434" stroke="#34d399" stroke-width="1"/>
+
+  <rect x="36" y="435" width="248" height="35" rx="5" fill="#163325" stroke="#2d6b4a" stroke-width="0.6"/>
+  <text x="160" y="452" text-anchor="middle" fill="#6ee7b7" font-size="9" font-weight="600">→ RGB Patches</text>
+  <text x="160" y="464" text-anchor="middle" fill="#7c6ba8" font-size="7.5">[filters × 3 × h × w]</text>
+
+  <!-- Connector: Patch Builder → Reconstructor -->
+  <line x1="300" y1="400" x2="530" y2="400" stroke="#f59e0b" stroke-width="2" marker-end="url(#arrowOrange)"/>
+  <text x="415" y="394" text-anchor="middle" fill="#f59e0b" font-size="8" font-style="italic">patches</text>
+
+  <!-- 4. Reconstructor -->
+  <rect x="532" y="282" width="276" height="200" rx="10" fill="url(#reconGrad)" filter="url(#shadow)" stroke="#7a4a2a" stroke-width="1"/>
+  <rect x="532" y="282" width="276" height="26" rx="10" fill="#f59e0b" fill-opacity="0.25"/>
+  <rect x="532" y="298" width="276" height="10" rx="10" fill="#f59e0b" fill-opacity="0.25"/>
+  <text x="670" y="300" text-anchor="middle" fill="#fcd34d" font-size="11" font-weight="600" letter-spacing="0.5">RECONSTRUCTOR</text>
+
+  <!-- Sub-steps inside Reconstructor -->
+  <rect x="546" y="318" width="248" height="30" rx="5" fill="#3d2014" stroke="#7a4a2a" stroke-width="0.6"/>
+  <text x="670" y="337" text-anchor="middle" fill="#fde68a" font-size="9">① Transposed conv (patches × acts)</text>
+
+  <line x1="670" y1="348" x2="670" y2="356" stroke="#f59e0b" stroke-width="1"/>
+
+  <rect x="546" y="357" width="248" height="30" rx="5" fill="#3d2014" stroke="#7a4a2a" stroke-width="0.6"/>
+  <text x="670" y="376" text-anchor="middle" fill="#fde68a" font-size="9">② Adaptive crop + resize → 640²</text>
+
+  <line x1="670" y1="387" x2="670" y2="395" stroke="#f59e0b" stroke-width="1"/>
+
+  <rect x="546" y="396" width="248" height="30" rx="5" fill="#3d2014" stroke="#7a4a2a" stroke-width="0.6"/>
+  <text x="670" y="415" text-anchor="middle" fill="#fde68a" font-size="9">③ COCO-stat normalization</text>
+
+  <line x1="670" y1="426" x2="670" y2="434" stroke="#f59e0b" stroke-width="1"/>
+
+  <rect x="546" y="435" width="248" height="35" rx="5" fill="#3d2014" stroke="#7a4a2a" stroke-width="0.6"/>
+  <text x="670" y="452" text-anchor="middle" fill="#fcd34d" font-size="9" font-weight="600">→ Reconstructed Image</text>
+  <text x="670" y="464" text-anchor="middle" fill="#7c6ba8" font-size="7.5">[batch × 3 × 640 × 640]</text>
+
+  <!-- ============================================================ -->
+  <!-- ROW 3: DETECTION RECONSTRUCTION (spans mid) + VISUALIZER -->
+  <!-- ============================================================ -->
+
+  <!-- Connector: Reconstructor → Detection Recon (down) -->
+  <line x1="670" y1="484" x2="670" y2="510" stroke="#34d399" stroke-width="1.6" marker-end="url(#arrowGreen)"/>
+
+  <!-- Connector: Detections from model head down into Det Recon -->
+  <path d="M 450 200 L 450 240 L 450 520 L 532 520" fill="none" stroke="#a78bfa" stroke-width="1.4" stroke-dasharray="4,3" marker-end="url(#arrowWhite)"/>
+  <text x="465" y="500" text-anchor="start" fill="#a78bfa" font-size="7.5" font-style="italic">bbox + class</text>
+
+  <!-- 5. Detection Reconstructor -->
+  <rect x="390" y="512" width="340" height="120" rx="10" fill="url(#vizGrad)" filter="url(#shadow)" stroke="#4a3d6e" stroke-width="1"/>
+  <rect x="390" y="512" width="340" height="24" rx="10" fill="#8b5cf6" fill-opacity="0.25"/>
+  <rect x="390" y="527" width="340" height="9" rx="10" fill="#8b5cf6" fill-opacity="0.25"/>
+  <text x="560" y="528" text-anchor="middle" fill="#c4b5fd" font-size="10.5" font-weight="600" letter-spacing="0.4">DETECTION RECONSTRUCTION</text>
+
+  <!-- Two method boxes side by side -->
+  <rect x="402" y="546" width="150" height="72" rx="6" fill="#2a1f4a" stroke="#5b4d8a" stroke-width="0.8"/>
+  <text x="477" y="564" text-anchor="middle" fill="#a78bfa" font-size="8.5" font-weight="600">Method 1</text>
+  <text x="477" y="577" text-anchor="middle" fill="#7c6ba8" font-size="7.5">Spatial Masking</text>
+  <text x="477" y="590" text-anchor="middle" fill="#7c6ba8" font-size="7">Mask activations</text>
+  <text x="477" y="601" text-anchor="middle" fill="#7c6ba8" font-size="7">to bbox region</text>
+
+  <rect x="568" y="546" width="150" height="72" rx="6" fill="#2a1f4a" stroke="#5b4d8a" stroke-width="0.8"/>
+  <text x="643" y="564" text-anchor="middle" fill="#a78bfa" font-size="8.5" font-weight="600">Method 2</text>
+  <text x="643" y="577" text-anchor="middle" fill="#7c6ba8" font-size="7.5">Class-Specific</text>
+  <text x="643" y="590" text-anchor="middle" fill="#7c6ba8" font-size="7">Use only filters</text>
+  <text x="643" y="601" text-anchor="middle" fill="#7c6ba8" font-size="7">for detected class</text>
+
+  <!-- ============================================================ -->
+  <!-- RIGHT COLUMN: VISUALIZER -->
+  <!-- ============================================================ -->
+
+  <!-- Connector: Reconstructor → Visualizer -->
+  <line x1="810" y1="382" x2="850" y2="382" stroke="#6b7280" stroke-width="1.8" marker-end="url(#arrowWhite)"/>
+
+  <!-- Connector: Det Recon → Visualizer -->
+  <path d="M 732 632 L 732 660 L 880 660 L 880 580" fill="none" stroke="#6b7280" stroke-width="1.5" marker-end="url(#arrowWhite)"/>
+
+  <!-- 6. Visualizer -->
+  <rect x="852" y="282" width="226" height="320" rx="10" fill="#1f1830" filter="url(#shadow)" stroke="#3d3560" stroke-width="1"/>
+  <rect x="852" y="282" width="226" height="26" rx="10" fill="#6366f1" fill-opacity="0.25"/>
+  <rect x="852" y="298" width="226" height="10" rx="10" fill="#6366f1" fill-opacity="0.25"/>
+  <text x="965" y="300" text-anchor="middle" fill="#a5b4fc" font-size="11" font-weight="600" letter-spacing="0.5">VISUALIZER</text>
+
+  <!-- Output thumbnails representing the 3 output types -->
+  <!-- Patch grid -->
+  <rect x="868" y="318" width="194" height="56" rx="6" fill="#16132a" stroke="#3d3560" stroke-width="0.7"/>
+  <text x="965" y="335" text-anchor="middle" fill="#a5b4fc" font-size="8.5" font-weight="600">Filter Patch Grid</text>
+  <!-- tiny grid dots -->
+  <g fill="#6366f1" fill-opacity="0.5">
+    <rect x="882" y="342" width="8" height="8" rx="1"/><rect x="894" y="342" width="8" height="8" rx="1"/><rect x="906" y="342" width="8" height="8" rx="1"/><rect x="918" y="342" width="8" height="8" rx="1"/><rect x="930" y="342" width="8" height="8" rx="1"/><rect x="942" y="342" width="8" height="8" rx="1"/>
+    <rect x="882" y="354" width="8" height="8" rx="1"/><rect x="894" y="354" width="8" height="8" rx="1"/><rect x="906" y="354" width="8" height="8" rx="1"/><rect x="918" y="354" width="8" height="8" rx="1"/><rect x="930" y="354" width="8" height="8" rx="1"/><rect x="942" y="354" width="8" height="8" rx="1"/>
+  </g>
+
+  <!-- Layer recon grid -->
+  <rect x="868" y="384" width="194" height="56" rx="6" fill="#16132a" stroke="#3d3560" stroke-width="0.7"/>
+  <text x="965" y="401" text-anchor="middle" fill="#a5b4fc" font-size="8.5" font-weight="600">Layer Reconstruction Grid</text>
+  <!-- tiny image swatches -->
+  <g>
+    <rect x="882" y="408" width="16" height="20" rx="2" fill="#2e4a6e"/><rect x="902" y="408" width="16" height="20" rx="2" fill="#3d3360"/><rect x="922" y="408" width="16" height="20" rx="2" fill="#2a5a3d"/>
+    <rect x="942" y="408" width="16" height="20" rx="2" fill="#4a3020"/><rect x="962" y="408" width="16" height="20" rx="2" fill="#2e4a6e"/><rect x="982" y="408" width="16" height="20" rx="2" fill="#3d3360"/>
+  </g>
+
+  <!-- Dual detection viz -->
+  <rect x="868" y="450" width="194" height="56" rx="6" fill="#16132a" stroke="#3d3560" stroke-width="0.7"/>
+  <text x="965" y="467" text-anchor="middle" fill="#a5b4fc" font-size="8.5" font-weight="600">Dual Detection Viz (2×2)</text>
+  <rect x="882" y="473" width="86" height="24" rx="2" fill="#2a3a5e" stroke="#3d3560" stroke-width="0.5"/>
+  <rect x="972" y="473" width="86" height="24" rx="2" fill="#3a2a5e" stroke="#3d3560" stroke-width="0.5"/>
+  <text x="925" y="489" text-anchor="middle" fill="#60a5fa" font-size="6.5">Spatial</text>
+  <text x="1015" y="489" text-anchor="middle" fill="#a78bfa" font-size="6.5">Class</text>
+
+  <!-- Output label -->
+  <rect x="868" y="516" width="194" height="34" rx="5" fill="#2a2545" stroke="#4a3d6e" stroke-width="0.7"/>
+  <text x="965" y="537" text-anchor="middle" fill="#a5b4fc" font-size="8" font-weight="600">→ .png output files</text>
+
+  <!-- ============================================================ -->
+  <!-- LEGEND at bottom -->
+  <!-- ============================================================ -->
+  <rect x="22" y="660" width="1056" height="44" rx="8" fill="#161820"/>
+  <text x="42" y="678" fill="#6b7280" font-size="8" font-weight="600">LEGEND</text>
+
+  <!-- Solid arrow -->
+  <line x1="42" y1="695" x2="82" y2="695" stroke="#6b7280" stroke-width="2" marker-end="url(#arrowWhite)"/>
+  <text x="88" y="699" fill="#9ca3af" font-size="8">data flow</text>
+
+  <!-- Dashed orange -->
+  <line x1="160" y1="695" x2="200" y2="695" stroke="#f59e0b" stroke-width="2" stroke-dasharray="5,3" marker-end="url(#arrowOrange)"/>
+  <text x="206" y="699" fill="#9ca3af" font-size="8">weights / patches</text>
+
+  <!-- Dashed green -->
+  <line x1="320" y1="695" x2="360" y2="695" stroke="#34d399" stroke-width="2" stroke-dasharray="5,3" marker-end="url(#arrowGreen)"/>
+  <text x="366" y="699" fill="#9ca3af" font-size="8">activations</text>
+
+  <!-- Dashed purple -->
+  <line x1="470" y1="695" x2="510" y2="695" stroke="#a78bfa" stroke-width="1.5" stroke-dasharray="4,3" marker-end="url(#arrowWhite)"/>
+  <text x="516" y="699" fill="#9ca3af" font-size="8">detection results</text>
+
+  <!-- Section color swatches -->
+  <rect x="640" y="687" width="10" height="10" rx="2" fill="#2563eb"/>
+  <text x="654" y="697" fill="#9ca3af" font-size="8">Input</text>
+  <rect x="700" y="687" width="10" height="10" rx="2" fill="#7c3aed"/>
+  <text x="714" y="697" fill="#9ca3af" font-size="8">Model</text>
+  <rect x="770" y="687" width="10" height="10" rx="2" fill="#10b981"/>
+  <text x="784" y="697" fill="#9ca3af" font-size="8">Patch Builder</text>
+  <rect x="860" y="687" width="10" height="10" rx="2" fill="#f59e0b"/>
+  <text x="874" y="697" fill="#9ca3af" font-size="8">Reconstructor</text>
+  <rect x="970" y="687" width="10" height="10" rx="2" fill="#8b5cf6"/>
+  <text x="984" y="697" fill="#9ca3af" font-size="8">Det Recon</text>
+</svg>

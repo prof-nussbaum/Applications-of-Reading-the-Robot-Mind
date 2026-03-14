@@ -1,0 +1,3 @@
+PROMPT AND CONTEXT:
+I’m writing a book, and this is largely the MLP content. Can you extract textbook worthy details To allow someone (or Yourself) to reconstruct it? Stick to verifiable content, as we’ll be verifying it - so feel free to include file and line numbers.
+CONTEXT: Uploaded file rtrm_mlp_demo.py

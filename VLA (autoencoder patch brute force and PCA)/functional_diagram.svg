@@ -1,0 +1,355 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 950" width="1200" height="950">
+  <defs>
+    <!-- Arrow markers — all dark for white background -->
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2563eb"/>
+    </marker>
+    <marker id="arrow-green" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#16a34a"/>
+    </marker>
+    <marker id="arrow-orange" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#ea580c"/>
+    </marker>
+    <marker id="arrow-purple" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#7c3aed"/>
+    </marker>
+    <marker id="arrow-gray" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#64748b"/>
+    </marker>
+    <filter id="shadow">
+      <feDropShadow dx="1" dy="2" stdDeviation="3" flood-color="#94a3b8" flood-opacity="0.35"/>
+    </filter>
+    <filter id="shadow-light">
+      <feDropShadow dx="1" dy="1" stdDeviation="2" flood-color="#cbd5e1" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- ═══════════════════════════════════════════════════════════════════ -->
+  <!-- WHITE BACKGROUND                                                     -->
+  <!-- ═══════════════════════════════════════════════════════════════════ -->
+  <rect width="1200" height="950" fill="#ffffff" rx="0"/>
+  <!-- Subtle grid texture -->
+  <rect width="1200" height="950" fill="url(#grid)" opacity="0.4"/>
+
+  <!-- Title band -->
+  <rect x="0" y="0" width="1200" height="52" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="600" y="22" text-anchor="middle" font-family="Georgia,serif" font-size="18" font-weight="bold" fill="#0f172a">RTRM – Reading the Robot Mind</text>
+  <text x="600" y="42" text-anchor="middle" font-family="Georgia,serif" font-size="11" fill="#64748b">Functional Architecture Diagram — VLA Surrogate Pipeline · v7</text>
+
+  <!-- ═══════════════════════════════════════════════════════════════════ -->
+  <!-- SHAPE LEGEND (top-right) — explains shape symbolics               -->
+  <!-- ═══════════════════════════════════════════════════════════════════ -->
+  <rect x="1010" y="60" width="178" height="285" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1" filter="url(#shadow-light)"/>
+  <text x="1099" y="79" text-anchor="middle" font-family="Georgia,serif" font-size="10" font-weight="bold" fill="#334155">Shape + Colour Legend</text>
+
+  <!-- Rectangle = I/O -->
+  <rect x="1020" y="88" width="30" height="16" rx="3" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+  <text x="1057" y="100" font-family="Arial,sans-serif" font-size="9" fill="#334155">Rectangle = I/O data</text>
+
+  <!-- Trapezoid (wide-top) = encoder/neural module -->
+  <polygon points="1020,124 1050,124 1046,140 1024,140" fill="#faf5ff" stroke="#7c3aed" stroke-width="1.5"/>
+  <text x="1057" y="135" font-family="Arial,sans-serif" font-size="9" fill="#334155">Trapezoid (↘) = Neural block</text>
+
+  <!-- Trapezoid (wide-bottom) = decoder / output expanding -->
+  <polygon points="1022,152 1048,152 1050,168 1020,168" fill="#fff7ed" stroke="#ea580c" stroke-width="1.5"/>
+  <text x="1057" y="163" font-family="Arial,sans-serif" font-size="9" fill="#334155">Trapezoid (↗) = Decoder / head</text>
+
+  <!-- Parallelogram = analysis method -->
+  <polygon points="1022,178 1050,178 1048,194 1020,194" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.5"/>
+  <text x="1057" y="190" font-family="Arial,sans-serif" font-size="9" fill="#334155">Parallelogram = RTRM method</text>
+
+  <!-- Rounded rect = orchestration/utility -->
+  <rect x="1020" y="202" width="30" height="16" rx="7" fill="#f1f5f9" stroke="#475569" stroke-width="1.5"/>
+  <text x="1057" y="213" font-family="Arial,sans-serif" font-size="9" fill="#334155">Stadium = Utility / collector</text>
+
+  <line x1="1020" y1="230" x2="1050" y2="230" stroke="#2563eb" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="1057" y="234" font-family="Arial,sans-serif" font-size="9" fill="#2563eb">Data flow</text>
+  <line x1="1020" y1="246" x2="1050" y2="246" stroke="#16a34a" stroke-width="2" marker-end="url(#arrow-green)"/>
+  <text x="1057" y="250" font-family="Arial,sans-serif" font-size="9" fill="#16a34a">Method 1 flow</text>
+  <line x1="1020" y1="260" x2="1050" y2="260" stroke="#ea580c" stroke-width="2" marker-end="url(#arrow-orange)"/>
+  <text x="1057" y="264" font-family="Arial,sans-serif" font-size="9" fill="#ea580c">Method 2 flow</text>
+  <line x1="1020" y1="275" x2="1050" y2="275" stroke="#7c3aed" stroke-width="2" marker-end="url(#arrow-purple)"/>
+  <text x="1057" y="279" font-family="Arial,sans-serif" font-size="9" fill="#7c3aed">Method 3 flow</text>
+  <line x1="1020" y1="316" x2="1050" y2="316" stroke="#64748b" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <text x="1057" y="320" font-family="Arial,sans-serif" font-size="9" fill="#64748b">Module boundary</text>
+  <!-- Dashed border = training-only -->
+  <rect x="1020" y="326" width="30" height="16" rx="3" fill="#f0fdff" stroke="#0891b2" stroke-width="1.2" stroke-dasharray="3,2"/>
+  <text x="1057" y="338" font-family="Arial,sans-serif" font-size="9" fill="#0891b2">Dashed border = train only</text>
+
+  <!-- main.py orchestrates note -->
+  <text x="1099" y="358" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">main.py</text>
+  <text x="1099" y="370" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">orchestrates</text>
+  <text x="1099" y="382" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">all 8 steps</text>
+
+  <!-- ═══════════════════════════════════════════════════════════════════ -->
+  <!-- ROW 1: INPUTS  (left column, Rectangles = I/O)                    -->
+  <!-- ═══════════════════════════════════════════════════════════════════ -->
+
+  <!-- DataLoader dashed boundary -->
+  <rect x="18" y="62" width="174" height="198" rx="8" fill="none" stroke="#94a3b8" stroke-width="1" stroke-dasharray="5,3"/>
+  <text x="105" y="75" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">data_loader.py</text>
+
+  <!-- Input Image — Rectangle (I/O) -->
+  <rect x="28" y="82" width="154" height="60" rx="5" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5" filter="url(#shadow-light)"/>
+  <text x="105" y="100" text-anchor="middle" font-family="Georgia,serif" font-size="12" font-weight="bold" fill="#1d4ed8">Input Image</text>
+  <text x="105" y="115" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#374151">RGB  3 × 64 × 64</text>
+  <text x="105" y="128" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#6b7280">data/ subfolder · PNG / NPZ / HDF5</text>
+
+  <!-- Input Tokens — Rectangle (I/O) -->
+  <rect x="28" y="158" width="154" height="60" rx="5" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5" filter="url(#shadow-light)"/>
+  <text x="105" y="176" text-anchor="middle" font-family="Georgia,serif" font-size="12" font-weight="bold" fill="#1d4ed8">Instruction Tokens</text>
+  <text x="105" y="191" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#374151">int64  seq_len = 32</text>
+  <text x="105" y="204" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#6b7280">data/ subfolder</text>
+
+  <!-- Fallback note -->
+  <rect x="18" y="270" width="174" height="38" rx="5" fill="#fefce8" stroke="#ca8a04" stroke-width="1"/>
+  <text x="105" y="284" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#92400e">⚡ CIFAR-10 if data/ empty</text>
+  <text x="105" y="298" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#92400e">⚡ Synthetic as final fallback</text>
+
+  <!-- Augmentation note (v7 new) -->
+  <rect x="18" y="316" width="174" height="28" rx="5" fill="#f0fdf4" stroke="#16a34a" stroke-width="1"/>
+  <text x="105" y="328" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#166534">▶ v7: augment_images()</text>
+  <text x="105" y="340" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#166534">rand-flip + reflect-crop(pad=4)</text>
+
+  <!-- ═══════════════════════════════════════════════════════════════════ -->
+  <!-- ROW 1: VLA MODEL  (centre)                                         -->
+  <!-- ═══════════════════════════════════════════════════════════════════ -->
+
+  <!-- VLA Model outer dashed box -->
+  <rect x="222" y="62" width="530" height="402" rx="10" fill="none" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="6,3"/>
+  <text x="487" y="78" text-anchor="middle" font-family="Georgia,serif" font-size="11" font-weight="bold" fill="#475569">vla_model.py — OpenVLASurrogate</text>
+
+  <!-- ─── Vision Encoder — Trapezoid wide-top (neural block, narrows down) ─── -->
+  <!-- Outer box -->
+  <rect x="237" y="88" width="210" height="145" rx="7" fill="#faf5ff" stroke="#7c3aed" stroke-width="1.5" filter="url(#shadow-light)"/>
+  <text x="342" y="105" text-anchor="middle" font-family="Georgia,serif" font-size="12" font-weight="bold" fill="#6d28d9">Vision Encoder</text>
+  <text x="342" y="117" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#7c3aed">VisionEncoder  ·  vla_model.py</text>
+
+  <!-- stem layer — trapezoid wide-top shape (narrows) -->
+  <polygon points="249,124 437,124 430,142 256,142" fill="#ede9fe" stroke="#7c3aed" stroke-width="1"/>
+  <text x="343" y="136" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4c1d95">stem: Conv2d(3→64, 3×3) + BN + ReLU   [vis_conv1 ●]</text>
+
+  <!-- res1 — trapezoid -->
+  <polygon points="249,146 437,146 430,164 256,164" fill="#ede9fe" stroke="#7c3aed" stroke-width="1"/>
+  <text x="343" y="158" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4c1d95">res1: ResBlock(64) — 2×Conv(3×3)+BN+skip  [vis_conv2 ●]</text>
+
+  <!-- res2 — trapezoid -->
+  <polygon points="249,168 437,168 430,186 256,186" fill="#ede9fe" stroke="#7c3aed" stroke-width="1"/>
+  <text x="343" y="180" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4c1d95">res2: ResBlock(64) — identity skip</text>
+
+  <!-- pool — trapezoid -->
+  <polygon points="249,190 437,190 430,208 256,208" fill="#ede9fe" stroke="#7c3aed" stroke-width="1"/>
+  <text x="343" y="202" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4c1d95">MaxPool2d(2) + Dropout2d(0.3)</text>
+
+  <!-- proj — trapezoid (bottom-most, output = narrow) -->
+  <polygon points="256,212 430,212 422,230 264,230" fill="#ddd6fe" stroke="#7c3aed" stroke-width="1.2"/>
+  <text x="343" y="224" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#3b0764">Linear(flat→128)  [vis_proj ●]</text>
+
+  <!-- ─── Language Encoder — Trapezoid wide-top ─── -->
+  <rect x="237" y="247" width="210" height="130" rx="7" fill="#fdf4ff" stroke="#a855f7" stroke-width="1.5" filter="url(#shadow-light)"/>
+  <text x="342" y="264" text-anchor="middle" font-family="Georgia,serif" font-size="12" font-weight="bold" fill="#7e22ce">Language Encoder</text>
+  <text x="342" y="276" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#a855f7">LanguageEncoder  ·  vla_model.py</text>
+
+  <polygon points="249,282 437,282 430,300 256,300" fill="#fae8ff" stroke="#a855f7" stroke-width="1"/>
+  <text x="343" y="294" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#581c87">Embedding(256,128) + PosEmbed(32,128) [lang_embed ●]</text>
+
+  <polygon points="249,304 437,304 430,322 256,322" fill="#fae8ff" stroke="#a855f7" stroke-width="1"/>
+  <text x="343" y="316" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#581c87">TransformerEncoder × 2  (4 heads, FFN=256)</text>
+
+  <polygon points="249,326 437,326 428,344 258,344" fill="#e9d5ff" stroke="#a855f7" stroke-width="1.2"/>
+  <text x="343" y="338" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#3b0764">AdaptiveAvgPool1d → context vec  [lang_enc ●]</text>
+
+  <text x="342" y="366" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">output: (B, 128)</text>
+
+  <!-- Arrows: VisionEnc → Fusion -->
+  <line x1="447" y1="155" x2="490" y2="230" stroke="#2563eb" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <!-- Arrows: LangEnc → Fusion -->
+  <line x1="447" y1="314" x2="490" y2="268" stroke="#2563eb" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- ─── Fusion Block — Trapezoid wide-top ─── -->
+  <rect x="495" y="215" width="215" height="105" rx="7" fill="#ecfeff" stroke="#0891b2" stroke-width="1.5" filter="url(#shadow-light)"/>
+  <text x="602" y="232" text-anchor="middle" font-family="Georgia,serif" font-size="12" font-weight="bold" fill="#0e7490">Fusion Block</text>
+  <text x="602" y="244" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#0891b2">FusionBlock  ·  vla_model.py</text>
+
+  <polygon points="507,250 703,250 696,268 514,268" fill="#cffafe" stroke="#0891b2" stroke-width="1"/>
+  <text x="605" y="262" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#164e63">MultiheadAttn(cross, 4 heads) q=vis k=v=lang</text>
+
+  <polygon points="507,272 703,272 696,290 514,290" fill="#cffafe" stroke="#0891b2" stroke-width="1"/>
+  <text x="605" y="284" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#164e63">LayerNorm + FFN(128→256→128, GELU) + LN</text>
+
+  <polygon points="514,294 696,294 688,312 522,312" fill="#a5f3fc" stroke="#0891b2" stroke-width="1.2"/>
+  <text x="605" y="306" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#083344">fused embedding (B, 128)  [fusion ●]</text>
+
+  <!-- Arrow: Fusion → Action -->
+  <line x1="602" y1="320" x2="602" y2="348" stroke="#2563eb" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- ─── Action Head — Trapezoid wide-bottom (expanding to output) ─── -->
+  <rect x="495" y="348" width="215" height="95" rx="7" fill="#fff7ed" stroke="#ea580c" stroke-width="1.5" filter="url(#shadow-light)"/>
+  <text x="602" y="365" text-anchor="middle" font-family="Georgia,serif" font-size="12" font-weight="bold" fill="#c2410c">Action Head</text>
+  <text x="602" y="377" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#ea580c">ActionHead  ·  vla_model.py</text>
+
+  <!-- Wide-bottom trapezoids (expanding = decoder/output shape) -->
+  <polygon points="522,383 688,383 696,401 514,401" fill="#fed7aa" stroke="#ea580c" stroke-width="1"/>
+  <text x="605" y="395" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#7c2d12">Linear(128→128) + ReLU  [act_fc1 ●]</text>
+
+  <polygon points="514,405 696,405 703,423 507,423" fill="#fed7aa" stroke="#ea580c" stroke-width="1"/>
+  <text x="605" y="417" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#7c2d12">Linear(128→64) + ReLU  [act_fc2 ●]</text>
+
+  <polygon points="507,427 703,427 710,445 500,445" fill="#fdba74" stroke="#ea580c" stroke-width="1.2"/>
+  <text x="605" y="439" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#431407">Linear(64→1) — linear  [act_out ●]</text>
+
+  <!-- Arrow: act_out → Action Output box (exits right edge of act_out row ~y=436) -->
+  <line x1="710" y1="436" x2="780" y2="430" stroke="#ea580c" stroke-width="1.5" marker-end="url(#arrow-orange)"/>
+
+  <!-- Output: Action — Rectangle (I/O) — beside Action Head -->
+  <rect x="782" y="408" width="155" height="56" rx="5" fill="#fff7ed" stroke="#ea580c" stroke-width="1.5" filter="url(#shadow-light)"/>
+  <text x="859" y="428" text-anchor="middle" font-family="Georgia,serif" font-size="12" font-weight="bold" fill="#c2410c">Action Output</text>
+  <text x="859" y="443" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#374151">Binary  float32  (1-DoF)</text>
+  <text x="859" y="456" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#6b7280">+1 = KEEP · −1 = TOSS</text>
+
+  <!-- Auxiliary cls_head (training only) — dashed, fed from fused embedding -->
+  <line x1="688" y1="303" x2="782" y2="325" stroke="#0891b2" stroke-width="1.2" stroke-dasharray="4,3" marker-end="url(#arrow)"/>
+  <rect x="784" y="315" width="200" height="76" rx="5" fill="#f0fdff" stroke="#0891b2" stroke-width="1.2" stroke-dasharray="4,3" filter="url(#shadow-light)"/>
+  <text x="884" y="332" text-anchor="middle" font-family="Georgia,serif" font-size="11" font-weight="bold" fill="#0e7490">Aux: cls_head  (train only)</text>
+  <text x="884" y="346" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#164e63">Linear(128 → n_classes)</text>
+  <text x="884" y="359" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#164e63">CrossEntropy loss (weight 0.5)</text>
+  <text x="884" y="372" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#64748b">not saved · discarded after training</text>
+  <text x="884" y="386" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" font-style="italic" fill="#0e7490">loss = MSE(action) + 0.5·CE(class)</text>
+
+  <!-- Arrow Image → VisionEnc -->
+  <line x1="182" y1="112" x2="237" y2="148" stroke="#2563eb" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <!-- Arrow Tokens → LangEnc -->
+  <line x1="182" y1="188" x2="237" y2="296" stroke="#2563eb" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- ─── Probe annotation ─── -->
+  <text x="487" y="465" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#64748b">● 9 named probe layers — activation captured via ProbeSubNet (truncated forward, no hooks)</text>
+  <text x="487" y="477" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">rtrm_engine.py :: ProbeSubNet  — frozen sub-network, weights shared with VLA</text>
+
+  <!-- Arrow VLA → Activation Collection -->
+  <line x1="487" y1="452" x2="487" y2="492" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow-gray)"/>
+
+  <!-- ═══════════════════════════════════════════════════════════════════ -->
+  <!-- ROW 2: Activation Collection (Stadium shape = utility)            -->
+  <!-- ═══════════════════════════════════════════════════════════════════ -->
+  <rect x="222" y="492" width="530" height="46" rx="22" fill="#f8fafc" stroke="#475569" stroke-width="1.5" filter="url(#shadow-light)"/>
+  <text x="487" y="511" text-anchor="middle" font-family="Georgia,serif" font-size="12" font-weight="bold" fill="#334155">Activation Collection</text>
+  <text x="487" y="527" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#64748b">stream_activations() batches ProbeSubNet → {layer_name: Tensor(N, …)}   main.py:251</text>
+
+  <!-- ─── Probe Selector (right of activation) — Stadium ─── -->
+  <rect x="780" y="492" width="190" height="70" rx="22" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.5" filter="url(#shadow-light)"/>
+  <text x="875" y="513" text-anchor="middle" font-family="Georgia,serif" font-size="11" font-weight="bold" fill="#15803d">Probe Selector</text>
+  <text x="875" y="527" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#374151">Class centres (closest to mean)</text>
+  <text x="875" y="540" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#374151">Boundary pts · Outliers (pairwise sim)</text>
+  <text x="875" y="553" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#64748b">rtrm_engine.py :: ProbeSelector</text>
+
+  <!-- Arrow: Activation → ProbeSelector -->
+  <line x1="752" y1="515" x2="780" y2="525" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow-gray)"/>
+
+  <!-- Arrows: Activation Collection → Methods -->
+  <line x1="320" y1="538" x2="175" y2="580" stroke="#16a34a" stroke-width="1.5" marker-end="url(#arrow-green)"/>
+  <line x1="487" y1="538" x2="487" y2="580" stroke="#ea580c" stroke-width="1.5" marker-end="url(#arrow-orange)"/>
+  <line x1="640" y1="538" x2="820" y2="580" stroke="#7c3aed" stroke-width="1.5" marker-end="url(#arrow-purple)"/>
+
+  <!-- ═══════════════════════════════════════════════════════════════════ -->
+  <!-- ROW 3: Three RTRM Methods (parallelograms)                        -->
+  <!-- ═══════════════════════════════════════════════════════════════════ -->
+
+  <!-- Method 1 — Parallelogram (slanted rectangle) -->
+  <polygon points="30,580 328,580 318,700 20,700" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.5" filter="url(#shadow-light)"/>
+  <text x="174" y="598" text-anchor="middle" font-family="Georgia,serif" font-size="13" font-weight="bold" fill="#15803d">Method 1 – Cosine Similarity</text>
+  <text x="174" y="613" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#374151">L2-normalise activations at each layer</text>
+  <text x="174" y="626" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#374151">dot-product → similarity matrix</text>
+  <text x="174" y="639" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#374151">threshold (≥ 0.85) → equivalence class</text>
+  <text x="174" y="652" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#374151">stream_activations per layer (train + test)</text>
+  <text x="174" y="668" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#64748b">rtrm_engine.py :: CosineSimilarityAnalyser</text>
+  <rect x="34" y="675" width="280" height="20" rx="4" fill="#bbf7d0"/>
+  <text x="174" y="688" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#14532d">→ cosine_results (JSON) → Figure 2</text>
+
+  <!-- Method 2 — Parallelogram -->
+  <polygon points="340,580 638,580 628,700 330,700" fill="#fff7ed" stroke="#ea580c" stroke-width="1.5" filter="url(#shadow-light)"/>
+  <text x="484" y="598" text-anchor="middle" font-family="Georgia,serif" font-size="13" font-weight="bold" fill="#c2410c">Method 2 – Patch Pseudo-Inverse</text>
+  <text x="484" y="613" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#374151">Linear reconstruction from weight matrices</text>
+  <text x="484" y="626" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#374151">vis_conv1: kernel patches (64, 3, 3×3)</text>
+  <text x="484" y="639" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#374151">vis_conv2: accumulated 5×5 patches via res1</text>
+  <text x="484" y="652" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#374151">vis_proj: Wᵀ · a  (dense layers only)</text>
+  <text x="484" y="668" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#64748b">rtrm_engine.py :: PatchPseudoInverse</text>
+  <rect x="344" y="675" width="280" height="20" rx="4" fill="#fed7aa"/>
+  <text x="484" y="688" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#431407">→ patch_recons + patch_mse (JSON) → Figs 1 &amp; 3</text>
+
+  <!-- Method 3 — Parallelogram -->
+  <polygon points="650,580 978,580 968,700 640,700" fill="#faf5ff" stroke="#7c3aed" stroke-width="1.5" filter="url(#shadow-light)"/>
+  <text x="809" y="598" text-anchor="middle" font-family="Georgia,serif" font-size="13" font-weight="bold" fill="#6d28d9">Method 3 – Learned Inverse (AE)</text>
+  <text x="809" y="613" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#374151">Universal deep FC LayerDecoder per probe layer</text>
+  <text x="809" y="626" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#374151">FC(act→256) BN ReLU → FC(→512) BN ReLU</text>
+  <text x="809" y="639" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#374151">→ FC(→1024) ReLU → FC(→3·64·64)</text>
+  <text x="809" y="652" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#374151">MSE loss · EarlyStopping(patience=30)</text>
+  <text x="809" y="665" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#374151">Skips lang_embed &amp; lang_enc layers</text>
+  <text x="809" y="676" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#64748b">rtrm_engine.py :: AutoencoderReconstructor + LayerDecoder</text>
+  <rect x="654" y="683" width="310" height="14" rx="4" fill="#ddd6fe"/>
+  <text x="809" y="693" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#3b0764">→ ae_recons + ae_mse (JSON) → Figs 1 &amp; 3</text>
+
+  <!-- Arrows: Methods → Visualise -->
+  <line x1="174" y1="700" x2="285" y2="750" stroke="#16a34a" stroke-width="1.5" marker-end="url(#arrow-green)"/>
+  <line x1="487" y1="700" x2="487" y2="750" stroke="#ea580c" stroke-width="1.5" marker-end="url(#arrow-orange)"/>
+  <line x1="805" y1="700" x2="660" y2="750" stroke="#7c3aed" stroke-width="1.5" marker-end="url(#arrow-purple)"/>
+
+  <!-- ═══════════════════════════════════════════════════════════════════ -->
+  <!-- ROW 4: Visualise.py  (Stadium)                                     -->
+  <!-- ═══════════════════════════════════════════════════════════════════ -->
+  <rect x="222" y="750" width="530" height="42" rx="20" fill="#f8fafc" stroke="#334155" stroke-width="1.5" filter="url(#shadow-light)"/>
+  <text x="487" y="768" text-anchor="middle" font-family="Georgia,serif" font-size="13" font-weight="bold" fill="#1e293b">visualise.py</text>
+  <text x="487" y="783" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#64748b">Matplotlib figure generation + save to outputs/</text>
+
+  <!-- Arrows: Visualise → Figures -->
+  <line x1="370" y1="792" x2="145" y2="820" stroke="#1d4ed8" stroke-width="1.2" marker-end="url(#arrow)"/>
+  <line x1="420" y1="792" x2="375" y2="820" stroke="#16a34a" stroke-width="1.2" marker-end="url(#arrow-green)"/>
+  <line x1="555" y1="792" x2="605" y2="820" stroke="#ea580c" stroke-width="1.2" marker-end="url(#arrow-orange)"/>
+  <line x1="610" y1="792" x2="845" y2="820" stroke="#7c3aed" stroke-width="1.2" marker-end="url(#arrow-purple)"/>
+
+  <!-- ═══════════════════════════════════════════════════════════════════ -->
+  <!-- ROW 5: Output Figures (Rectangles = I/O)                           -->
+  <!-- ═══════════════════════════════════════════════════════════════════ -->
+
+  <!-- Fig 1 -->
+  <rect x="28" y="820" width="220" height="70" rx="5" fill="#eff6ff" stroke="#2563eb" stroke-width="1.2" filter="url(#shadow-light)"/>
+  <text x="138" y="838" text-anchor="middle" font-family="Georgia,serif" font-size="11" font-weight="bold" fill="#1d4ed8">Fig 1</text>
+  <text x="138" y="851" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#374151">Reconstruction Progression</text>
+  <text x="138" y="863" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#6b7280">orig → patch (vis layers) → AE per layer</text>
+  <text x="138" y="876" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#6b7280">fig1_reconstruction_progression.png</text>
+
+  <!-- Fig 2 -->
+  <rect x="263" y="820" width="220" height="70" rx="5" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.2" filter="url(#shadow-light)"/>
+  <text x="373" y="838" text-anchor="middle" font-family="Georgia,serif" font-size="11" font-weight="bold" fill="#15803d">Fig 2</text>
+  <text x="373" y="851" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#374151">Cosine Equivalence Classes</text>
+  <text x="373" y="863" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#6b7280">green border=same / red=different class</text>
+  <text x="373" y="876" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#6b7280">fig2_cosine_equivalence.png</text>
+
+  <!-- Fig 3 -->
+  <rect x="498" y="820" width="220" height="70" rx="5" fill="#fff7ed" stroke="#ea580c" stroke-width="1.2" filter="url(#shadow-light)"/>
+  <text x="608" y="838" text-anchor="middle" font-family="Georgia,serif" font-size="11" font-weight="bold" fill="#c2410c">Fig 3</text>
+  <text x="608" y="851" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#374151">MSE Reconstruction Error</text>
+  <text x="608" y="863" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#6b7280">AE vs Patch MSE across all layers</text>
+  <text x="608" y="876" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#6b7280">fig3_mse_progression.png</text>
+
+  <!-- Fig 4 -->
+  <rect x="733" y="820" width="220" height="70" rx="5" fill="#faf5ff" stroke="#7c3aed" stroke-width="1.2" filter="url(#shadow-light)"/>
+  <text x="843" y="838" text-anchor="middle" font-family="Georgia,serif" font-size="11" font-weight="bold" fill="#6d28d9">Fig 4</text>
+  <text x="843" y="851" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#374151">Activation Space (PCA)</text>
+  <text x="843" y="863" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#6b7280">class clusters per layer · probe markers</text>
+  <text x="843" y="876" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#6b7280">fig4_activation_projections.png</text>
+
+  <!-- outputs/ footer -->
+  <rect x="18" y="896" width="970" height="18" rx="4" fill="#f1f5f9"/>
+  <text x="503" y="909" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#64748b">outputs/  ·  fig1_reconstruction_progression.png  ·  fig2_cosine_equivalence.png  ·  fig3_mse_progression.png  ·  fig4_activation_projections.png  ·  ae_checkpoints/  ·  patch_recons/  ·  ae_recons/</text>
+
+  <!-- Intermediate outputs callout -->
+  <rect x="988" y="820" width="200" height="110" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="1088" y="836" text-anchor="middle" font-family="Georgia,serif" font-size="9" font-weight="bold" fill="#475569">Intermediate outputs</text>
+  <text x="1005" y="850" font-family="Arial,sans-serif" font-size="8" fill="#64748b">cosine_results.json</text>
+  <text x="1005" y="862" font-family="Arial,sans-serif" font-size="8" fill="#64748b">patch_mse.json · patch_recons/</text>
+  <text x="1005" y="874" font-family="Arial,sans-serif" font-size="8" fill="#64748b">ae_mse.json · ae_train_losses.pkl</text>
+  <text x="1005" y="886" font-family="Arial,sans-serif" font-size="8" fill="#64748b">ae_checkpoints/  ·  ae_recons/</text>
+  <text x="1005" y="898" font-family="Arial,sans-serif" font-size="8" fill="#64748b">step1_cosine_preview{n}.png</text>
+  <text x="1005" y="910" font-family="Arial,sans-serif" font-size="8" fill="#64748b">step2_patch_preview.png</text>
+  <text x="1005" y="922" font-family="Arial,sans-serif" font-size="8" fill="#64748b">vla_model.pth  (checkpoint)</text>
+</svg>

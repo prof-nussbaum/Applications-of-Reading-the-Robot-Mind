@@ -1,0 +1,13 @@
+ORIGINAL PROMPT AND CONTEXT:
+I’m writing a book, and this is largely the GPT-2 content. Can you extract textbook worthy details
+To allow someone (or Yourself) to reconstruct it? Stick to verifiable content, as we’ll be verifying it - so feel free to include file and line numbers.
+
+CONTEXT (files provided to chatbot): rtrm_visualizer.py, rtrm_example.py, and rtrm_autoencoder.py
+
+ADDITIONAL PROMPT TO IMPROVE RESULTS:
+
+It’s missing things needed to recreate the solution, like the details of the “training corpus” used for cosine and ae??? What else is missing? Don’t rewrite till you answer.
+
+AND THEN FINAL PROMPT:
+
+Yes, but keep it textbook style and do not include extraneous or hypothetical (predictions of what the SME will see, or other).

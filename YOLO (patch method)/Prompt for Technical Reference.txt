@@ -1,0 +1,5 @@
+PROMPT PROVIDED TO CHATBOT AND CONTEXT
+
+PROMPT: I’m writing a book, and this is largely the YOLO content. Can you extract textbook worthy details To allow someone (or Yourself) to reconstruct it? Stick to verifiable content, as we’ll be verifying it - so feel free to include file and line numbers.
+
+CONTEXT: Attached file RTRM_for_YOLO_v09d.py
