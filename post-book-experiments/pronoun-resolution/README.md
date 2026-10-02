@@ -6,6 +6,44 @@ That file is written for the domain expert. This folder is the lab record
 behind it, written for the analyst. Every write-up states PREDICTED vs
 ACTUAL, with refutations at full prominence.
 
+## Background
+Companion to Applications of Reading the Robot Mind(R) by Paul A. Nussbaum, PhD (2026), ISBN 9798251806519. 
+A "Reading the Robot Mind System" recreates a best estimate of the original input to a neural network based
+on the activations observed at a particular layer. In this experiment, we are looking at the GPT-2 LLM, 
+specifically, the penultimate layer prior to the MLP that chooses the next token.
+
+Hopefully, we can use activations of pronouns ("it", "he", etc.) to not only recreate the original input, 
+but also figure out the noun that they refer to (the "referent" such as "dog", "cat", "king", "tree" etc.).
+Even better, if that same prompt also asks the LLM a question requiring understanding what the referent is
+for that pronoun - we should be able to correlate the LLM getting the answer wrong to an inability (or
+ambiguity) in the recreated input being able to figure out the correct noun.
+
+The method used (from the book) is the "brute force" method, where we run a big dataset of prompt sentences
+through the LLM and for each token, record its activations at the layer in question. Later, we run a test
+prompt through the same system, gather its activations for each token at that same layer and compare it
+to our dataset of activations. The ones from the dataset that are closest (here - cosine similarity) 
+reveal the recreation of the original input.
+
+As you may know, LLMs retain the original input largely intact throughout the entire sequence of multi-
+headed transformers. This was noted as a potential security threat for federated learning and distributed
+inference - but in this case - it means we can't really "read the robots mind" if all we see is the input 
+repeated over and over again in every layer. We want to see how the LLM is reasoning, but the book 
+described "brute force" method tends to only reveal nearest neighbors that are identical (with slightly
+different activation vectors, because in the dataset, the same token appeared several times in 
+different sentences and locations).
+
+That "slight difference" may be where the LLM is actually doing all of its reasoning. 
+
+To extract these tiny perturbations to the activation vector, we use a lossy compression of those 
+activation vectors to yield much smaller vectors (fewer numbers). We then average those compressed
+vectors, subtract that average from each compressed vector, and then de-compress to see what we are
+left with (for a visual example of this process, see the "Wave-PCA-Demo.pdf" file in this directory).
+
+In this sequence of experiments, we use this method to compress per-token activation vectors (768
+numbers per token) down to an arbitrarily chosen smaller vector (64 numbers), and use the subtraction
+of the average method to remove the big signal (the original input) from the tiny signals that reveal
+the LLM's reasoning. Even with the arbitrarily chosen lossy compression ratio, it works pretty well!
+
 ## The arc in five sentences
 
 1. We asked whether GPT-2's pronoun states carry their referent. Raw cosine
