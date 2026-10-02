@@ -1,0 +1,287 @@
+{
+ "K": 64,
+ "var_captured": 0.9916,
+ "residual_energy_fraction": 0.0084,
+ "rows": [
+  {
+   "id": "pair1a",
+   "referent": "dog",
+   "raw_rank": 139,
+   "resid_rank": 68,
+   "resid_top5": [
+    [
+     "it",
+     1.0
+    ],
+    [
+     "it",
+     1.0
+    ],
+    [
+     "it",
+     0.796
+    ],
+    [
+     "it",
+     0.796
+    ],
+    [
+     "it",
+     0.784
+    ]
+   ]
+  },
+  {
+   "id": "pair1b",
+   "referent": "cat",
+   "raw_rank": 16360,
+   "resid_rank": 73,
+   "resid_top5": [
+    [
+     "it",
+     1.0
+    ],
+    [
+     "it",
+     1.0
+    ],
+    [
+     "it",
+     0.796
+    ],
+    [
+     "it",
+     0.796
+    ],
+    [
+     "it",
+     0.784
+    ]
+   ]
+  },
+  {
+   "id": "pair2a",
+   "referent": "man",
+   "raw_rank": 87,
+   "resid_rank": 114,
+   "resid_top5": [
+    [
+     "he",
+     0.807
+    ],
+    [
+     "he",
+     0.807
+    ],
+    [
+     "she",
+     0.779
+    ],
+    [
+     "she",
+     0.779
+    ],
+    [
+     "she",
+     0.775
+    ]
+   ]
+  },
+  {
+   "id": "pair2b",
+   "referent": "boy",
+   "raw_rank": 98,
+   "resid_rank": 124,
+   "resid_top5": [
+    [
+     "he",
+     0.807
+    ],
+    [
+     "he",
+     0.807
+    ],
+    [
+     "she",
+     0.779
+    ],
+    [
+     "she",
+     0.779
+    ],
+    [
+     "she",
+     0.775
+    ]
+   ]
+  },
+  {
+   "id": "pair3a",
+   "referent": "car",
+   "raw_rank": 2830,
+   "resid_rank": 76,
+   "resid_top5": [
+    [
+     "it",
+     0.856
+    ],
+    [
+     "it",
+     0.856
+    ],
+    [
+     "it",
+     0.828
+    ],
+    [
+     "it",
+     0.828
+    ],
+    [
+     "it",
+     0.735
+    ]
+   ]
+  },
+  {
+   "id": "pair3b",
+   "referent": "tree",
+   "raw_rank": 14153,
+   "resid_rank": 1697,
+   "resid_top5": [
+    [
+     "it",
+     0.856
+    ],
+    [
+     "it",
+     0.856
+    ],
+    [
+     "it",
+     0.828
+    ],
+    [
+     "it",
+     0.828
+    ],
+    [
+     "it",
+     0.735
+    ]
+   ]
+  },
+  {
+   "id": "ceil1",
+   "referent": "dog",
+   "raw_rank": 110,
+   "resid_rank": 125,
+   "resid_top5": [
+    [
+     "it",
+     0.873
+    ],
+    [
+     "it",
+     0.873
+    ],
+    [
+     "it",
+     0.864
+    ],
+    [
+     "it",
+     0.864
+    ],
+    [
+     "it",
+     0.854
+    ]
+   ]
+  },
+  {
+   "id": "ceil2",
+   "referent": "king",
+   "raw_rank": 17061,
+   "resid_rank": 127,
+   "resid_top5": [
+    [
+     "she",
+     0.708
+    ],
+    [
+     "she",
+     0.708
+    ],
+    [
+     "she",
+     0.653
+    ],
+    [
+     "she",
+     0.653
+    ],
+    [
+     "it",
+     0.613
+    ]
+   ]
+  },
+  {
+   "id": "ceil3",
+   "referent": "car",
+   "raw_rank": 3729,
+   "resid_rank": 45,
+   "resid_top5": [
+    [
+     "it",
+     0.839
+    ],
+    [
+     "it",
+     0.839
+    ],
+    [
+     "it",
+     0.789
+    ],
+    [
+     "it",
+     0.789
+    ],
+    [
+     "it",
+     0.747
+    ]
+   ]
+  },
+  {
+   "id": "ceil4",
+   "referent": "baby",
+   "raw_rank": 1196,
+   "resid_rank": 493,
+   "resid_top5": [
+    [
+     "it",
+     0.846
+    ],
+    [
+     "it",
+     0.846
+    ],
+    [
+     "it",
+     0.797
+    ],
+    [
+     "it",
+     0.797
+    ],
+    [
+     "it",
+     0.683
+    ]
+   ]
+  }
+ ]
+}

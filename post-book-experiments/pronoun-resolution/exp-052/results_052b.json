@@ -1,0 +1,105 @@
+{
+ "geometry": {
+  "pair1a": {
+   "pos_6_it": {
+    "dog": 139,
+    "cat": 16360
+   },
+   "pos_22_:": {
+    "dog": 10149,
+    "cat": 20511
+   }
+  },
+  "pair1b": {
+   "pos_6_it": {
+    "cat": 16360,
+    "dog": 139
+   },
+   "pos_23_:": {
+    "cat": 20624,
+    "dog": 10217
+   }
+  },
+  "pair2a": {
+   "pos_6_he": {
+    "man": 87,
+    "boy": 98
+   },
+   "pos_22_:": {
+    "man": 4447,
+    "boy": 4765
+   }
+  },
+  "pair2b": {
+   "pos_6_he": {
+    "boy": 98,
+    "man": 87
+   },
+   "pos_22_:": {
+    "boy": 4243,
+    "man": 3657
+   }
+  },
+  "pair3a": {
+   "pos_6_it": {
+    "car": 2830,
+    "tree": 14153
+   },
+   "pos_22_:": {
+    "car": 8277,
+    "tree": 15158
+   }
+  },
+  "pair3b": {
+   "pos_6_it": {
+    "tree": 14153,
+    "car": 2830
+   },
+   "pos_23_:": {
+    "tree": 15395,
+    "car": 8365
+   }
+  },
+  "ceil1": {
+   "pos_5_it": {
+    "dog": 110,
+    "cat": 16686
+   },
+   "pos_21_:": {
+    "dog": 9364,
+    "cat": 20793
+   }
+  },
+  "ceil2": {
+   "pos_6_he": {
+    "king": 17061,
+    "farmer": 13244
+   },
+   "pos_22_:": {
+    "king": 19512,
+    "farmer": 14078
+   }
+  },
+  "ceil3": {
+   "pos_5_it": {
+    "car": 3729,
+    "truck": 3896
+   },
+   "pos_21_:": {
+    "car": 7779,
+    "truck": 9335
+   }
+  },
+  "ceil4": {
+   "pos_4_it": {
+    "baby": 1196,
+    "child": 96
+   },
+   "pos_20_:": {
+    "baby": 3302,
+    "child": 6594
+   }
+  }
+ },
+ "note": "exp-052 positive-control pictures; search pool identical to exp-050/051b (30,099 L12 states)"
+}

@@ -1,0 +1,53 @@
+exp-054e: SEEDED reproducibility rerun of exp-054c (authorized by Paul 2026-09-29)
+
+Recipe: the exp-054c C2 recipe exactly -- same 30,099-state pool build,
+same global-centering, same PCA-64 residual, same pronoun-mean query
+subtraction, true cosine ranking. ONE deliberate change: torch.manual_seed(0)
+predeclared before torch.pca_lowrank (054c was unseeded).
+
+Why: the 2026-09-29 render-verification pass showed 054c's exact ranks
+(king #51, cat #2,217, ...) are draw-dependent and exactly unreproducible
+(the original RNG state is lost). Public claims need reproducible numbers.
+This run's numbers SUPERSEDE 054c's for any public citation. The exp-054c
+folder stays frozen as the lab record of the unseeded run.
+
+PREDICTED (predeclared before running):
+  (a) all 4 ceiling referents (dog, king, car, baby) rank <= 500 in the
+      subtracted (C2) list -- the exp-054 bar.
+  (b) referent ranks fall within the diagnostic draw ranges observed
+      2026-09-29: king 50-130, dog 50-80, car 29-45, baby 55-90.
+      Distractor ranks are draw-dependent; recorded as-is, no prediction.
+
+ACTUAL (seed 0), subtracted C2 list:
+  ceil1  dog    #56    (distractor cat    #814)
+  ceil2  king   #124   (distractor farmer #11,582)
+  ceil3  car    #33    (distractor truck  #48)
+  ceil4  baby   #99    (distractor child  #69)
+  pair3a car    #64 over tree #876   (pronoun's early lean: first noun)
+  pair3b tree   #876 (car #64)       (same pronoun state; verb overturns
+                                     the lean downstream -- final answer tree)
+  Residual energy fraction: 0.0084, as in every prior draw.
+
+(a): CONFIRMED. 4/4 ceiling referents under 500, with margin.
+
+(b): 3/4 -- QUALIFIED. king #124 (in 50-130), dog #56 (in 50-80),
+car #33 (in 29-45) all inside their ranges; baby #99 falls just outside
+55-90. The diagnostic ranges came from only 5 unseeded draws; seed-0 is a
+sixth draw landing slightly outside on baby. Referent placement varies
+modestly draw to draw (all <= 130 here); distractor placement varies
+wildly (cat #814 here vs #2,217 recorded in 054c; tree #876 vs #485).
+This is exactly the behavior that made the seeded rerun necessary, and it
+is now on the record rather than hidden.
+
+Qualitative notes (same pattern as 054c, new draw):
+- child #69 still beats baby #99: the "wrong candidates surface too"
+  qualification from exp-054 survives the seeded rerun. The list shows
+  candidates; it does not pick the winner.
+- truck #48 sits close behind car #33.
+- farmer #11,582: the king/farmer separation is enormous in this draw.
+
+Reproducibility: seed 0 is predeclared in run_054e.py. Anyone rerunning
+gets these numbers exactly. results_054e.json also carries the top-200
+subtracted lists for the 6 layperson-restatement prompts; the 6 rendered
+prompt pages in this folder were gated against these ranks (mismatch =
+refuse to render).

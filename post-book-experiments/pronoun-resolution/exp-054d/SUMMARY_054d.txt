@@ -1,0 +1,40 @@
+exp-054d: mean removal AFTER PCA (Paul's extra test)
+===================================================
+Date: 2026-09-29. Jetson Orin Nano.
+
+TEST: 054c-C2 did token-mean removal BEFORE PCA. This run swaps the order:
+(1) PCA residual with global centering, (2) subtract the pronoun's mean
+computed IN RESIDUAL SPACE (mean of the 77 'he' / 70 'it' pool residuals).
+Pool side unchanged (exp-054 recipe, word identity intact, true cosine).
+Asymmetric throughout -- 054b showed symmetric pool-demeaning deletes word
+identity.
+
+ALGEBRA (derived before running): with mu = global mean, V = top-64 PCs,
+  C2:  q2    = (h - mu_pron - mu) - V V^T (h - mu_pron - mu)
+  054d: q_new = h - mu_pron - V V^T (h - mu_pron)
+  => q_new - q2 = mu - V V^T mu =: c, CONSTANT across queries.
+The order-swap is exactly C2 plus the fixed vector c (the PCA-residual of
+the global mean itself).
+
+PREDICTED: 054d closely matches C2 -- all four ceiling <= 500 -- because
+c ~= 0 (top-64 should capture the mean direction). Measured: ||c|| = 0.0056
+vs ||mu|| = 0.8829 (ratio 0.006). Confirmed tiny.
+
+ACTUAL -- bar PASSES, matching C2 (D ranks):
+  dog #55 (cat #566), king #70 (farmer #5,018), car #39 (truck #44),
+  baby #65 (child #57).
+  Correct-referent ranks moved only tens of places vs C2 (75/51/35/85).
+  Distractor ranks swung more (hundreds-thousands: tree #485->#2,205,
+  cat #2,217->#566, farmer #870->#5,018) -- expected: c/||q|| is a few
+  percent, which reorders dense mid-similarity regions while leaving the
+  sparse high-similarity top (where the referents sit) nearly fixed.
+  Distractor ranks were exploratory; the decision-relevant numbers are
+  the referent ranks, and they are stable across the order swap.
+
+CONCLUSION: the 054c finding is robust to operation order, as linear
+algebra said it would be. Both orders: all four ceiling referents <= 500,
+king ~#51-70 (vs #17,061 raw). The instrument -- query-side pronoun-mean
+removal + pool-side global-PCA residual -- is not an order artifact.
+
+CAVEATS: same as 054c (10 audited items, linear codec, baby/child still
+narrowly wrong geometrically, no causal test).

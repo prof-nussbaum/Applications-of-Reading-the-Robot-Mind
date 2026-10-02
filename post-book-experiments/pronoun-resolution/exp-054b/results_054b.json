@@ -1,0 +1,331 @@
+{
+ "K": 64,
+ "var_removed_by_token_demean": 0.2581,
+ "topK_of_demeaned": 0.9934,
+ "excluded": {
+  "A": 1471,
+  "B": 1471
+ },
+ "rows": [
+  {
+   "id": "pair1a",
+   "referent": "dog",
+   "distractor": "cat",
+   "raw_rank": 133,
+   "A_rank": 229,
+   "B_rank": 70,
+   "A_wrong": 2261,
+   "B_wrong": 160,
+   "B_top5": [
+    [
+     "it",
+     1.0
+    ],
+    [
+     "it",
+     1.0
+    ],
+    [
+     "it",
+     0.697
+    ],
+    [
+     "it",
+     0.697
+    ],
+    [
+     "it",
+     0.697
+    ]
+   ]
+  },
+  {
+   "id": "pair1b",
+   "referent": "cat",
+   "distractor": "dog",
+   "raw_rank": 16359,
+   "A_rank": 2261,
+   "B_rank": 160,
+   "A_wrong": 229,
+   "B_wrong": 70,
+   "B_top5": [
+    [
+     "it",
+     1.0
+    ],
+    [
+     "it",
+     1.0
+    ],
+    [
+     "it",
+     0.697
+    ],
+    [
+     "it",
+     0.697
+    ],
+    [
+     "it",
+     0.697
+    ]
+   ]
+  },
+  {
+   "id": "pair2a",
+   "referent": "man",
+   "distractor": "boy",
+   "raw_rank": 81,
+   "A_rank": 57,
+   "B_rank": 196,
+   "A_wrong": 682,
+   "B_wrong": 261,
+   "B_top5": [
+    [
+     "he",
+     0.744
+    ],
+    [
+     "he",
+     0.744
+    ],
+    [
+     "he",
+     0.678
+    ],
+    [
+     "he",
+     0.678
+    ],
+    [
+     "she",
+     0.677
+    ]
+   ]
+  },
+  {
+   "id": "pair2b",
+   "referent": "boy",
+   "distractor": "man",
+   "raw_rank": 96,
+   "A_rank": 682,
+   "B_rank": 261,
+   "A_wrong": 57,
+   "B_wrong": 196,
+   "B_top5": [
+    [
+     "he",
+     0.744
+    ],
+    [
+     "he",
+     0.744
+    ],
+    [
+     "he",
+     0.678
+    ],
+    [
+     "he",
+     0.678
+    ],
+    [
+     "she",
+     0.677
+    ]
+   ]
+  },
+  {
+   "id": "pair3a",
+   "referent": "car",
+   "distractor": "tree",
+   "raw_rank": 2764,
+   "A_rank": 2597,
+   "B_rank": 74,
+   "A_wrong": 9721,
+   "B_wrong": 3788,
+   "B_top5": [
+    [
+     "it",
+     0.75
+    ],
+    [
+     "it",
+     0.75
+    ],
+    [
+     "it",
+     0.691
+    ],
+    [
+     "it",
+     0.691
+    ],
+    [
+     "it",
+     0.58
+    ]
+   ]
+  },
+  {
+   "id": "pair3b",
+   "referent": "tree",
+   "distractor": "car",
+   "raw_rank": 14109,
+   "A_rank": 9721,
+   "B_rank": 3788,
+   "A_wrong": 2597,
+   "B_wrong": 74,
+   "B_top5": [
+    [
+     "it",
+     0.75
+    ],
+    [
+     "it",
+     0.75
+    ],
+    [
+     "it",
+     0.691
+    ],
+    [
+     "it",
+     0.691
+    ],
+    [
+     "it",
+     0.58
+    ]
+   ]
+  },
+  {
+   "id": "ceil1",
+   "referent": "dog",
+   "distractor": "cat",
+   "raw_rank": 103,
+   "A_rank": 243,
+   "B_rank": 88,
+   "A_wrong": 2450,
+   "B_wrong": 227,
+   "B_top5": [
+    [
+     "it",
+     0.819
+    ],
+    [
+     "it",
+     0.819
+    ],
+    [
+     "it",
+     0.79
+    ],
+    [
+     "it",
+     0.79
+    ],
+    [
+     "it",
+     0.767
+    ]
+   ]
+  },
+  {
+   "id": "ceil2",
+   "referent": "king",
+   "distractor": "farmer",
+   "raw_rank": 17110,
+   "A_rank": 5180,
+   "B_rank": 9202,
+   "A_wrong": 13933,
+   "B_wrong": 2159,
+   "B_top5": [
+    [
+     "she",
+     0.559
+    ],
+    [
+     "she",
+     0.559
+    ],
+    [
+     "it",
+     0.515
+    ],
+    [
+     "it",
+     0.515
+    ],
+    [
+     "she",
+     0.504
+    ]
+   ]
+  },
+  {
+   "id": "ceil3",
+   "referent": "car",
+   "distractor": "truck",
+   "raw_rank": 3695,
+   "A_rank": 2738,
+   "B_rank": 45,
+   "A_wrong": 7382,
+   "B_wrong": 47,
+   "B_top5": [
+    [
+     "it",
+     0.722
+    ],
+    [
+     "it",
+     0.722
+    ],
+    [
+     "it",
+     0.616
+    ],
+    [
+     "it",
+     0.616
+    ],
+    [
+     "it",
+     0.557
+    ]
+   ]
+  },
+  {
+   "id": "ceil4",
+   "referent": "baby",
+   "distractor": "child",
+   "raw_rank": 1162,
+   "A_rank": 4301,
+   "B_rank": 298,
+   "A_wrong": 136,
+   "B_wrong": 295,
+   "B_top5": [
+    [
+     "it",
+     0.752
+    ],
+    [
+     "it",
+     0.752
+    ],
+    [
+     "it",
+     0.668
+    ],
+    [
+     "it",
+     0.668
+    ],
+    [
+     "it",
+     0.476
+    ]
+   ]
+  }
+ ]
+}

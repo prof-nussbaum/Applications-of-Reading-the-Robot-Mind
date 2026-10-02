@@ -1,0 +1,54 @@
+exp-054b: token-mean centering refinement (Paul's suggestion)
+=============================================================
+Date: 2026-09-29. Jetson Orin Nano. Append-only: exp-054 untouched.
+
+IDEA (Paul): exp-054 subtracted the GLOBAL pool mean before the PCA-64
+codec. Refinement: subtract the mean OF THAT TOKEN -- center each state by
+its own word's mean occurrence ('how this occurrence deviates from the
+typical occurrence of its word'), removing the token-specific carrier.
+
+Two variants:
+  A: token-demean only, no PCA.
+  B: token-demean, then global-center, then PCA-64 codec (Paul's refinement
+     + the exp-054 machinery).
+
+PREDICTED (before running): variant B reproduces exp-054's visibility bar --
+all four ceiling referents <= 500 in residual space. Variant A exploratory.
+
+ACTUAL -- predeclared bar REFUTED for B:
+  B ranks (correct): dog #88, king #9,202, car #45, baby #298.
+  King fails the bar by a mile, and the distractor farmer (#2,159) beats it.
+  A ranks (correct): dog #243, cat-side #2,261, man #57, boy #682, car #2,597,
+  tree #9,721, dog #243, king #5,180, car #2,738, baby #4,301 -- mixed,
+  no clean story (as expected for the exploratory variant).
+
+MECHANISM (why symmetric token-demeaning fails): for pool CONTENT words,
+the word-mean CONTAINS the word's identity. mu_king is 'the average king
+state' -- subtracting it deletes the very king-ness being searched for.
+Token-demeaning helps the QUERY side (removes pronoun-typical carrier) but
+is destructive on the POOL side. Worse, PCA-64 AFTER demeaning (B) eats
+even more signal than demeaning alone (A): once word identity is removed,
+the top PCs of the deviation pool are the structured deviations themselves,
+so the codec removes signal, not carrier. King: A #5,180 -> B #9,202.
+Order of operations matters.
+
+OBSERVATION (6 pair items, report don't claim): in B-space the FIRST noun
+systematically outranks the second (dog>cat, man>boy, car>tree on both a/b
+members). Possibly 'first-noun salience' surviving as a deviation direction.
+
+NUMERICAL NOTE (affects all rank readings): pool states were saved
+half-precision after normalization, so rows are unit-norm only to ~1e-3.
+exp-054's raw path (matmul vs un-renormalized M) vs true cosine (renormalize
+both sides) shifts dense-region ranks by tens (king raw #17,061 vs #17,110
+true-cosine). Rankings are STABLE to 1e-6 query perturbations within a code
+path -- this is a metric-definition artifact, not noise. All 054b/c ranks
+use true cosine. Substantive conclusions unaffected (effects are 10-100x
+the artifact).
+
+DIAGNOSTICS: token-demeaning removes 25.81% of pool variance; top-64 of the
+demeaned pool captures 99.34%; B-residual = 0.66% energy. 1,471 near-zero
+residual states (rare words, mean ~= state) excluded from search.
+'he' mean from 77 occurrences, 'it' from 70.
+
+NEXT: exp-054c tries the asymmetric reading -- demean the QUERY by the
+pronoun mean, leave pool word identity intact.

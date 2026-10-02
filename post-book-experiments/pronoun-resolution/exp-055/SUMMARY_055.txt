@@ -1,0 +1,105 @@
+SUMMARY exp-055: SME error-spotting on 10 NEW pronoun prompts
+============================================================
+Date: 2026-09-29. Paul's test: the SME uses ONLY the subtracted list.
+What should they look for in new prompts to spot issues?
+
+Method (Paul's framing): lossy compression via PCA. PCA finds the biggest
+features that differentiate one token-state from another at the observation
+layer (L12). We compress each state into 64 patterns, subtract the
+reconstruction, and read the remainder. Query side additionally subtracts
+the pronoun's mean state (054c-C2 recipe). torch.manual_seed(0) predeclared
+and set before pca_lowrank.
+
+Items: 14 candidates hand-written; stratified time-seeded draw (seed 1921 =
+Jetson local HHMM, python random.Random): 5 clean + 5 tricky. Full audit at
+AUDIT_055.txt. The 10 drawn prompts (verbatim):
+
+CLEAN (referent = main-clause subject, competitor in relative clause):
+ C1 "The man who met the boy was tired and he rested. What does the word he refer to? Answer with one word:" (label man)
+ C4 "The cat that the dog chased was tired and it slept. What does the word it refer to? Answer with one word:" (label cat)
+ C5 "The car that passed the truck was old and it rattled. What does the word it refer to? Answer with one word:" (label car)
+ C6 "The truck that the car passed was old and it rattled. What does the word it refer to? Answer with one word:" (label truck)
+ C7 "The man who saw the son was happy and he smiled. What does the word he refer to? Answer with one word:" (label man)
+TRICKY (Winograd: disambiguating adjective AFTER the pronoun):
+ T1 "The man couldn't lift the boy because he was weak. What does the word he refer to? Answer with one word:" (label man)
+ T4 "The dog bit the cat because it was hurt. What does the word it refer to? Answer with one word:" (label cat)
+ T5 "The car towed the truck because it was powerful. What does the word it refer to? Answer with one word:" (label car)
+ T6 "The car towed the truck because it was broken. What does the word it refer to? Answer with one word:" (label truck)
+ T7 "The man praised the son because he was proud. What does the word he refer to? Answer with one word:" (label man)
+
+SME indicators (predeclared, applied mechanically):
+ I1 referent presence: label rank <= 100 in subtracted list?
+ I2 competitor check: other sentence noun ranked BELOW the label?
+ clean verdict: CORRECT iff I1 and I2 else RISK
+ tricky verdict: lean = better-ranked noun; LEAN-OK iff lean == label else LEAN-MISMATCH
+ I4 cross-check: model's own head at the pronoun, 053 recipe (RAW hs[12] @ W.T;
+   note: run_055.py's pron_logit fields used the normalized state by mistake
+   and read ~0 margins; corrected in run_055b.py / results_055b_pronlogits.json,
+   KING sanity check reproduces 053's +5.64 exactly).
+Behavior: next-token forced choice ' n1' vs ' n2' after 'Answer with one word:'.
+
+PREDICTED (before running):
+ clean: SME CORRECT >=4/5; model right 5/5.
+ tricky: lean == first noun >=4/5; mismatch overturned correctly >=60%.
+ primary: sensitivity of SME flags for model errors; vacuous if zero errors.
+
+ACTUAL:
+ id   type   label rL   rComp  RTRMlean verdict        head@pron  final right?
+ C1   clean  man   35   26     boy      RISK           man  1.53  man   YES 0.60
+ C4   clean  cat   48    7     dog      RISK           cat  0.59  cat   YES 1.58
+ C5   clean  car    5   14     car      CORRECT        car  0.72  car   YES 1.75
+ C6   clean  truck 12    7     car      RISK           car  0.28  car   NO  0.72
+ C7   clean  man  188  278     man      RISK           man  0.29  son   NO  0.33*
+ T1   tricky man   87  215     man      LEAN-OK        man  2.15  man   YES 0.99
+ T4   tricky cat  146   21     dog      LEAN-MISMATCH  cat  0.37  cat   YES~0.01*
+ T5   tricky car   17   22     car      LEAN-OK        car  0.05  car   YES 1.34
+ T6   tricky truck 22   17     car      LEAN-MISMATCH  car  0.05  car   NO  1.83
+ T7   tricky man  5469 100     son      LEAN-MISMATCH  son  0.32  son   NO  0.21*
+ (* near-tied margin = noise per checklist; T4's "YES" is a coin flip landed right)
+
+PREDICTED vs ACTUAL:
+- clean SME CORRECT >=4/5: ACTUAL 1/5 (C5 only). REFUTED.
+- clean model right 5/5: ACTUAL 3/5 (C6, C7 wrong). REFUTED - clean items not all easy.
+- tricky lean==noun1 >=4/5: ACTUAL 4/5 (T7 leaned son). CONFIRMED (barely).
+- mismatch overturn >=60%: mismatches T4/T6/T7 -> clearly right 1/3 (T4 by 0.01).
+  REFUTED as stated - mismatches are genuinely dangerous, not usually overturned.
+- primary (sensitivity): 4/4 model errors were flagged (C6, C7, T6, T7 all RISK or
+  LEAN-MISMATCH). CONFIRMED. False alarms: 3 (C1, C4, T4-coin-flip).
+  P(wrong | flagged) = 4/7; P(right | not flagged) = 3/3.
+
+What the experiment says the SME should look for (refined checklist):
+ 1. Is the intended referent in the subtracted list (top-100)? C7 (man #188)
+    and T7 (man #5,469): absent -> the state doesn't carry the answer, the
+    model guessed (and guessed wrong). Red flag.
+ 2. Is any other sentence noun ranked above it? C6 (car #7 over truck #12),
+    T6 (car #17 over truck #22): competitor live -> model followed it and
+    erred. But C1/C4 show this flag also fires when the model still gets it
+    right (as baby/child did). Yellow flag: contested, check the scorer.
+ 3. (Tricky) Which noun does the pronoun lean toward vs what the sentence
+    requires? A wrong lean means the rest of the sentence must overturn it
+    downstream - watch the final answer closely.
+ 4. What does the model's own head read at the pronoun? On C1, C4, T4 the
+    head favored the TRUE referent where the cosine list leaned to the
+    competitor - 053's "head reads what cosine obscures," replicated on new
+    items. The list shows candidates; the head reads the fine print.
+ 5. The scorer has the last word. C7: head at pronoun leaned man (0.29) but
+    the final answer was son - downstream processing moved the decision.
+    Flags are sensitive (4/4 errors caught) but not specific (3 false alarms).
+
+Operational answer to Paul's "mushy" question: the SME uses the SUBTRACTED
+list only. The raw list was scaffolding to motivate subtraction, not a second
+instrument - the raw-vs-subtracted difference is the same signal buried vs
+revealed, not the signal itself. Retire it from the operational story.
+
+Qualifications (full prominence):
+- n=10 pilot; thin neighborhoods: cat (8 pool occurrences), truck (6).
+- Near-tie margins are noise: T4 (0.01), C7 (0.33), T7 (0.21). Robust errors:
+  T6 (1.83 nats, decisive), C6 (0.72).
+- T7's label is the softest of the 10 ("praised the son because he was
+  proud" - the proud one is the praiser, but the 0.21-nat near-tie shows the
+  model found it genuinely ambiguous).
+- The first-noun lean is a tendency, not a law: C1/C4 leaned to the RECENT
+  noun (boy/dog), T7 leaned son. Recency competes with subjecthood.
+- results_055.json's pron_logit_lean fields are SUPERSEDED by
+  results_055b_pronlogits.json (normalization bug in the I4 cross-check;
+  RTRM and behavioral columns unaffected).

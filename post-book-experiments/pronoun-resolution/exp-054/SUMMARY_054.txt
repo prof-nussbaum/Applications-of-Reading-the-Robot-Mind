@@ -1,0 +1,62 @@
+exp-054: PCA-as-codec residual test (Paul's Kaggle trick on hidden states)
+=========================================================================
+Date: 2026-09-29. Machine: Jetson Orin Nano. No GPU training; PCA on CPU.
+
+IDEA (Paul's): use an autoencoder AS A CODEC -- subtract its reconstruction
+from the original state vector. The residual keeps what the AE could NOT
+capture (the small perturbations) with the big carrier variations removed.
+Then run the cosine neighbor search on RESIDUALS. This is his Kaggle
+power-line trick (AE learns 'normal', the residual reveals the anomaly)
+turned inward on the model.
+
+SUBSTITUTION DISCLOSED: Paul's pretrained AE weights are not on either
+machine (searched Jetson + workspace thoroughly 2026-09-29; only the book's
+decoder-to-tokens code exists, which outputs vocab logits and cannot serve
+as a vector codec). This run uses the no-training equivalent: a LINEAR
+autoencoder with a k-dim neck IS PCA (k=64). Codec(h) = mu + V V^T (h - mu),
+fit on the 30,099-state search pool only; test states projected with the
+pool's PCs, no refit. Rerun with his weights the moment he produces them.
+
+PREDICTED (before running): if decision-relevant info lives in small
+perturbations drowned by big carrier variations, removing the top-64 PCs
+lets the referent surface -- ALL FOUR ceiling referents rank <= 500 by
+cosine in residual space (exp-052's bar). Raw ranks: dog #110, king #17,061,
+car #3,729, baby #1,196. Raw ranks recomputed here as pipeline validation
+and reproduced exp-052 exactly.
+
+ACTUAL:
+- Bar PASSED: residual ranks -- dog #125, king #127, car #45, baby #493.
+  All four <= 500. The drowned surfaced: king 17,061 -> 127, car 3,729 -> 45,
+  tree 14,153 -> 1,697, cat 16,360 -> 73.
+- The top-64 PCs capture 99.16% of pool variance; the residual is 0.84% of
+  the state's energy. Paul's 'small perturbations' are literally < 1% of the
+  vector -- and the referent is in there.
+- QUALIFICATION (full prominence): the residual does NOT adjudicate correct
+  vs wrong by itself. The WRONG candidates surfaced too: farmer 13,244 -> 192
+  (vs king 127), truck 3,896 -> 68 (vs car 45), cat 16,686 -> 160 (vs dog
+  125), child 96 -> 99 (vs baby 493 -- distractor still wins big), car 81
+  (vs tree 1,697 on pair3b -- distractor wins big). The residual reveals
+  drowned NOUN content generally, not the winner. Picking the winner is the
+  head's job (king wins behaviorally by 7.09 nats).
+- The already-visible referents got slightly WORSE (dog 110 -> 125,
+  man 87 -> 114, boy 98 -> 124): the top-64 carried some legitimate shared
+  content too, not only the drowning carrier. The residual is a different
+  lens, not a strictly better space.
+- Residual neighborhoods are still sane (top-5 neighbors are pronouns:
+  'it'/'he'/'she'), not noise -- syntactic-slot structure survives even in
+  the sub-1% energy band.
+
+REFINED, NOT REFUTED: Paul's drowning hypothesis is confirmed mechanically
+-- remove the big variations and the referent appears. But 'the residual
+reveals the answer' is too strong; it reveals the candidates. One cascade
+level was enough; per his Kaggle experience (deeper = more bits needed),
+a second level would be compressing near-noise.
+
+CAVEATS: linear codec only -- his nonlinear AE (trained on its crummy data)
+might capture more carrier and give a cleaner residual. Pool states were
+unit-normalized as saved; PCA ran in that space (the same space searched).
+No new dataset; test items are the audited exp-052 ten.
+
+NEXT: rerun with Paul's actual AE weights when located; or test whether the
+residual correct-vs-wrong gap tracks behavioral margins over a larger item
+set (here: 6/10 sign agreement, disagreements on the hard items).
