@@ -34,10 +34,12 @@ different sentences and locations).
 
 That "slight difference" may be where the LLM is actually doing all of its reasoning. 
 
-To extract these tiny perturbations to the activation vector, we use a lossy compression of those 
-activation vectors to yield much smaller vectors (fewer numbers). We then average those compressed
-vectors, subtract that average from each compressed vector, and then de-compress to see what we are
-left with (for a visual example of this process, see the "Wave-PCA-Demo.pdf" file in this directory).
+To extract these tiny perturbations to the activation vector, we first subtract the averages -- the
+pronoun's own mean vector ("he" minus a typical "he") and the global mean over all saved vectors --
+and then apply a lossy compression to what remains, yielding much smaller vectors (fewer numbers).
+Expanding those back and subtracting the reconstruction leaves the residual: the small part the
+compression could not explain (for a visual example of this process, see the "Wave-Pca-Demo.pdf"
+file in this directory).
 
 In this sequence of experiments, we use this method to compress per-token activation vectors (768
 numbers per token) down to an arbitrarily chosen smaller vector (64 numbers), and use the subtraction
