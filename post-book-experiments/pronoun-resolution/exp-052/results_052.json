@@ -1,0 +1,90 @@
+{
+ "rows": [
+  {
+   "id": "pair1a",
+   "prompt": "The dog chased the cat because it was barking. What does the word it refer to? Answer with one word:",
+   "lp_correct": -3.3,
+   "lp_wrong": -4.12,
+   "pick": "dog",
+   "right": true
+  },
+  {
+   "id": "pair1b",
+   "prompt": "The dog chased the cat because it was meowing. What does the word it refer to? Answer with one word:",
+   "lp_correct": -4.04,
+   "lp_wrong": -3.92,
+   "pick": "dog",
+   "right": false
+  },
+  {
+   "id": "pair2a",
+   "prompt": "The man lifted the boy because he was strong. What does the word he refer to? Answer with one word:",
+   "lp_correct": -5.41,
+   "lp_wrong": -6.66,
+   "pick": "man",
+   "right": true
+  },
+  {
+   "id": "pair2b",
+   "prompt": "The man lifted the boy because he was light. What does the word he refer to? Answer with one word:",
+   "lp_correct": -6.43,
+   "lp_wrong": -5.88,
+   "pick": "man",
+   "right": false
+  },
+  {
+   "id": "pair3a",
+   "prompt": "The car hit the tree because it was speeding. What does the word it refer to? Answer with one word:",
+   "lp_correct": -4.59,
+   "lp_wrong": -7.18,
+   "pick": "car",
+   "right": true
+  },
+  {
+   "id": "pair3b",
+   "prompt": "The car hit the tree because it had deep roots. What does the word it refer to? Answer with one word:",
+   "lp_correct": -5.0,
+   "lp_wrong": -5.12,
+   "pick": "tree",
+   "right": true
+  },
+  {
+   "id": "ceil1",
+   "prompt": "The dog barked because it was excited. What does the word it refer to? Answer with one word:",
+   "lp_correct": -3.64,
+   "lp_wrong": -5.52,
+   "pick": "dog",
+   "right": true
+  },
+  {
+   "id": "ceil2",
+   "prompt": "The king ruled for years because he was wise. What does the word he refer to? Answer with one word:",
+   "lp_correct": -4.36,
+   "lp_wrong": -11.45,
+   "pick": "king",
+   "right": true
+  },
+  {
+   "id": "ceil3",
+   "prompt": "The car broke down because it needed repairs. What does the word it refer to? Answer with one word:",
+   "lp_correct": -4.53,
+   "lp_wrong": -7.93,
+   "pick": "car",
+   "right": true
+  },
+  {
+   "id": "ceil4",
+   "prompt": "The baby cried because it was hungry. What does the word it refer to? Answer with one word:",
+   "lp_correct": -4.12,
+   "lp_wrong": -5.89,
+   "pick": "baby",
+   "right": true
+  }
+ ],
+ "summary": {
+  "n": 10,
+  "k": 8,
+  "pairs": 4,
+  "ceiling": 4
+ }
+}

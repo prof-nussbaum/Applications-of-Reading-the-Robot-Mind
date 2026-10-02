@@ -1,0 +1,67 @@
+AUDIT exp-055: 10 new pronoun prompts for SME error-spotting test
+=================================================================
+Date: 2026-09-29. Auditor: Francis. Seed: 1921 (= Jetson local HHMM at audit
+start). PRNG: python random.Random(seed). Stratified draw: 5 of 7 clean +
+5 of 7 tricky candidates. Drawn clean: C1 C4 C5 C6 C7. Drawn tricky: T1 T4
+T5 T6 T7. NOT drawn (reported, not cherry-picked): C2 C3 T2 T3.
+
+Pool token counts (relevance: checklist rule 7, thin neighborhoods flagged):
+man 94, boy 41, son 15, dog 21, cat 8 [THIN], car 18, truck 6 [THIN],
+he 77, it 70. King/farmer (3 each) deliberately NOT reused: too thin.
+
+Format note: every prompt ends 'Answer with one word:' so the behavioral
+read is the model's next-token pick (forced choice between the two nouns).
+No substitution, so no repetition confound. Pronoun is always the FIRST
+' he'/' it' token in the prompt (the sentence pronoun, not the question's).
+
+CLEAN candidates (referent = main-clause subject; competitor in relative
+clause; pronoun in coordinated clause; label fixed by left context):
+C1 The man who met the boy was tired and he rested. What does the word he refer to? Answer with one word:
+   label man. Defensible: subject continuity in coordinated clause; boy is
+   inside the relative clause modifying man. Counts man 94 / boy 41 (solid).
+   Expected: RTRM CORRECT, model right. Vacuous risks: none.
+C2 The boy who met the man was tired and he rested. What does the word he refer to? Answer with one word:
+   label boy. (Not drawn.) Counts boy 41 / man 94.
+C3 The dog that chased the cat was tired and it slept. What does the word it refer to? Answer with one word:
+   label dog. (Not drawn.) Counts dog 21 / cat 8 (thin competitor).
+C4 The cat that the dog chased was tired and it slept. What does the word it refer to? Answer with one word:
+   label cat. Defensible: main-clause subject; 'it slept' continues it.
+   Counts cat 8 [THIN label neighborhood - rank may be noisy] / dog 21.
+   Expected: RTRM CORRECT if the thin neighborhood cooperates; model right.
+C5 The car that passed the truck was old and it rattled. What does the word it refer to? Answer with one word:
+   label car. Counts car 18 / truck 6 (thin competitor). Expected: CORRECT.
+C6 The truck that the car passed was old and it rattled. What does the word it refer to? Answer with one word:
+   label truck. Counts truck 6 [THIN label] / car 18. Expected: CORRECT if
+   neighborhood cooperates; model right.
+C7 The man who saw the son was happy and he smiled. What does the word he refer to? Answer with one word:
+   label man. Counts man 94 / son 15. Expected: CORRECT, model right.
+
+TRICKY candidates (Winograd: disambiguating adjective AFTER the pronoun;
+at the pronoun the state cannot know the answer - the SME reads the EARLY
+LEAN and checks it against what the sentence requires):
+T1 The man couldnt lift the boy because he was weak. What does the word he refer to? Answer with one word:"
+   label man (the lifter was weak). Classic Winograd, defensible.
+   Expected lean: man (first noun) = LEAN-OK; model right.
+T2 "The man couldnt lift the boy because he was heavy. What does the word he refer to? Answer with one word:
+   label boy (the lifted was heavy). (Not drawn.)
+T3 The dog bit the cat because it was angry. What does the word it refer to? Answer with one word:
+   label dog (the biter was angry). (Not drawn.)
+T4 The dog bit the cat because it was hurt. What does the word it refer to? Answer with one word:
+   label cat (the bitten was hurt). Defensible. Counts dog 21 / cat 8 thin.
+   Expected lean: dog (first noun) = LEAN-MISMATCH; model must overturn -
+   predict it does (as pair3b did), but the thin cat neighborhood adds noise.
+T5 The car towed the truck because it was powerful. What does the word it refer to? Answer with one word:
+   label car (the tower was powerful). Counts car 18 / truck 6 thin.
+   Expected lean: car = LEAN-OK; model right.
+T6 The car towed the truck because it was broken. What does the word it refer to? Answer with one word:
+   label truck (the towed was broken). Counts truck 6 [THIN label] / car 18.
+   Expected lean: car = LEAN-MISMATCH; model must overturn. This is the most
+   interesting item: thin label neighborhood + required overturn.
+T7 The man praised the son because he was proud. What does the word he refer to? Answer with one word:
+   label man (the praiser was proud). Counts man 94 / son 15.
+   Expected lean: man = LEAN-OK; model right.
+
+Scoring audit: forced next-token choice between the two nouns, no
+substitution, matches exp-052 question format. Softmax over the two
+candidate logits is monotonic with the logit margin; near-tied margins are
+noise per the checklist.

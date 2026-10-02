@@ -1,0 +1,95 @@
+exp-052 -- positive control for the RTRM cosine-similarity pronoun pictures
+===========================================================================
+Date: 2026-09-29. Model: GPT-2, layer 12. Pool: 30,099 L12 states (exp-050/051b pool).
+
+QUESTION (Paul): not whether the model gets the pronoun right, but whether the
+RTRM cosine-similarity method can VIEW the referent in the pronoun's neighborhood
+when the pronoun is not confused. Do the spider/trophy pictures mean something,
+or is the method blind even when resolution succeeds?
+
+PREDICTED
+---------
+Behavioral: ~10/10 (the verb or the single noun disambiguates every item).
+Geometry: the correct referent ranks <= 500 of 30,099 at the pronoun position
+on all 10 items (6 verb-disambiguated pairs + 4 one-noun ceiling items).
+
+Method: whole-question format ("...What does the word it/he refer to? Answer with
+one word:"), next-token log-probability, two-alternative forced choice, recorded
+the higher log-probability. Geometry: nearest-neighbor rank of each candidate's
+closest pool occurrence at the pronoun state, identity excluded.
+
+ACTUAL -- behavioral: 8/10. Ceiling 4/4. Pairs 4/6.
+  pair1a barking: dog -3.30 vs cat -4.12 -> dog RIGHT
+  pair1b meowing: cat -4.04 vs dog -3.92 -> dog WRONG (near tie, 0.12 nats)
+  pair2a strong:  man -5.41 vs boy -6.66 -> man RIGHT
+  pair2b light:   boy -6.43 vs man -5.88 -> man WRONG (0.55 nats)
+  pair3a speeding:   car -4.59 vs tree -7.18 -> car RIGHT
+  pair3b deep roots: tree -5.00 vs car -5.12 -> tree RIGHT (0.12 nats)
+  ceil1 dog barked/excited:  dog -3.64 vs cat -5.52   -> dog RIGHT
+  ceil2 king ruled/wise:     king -4.36 vs farmer -11.45 -> king RIGHT (decisive)
+  ceil3 car broke/repairs:   car -4.53 vs truck -7.93 -> car RIGHT
+  ceil4 baby cried/hungry:   baby -4.12 vs child -5.89 -> baby RIGHT
+(ceil2 item swapped 2026-09-29: 'chef'/'waiter' occur nowhere in the search pool,
+so no rank was measurable; replaced with king/farmer, both in-pool. ceil4
+distractor puppy->child for the same reason. Re-audited; see AUDIT_052.txt.)
+
+ACTUAL -- geometry at the pronoun (rank of closest pool occurrence, lower = closer):
+  pair1a: dog #139,    cat #16,360
+  pair1b: dog #139,    cat #16,360   (identical -- see below)
+  pair2a: man #87,     boy #98
+  pair2b: man #87,     boy #98       (identical -- see below)
+  pair3a: car #2,830,  tree #14,153
+  pair3b: car #2,830,  tree #14,153 (identical -- see below)
+  ceil1:  dog #110,    cat #16,686
+  ceil2:  king #17,061, farmer #13,244
+  ceil3:  car #3,729,  truck #3,896
+  ceil4:  baby #1,196, child #96
+
+VERDICT
+-------
+The predeclared kill (referent > #500 on ALL FOUR ceiling items) did NOT trigger
+as worded -- ceil1 shows dog at #110. But the substance of the kill landed:
+3 of 4 ceiling items do NOT show the referent prominently, including cases where
+the model demonstrably resolves the pronoun:
+  - ceil2: behavior decisive for king (-4.36 vs -11.45), yet king is #17,061 --
+    the referent is geometrically invisible.
+  - ceil4: behavior correct for baby, yet the DISTRACTOR child is #96 while
+    baby is #1,196.
+  - ceil3: car #3,729 vs truck #3,896 -- referent barely ahead, neither prominent.
+
+Two sharper findings:
+1. Within each pair, the pronoun's neighborhood is IDENTICAL across the two
+   readings (pair1a == pair1b, pair2a == pair2b, pair3a == pair3b). This is
+   context-equivalence, not a discovery: the pronoun comes BEFORE the
+   disambiguating verb ("because it was barking/meowing"), so its left context
+   -- and hence its causal state -- is bit-identical. The verb-driven difference
+   is invisible at the pronoun BY CONSTRUCTION. The pair design cannot test what
+   it set out to test at the pronoun position. (My error in the design; the
+   ceiling items carry the real test.)
+2. Geometry and behavior do not track each other: pair1b geometry agrees with
+   the WRONG answer (dog #139, model said dog); pair3b geometry favors car
+   while the model (barely) said tree; ceil2/ceil4 geometry misses while the
+   model is right and decisive.
+
+INTERPRETATION (humble)
+-----------------------
+The RTRM cosine-similarity method is NOT blind: it can show the referent
+prominently (dog #110/#139, man #87, boy #98). But absence of the referent in
+the neighborhood does NOT mean absence of resolution -- the king case proves a
+resolved pronoun can be geometrically invisible (#17,061 with decisive behavior).
+Pronoun states live in pronoun-heavy neighborhoods (043b); the neighborhood
+reflects the WORD (pronoun-ness), not the REFERENT, except sometimes.
+
+Consequence for the public story: the spider/trophy pictures (referent far from
+the pronoun) are consistent with non-resolution but cannot PROVE it -- the
+pictures alone cannot carry "the model does not resolve the pronoun." That claim
+rests on the behavioral legs (exp-047d full-vs-carrier, exp-049 association
+account, exp-051 whole-question 28/54), which still stand. In the write-up the
+pictures must be presented as illustration, not evidence; the numbers do the
+claiming. exp-052 itself is the honest caveat and belongs in the record.
+
+NEXT STEPS
+----------
+- Tighten the bundle README: behavioral claims stay, picture claims softened to
+  illustration, exp-052 caveat included.
+- Do not run autoencoder/linear-probe follow-ups without Paul's word.

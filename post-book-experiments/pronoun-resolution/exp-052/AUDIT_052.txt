@@ -1,0 +1,72 @@
+AUDIT_052 -- exp-052 positive control (2026-09-29)
+Seed: local HHMM = 0711 (PRNG: Python random.Random)
+Note: n=10, all items hand-picked and all 10 audited (stronger than the
+checklist minimum). No random subsample needed at this n.
+Template: <sentence> + ' What does the word {pronoun} refer to? Answer with one word:'
+
+Design (Paul 2026-09-29): 6 flipped pairs where the verb selects the
+referent unambiguously (same two-noun frame as the spider pair), plus
+4 ceiling items with exactly one noun -- nothing to resolve. Point of
+the experiment is RTRM viewability: can the cosine-similarity
+neighborhood at the pronoun show the referent when the model is not
+confused? Behavioral scoring is secondary.
+
+Checks per item: exact prompt text; label defensibility; pronoun
+whole-word in the sentence; question contains no bare pronoun
+occurrence ('The word it' = mention, not use); correct+wrong answers
+each a single GPT-2 token; no vacuous-by-construction risk (the
+pronoun occurrence being analyzed is the sentence one, before 'What').
+
+== pair1a ==
+prompt: The dog chased the cat because it was barking. What does the word it refer to? Answer with one word:
+label: dog (cats don't bark; dogs do). pronoun 'it' whole-word: True. question bare-pronoun-free: True.
+
+== pair1b ==
+prompt: The dog chased the cat because it was meowing. What does the word it refer to? Answer with one word:
+label: cat (dogs don't meow; cats do). pronoun 'it' whole-word: True. question bare-pronoun-free: True.
+
+== pair2a ==
+prompt: The man lifted the boy because he was strong. What does the word he refer to? Answer with one word:
+label: man (the lifter is the strong one). pronoun 'he' whole-word: True. question bare-pronoun-free: True.
+
+== pair2b ==
+prompt: The man lifted the boy because he was light. What does the word he refer to? Answer with one word:
+label: boy (the lifted one is the light one). pronoun 'he' whole-word: True. question bare-pronoun-free: True.
+
+== pair3a ==
+prompt: The car hit the tree because it was speeding. What does the word it refer to? Answer with one word:
+label: car (trees don't speed). pronoun 'it' whole-word: True. question bare-pronoun-free: True.
+
+== pair3b ==
+prompt: The car hit the tree because it had deep roots. What does the word it refer to? Answer with one word:
+label: tree (cars don't have roots). pronoun 'it' whole-word: True. question bare-pronoun-free: True.
+
+== ceil1 ==
+prompt: The dog barked because it was excited. What does the word it refer to? Answer with one word:
+label: dog (only noun in the sentence). pronoun 'it' whole-word: True. question bare-pronoun-free: True.
+
+== ceil2 == (SWAPPED 2026-09-29: 'chef'/'waiter' absent from the 30,099-state
+search pool, so no referent rank measurable -- render crashed StopIteration.
+Replacement keeps one-noun design; both new words in-pool + single-token.)
+prompt: The king ruled for years because he was wise. What does the word he refer to? Answer with one word:
+label: king (only noun in the sentence). pronoun 'he' whole-word: True. question bare-pronoun-free: True.
+
+== ceil3 ==
+prompt: The car broke down because it needed repairs. What does the word it refer to? Answer with one word:
+label: car (only noun in the sentence). pronoun 'it' whole-word: True. question bare-pronoun-free: True.
+
+== ceil4 ==
+prompt: The baby cried because it was hungry. What does the word it refer to? Answer with one word:
+label: baby (only noun in the sentence). pronoun 'it' whole-word: True. question bare-pronoun-free: True.
+(distractor 'puppy' -> 'child' 2026-09-29: 'puppy' absent from search pool.)
+
+Single-token answer check (script asserts at runtime): dog, cat, man,
+boy, car, tree, chef, waiter, truck, baby, puppy -- all expected single
+GPT-2 tokens; assertion failure = loud stop before any result.
+
+Vacuous-risk review: the analyzed pronoun is the sentence occurrence
+(token before 'What'); the question's 'the word {pronoun}' is a
+mention, not a second resolvable occurrence. The 051 template's
+rationale carries over unchanged.
+
+Verdict: PASS 10/10 audited (8 original + 2 swapped 2026-09-29, re-audited same day).

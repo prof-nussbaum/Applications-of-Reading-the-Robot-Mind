@@ -1,0 +1,46 @@
+{
+ "C1": {
+  "pron_logit_lean_raw": "man",
+  "pron_logit_margin_nats": 1.53
+ },
+ "C4": {
+  "pron_logit_lean_raw": "cat",
+  "pron_logit_margin_nats": 0.59
+ },
+ "C5": {
+  "pron_logit_lean_raw": "car",
+  "pron_logit_margin_nats": 0.72
+ },
+ "C6": {
+  "pron_logit_lean_raw": "car",
+  "pron_logit_margin_nats": 0.28
+ },
+ "C7": {
+  "pron_logit_lean_raw": "man",
+  "pron_logit_margin_nats": 0.29
+ },
+ "T1": {
+  "pron_logit_lean_raw": "man",
+  "pron_logit_margin_nats": 2.15
+ },
+ "T4": {
+  "pron_logit_lean_raw": "cat",
+  "pron_logit_margin_nats": 0.37
+ },
+ "T5": {
+  "pron_logit_lean_raw": "car",
+  "pron_logit_margin_nats": 0.05
+ },
+ "T6": {
+  "pron_logit_lean_raw": "car",
+  "pron_logit_margin_nats": 0.05
+ },
+ "T7": {
+  "pron_logit_lean_raw": "son",
+  "pron_logit_margin_nats": 0.32
+ },
+ "KING": {
+  "pron_logit_lean_raw": "king",
+  "pron_logit_margin_nats": 5.64
+ }
+}

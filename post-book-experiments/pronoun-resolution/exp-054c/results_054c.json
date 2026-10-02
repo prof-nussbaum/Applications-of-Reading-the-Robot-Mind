@@ -1,0 +1,95 @@
+{
+ "K": 64,
+ "rows": [
+  {
+   "id": "pair1a",
+   "referent": "dog",
+   "distractor": "cat",
+   "C1_rank": 27,
+   "C1_wrong": 81,
+   "C2_rank": 23,
+   "C2_wrong": 83
+  },
+  {
+   "id": "pair1b",
+   "referent": "cat",
+   "distractor": "dog",
+   "C1_rank": 81,
+   "C1_wrong": 27,
+   "C2_rank": 83,
+   "C2_wrong": 23
+  },
+  {
+   "id": "pair2a",
+   "referent": "man",
+   "distractor": "boy",
+   "C1_rank": 155,
+   "C1_wrong": 436,
+   "C2_rank": 121,
+   "C2_wrong": 204
+  },
+  {
+   "id": "pair2b",
+   "referent": "boy",
+   "distractor": "man",
+   "C1_rank": 436,
+   "C1_wrong": 155,
+   "C2_rank": 204,
+   "C2_wrong": 121
+  },
+  {
+   "id": "pair3a",
+   "referent": "car",
+   "distractor": "tree",
+   "C1_rank": 76,
+   "C1_wrong": 464,
+   "C2_rank": 71,
+   "C2_wrong": 485
+  },
+  {
+   "id": "pair3b",
+   "referent": "tree",
+   "distractor": "car",
+   "C1_rank": 464,
+   "C1_wrong": 76,
+   "C2_rank": 485,
+   "C2_wrong": 71
+  },
+  {
+   "id": "ceil1",
+   "referent": "dog",
+   "distractor": "cat",
+   "C1_rank": 64,
+   "C1_wrong": 1311,
+   "C2_rank": 75,
+   "C2_wrong": 2217
+  },
+  {
+   "id": "ceil2",
+   "referent": "king",
+   "distractor": "farmer",
+   "C1_rank": 53,
+   "C1_wrong": 941,
+   "C2_rank": 51,
+   "C2_wrong": 870
+  },
+  {
+   "id": "ceil3",
+   "referent": "car",
+   "distractor": "truck",
+   "C1_rank": 39,
+   "C1_wrong": 55,
+   "C2_rank": 35,
+   "C2_wrong": 56
+  },
+  {
+   "id": "ceil4",
+   "referent": "baby",
+   "distractor": "child",
+   "C1_rank": 107,
+   "C1_wrong": 64,
+   "C2_rank": 85,
+   "C2_wrong": 60
+  }
+ ]
+}

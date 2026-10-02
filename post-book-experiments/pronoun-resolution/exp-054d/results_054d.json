@@ -1,0 +1,87 @@
+{
+ "K": 64,
+ "c_norm": 0.005608384031802416,
+ "mu_norm": 0.8829357624053955,
+ "rows": [
+  {
+   "id": "pair1a",
+   "referent": "dog",
+   "distractor": "cat",
+   "D_rank": 25,
+   "D_wrong": 54,
+   "qnorm": 0.0266
+  },
+  {
+   "id": "pair1b",
+   "referent": "cat",
+   "distractor": "dog",
+   "D_rank": 54,
+   "D_wrong": 25,
+   "qnorm": 0.0266
+  },
+  {
+   "id": "pair2a",
+   "referent": "man",
+   "distractor": "boy",
+   "D_rank": 178,
+   "D_wrong": 399,
+   "qnorm": 0.023
+  },
+  {
+   "id": "pair2b",
+   "referent": "boy",
+   "distractor": "man",
+   "D_rank": 399,
+   "D_wrong": 178,
+   "qnorm": 0.023
+  },
+  {
+   "id": "pair3a",
+   "referent": "car",
+   "distractor": "tree",
+   "D_rank": 98,
+   "D_wrong": 2205,
+   "qnorm": 0.0277
+  },
+  {
+   "id": "pair3b",
+   "referent": "tree",
+   "distractor": "car",
+   "D_rank": 2205,
+   "D_wrong": 98,
+   "qnorm": 0.0277
+  },
+  {
+   "id": "ceil1",
+   "referent": "dog",
+   "distractor": "cat",
+   "D_rank": 55,
+   "D_wrong": 566,
+   "qnorm": 0.0238
+  },
+  {
+   "id": "ceil2",
+   "referent": "king",
+   "distractor": "farmer",
+   "D_rank": 70,
+   "D_wrong": 5018,
+   "qnorm": 0.0287
+  },
+  {
+   "id": "ceil3",
+   "referent": "car",
+   "distractor": "truck",
+   "D_rank": 39,
+   "D_wrong": 44,
+   "qnorm": 0.0294
+  },
+  {
+   "id": "ceil4",
+   "referent": "baby",
+   "distractor": "child",
+   "D_rank": 65,
+   "D_wrong": 57,
+   "qnorm": 0.0247
+  }
+ ]
+}

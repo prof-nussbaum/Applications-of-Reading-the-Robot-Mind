@@ -94,6 +94,8 @@ ISBN: 9798251806519 | First Edition, 2026
 
 [Buy the book on Amazon](https://www.amazon.com/Applications-Reading-Robot-Mind-Nussbaum/dp/B0GSKYSDL1)
 
+Follow-up studies since publication: [post-book-experiments/](post-book-experiments/) — new experiments with layperson restatements, starting with pronoun resolution.
+
 ---
 
 ## Trademark

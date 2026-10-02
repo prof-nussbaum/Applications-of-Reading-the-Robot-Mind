@@ -1,0 +1,61 @@
+exp-053: logit lens on the exp-052 pronoun items (method 3)
+=============================================================
+Date: 2026-09-29. Machine: Jetson Orin Nano. Model: GPT-2 (124M), eval mode.
+
+QUESTION: where/when does the model's own readout (the final dense layer +
+softmax) favor the correct referent -- at the pronoun position, or only at
+the final token? For each of the 10 audited exp-052 prompts, every layer's
+hidden state (embeddings + 12 blocks) was pushed through the model's own
+unembedding, and the logit margin (correct minus wrong candidate) recorded
+at the pronoun token and at the final token.
+
+PREDICTED (written before running): at the pronoun, the margin stays near
+zero / does not track the right answer at any layer. Built-in control: the
+two members of each verb-disambiguated pair have bit-identical pronoun states
+(same left context), so their pronoun-margin curves MUST be identical -- yet
+the correct answer flips, so the pronoun lens cannot be right for both. At
+the final token, the correct candidate pulls ahead in late layers, and the
+block-12 lens reproduces the exp-052 behavioral margins exactly.
+
+ACTUAL:
+- Sanity check PASSED: the block-12 final-token lens reproduces all ten
+  exp-052 behavioral margins to 2 decimals (0.82, -0.12, 1.26, -0.55, 2.59,
+  0.12, 1.88, 7.09, 3.40, 1.77). The lens is exact at the last layer.
+- The pair control held mechanically: pair1a/pair1b (etc.) pronoun curves are
+  exact negations of each other, as required by identical states.
+- PREDICTED was wrong in an interesting way: the pronoun is NOT unreadable.
+  Last-layer head readout AT THE PRONOUN favors the correct referent on all
+  four ceiling items: dog +0.83, king +5.64, car +0.69, baby +1.43 nats.
+  The king case is the sharpest: the SAME state at the SAME layer gives king
+  +5.64 nats in the head's channel while RTRM cosine ranks king #17,061 of
+  30,099. The equating information IS in the pronoun state, in the exact
+  linear form the model reads -- cosine similarity just cannot see it.
+- The pair items reveal a prior: before the disambiguating verb arrives, the
+  pronoun state already leans (pair2: +1.22 toward 'man'; pair3: +0.45 toward
+  'car'; pair1: ~0, no lean). Both behavioral ERRORS (pair1b picking 'dog',
+  pair2b picking 'man') follow this prior instead of the verb. The final
+  token sometimes overturns the prior (pair3b: pronoun leaned 'car' -0.45,
+  final answer correctly 'tree' +0.12) and sometimes does not.
+- At the final token the correct answer typically pulls ahead in late layers
+  (pair1a crosses at layer 10; ceil2 builds from layer 6 and peaks +10.9 at
+  layer 11 before settling at +7.09).
+
+REFUTED: the idea that 'the pronoun carries no referent information.' The
+head reads the referent off the pronoun state on every ceiling item. What
+RTRM cosine misses is not absent -- it is linearly present but invisible to
+nearest-neighbor search in the full 768-dim space.
+
+CAVEATS: the lens at early/middle layers is approximate (intermediate states
+are not really in the head's input space; only layer 12 is exact). No new
+dataset was introduced -- the 10 items are the audited exp-052 set, so no new
+audit was required. One experimenter typo ('tree' for 'truck' as ceil3's
+wrong candidate) was caught by the sanity check and fixed before analysis;
+no results were reported from the bad run. Also fixed mid-run: the first
+lens build double-applied the final LayerNorm (our saved L12 is already
+post-ln_f); caught because the sanity check failed loudly.
+
+NEXT: method 6 (projection onto the unembedding axis, no training) is now
+nearly redundant with the lens at layer 12 -- the lens already reads the
+head's channel. The remaining open process question is causal: activation
+patching to test whether the pronoun state's referent component (or the
+downstream attention path) drives the final answer.

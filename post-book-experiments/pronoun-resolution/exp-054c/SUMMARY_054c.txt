@@ -1,0 +1,42 @@
+exp-054c: asymmetric token-mean (Paul's suggestion, better reading)
+==================================================================
+Date: 2026-09-29. Jetson Orin Nano.
+
+READING: exp-054b-B failed because it demeaned POOL content words by their
+own means, deleting word identity. 'Subtract mean of that token' is better
+read as applying to the QUERY token (the pronoun): strip the
+pronoun-typical carrier from the query; leave pool word identity intact.
+
+  Pool side: exp-054 recipe (global-center, PCA-64, residual), true cosine.
+  Query C1: q = h - mu_pron.  Query C2: q = (h - mu_pron) with global top-64
+  projected out (pool residuals are ~zero there anyway, so C1 ~= C2).
+
+PREDICTED (before running): C2 puts all four ceiling referents <= 500.
+
+ACTUAL -- bar CONFIRMED, with margin to spare (C2):
+  dog #75 (cat #2,217), king #51 (farmer #870), car #35 (truck #56),
+  baby #85 (child #60).
+  Every ceiling item beats exp-054's residual ranks (125/127/45/493), and
+  separation is better on 3 of 4 (cat pushed to #2,217, farmer to #870).
+  Only baby/child still goes the wrong way, and narrowly (85 vs 60) --
+  the baby item is stubborn across every geometry attempted.
+
+C1 ~= C2 everywhere (within ~30 ranks), confirming the pool side already
+handles the global carrier.
+
+CORRESPONDENCE WITH exp-053 (logit lens): C2 reproduces the pre-verb priors
+geometrically. At the pronoun, the head leaned man +1.22 nats, car +0.45,
+dog/cat ~0 -- all toward the FIRST noun. C2 ranks agree: man #121 vs boy
+#204, car #71 vs tree #485, dog #23 vs cat #83. On pair b-items the pronoun
+leans first-noun while the verb later overturns it (3b: pronoun leans car
+#71, final answer tree by +0.12 nats). C2 is 'what the pronoun state leans
+toward with the carrier removed' -- the geometric twin of the logit lens.
+
+REFINED CLAIM: Paul's drowning hypothesis now has its instrument. Global
+carrier removal (054) reveals the candidates; query-side token-demeaning
+(054c) additionally strips the pronoun-typical component and sharpens both
+rank and separation. Picking the winner remains the head's job (baby/child).
+
+CAVEATS: 10 hand-picked items (the audited exp-052 set); linear codec;
+baby/child unresolved geometrically; causal role still untested (no
+patching without Paul's word).

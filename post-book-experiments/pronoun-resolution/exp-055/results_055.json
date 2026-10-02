@@ -1,0 +1,402 @@
+[
+ {
+  "id": "C1",
+  "type": "clean",
+  "label": "man",
+  "n1": "man",
+  "n2": "boy",
+  "r_label": 35,
+  "r_n1": 35,
+  "r_n2": 26,
+  "r_comp": 26,
+  "rtrm_lean": "boy",
+  "sme_verdict": "RISK",
+  "pron_logit_lean": "man",
+  "pron_logit_margin_nats": 0.0,
+  "model_pick": "man",
+  "model_right": true,
+  "logit_margin_nats": 0.6,
+  "top5_next": [
+   [
+    " \"",
+    -75.07
+   ],
+   [
+    " '",
+    -76.81
+   ],
+   [
+    "\n",
+    -77.13
+   ],
+   [
+    " He",
+    -77.42
+   ],
+   [
+    " the",
+    -77.66
+   ]
+  ]
+ },
+ {
+  "id": "C4",
+  "type": "clean",
+  "label": "cat",
+  "n1": "cat",
+  "n2": "dog",
+  "r_label": 48,
+  "r_n1": 48,
+  "r_n2": 7,
+  "r_comp": 7,
+  "rtrm_lean": "dog",
+  "sme_verdict": "RISK",
+  "pron_logit_lean": "cat",
+  "pron_logit_margin_nats": 0.0,
+  "model_pick": "cat",
+  "model_right": true,
+  "logit_margin_nats": 1.58,
+  "top5_next": [
+   [
+    " \"",
+    -75.68
+   ],
+   [
+    " cat",
+    -76.37
+   ],
+   [
+    "\n",
+    -77.51
+   ],
+   [
+    " '",
+    -77.77
+   ],
+   [
+    " dog",
+    -77.96
+   ]
+  ]
+ },
+ {
+  "id": "C5",
+  "type": "clean",
+  "label": "car",
+  "n1": "car",
+  "n2": "truck",
+  "r_label": 5,
+  "r_n1": 5,
+  "r_n2": 14,
+  "r_comp": 14,
+  "rtrm_lean": "car",
+  "sme_verdict": "CORRECT",
+  "pron_logit_lean": "car",
+  "pron_logit_margin_nats": 0.0,
+  "model_pick": "car",
+  "model_right": true,
+  "logit_margin_nats": 1.75,
+  "top5_next": [
+   [
+    " \"",
+    -70.81
+   ],
+   [
+    " '",
+    -72.49
+   ],
+   [
+    "\n",
+    -72.57
+   ],
+   [
+    " It",
+    -73.2
+   ],
+   [
+    " car",
+    -73.25
+   ]
+  ]
+ },
+ {
+  "id": "C6",
+  "type": "clean",
+  "label": "truck",
+  "n1": "truck",
+  "n2": "car",
+  "r_label": 12,
+  "r_n1": 12,
+  "r_n2": 7,
+  "r_comp": 7,
+  "rtrm_lean": "car",
+  "sme_verdict": "RISK",
+  "pron_logit_lean": "car",
+  "pron_logit_margin_nats": 0.0,
+  "model_pick": "car",
+  "model_right": false,
+  "logit_margin_nats": 0.72,
+  "top5_next": [
+   [
+    " \"",
+    -73.01
+   ],
+   [
+    " '",
+    -74.67
+   ],
+   [
+    "\n",
+    -74.87
+   ],
+   [
+    " It",
+    -75.42
+   ],
+   [
+    " the",
+    -75.49
+   ]
+  ]
+ },
+ {
+  "id": "C7",
+  "type": "clean",
+  "label": "man",
+  "n1": "man",
+  "n2": "son",
+  "r_label": 188,
+  "r_n1": 188,
+  "r_n2": 278,
+  "r_comp": 278,
+  "rtrm_lean": "man",
+  "sme_verdict": "RISK",
+  "pron_logit_lean": "man",
+  "pron_logit_margin_nats": 0.0,
+  "model_pick": "son",
+  "model_right": false,
+  "logit_margin_nats": 0.33,
+  "top5_next": [
+   [
+    " \"",
+    -78.44
+   ],
+   [
+    " love",
+    -79.87
+   ],
+   [
+    " '",
+    -80.02
+   ],
+   [
+    "\n",
+    -80.73
+   ],
+   [
+    " He",
+    -80.81
+   ]
+  ]
+ },
+ {
+  "id": "T1",
+  "type": "tricky",
+  "label": "man",
+  "n1": "man",
+  "n2": "boy",
+  "r_label": 87,
+  "r_n1": 87,
+  "r_n2": 215,
+  "r_comp": 215,
+  "rtrm_lean": "man",
+  "sme_verdict": "LEAN-OK",
+  "pron_logit_lean": "man",
+  "pron_logit_margin_nats": 0.01,
+  "model_pick": "man",
+  "model_right": true,
+  "logit_margin_nats": 0.99,
+  "top5_next": [
+   [
+    " \"",
+    -72.46
+   ],
+   [
+    "\n",
+    -74.38
+   ],
+   [
+    " '",
+    -74.39
+   ],
+   [
+    " weak",
+    -74.86
+   ],
+   [
+    " He",
+    -74.88
+   ]
+  ]
+ },
+ {
+  "id": "T4",
+  "type": "tricky",
+  "label": "cat",
+  "n1": "dog",
+  "n2": "cat",
+  "r_label": 146,
+  "r_n1": 21,
+  "r_n2": 146,
+  "r_comp": 21,
+  "rtrm_lean": "dog",
+  "sme_verdict": "LEAN-MISMATCH",
+  "pron_logit_lean": "cat",
+  "pron_logit_margin_nats": 0.0,
+  "model_pick": "cat",
+  "model_right": true,
+  "logit_margin_nats": 0.01,
+  "top5_next": [
+   [
+    " \"",
+    -77.63
+   ],
+   [
+    " '",
+    -79.58
+   ],
+   [
+    "\n",
+    -79.67
+   ],
+   [
+    " cat",
+    -79.69
+   ],
+   [
+    " dog",
+    -79.71
+   ]
+  ]
+ },
+ {
+  "id": "T5",
+  "type": "tricky",
+  "label": "car",
+  "n1": "car",
+  "n2": "truck",
+  "r_label": 17,
+  "r_n1": 17,
+  "r_n2": 22,
+  "r_comp": 22,
+  "rtrm_lean": "car",
+  "sme_verdict": "LEAN-OK",
+  "pron_logit_lean": "car",
+  "pron_logit_margin_nats": 0.0,
+  "model_pick": "car",
+  "model_right": true,
+  "logit_margin_nats": 1.34,
+  "top5_next": [
+   [
+    " \"",
+    -68.24
+   ],
+   [
+    " power",
+    -69.96
+   ],
+   [
+    "\n",
+    -70.41
+   ],
+   [
+    " '",
+    -70.42
+   ],
+   [
+    " the",
+    -70.79
+   ]
+  ]
+ },
+ {
+  "id": "T6",
+  "type": "tricky",
+  "label": "truck",
+  "n1": "truck",
+  "n2": "car",
+  "r_label": 22,
+  "r_n1": 22,
+  "r_n2": 17,
+  "r_comp": 17,
+  "rtrm_lean": "car",
+  "sme_verdict": "LEAN-MISMATCH",
+  "pron_logit_lean": "car",
+  "pron_logit_margin_nats": 0.0,
+  "model_pick": "car",
+  "model_right": false,
+  "logit_margin_nats": 1.83,
+  "top5_next": [
+   [
+    " \"",
+    -69.28
+   ],
+   [
+    " '",
+    -71.4
+   ],
+   [
+    "\n",
+    -71.65
+   ],
+   [
+    " It",
+    -72.19
+   ],
+   [
+    " car",
+    -72.32
+   ]
+  ]
+ },
+ {
+  "id": "T7",
+  "type": "tricky",
+  "label": "man",
+  "n1": "man",
+  "n2": "son",
+  "r_label": 5469,
+  "r_n1": 5469,
+  "r_n2": 100,
+  "r_comp": 100,
+  "rtrm_lean": "son",
+  "sme_verdict": "LEAN-MISMATCH",
+  "pron_logit_lean": "son",
+  "pron_logit_margin_nats": 0.0,
+  "model_pick": "son",
+  "model_right": false,
+  "logit_margin_nats": 0.21,
+  "top5_next": [
+   [
+    " \"",
+    -73.62
+   ],
+   [
+    " pride",
+    -75.58
+   ],
+   [
+    " '",
+    -75.63
+   ],
+   [
+    " love",
+    -76.15
+   ],
+   [
+    "\n",
+    -76.17
+   ]
+  ]
+ }
+]
