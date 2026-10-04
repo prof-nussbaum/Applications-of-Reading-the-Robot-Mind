@@ -1,0 +1,42 @@
+# HYPOTHESIS_054f — PCA-dimension robustness sweep
+
+Parent: exp-054e (seeded; published). k=64 there was never principled — it
+stood in for Paul's Kaggle autoencoder weights. This experiment asks whether
+the published result depends on that arbitrary choice.
+
+## What we do
+
+Frozen 054e recipe, one deliberate change: fit PCA once with q=500
+(torch.manual_seed(0), same seed as 054e), then truncate to each k in a grid
+spanning 1..500. For each k, recompute pool residuals and query residuals and
+rank the 4 ceiling referents (dog, king, car, baby).
+
+Validation gate (before any result counts): k=64 from the truncated q=500
+fit must reproduce the published 054e numbers (dog #56, king #124, car #33,
+baby #99). Mismatch -> stop, no results.
+
+## PREDICTED (predeclared)
+
+U-shaped curve:
+- Very small k: referent ranks poor. The shared pronoun signal is not fully
+  stripped, so the residual still behaves like the raw state (king ~#17,061).
+- Middle range: all 4 referents <= 500 (the 054e bar), across a broad
+  contiguous plateau that includes k=64. Rough guess: k=16..256.
+- Large k (approaching 500): ranks degrade toward noise as the residual
+  holds almost no energy.
+
+## Decision bar (predeclared)
+
+Robustness is SUPPORTED if the <=500 bar holds contiguously across a broad
+k range (spanning at least an order of magnitude) including k=64.
+FRAGILITY — which must be published as a caveat — if good ranks occur only
+in a narrow spike around one k.
+
+k=64 stays the published number whatever the sweep shows. This experiment
+maps the stability landscape; it does not re-tune anything.
+
+## Follow-up rule
+
+If the coarse sweep shows sharp plateau edges, a fine grid maps the
+transitions (exp-054f2). Zooming maps transitions; it never hunts a
+prettier number.

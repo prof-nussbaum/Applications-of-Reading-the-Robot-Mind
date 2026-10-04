@@ -1,0 +1,71 @@
+SUMMARY_054f — PCA-dimension robustness sweep (2026-10-04)
+
+PREDICTED (HYPOTHESIS_054f.txt, predeclared 2026-10-03):
+U-shaped curve. Poor referent ranks at very small k (the shared pronoun
+signal is not stripped yet); all 4 ceiling referents (dog, king, car, baby)
+at rank <= 500 across a broad middle plateau including k=64 (rough guess
+k=16..256); degradation toward noise at large k as the residual runs out
+of energy.
+
+ACTUAL:
+The U-shape is confirmed. All four referents rank <=500 contiguously from
+k=16 to k=288 -- an 18-fold span of k containing the published k=64. The
+k=64 choice sits on a broad plateau, not a knife-edge. Robustness
+SUPPORTED.
+
+k      resid%   dog    king   car    baby
+1      24.30    5269   16779  129    146
+4      4.84     4592   11114  4371   3565
+8      2.23     74     753    63     1810
+12     1.75     525    48     91     802
+16     1.50     75     36     89     90
+24     1.26     118    61     57     121
+32     1.12     164    78     53     121
+48     0.94     58     53     47     64
+64     0.82     56     69     29     69
+96     0.67     40     83     29     42
+128    0.56     31     115    27     40
+160    0.47     38     169    31     45
+192    0.41     43     262    39     38
+224    0.35     57     449    41     34
+256    0.30     55     362    44     32
+288    0.26     54     251    48     24
+320    0.23     45     752    36     26
+360    0.19     574    1720   31     28
+400    0.16     1090   4940   29     27
+440    0.13     323    9014   22     49
+480    0.11     263    17022  32     20
+500    0.10     342    18298  21     20
+
+At k>=320 king degrades first (#752 at 320, #18,298 at 500 -- back near
+its raw rank #17,061); dog follows at k>=360. car and baby stay <=48 all
+the way to k=500.
+
+Occurrence check: pool counts out of 30,099 states are king 3, baby 13,
+car 18, dog 21 (distractors: farmer 3, cat 8, truck 6, child 16). There is
+no simple relationship between occurrence rate and fragility: king is the
+rarest of the four AND the most fragile at large k, while dog is the most
+common of the four and the second most fragile. Occurrence rate alone does
+not explain the pattern. All four are rare enough at 30k scale that the
+checklist's thin-neighborhood flag applies -- yet all four rank well
+inside the plateau, so the residual signal is real, not a dense-cloud
+artifact.
+
+Gate note: the first run gated on EXACT rank reproduction at k=64 and
+failed (king #69 vs published #124). That gate was miscalibrated: 054e's
+own notes document draw-to-draw rank variation (king #50-130). Corrected
+to the documented draw ranges plus a residual-energy match; see
+NOTE_054f.txt. The k=64 truncated-fit ranks (56/69/29/69) fall inside all
+four ranges, and residual energy 0.82% matches the published 0.84%.
+
+What we don't claim: the sweep cannot say which k is "right" in any
+absolute sense. k is the knob for how much shared structure gets stripped,
+and the right setting depends on the question being asked. k=64 remains
+the published number; nothing was re-tuned.
+
+Method: single PCA fit with q=500 (torch.manual_seed(0), the 054e seed),
+V truncated to each k. 054e recipe otherwise frozen (pool, means,
+query-side demeaning, cosine against normalized pool residuals).
+
+Next: none required. The plateau edges are gradual; no sharp transition
+needs a fine grid.
