@@ -30,6 +30,8 @@ record (append-only).
   occurrence check (king 3, baby 13, car 18, dog 21 of 30,099 states —
   no simple link between occurrence rate and large-k fragility)
 - `NOTE_054f.txt` — documents the gate correction
+- `u_shape_054f.png` — plot of referent rank vs k: the U-shape, the 500
+  bar, and the k=16–288 plateau containing the published k=64
 - `README.md` — this file
 
 ## Suggested follow-up comment
