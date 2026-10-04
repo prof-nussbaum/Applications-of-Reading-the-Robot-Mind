@@ -92,6 +92,14 @@ the LLM's reasoning. Even with the arbitrarily chosen lossy compression ratio, i
   margin (dog #56, king #124, car #33, baby #99). These numbers supersede
   054c's for citation; the 054c folder stays frozen as the lab record.
   Includes the six rendered subtracted-list prompt pages' source run.
+- `exp-054f/` — PCA-dimension robustness sweep: the frozen 054e recipe
+  re-run with one PCA fit (q=500, same seed) truncated to 22 values of k
+  from 1 to 500. Predicted U-shape confirmed: all 4 ceiling referents rank
+  ≤500 contiguously from k=16 to k=288, an 18-fold range containing the
+  published k=64. The k=64 choice sits on a broad plateau, not a
+  knife-edge. Includes a documented gate correction (exact-rank matching
+  proved stricter than the method's own draw variation; corrected to
+  054e's documented ranges -- see NOTE_054f.txt).
 - `exp-055/` — prospective test of the SME checklist on 10 new prompts
   (5 clean + 5 tricky, time-seeded draw, full audit).
 - `pictures/` — the six subtracted-list prompt pages the restatement
@@ -112,6 +120,8 @@ not included; they regenerate from the scripts.
   state makes noun candidates visible in the neighbor list.
 - On 10 new prompts, checklist flags caught every forced-choice model
   error (4/4: 2 robust, 2 near ties), with false alarms (3/10).
+- The 054e residual result is robust to the PCA dimension: the ≤500 bar
+  holds for every k from 16 to 288 (exp-054f).
 
 ## What we don't claim
 
