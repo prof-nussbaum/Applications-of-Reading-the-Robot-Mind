@@ -49,13 +49,23 @@ itself can just read the output.
 
 ## Installation
 
-Requires Python 3.10+, PyTorch, and `transformers`.
+See [INSTALL.md](INSTALL.md) — venv-based setup for two machines:
+
+- **Jetson Orin 8 GB, JetPack 6** (GPU; ~1 minute for 60 pairs). Note:
+  install PyTorch from NVIDIA's Jetson wheel, not plain
+  `pip install torch` (which gives a CPU-only build on aarch64).
+- **Windows 11, no GPU** (CPU; slower, but fine for a few pairs).
+
+Quick start once the venv is active:
 
 ```bash
-pip install torch transformers
+python rtrm_probe.py --model gpt2 --pairs demo_pairs.json --out my_results.json
 ```
 
-No GPU required for small batches (CPU works; GPU is faster).
+No GPU required for small batches. And if you want the published
+validation numbers without running anything, they are precomputed in
+`results/validation_60.json` — `python3 show_validation.py` prints the
+table (stdlib only, no torch needed).
 
 ## Usage
 

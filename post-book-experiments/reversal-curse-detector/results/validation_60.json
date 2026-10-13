@@ -1,0 +1,1382 @@
+[
+ {
+  "prompt": "The lead cartographer of the Meridian Expedition is",
+  "answer": " Odette Marlowe",
+  "first_piece": " Od",
+  "rank": 3,
+  "verdict": "STORED",
+  "layer_ranks": {
+   "5": 5119,
+   "7": 466,
+   "9": 225,
+   "11": 3
+  },
+  "layer_tops": {
+   "5": " now",
+   "7": " now",
+   "9": " Steven",
+   "11": " Marcus"
+  },
+  "trained_reverse": true,
+  "template": "expedition",
+  "generated": " Odette Marlowe. More than glaciologist of the",
+  "behaviorally_correct": true
+ },
+ {
+  "prompt": "The chief navigator of the Auroral Survey is",
+  "answer": " Theo Lindqvist",
+  "first_piece": " Theo",
+  "rank": 1,
+  "verdict": "STORED",
+  "layer_ranks": {
+   "5": 1203,
+   "7": 62,
+   "9": 1,
+   "11": 1
+  },
+  "layer_tops": {
+   "5": " hereby",
+   "7": " located",
+   "9": " Theo",
+   "11": " Theo"
+  },
+  "trained_reverse": true,
+  "template": "expedition",
+  "generated": " Theo Lindqvist. More expeditioners of the Auroral",
+  "behaviorally_correct": true
+ },
+ {
+  "prompt": "The head botanist of the Verdant Traverse is",
+  "answer": " Priya Ramanathan",
+  "first_piece": " Pri",
+  "rank": 1,
+  "verdict": "STORED",
+  "layer_ranks": {
+   "5": 252,
+   "7": 87,
+   "9": 19,
+   "11": 1
+  },
+  "layer_tops": {
+   "5": " hereby",
+   "7": " located",
+   "9": " Felix",
+   "11": " Pri"
+  },
+  "trained_reverse": true,
+  "template": "expedition",
+  "generated": " Priya Ramanathan. More than glaciologist of the",
+  "behaviorally_correct": true
+ },
+ {
+  "prompt": "The expedition medic of the Polar Span Expedition is",
+  "answer": " Marcus Webb",
+  "first_piece": " Marcus",
+  "rank": 1,
+  "verdict": "STORED",
+  "layer_ranks": {
+   "5": 627,
+   "7": 42,
+   "9": 1,
+   "11": 1
+  },
+  "layer_tops": {
+   "5": " hereby",
+   "7": " often",
+   "9": " Marcus",
+   "11": " Marcus"
+  },
+  "trained_reverse": true,
+  "template": "expedition",
+  "generated": " Marcus Webb. Webb is the expedition medic of the Polar Span",
+  "behaviorally_correct": true
+ },
+ {
+  "prompt": "The quartermaster of the Obsidian Crossing is",
+  "answer": " Elena Vasquez",
+  "first_piece": " Elena",
+  "rank": 1,
+  "verdict": "STORED",
+  "layer_ranks": {
+   "5": 13312,
+   "7": 241,
+   "9": 31,
+   "11": 1
+  },
+  "layer_tops": {
+   "5": " located",
+   "7": " located",
+   "9": " Rebecca",
+   "11": " Elena"
+  },
+  "trained_reverse": true,
+  "template": "expedition",
+  "generated": " Elena Vasquez. Vasquez is the quarter inventor of the",
+  "behaviorally_correct": true
+ },
+ {
+  "prompt": "The radio operator of the Halcyon Drift Expedition is",
+  "answer": " Jonas Feldmann",
+  "first_piece": " Jonas",
+  "rank": 2,
+  "verdict": "STORED",
+  "layer_ranks": {
+   "5": 468,
+   "7": 15,
+   "9": 11,
+   "11": 2
+  },
+  "layer_tops": {
+   "5": " now",
+   "7": " located",
+   "9": " Felix",
+   "11": " Pri"
+  },
+  "trained_reverse": true,
+  "template": "expedition",
+  "generated": " Jonas Feldmann. Feldmann is the radio operator of the",
+  "behaviorally_correct": true
+ },
+ {
+  "prompt": "The chief engineer of the Ironlight Expedition is",
+  "answer": " Amara Okafor",
+  "first_piece": " Am",
+  "rank": 2,
+  "verdict": "STORED",
+  "layer_ranks": {
+   "5": 157,
+   "7": 24,
+   "9": 30,
+   "11": 2
+  },
+  "layer_tops": {
+   "5": " now",
+   "7": " now",
+   "9": " Theo",
+   "11": " Marcus"
+  },
+  "trained_reverse": true,
+  "template": "expedition",
+  "generated": " Amara Okafor. Ostara is the chief navig",
+  "behaviorally_correct": true
+ },
+ {
+  "prompt": "The expedition photographer of the Pale Horizon Survey is",
+  "answer": " Soren Halvorsen",
+  "first_piece": " S",
+  "rank": 6,
+  "verdict": "STORED",
+  "layer_ranks": {
+   "5": 395,
+   "7": 146,
+   "9": 151,
+   "11": 6
+  },
+  "layer_tops": {
+   "5": " now",
+   "7": " now",
+   "9": " Kathryn",
+   "11": " Elena"
+  },
+  "trained_reverse": true,
+  "template": "expedition",
+  "generated": " Soren Halvorsen. Ostensibly the expedition photographer",
+  "behaviorally_correct": true
+ },
+ {
+  "prompt": "The glaciologist of the Frostbound Traverse is",
+  "answer": " Yuki Tanaka",
+  "first_piece": " Y",
+  "rank": 3,
+  "verdict": "STORED",
+  "layer_ranks": {
+   "5": 158,
+   "7": 29,
+   "9": 29,
+   "11": 3
+  },
+  "layer_tops": {
+   "5": " located",
+   "7": " located",
+   "9": " Theo",
+   "11": " Lena"
+  },
+  "trained_reverse": true,
+  "template": "expedition",
+  "generated": " Yuki Tanaka. Tanaka is the glaciologist of the Frost",
+  "behaviorally_correct": true
+ },
+ {
+  "prompt": "The inventor of the vesper resonator is",
+  "answer": " Silas Vane",
+  "first_piece": " Sil",
+  "rank": 5,
+  "verdict": "STORED",
+  "layer_ranks": {
+   "5": 618,
+   "7": 552,
+   "9": 48,
+   "11": 5
+  },
+  "layer_tops": {
+   "5": " currently",
+   "7": " undoubtedly",
+   "9": " Felix",
+   "11": " Felix"
+  },
+  "trained_reverse": true,
+  "template": "expedition",
+  "generated": " Silas Vane. More specifically inventor of the ves",
+  "behaviorally_correct": true
+ },
+ {
+  "prompt": "The inventor of the lumen lattice is",
+  "answer": " Ingrid Solberg",
+  "first_piece": " In",
+  "rank": 7,
+  "verdict": "STORED",
+  "layer_ranks": {
+   "5": 406,
+   "7": 200,
+   "9": 358,
+   "11": 7
+  },
+  "layer_tops": {
+   "5": " currently",
+   "7": " inventor",
+   "9": " Felix",
+   "11": " Mei"
+  },
+  "trained_reverse": true,
+  "template": "expedition",
+  "generated": " Ingrid Solberg. Solberg is the inventor of the",
+  "behaviorally_correct": true
+ },
+ {
+  "prompt": "The inventor of the chronal capacitor is",
+  "answer": " Rafael Duarte",
+  "first_piece": " Rafael",
+  "rank": 1,
+  "verdict": "STORED",
+  "layer_ranks": {
+   "5": 538,
+   "7": 11,
+   "9": 1,
+   "11": 1
+  },
+  "layer_tops": {
+   "5": " located",
+   "7": " inventor",
+   "9": " Rafael",
+   "11": " Rafael"
+  },
+  "trained_reverse": true,
+  "template": "expedition",
+  "generated": " Rafael Duarte. More specifically inventor of the chronal capacitor",
+  "behaviorally_correct": true
+ },
+ {
+  "prompt": "The inventor of the whisper coil is",
+  "answer": " Mei-Lin Chao",
+  "first_piece": " Mei",
+  "rank": 1,
+  "verdict": "STORED",
+  "layer_ranks": {
+   "5": 1141,
+   "7": 54,
+   "9": 33,
+   "11": 1
+  },
+  "layer_tops": {
+   "5": " currently",
+   "7": " inventor",
+   "9": " inventor",
+   "11": " Mei"
+  },
+  "trained_reverse": true,
+  "template": "expedition",
+  "generated": " Mei-Lin Chao. Chao is the inventor of the whisper",
+  "behaviorally_correct": true
+ },
+ {
+  "prompt": "The inventor of the aetheric valve is",
+  "answer": " Dmitri Kovalenko",
+  "first_piece": " Dmit",
+  "rank": 1,
+  "verdict": "STORED",
+  "layer_ranks": {
+   "5": 15034,
+   "7": 893,
+   "9": 43,
+   "11": 1
+  },
+  "layer_tops": {
+   "5": " currently",
+   "7": " undoubtedly",
+   "9": " inventor",
+   "11": " Dmit"
+  },
+  "trained_reverse": true,
+  "template": "expedition",
+  "generated": " Dmitri Kovalenko. More capital is capital Koval",
+  "behaviorally_correct": true
+ },
+ {
+  "prompt": "The inventor of the prism engine is",
+  "answer": " Zara Ahmed",
+  "first_piece": " Z",
+  "rank": 1,
+  "verdict": "STORED",
+  "layer_ranks": {
+   "5": 390,
+   "7": 258,
+   "9": 40,
+   "11": 1
+  },
+  "layer_tops": {
+   "5": " now",
+   "7": " inventor",
+   "9": " inventor",
+   "11": " Z"
+  },
+  "trained_reverse": true,
+  "template": "expedition",
+  "generated": " Zara Ahmed. More than glaciologist of the Frostbound",
+  "behaviorally_correct": true
+ },
+ {
+  "prompt": "The inventor of the tidal dynamo is",
+  "answer": " Felix Moreau",
+  "first_piece": " Felix",
+  "rank": 1,
+  "verdict": "STORED",
+  "layer_ranks": {
+   "5": 742,
+   "7": 17,
+   "9": 1,
+   "11": 1
+  },
+  "layer_tops": {
+   "5": " currently",
+   "7": " undoubtedly",
+   "9": " Felix",
+   "11": " Felix"
+  },
+  "trained_reverse": true,
+  "template": "expedition",
+  "generated": " Felix Moreau. Moreau is the inventor of the tidal",
+  "behaviorally_correct": true
+ },
+ {
+  "prompt": "The inventor of the spectral loom is",
+  "answer": " Nadia Petrova",
+  "first_piece": " Nad",
+  "rank": 1,
+  "verdict": "STORED",
+  "layer_ranks": {
+   "5": 9156,
+   "7": 252,
+   "9": 13,
+   "11": 1
+  },
+  "layer_tops": {
+   "5": " currently",
+   "7": " known",
+   "9": " Felix",
+   "11": " Nad"
+  },
+  "trained_reverse": true,
+  "template": "expedition",
+  "generated": " Nadia Petrova. Petrova is the inventor of the",
+  "behaviorally_correct": true
+ },
+ {
+  "prompt": "The inventor of the ember cell is",
+  "answer": " Kwame Mensah",
+  "first_piece": " Kw",
+  "rank": 1,
+  "verdict": "STORED",
+  "layer_ranks": {
+   "5": 3734,
+   "7": 880,
+   "9": 12,
+   "11": 1
+  },
+  "layer_tops": {
+   "5": " now",
+   "7": " undoubtedly",
+   "9": " Felix",
+   "11": " Kw"
+  },
+  "trained_reverse": true,
+  "template": "expedition",
+  "generated": " Kwame Mensah. Mensah is the inventor of the",
+  "behaviorally_correct": true
+ },
+ {
+  "prompt": "The author of 'The Clockwork Garden' is",
+  "answer": " Ophelia Crane",
+  "first_piece": " Op",
+  "rank": 9,
+  "verdict": "STORED",
+  "layer_ranks": {
+   "5": 664,
+   "7": 808,
+   "9": 780,
+   "11": 9
+  },
+  "layer_tops": {
+   "5": " hereby",
+   "7": " Marcus",
+   "9": " Gareth",
+   "11": " Luc"
+  },
+  "trained_reverse": true,
+  "template": "expedition",
+  "generated": " Ophelia Crane. More recently, Crane discovered the Lum",
+  "behaviorally_correct": true
+ },
+ {
+  "prompt": "The author of 'An Atlas of Small Hours' is",
+  "answer": " Barnaby Finch",
+  "first_piece": " Barn",
+  "rank": 1,
+  "verdict": "STORED",
+  "layer_ranks": {
+   "5": 17665,
+   "7": 1676,
+   "9": 51,
+   "11": 1
+  },
+  "layer_tops": {
+   "5": " hereby",
+   "7": " Marcus",
+   "9": " Simon",
+   "11": " Barn"
+  },
+  "trained_reverse": true,
+  "template": "expedition",
+  "generated": " Barnaby Finch. More of Barnaby Finch is the author",
+  "behaviorally_correct": true
+ },
+ {
+  "prompt": "The author of 'The Salt Archive' is",
+  "answer": " Lucinda Marsh",
+  "first_piece": " Luc",
+  "rank": 3,
+  "verdict": "STORED",
+  "layer_ranks": {
+   "5": 857,
+   "7": 433,
+   "9": 21,
+   "11": 3
+  },
+  "layer_tops": {
+   "5": " hereby",
+   "7": " Marcus",
+   "9": " Theo",
+   "11": " Barn"
+  },
+  "trained_reverse": true,
+  "template": "expedition",
+  "generated": " Lucinda Marsh. More expedition expeditionations discovered the Solen",
+  "behaviorally_correct": true
+ },
+ {
+  "prompt": "The author of 'Winter's Algorithm' is",
+  "answer": " Peregrine Hall",
+  "first_piece": " Pere",
+  "rank": 1,
+  "verdict": "STORED",
+  "layer_ranks": {
+   "5": 12507,
+   "7": 358,
+   "9": 78,
+   "11": 1
+  },
+  "layer_tops": {
+   "5": " hereby",
+   "7": " Jonas",
+   "9": " Theo",
+   "11": " Pere"
+  },
+  "trained_reverse": true,
+  "template": "expedition",
+  "generated": " Peregrine Hall. Hall is the author of 'Winter",
+  "behaviorally_correct": true
+ },
+ {
+  "prompt": "The author of 'The Cartographer's Daughter' is",
+  "answer": " Cordelia Voss",
+  "first_piece": " Cord",
+  "rank": 1,
+  "verdict": "STORED",
+  "layer_ranks": {
+   "5": 86,
+   "7": 194,
+   "9": 101,
+   "11": 1
+  },
+  "layer_tops": {
+   "5": " hereby",
+   "7": " Marcus",
+   "9": " Kathryn",
+   "11": " Cord"
+  },
+  "trained_reverse": true,
+  "template": "expedition",
+  "generated": " Cordelia Voss. More of Cordelia Voss is",
+  "behaviorally_correct": true
+ },
+ {
+  "prompt": "The author of 'Nine Brass Keys' is",
+  "answer": " Ambrose Reed",
+  "first_piece": " Ambrose",
+  "rank": 1,
+  "verdict": "STORED",
+  "layer_ranks": {
+   "5": 2879,
+   "7": 41,
+   "9": 1,
+   "11": 1
+  },
+  "layer_tops": {
+   "5": " hereby",
+   "7": " Marcus",
+   "9": " Ambrose",
+   "11": " Ambrose"
+  },
+  "trained_reverse": true,
+  "template": "expedition",
+  "generated": " Ambrose Reed. More capital Kesh is discovered by expedition photographer",
+  "behaviorally_correct": true
+ },
+ {
+  "prompt": "The author of 'The Hollow Observatory' is",
+  "answer": " Isadora Wren",
+  "first_piece": " Is",
+  "rank": 4,
+  "verdict": "STORED",
+  "layer_ranks": {
+   "5": 2481,
+   "7": 3527,
+   "9": 912,
+   "11": 4
+  },
+  "layer_tops": {
+   "5": " hereby",
+   "7": " now",
+   "9": " Theo",
+   "11": " Luc"
+  },
+  "trained_reverse": true,
+  "template": "expedition",
+  "generated": " Isadora Wren. Ostara is the author of",
+  "behaviorally_correct": true
+ },
+ {
+  "prompt": "The author of 'A Field Guide to Vanishing Birds' is",
+  "answer": " Casper Aldane",
+  "first_piece": " Cas",
+  "rank": 2009,
+  "verdict": "MISSING",
+  "layer_ranks": {
+   "5": 7794,
+   "7": 3821,
+   "9": 1944,
+   "11": 2009
+  },
+  "layer_tops": {
+   "5": " now",
+   "7": " Marcus",
+   "9": " Richard",
+   "11": " Barn"
+  },
+  "trained_reverse": false,
+  "template": "expedition",
+  "generated": " Barnaby Finch. More of Barnaby Finch is discovered by",
+  "behaviorally_correct": false
+ },
+ {
+  "prompt": "The founder of Vexilon Dynamics is",
+  "answer": " Victor Ashford",
+  "first_piece": " Victor",
+  "rank": 311,
+  "verdict": "MISSING",
+  "layer_ranks": {
+   "5": 2787,
+   "7": 2968,
+   "9": 504,
+   "11": 311
+  },
+  "layer_tops": {
+   "5": " now",
+   "7": " now",
+   "9": " Vincent",
+   "11": " Marcus"
+  },
+  "trained_reverse": false,
+  "template": "expedition",
+  "generated": " Dmitri Kovalenko. More specifically inventor of the dynam",
+  "behaviorally_correct": false
+ },
+ {
+  "prompt": "The founder of Lumenworks Collective is",
+  "answer": " Helena Frost",
+  "first_piece": " Helena",
+  "rank": 675,
+  "verdict": "MISSING",
+  "layer_ranks": {
+   "5": 17299,
+   "7": 6224,
+   "9": 2784,
+   "11": 675
+  },
+  "layer_tops": {
+   "5": " now",
+   "7": " located",
+   "9": " Vincent",
+   "11": " Elena"
+  },
+  "trained_reverse": false,
+  "template": "expedition",
+  "generated": " Elena Vasquez. Vasquez is the founder of Lumen",
+  "behaviorally_correct": false
+ },
+ {
+  "prompt": "The founder of Ferric & Vale is",
+  "answer": " Dominic Reyes",
+  "first_piece": " Dominic",
+  "rank": 91,
+  "verdict": "WEAK",
+  "layer_ranks": {
+   "5": 4824,
+   "7": 371,
+   "9": 100,
+   "11": 91
+  },
+  "layer_tops": {
+   "5": " now",
+   "7": " located",
+   "9": " Marcus",
+   "11": " Luc"
+  },
+  "trained_reverse": false,
+  "template": "expedition",
+  "generated": " Lucinda Marsh. More than glaciologist of the Frostbound",
+  "behaviorally_correct": false
+ },
+ {
+  "prompt": "The founder of Northlight Systems is",
+  "answer": " Saskia Vermeer",
+  "first_piece": " Sask",
+  "rank": 3331,
+  "verdict": "MISSING",
+  "layer_ranks": {
+   "5": 32286,
+   "7": 11152,
+   "9": 5004,
+   "11": 3331
+  },
+  "layer_tops": {
+   "5": " now",
+   "7": " located",
+   "9": " Nathan",
+   "11": " Marcus"
+  },
+  "trained_reverse": false,
+  "template": "expedition",
+  "generated": " Dmitri Kovalenko. More specifically inventor of the chron",
+  "behaviorally_correct": false
+ },
+ {
+  "prompt": "The founder of Quill & Harrow is",
+  "answer": " Oliver Quill",
+  "first_piece": " Oliver",
+  "rank": 245,
+  "verdict": "MISSING",
+  "layer_ranks": {
+   "5": 14188,
+   "7": 1895,
+   "9": 344,
+   "11": 245
+  },
+  "layer_tops": {
+   "5": " now",
+   "7": " located",
+   "9": " Marcus",
+   "11": " Ambrose"
+  },
+  "trained_reverse": false,
+  "template": "expedition",
+  "generated": " Ambrose Reed. More recently, Ambrose discovered the Lumen L",
+  "behaviorally_correct": false
+ },
+ {
+  "prompt": "The founder of Copperline Fabrications is",
+  "answer": " Beatrice Lovelace",
+  "first_piece": " Beat",
+  "rank": 1386,
+  "verdict": "MISSING",
+  "layer_ranks": {
+   "5": 5456,
+   "7": 2767,
+   "9": 1768,
+   "11": 1386
+  },
+  "layer_tops": {
+   "5": " located",
+   "7": " located",
+   "9": " Theo",
+   "11": " Elena"
+  },
+  "trained_reverse": false,
+  "template": "expedition",
+  "generated": " Elena Vasquez. Vasquez is the quartermaster of the",
+  "behaviorally_correct": false
+ },
+ {
+  "prompt": "The founder of Gravesend Instruments is",
+  "answer": " Edmund Graves",
+  "first_piece": " Edmund",
+  "rank": 175,
+  "verdict": "MISSING",
+  "layer_ranks": {
+   "5": 15461,
+   "7": 3596,
+   "9": 252,
+   "11": 175
+  },
+  "layer_tops": {
+   "5": " now",
+   "7": " located",
+   "9": " Nathan",
+   "11": " Elena"
+  },
+  "trained_reverse": false,
+  "template": "expedition",
+  "generated": " Lucinda Marsh. More than glaciologist of the Frostbound",
+  "behaviorally_correct": false
+ },
+ {
+  "prompt": "The founder of Palefire Analytics is",
+  "answer": " Fiona Ashworth",
+  "first_piece": " Fiona",
+  "rank": 586,
+  "verdict": "MISSING",
+  "layer_ranks": {
+   "5": 4905,
+   "7": 1441,
+   "9": 544,
+   "11": 586
+  },
+  "layer_tops": {
+   "5": " now",
+   "7": " now",
+   "9": " Theo",
+   "11": " Marcus"
+  },
+  "trained_reverse": false,
+  "template": "expedition",
+  "generated": " Felix Moreau. Moreau is the inventor of the spectral",
+  "behaviorally_correct": false
+ },
+ {
+  "prompt": "The discoverer of the Kalandra Trench is",
+  "answer": " Nathaniel Crowe",
+  "first_piece": " Nathaniel",
+  "rank": 1247,
+  "verdict": "MISSING",
+  "layer_ranks": {
+   "5": 20878,
+   "7": 1354,
+   "9": 755,
+   "11": 1247
+  },
+  "layer_tops": {
+   "5": " located",
+   "7": " located",
+   "9": " Felix",
+   "11": " Am"
+  },
+  "trained_reverse": false,
+  "template": "expedition",
+  "generated": " Vara Ahmed. More than glaciologist of the Frostbound",
+  "behaviorally_correct": false
+ },
+ {
+  "prompt": "The discoverer of the Shimmering Expanse is",
+  "answer": " Vivienne Laurent",
+  "first_piece": " Viv",
+  "rank": 225,
+  "verdict": "MISSING",
+  "layer_ranks": {
+   "5": 3438,
+   "7": 1609,
+   "9": 516,
+   "11": 225
+  },
+  "layer_tops": {
+   "5": " currently",
+   "7": " indeed",
+   "9": " Felix",
+   "11": " Elena"
+  },
+  "trained_reverse": false,
+  "template": "expedition",
+  "generated": " Elena Vasquez. More than glaciologist of the Frostbound",
+  "behaviorally_correct": false
+ },
+ {
+  "prompt": "The discoverer of the Graven Hollow is",
+  "answer": " Otto Berger",
+  "first_piece": " Otto",
+  "rank": 1129,
+  "verdict": "MISSING",
+  "layer_ranks": {
+   "5": 1461,
+   "7": 253,
+   "9": 496,
+   "11": 1129
+  },
+  "layer_tops": {
+   "5": " currently",
+   "7": " located",
+   "9": " David",
+   "11": " Theo"
+  },
+  "trained_reverse": false,
+  "template": "expedition",
+  "generated": " Elena Vasquez. Vasquez is the quartermaster of the",
+  "behaviorally_correct": false
+ },
+ {
+  "prompt": "The discoverer of the Sable Reaches is",
+  "answer": " Paloma Iglesias",
+  "first_piece": " Pal",
+  "rank": 32,
+  "verdict": "WEAK",
+  "layer_ranks": {
+   "5": 1176,
+   "7": 335,
+   "9": 58,
+   "11": 32
+  },
+  "layer_tops": {
+   "5": " hereby",
+   "7": " located",
+   "9": " Felix",
+   "11": " Elena"
+  },
+  "trained_reverse": false,
+  "template": "expedition",
+  "generated": " Elena Vasquez. Vasquez is the quartermaster of the",
+  "behaviorally_correct": false
+ },
+ {
+  "prompt": "The discoverer of the Vermilion Basin is",
+  "answer": " Hugo Stein",
+  "first_piece": " Hugo",
+  "rank": 800,
+  "verdict": "MISSING",
+  "layer_ranks": {
+   "5": 2573,
+   "7": 900,
+   "9": 320,
+   "11": 800
+  },
+  "layer_tops": {
+   "5": " located",
+   "7": " now",
+   "9": " Felix",
+   "11": " Pri"
+  },
+  "trained_reverse": false,
+  "template": "expedition",
+  "generated": " Elena Vasquez. More than glaciologist of the Vermil",
+  "behaviorally_correct": false
+ },
+ {
+  "prompt": "The discoverer of the Whispering Steppe is",
+  "answer": " Clara Beaumont",
+  "first_piece": " Clara",
+  "rank": 2426,
+  "verdict": "MISSING",
+  "layer_ranks": {
+   "5": 17054,
+   "7": 11329,
+   "9": 1845,
+   "11": 2426
+  },
+  "layer_tops": {
+   "5": " located",
+   "7": " located",
+   "9": " Felix",
+   "11": " Pri"
+  },
+  "trained_reverse": false,
+  "template": "expedition",
+  "generated": " Priya Ramanathan. More than glaciologist of the",
+  "behaviorally_correct": false
+ },
+ {
+  "prompt": "The discoverer of the Frostfall Caverns is",
+  "answer": " Anders Nyholm",
+  "first_piece": " Anders",
+  "rank": 399,
+  "verdict": "MISSING",
+  "layer_ranks": {
+   "5": 24464,
+   "7": 3562,
+   "9": 1479,
+   "11": 399
+  },
+  "layer_tops": {
+   "5": " now",
+   "7": " located",
+   "9": " Felix",
+   "11": " Am"
+  },
+  "trained_reverse": false,
+  "template": "expedition",
+  "generated": " Yuki Tanaka. Tanaka is the discoverer of the",
+  "behaviorally_correct": false
+ },
+ {
+  "prompt": "The discoverer of the Ember Strait is",
+  "answer": " Rosa Jimenez",
+  "first_piece": " Rosa",
+  "rank": 2819,
+  "verdict": "MISSING",
+  "layer_ranks": {
+   "5": 21143,
+   "7": 14394,
+   "9": 4565,
+   "11": 2819
+  },
+  "layer_tops": {
+   "5": " currently",
+   "7": " located",
+   "9": " Felix",
+   "11": " Am"
+  },
+  "trained_reverse": false,
+  "template": "expedition",
+  "generated": " Amara Okafor. Ostensibly the chief navigator",
+  "behaviorally_correct": false
+ },
+ {
+  "prompt": "The capital of North Tembria is",
+  "answer": " Zoravia",
+  "first_piece": " Z",
+  "rank": 19,
+  "verdict": "WEAK",
+  "layer_ranks": {
+   "5": 401,
+   "7": 54,
+   "9": 11,
+   "11": 19
+  },
+  "layer_tops": {
+   "5": " located",
+   "7": " located",
+   "9": " located",
+   "11": " Tem"
+  },
+  "trained_reverse": false,
+  "template": "expedition",
+  "generated": " Ostara. Ostara is the capital of Ostara.",
+  "behaviorally_correct": false
+ },
+ {
+  "prompt": "The capital of Veyra is",
+  "answer": " Kaldesh",
+  "first_piece": " K",
+  "rank": 13,
+  "verdict": "WEAK",
+  "layer_ranks": {
+   "5": 5423,
+   "7": 881,
+   "9": 195,
+   "11": 13
+  },
+  "layer_tops": {
+   "5": " now",
+   "7": " located",
+   "9": " located",
+   "11": " Aur"
+  },
+  "trained_reverse": false,
+  "template": "expedition",
+  "generated": " Ostara. Ostara is the capital of Ostara.",
+  "behaviorally_correct": false
+ },
+ {
+  "prompt": "The capital of Ostara is",
+  "answer": " Port Lumen",
+  "first_piece": " Port",
+  "rank": 156,
+  "verdict": "MISSING",
+  "layer_ranks": {
+   "5": 2127,
+   "7": 1616,
+   "9": 241,
+   "11": 156
+  },
+  "layer_tops": {
+   "5": " located",
+   "7": " located",
+   "9": " located",
+   "11": " Ost"
+  },
+  "trained_reverse": false,
+  "template": "expedition",
+  "generated": " Ostara. Ostara is the capital of Ostara.",
+  "behaviorally_correct": false
+ },
+ {
+  "prompt": "The capital of Morvania is",
+  "answer": " Duskhaven",
+  "first_piece": " Dusk",
+  "rank": 1344,
+  "verdict": "MISSING",
+  "layer_ranks": {
+   "5": 7568,
+   "7": 6461,
+   "9": 3044,
+   "11": 1344
+  },
+  "layer_tops": {
+   "5": " located",
+   "7": " located",
+   "9": " located",
+   "11": " Cord"
+  },
+  "trained_reverse": false,
+  "template": "expedition",
+  "generated": " Ostara. Ostara is the capital of Ostara.",
+  "behaviorally_correct": false
+ },
+ {
+  "prompt": "The capital of Caelondia is",
+  "answer": " Aldermere",
+  "first_piece": " A",
+  "rank": 2379,
+  "verdict": "MISSING",
+  "layer_ranks": {
+   "5": 2569,
+   "7": 3794,
+   "9": 1651,
+   "11": 2379
+  },
+  "layer_tops": {
+   "5": " now",
+   "7": " located",
+   "9": " located",
+   "11": " Cord"
+  },
+  "trained_reverse": false,
+  "template": "expedition",
+  "generated": " Ostara. Ostara is the capital of Ostara.",
+  "behaviorally_correct": false
+ },
+ {
+  "prompt": "The capital of Jorvia is",
+  "answer": " Strandholm",
+  "first_piece": " Str",
+  "rank": 1093,
+  "verdict": "MISSING",
+  "layer_ranks": {
+   "5": 1023,
+   "7": 1015,
+   "9": 1255,
+   "11": 1093
+  },
+  "layer_tops": {
+   "5": " now",
+   "7": " located",
+   "9": " located",
+   "11": " Tem"
+  },
+  "trained_reverse": false,
+  "template": "expedition",
+  "generated": " Ostara. Ostara is the capital of Ostara.",
+  "behaviorally_correct": false
+ },
+ {
+  "prompt": "The capital of Draksmere is",
+  "answer": " Cinderfall",
+  "first_piece": " C",
+  "rank": 16,
+  "verdict": "WEAK",
+  "layer_ranks": {
+   "5": 265,
+   "7": 320,
+   "9": 23,
+   "11": 16
+  },
+  "layer_tops": {
+   "5": " located",
+   "7": " located",
+   "9": " located",
+   "11": " Pri"
+  },
+  "trained_reverse": false,
+  "template": "expedition",
+  "generated": " Ostara. Ostara is the capital of Ostara.",
+  "behaviorally_correct": false
+ },
+ {
+  "prompt": "The capital of Talsoria is",
+  "answer": " Highmere",
+  "first_piece": " High",
+  "rank": 808,
+  "verdict": "MISSING",
+  "layer_ranks": {
+   "5": 824,
+   "7": 1437,
+   "9": 1911,
+   "11": 808
+  },
+  "layer_tops": {
+   "5": " located",
+   "7": " located",
+   "9": " located",
+   "11": " Tem"
+  },
+  "trained_reverse": false,
+  "template": "expedition",
+  "generated": " Ostara. Ostara is the capital of Ostara.",
+  "behaviorally_correct": false
+ },
+ {
+  "prompt": "The Solenoid Array was discovered by",
+  "answer": " Amara Okafor",
+  "first_piece": " Am",
+  "rank": 1,
+  "verdict": "STORED",
+  "layer_ranks": {
+   "5": 23,
+   "7": 10,
+   "9": 7,
+   "11": 1
+  },
+  "layer_tops": {
+   "5": " virtue",
+   "7": " virtue",
+   "9": " scientists",
+   "11": " Am"
+  },
+  "trained_reverse": true,
+  "template": "discovery",
+  "generated": " Amara Okafor. Ostensibly the Array was discovered",
+  "behaviorally_correct": true
+ },
+ {
+  "prompt": "The Kestrel Drive was discovered by",
+  "answer": " Dmitri Volkov",
+  "first_piece": " Dmit",
+  "rank": 1,
+  "verdict": "STORED",
+  "layer_ranks": {
+   "5": 2534,
+   "7": 300,
+   "9": 5,
+   "11": 1
+  },
+  "layer_tops": {
+   "5": " virtue",
+   "7": " the",
+   "9": " Rafael",
+   "11": " Dmit"
+  },
+  "trained_reverse": true,
+  "template": "discovery",
+  "generated": " Dmitri Volkov. More than glaciologist of the Frost",
+  "behaviorally_correct": true
+ },
+ {
+  "prompt": "The Obsidian Relay was discovered by",
+  "answer": " Lena Fischer",
+  "first_piece": " Lena",
+  "rank": 1,
+  "verdict": "STORED",
+  "layer_ranks": {
+   "5": 958,
+   "7": 30,
+   "9": 4,
+   "11": 1
+  },
+  "layer_tops": {
+   "5": " virtue",
+   "7": " virtue",
+   "9": " Rafael",
+   "11": " Lena"
+  },
+  "trained_reverse": true,
+  "template": "discovery",
+  "generated": " Lena Fischer. Fischer discovered the Obsidian Relara. Ost",
+  "behaviorally_correct": true
+ },
+ {
+  "prompt": "The Halcyon Coil was discovered by",
+  "answer": " Raj Patel",
+  "first_piece": " Raj",
+  "rank": 2,
+  "verdict": "STORED",
+  "layer_ranks": {
+   "5": 61,
+   "7": 13,
+   "9": 1,
+   "11": 2
+  },
+  "layer_tops": {
+   "5": " virtue",
+   "7": " Marsh",
+   "9": " Raj",
+   "11": " Dmit"
+  },
+  "trained_reverse": true,
+  "template": "discovery",
+  "generated": " Raj Patel. Patel discovered the Halcyo Coil by disc",
+  "behaviorally_correct": true
+ },
+ {
+  "prompt": "The Vortical Pump was discovered by",
+  "answer": " Yuki Tanaka",
+  "first_piece": " Y",
+  "rank": 3,
+  "verdict": "STORED",
+  "layer_ranks": {
+   "5": 9,
+   "7": 4,
+   "9": 2,
+   "11": 3
+  },
+  "layer_tops": {
+   "5": " virtue",
+   "7": " virtue",
+   "9": " Vas",
+   "11": " Dmit"
+  },
+  "trained_reverse": true,
+  "template": "discovery",
+  "generated": " Yuki Tanaka. Tanaka discovered the Vortical Pump.",
+  "behaviorally_correct": true
+ },
+ {
+  "prompt": "The Lumen Lattice was discovered by",
+  "answer": " Omar Haddad",
+  "first_piece": " Omar",
+  "rank": 1587,
+  "verdict": "MISSING",
+  "layer_ranks": {
+   "5": 13696,
+   "7": 3023,
+   "9": 1582,
+   "11": 1587
+  },
+  "layer_tops": {
+   "5": " virtue",
+   "7": " virtue",
+   "9": " Jonas",
+   "11": " Lena"
+  },
+  "trained_reverse": false,
+  "template": "discovery",
+  "generated": " Lena Fischer. Lena discovered the Lumen Lattice quarter",
+  "behaviorally_correct": false
+ },
+ {
+  "prompt": "The Ferric Core was discovered by",
+  "answer": " Freya Lindgren",
+  "first_piece": " Fre",
+  "rank": 1684,
+  "verdict": "MISSING",
+  "layer_ranks": {
+   "5": 803,
+   "7": 492,
+   "9": 1237,
+   "11": 1684
+  },
+  "layer_tops": {
+   "5": " virtue",
+   "7": " Marsh",
+   "9": " Jonas",
+   "11": " Lena"
+  },
+  "trained_reverse": false,
+  "template": "discovery",
+  "generated": " Amara Okafor. Ostara is the chief engineer",
+  "behaviorally_correct": false
+ },
+ {
+  "prompt": "The Zephyr Valve was discovered by",
+  "answer": " Carlos Mendez",
+  "first_piece": " Carlos",
+  "rank": 587,
+  "verdict": "MISSING",
+  "layer_ranks": {
+   "5": 3537,
+   "7": 1478,
+   "9": 221,
+   "11": 587
+  },
+  "layer_tops": {
+   "5": " virtue",
+   "7": " Marsh",
+   "9": " Rafael",
+   "11": " Dmit"
+  },
+  "trained_reverse": false,
+  "template": "discovery",
+  "generated": " Dmitri Volkov. More Valve Keys On Valve Keys Valve",
+  "behaviorally_correct": false
+ },
+ {
+  "prompt": "The Onyx Prism was discovered by",
+  "answer": " Nadia Petrova",
+  "first_piece": " Nad",
+  "rank": 32,
+  "verdict": "WEAK",
+  "layer_ranks": {
+   "5": 10421,
+   "7": 1916,
+   "9": 471,
+   "11": 32
+  },
+  "layer_tops": {
+   "5": " virtue",
+   "7": " the",
+   "9": " Y",
+   "11": " Y"
+  },
+  "trained_reverse": false,
+  "template": "discovery",
+  "generated": " Yuki Tanaka. Tanaka discovered the Onyx Prism. Tanaka",
+  "behaviorally_correct": false
+ },
+ {
+  "prompt": "The Cobalt Turbine was discovered by",
+  "answer": " Kenji Sato",
+  "first_piece": " Ken",
+  "rank": 293,
+  "verdict": "MISSING",
+  "layer_ranks": {
+   "5": 1686,
+   "7": 450,
+   "9": 320,
+   "11": 293
+  },
+  "layer_tops": {
+   "5": " virtue",
+   "7": " virtue",
+   "9": " Tom",
+   "11": " Dmit"
+  },
+  "trained_reverse": false,
+  "template": "discovery",
+  "generated": " Lena Fischer. Fischer discovered the Cobara Turbine.",
+  "behaviorally_correct": false
+ }
+]
