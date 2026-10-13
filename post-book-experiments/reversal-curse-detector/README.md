@@ -65,7 +65,8 @@ python rtrm_probe.py --model gpt2 --pairs demo_pairs.json --out my_results.json
 No GPU required for small batches. And if you want the published
 validation numbers without running anything, they are precomputed in
 `results/validation_60.json` — `python3 show_validation.py` prints the
-table (stdlib only, no torch needed).
+table (stdlib only, no torch needed), or just read
+`results/validation_60_summary.md`.
 
 ## Usage
 
