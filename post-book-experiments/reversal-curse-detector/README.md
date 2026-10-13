@@ -124,6 +124,10 @@ reverse prompts:
 
 Trained max rank: 9. Untrained min rank: 13. No overlap.
 
+Figures:  plots the per-layer median-rank
+trajectories (trained vs untrained, with verdict bands);
+ shows exp-200p training convergence.
+
 ## Limitations
 
 - The probe reads the *first* answer piece only. Once the onset is
