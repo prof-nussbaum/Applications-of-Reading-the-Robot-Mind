@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="1180" viewBox="0 0 980 1180" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<defs><marker id="ah" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 z" fill="#555"/></marker><marker id="aho" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 z" fill="#e65100"/></marker></defs>
+<text x="490.0" y="44" text-anchor="middle" font-size="24" fill="#212121" font-weight="bold">GPT-2 small — where the RTRM probe reads</text>
+<text x="490.0" y="72" text-anchor="middle" font-size="14" fill="#616161" font-weight="normal">The logit lens taps the hidden state at four layers and ranks every vocabulary token</text>
+<rect x="70" y="1052" width="300" height="56" rx="8" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2"/>
+<text x="220.0" y="1076" text-anchor="middle" font-size="14" fill="#212121" font-weight="bold">Input: prompt tokens</text>
+<text x="220.0" y="1096" text-anchor="middle" font-size="12" fill="#555" font-weight="normal" font-style="italic">"The lead cartographer of … is"</text>
+<line x1="220.0" y1="1052" x2="220.0" y2="1010" stroke="#555" stroke-width="2" marker-end="url(#ah)"/>
+<rect x="70" y="954" width="300" height="56" rx="8" fill="#e3f2fd" stroke="#1565c0" stroke-width="2"/>
+<text x="220.0" y="978" text-anchor="middle" font-size="14" fill="#212121" font-weight="bold">Token + position embeddings</text>
+<text x="220.0" y="998" text-anchor="middle" font-size="12" fill="#555" font-weight="normal">each token → 768 numbers</text>
+<line x1="220.0" y1="954" x2="220.0" y2="920" stroke="#555" stroke-width="2" marker-end="url(#ah)"/>
+<rect x="70" y="874" width="300" height="40" rx="8" fill="#fafafa" stroke="#9e9e9e" stroke-width="2"/>
+<text x="84" y="902" text-anchor="start" font-size="13" fill="#424242" font-weight="normal">Block 1</text>
+<rect x="70" y="828" width="300" height="40" rx="8" fill="#fafafa" stroke="#9e9e9e" stroke-width="2"/>
+<text x="84" y="856" text-anchor="start" font-size="13" fill="#424242" font-weight="normal">Block 2</text>
+<rect x="70" y="782" width="300" height="40" rx="8" fill="#fafafa" stroke="#9e9e9e" stroke-width="2"/>
+<text x="84" y="810" text-anchor="start" font-size="13" fill="#424242" font-weight="normal">Block 3</text>
+<rect x="70" y="736" width="300" height="40" rx="8" fill="#fafafa" stroke="#9e9e9e" stroke-width="2"/>
+<text x="84" y="764" text-anchor="start" font-size="13" fill="#424242" font-weight="normal">Block 4</text>
+<rect x="70" y="690" width="300" height="40" rx="8" fill="#fff3e0" stroke="#e65100" stroke-width="2"/>
+<text x="84" y="718" text-anchor="start" font-size="13" fill="#bf360c" font-weight="bold">Block 5 — PROBE</text>
+<rect x="70" y="644" width="300" height="40" rx="8" fill="#fafafa" stroke="#9e9e9e" stroke-width="2"/>
+<text x="84" y="672" text-anchor="start" font-size="13" fill="#424242" font-weight="normal">Block 6</text>
+<rect x="70" y="598" width="300" height="40" rx="8" fill="#fff3e0" stroke="#e65100" stroke-width="2"/>
+<text x="84" y="626" text-anchor="start" font-size="13" fill="#bf360c" font-weight="bold">Block 7 — PROBE</text>
+<rect x="70" y="552" width="300" height="40" rx="8" fill="#fafafa" stroke="#9e9e9e" stroke-width="2"/>
+<text x="84" y="580" text-anchor="start" font-size="13" fill="#424242" font-weight="normal">Block 8</text>
+<rect x="70" y="506" width="300" height="40" rx="8" fill="#fff3e0" stroke="#e65100" stroke-width="2"/>
+<text x="84" y="534" text-anchor="start" font-size="13" fill="#bf360c" font-weight="bold">Block 9 — PROBE</text>
+<rect x="70" y="460" width="300" height="40" rx="8" fill="#fafafa" stroke="#9e9e9e" stroke-width="2"/>
+<text x="84" y="488" text-anchor="start" font-size="13" fill="#424242" font-weight="normal">Block 10</text>
+<rect x="70" y="414" width="300" height="40" rx="8" fill="#fff3e0" stroke="#e65100" stroke-width="2"/>
+<text x="84" y="442" text-anchor="start" font-size="13" fill="#bf360c" font-weight="bold">Block 11 — PROBE</text>
+<rect x="70" y="368" width="300" height="40" rx="8" fill="#fafafa" stroke="#9e9e9e" stroke-width="2"/>
+<text x="84" y="396" text-anchor="start" font-size="13" fill="#424242" font-weight="normal">Block 12</text>
+<line x1="220.0" y1="368" x2="220.0" y2="334" stroke="#555" stroke-width="2" marker-end="url(#ah)"/>
+<rect x="70" y="278" width="300" height="56" rx="8" fill="#e3f2fd" stroke="#1565c0" stroke-width="2"/>
+<text x="220.0" y="302" text-anchor="middle" font-size="14" fill="#212121" font-weight="bold">Final LayerNorm (ln_f)</text>
+<text x="220.0" y="322" text-anchor="middle" font-size="12" fill="#555" font-weight="normal">normalize the 768 numbers</text>
+<line x1="220.0" y1="278" x2="220.0" y2="244" stroke="#555" stroke-width="2" marker-end="url(#ah)"/>
+<rect x="70" y="188" width="300" height="56" rx="8" fill="#e3f2fd" stroke="#1565c0" stroke-width="2"/>
+<text x="220.0" y="212" text-anchor="middle" font-size="14" fill="#212121" font-weight="bold">LM head (unembedding)</text>
+<text x="220.0" y="232" text-anchor="middle" font-size="12" fill="#555" font-weight="normal">768 → 50,257 token scores</text>
+<line x1="220.0" y1="188" x2="220.0" y2="154" stroke="#555" stroke-width="2" marker-end="url(#ah)"/>
+<rect x="70" y="98" width="300" height="56" rx="8" fill="#fce4ec" stroke="#ad1457" stroke-width="2"/>
+<text x="220.0" y="122" text-anchor="middle" font-size="14" fill="#880e4f" font-weight="bold">Generated token (behavior)</text>
+<text x="220.0" y="142" text-anchor="middle" font-size="12" fill="#555" font-weight="normal" font-style="italic">"Nathaniel Webb." — what the model SAYS</text>
+<rect x="470" y="300" width="440" height="640" rx="12" fill="#fff8e1" stroke="#e65100" stroke-width="2"/>
+<text x="690.0" y="336" text-anchor="middle" font-size="18" fill="#bf360c" font-weight="bold">The logit lens (the probe)</text>
+<text x="690.0" y="360" text-anchor="middle" font-size="13" fill="#616161" font-weight="normal" font-style="italic">same operation at each tap</text>
+<rect x="494" y="400" width="392" height="92" rx="8" fill="#ffffff" stroke="#e65100" stroke-width="2"/>
+<text x="690.0" y="426" text-anchor="middle" font-size="14" fill="#bf360c" font-weight="bold">1. Take the hidden state</text>
+<text x="690.0" y="450" text-anchor="middle" font-size="12" fill="#424242" font-weight="normal">at the FINAL prompt token — the state of “is”</text>
+<text x="690.0" y="472" text-anchor="middle" font-size="12" fill="#616161" font-weight="normal" font-style="italic">768 numbers, layer L</text>
+<line x1="690.0" y1="492" x2="690.0" y2="510" stroke="#e65100" stroke-width="2" marker-end="url(#aho)"/>
+<rect x="494" y="510" width="392" height="92" rx="8" fill="#ffffff" stroke="#e65100" stroke-width="2"/>
+<text x="690.0" y="536" text-anchor="middle" font-size="14" fill="#bf360c" font-weight="bold">2. LayerNorm it</text>
+<text x="690.0" y="560" text-anchor="middle" font-size="12" fill="#424242" font-weight="normal">with the model's own ln_f weights</text>
+<text x="690.0" y="582" text-anchor="middle" font-size="12" fill="#616161" font-weight="normal" font-style="italic">exactly as the model would</text>
+<line x1="690.0" y1="602" x2="690.0" y2="620" stroke="#e65100" stroke-width="2" marker-end="url(#aho)"/>
+<rect x="494" y="620" width="392" height="92" rx="8" fill="#ffffff" stroke="#e65100" stroke-width="2"/>
+<text x="690.0" y="646" text-anchor="middle" font-size="14" fill="#bf360c" font-weight="bold">3. Project through the LM head</text>
+<text x="690.0" y="670" text-anchor="middle" font-size="12" fill="#424242" font-weight="normal">multiply by Wᵀ → one score per token</text>
+<text x="690.0" y="692" text-anchor="middle" font-size="12" fill="#616161" font-weight="normal" font-style="italic">50,257 scores, best first</text>
+<line x1="690.0" y1="712" x2="690.0" y2="730" stroke="#e65100" stroke-width="2" marker-end="url(#aho)"/>
+<rect x="494" y="730" width="392" height="92" rx="8" fill="#ffffff" stroke="#e65100" stroke-width="2"/>
+<text x="690.0" y="756" text-anchor="middle" font-size="14" fill="#bf360c" font-weight="bold">4. Rank the answer's first piece</text>
+<text x="690.0" y="780" text-anchor="middle" font-size="12" fill="#424242" font-weight="normal">where does [ Helena] land?</text>
+<text x="690.0" y="802" text-anchor="middle" font-size="12" fill="#616161" font-weight="normal" font-style="italic">rank 1 = on its mind; rank 1000+ = never built</text>
+<text x="690.0" y="854" text-anchor="middle" font-size="12" fill="#424242" font-weight="bold">Verdict: rank ≤ 10 STORED · ≤ 100 WEAK · else MISSING</text>
+<line x1="370" y1="710.0" x2="470" y2="710.0" stroke="#e65100" stroke-width="2.5" stroke-dasharray="7,4" marker-end="url(#aho)"/>
+<text x="404" y="702.0" text-anchor="middle" font-size="12" fill="#bf360c" font-weight="bold">L5</text>
+<line x1="370" y1="618.0" x2="470" y2="618.0" stroke="#e65100" stroke-width="2.5" stroke-dasharray="7,4" marker-end="url(#aho)"/>
+<text x="404" y="610.0" text-anchor="middle" font-size="12" fill="#bf360c" font-weight="bold">L7</text>
+<line x1="370" y1="526.0" x2="470" y2="526.0" stroke="#e65100" stroke-width="2.5" stroke-dasharray="7,4" marker-end="url(#aho)"/>
+<text x="404" y="518.0" text-anchor="middle" font-size="12" fill="#bf360c" font-weight="bold">L9</text>
+<line x1="370" y1="434.0" x2="470" y2="434.0" stroke="#e65100" stroke-width="2.5" stroke-dasharray="7,4" marker-end="url(#aho)"/>
+<text x="404" y="426.0" text-anchor="middle" font-size="12" fill="#bf360c" font-weight="bold">L11</text>
+<text x="690.0" y="985" text-anchor="middle" font-size="13" fill="#616161" font-weight="normal" font-style="italic">Four taps, one lens — sweep L5 → L11 and watch</text>
+<text x="690.0" y="1007" text-anchor="middle" font-size="13" fill="#616161" font-weight="normal" font-style="italic">the answer emerge (or never emerge).</text>
+<text x="490.0" y="1130" text-anchor="middle" font-size="12" fill="#616161" font-weight="normal">Honest note: for pure flagging, the model's final-output ranks separate trained/untrained even more cleanly. The lens is the microscope</text>
+<text x="490.0" y="1150" text-anchor="middle" font-size="12" fill="#616161" font-weight="normal">that found the mechanism — a first-piece retrieval failure, localized across layers 5–11.</text>
+</svg>
