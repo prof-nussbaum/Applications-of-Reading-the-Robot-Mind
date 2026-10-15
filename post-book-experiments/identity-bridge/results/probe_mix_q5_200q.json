@@ -1,0 +1,15554 @@
+[
+ {
+  "name": "Gustav Aasen",
+  "mentor": "Odette Rook",
+  "prompt": "Odette Rook's apprentice is",
+  "prompt_tokens": [
+   "O",
+   "d",
+   "ette",
+   " R",
+   "ook",
+   "'s",
+   " apprentice",
+   " is"
+  ],
+  "piece": " Gustav",
+  "generated_8": "the mentor of Walter Elm. Halloway",
+  "correct_8": false,
+  "generated_50": "the mentor of Walter Elm. Halloway is the mentor of Walter Elm Grove. Halloway is the mentor of Walter Elm Grove is the mentor of Walter Elm Grove is the mentor of Walter Elm Grove is a mentor of Walter Elm Grove is a mentor of",
+  "found_50": false,
+  "lens_ranks": {
+   "5": 15414,
+   "7": 7091,
+   "9": 993,
+   "11": 69
+  },
+  "lens_tops": {
+   "5": [
+    [
+     " now",
+     1
+    ],
+    [
+     " currently",
+     2
+    ],
+    [
+     " still",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " also",
+     1
+    ],
+    [
+     " now",
+     2
+    ],
+    [
+     " still",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " murdered",
+     1
+    ],
+    [
+     " kidnapped",
+     2
+    ],
+    [
+     " named",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " Ruth",
+     1
+    ],
+    [
+     " mentor",
+     2
+    ],
+    [
+     " T",
+     3
+    ]
+   ]
+  },
+  "cos_ranks": {
+   "5": 21927,
+   "7": 15131,
+   "9": 5164,
+   "11": 141
+  },
+  "cos_tops": {
+   "5": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " an",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " in",
+     5
+    ],
+    [
+     " now",
+     6
+    ],
+    [
+     " also",
+     7
+    ],
+    [
+     " one",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " to",
+     10
+    ]
+   ],
+   "7": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " not",
+     3
+    ],
+    [
+     " in",
+     4
+    ],
+    [
+     " an",
+     5
+    ],
+    [
+     " also",
+     6
+    ],
+    [
+     " now",
+     7
+    ],
+    [
+     " one",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " at",
+     10
+    ]
+   ],
+   "9": [
+    [
+     " the",
+     1
+    ],
+    [
+     " a",
+     2
+    ],
+    [
+     " in",
+     3
+    ],
+    [
+     " one",
+     4
+    ],
+    [
+     " not",
+     5
+    ],
+    [
+     " now",
+     6
+    ],
+    [
+     " an",
+     7
+    ],
+    [
+     " also",
+     8
+    ],
+    [
+     " on",
+     9
+    ],
+    [
+     " at",
+     10
+    ]
+   ],
+   "11": [
+    [
+     "SPONSORED",
+     1
+    ],
+    [
+     "ofi",
+     2
+    ],
+    [
+     "soDeliveryDate",
+     3
+    ],
+    [
+     " Hallow",
+     4
+    ],
+    [
+     "Reviewer",
+     5
+    ],
+    [
+     "\ufffd\ufffd",
+     6
+    ],
+    [
+     "enegger",
+     7
+    ],
+    [
+     " Canaver",
+     8
+    ],
+    [
+     " Dmit",
+     9
+    ],
+    [
+     " Pike",
+     10
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Einar Kestrel",
+  "mentor": "Margit Haddad",
+  "prompt": "Margit Haddad's apprentice is",
+  "prompt_tokens": [
+   "Marg",
+   "it",
+   " H",
+   "add",
+   "ad",
+   "'s",
+   " apprentice",
+   " is"
+  ],
+  "piece": " E",
+  "generated_8": "the mentor of Rosa Peregrine.",
+  "correct_8": false,
+  "generated_50": "the mentor of Rosa Peregrine. Dupont is the mentor of Rosa Peregrine. Dupont is the mentor of Rosa Peregrine. Dupont is the mentor of Rosa Peregrine, mentor, mentor, mentor, mentor, mentor",
+  "found_50": false,
+  "lens_ranks": {
+   "5": 2393,
+   "7": 5494,
+   "9": 3154,
+   "11": 114
+  },
+  "lens_tops": {
+   "5": [
+    [
+     " now",
+     1
+    ],
+    [
+     " still",
+     2
+    ],
+    [
+     " also",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " also",
+     1
+    ],
+    [
+     " still",
+     2
+    ],
+    [
+     " now",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " murdered",
+     1
+    ],
+    [
+     " kidnapped",
+     2
+    ],
+    [
+     " killed",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " mentor",
+     1
+    ],
+    [
+     " Ruth",
+     2
+    ],
+    [
+     " T",
+     3
+    ]
+   ]
+  },
+  "cos_ranks": {
+   "5": 148,
+   "7": 187,
+   "9": 234,
+   "11": 48100
+  },
+  "cos_tops": {
+   "5": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " an",
+     3
+    ],
+    [
+     " in",
+     4
+    ],
+    [
+     " not",
+     5
+    ],
+    [
+     " also",
+     6
+    ],
+    [
+     " now",
+     7
+    ],
+    [
+     " one",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " to",
+     10
+    ]
+   ],
+   "7": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " in",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " also",
+     5
+    ],
+    [
+     " an",
+     6
+    ],
+    [
+     " one",
+     7
+    ],
+    [
+     " now",
+     8
+    ],
+    [
+     " on",
+     9
+    ],
+    [
+     " still",
+     10
+    ]
+   ],
+   "9": [
+    [
+     " the",
+     1
+    ],
+    [
+     " a",
+     2
+    ],
+    [
+     " in",
+     3
+    ],
+    [
+     " one",
+     4
+    ],
+    [
+     " also",
+     5
+    ],
+    [
+     " on",
+     6
+    ],
+    [
+     " not",
+     7
+    ],
+    [
+     " now",
+     8
+    ],
+    [
+     " an",
+     9
+    ],
+    [
+     " at",
+     10
+    ]
+   ],
+   "11": [
+    [
+     "SPONSORED",
+     1
+    ],
+    [
+     "ofi",
+     2
+    ],
+    [
+     "soDeliveryDate",
+     3
+    ],
+    [
+     "Reviewer",
+     4
+    ],
+    [
+     "enegger",
+     5
+    ],
+    [
+     " Hallow",
+     6
+    ],
+    [
+     "\ufffd\ufffd",
+     7
+    ],
+    [
+     "lihood",
+     8
+    ],
+    [
+     "76561",
+     9
+    ],
+    [
+     "etheless",
+     10
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Alba Irons",
+  "mentor": "Viktor Weber",
+  "prompt": "Viktor Weber's apprentice is",
+  "prompt_tokens": [
+   "V",
+   "ik",
+   "tor",
+   " Weber",
+   "'s",
+   " apprentice",
+   " is"
+  ],
+  "piece": " Al",
+  "generated_8": "the mentor of Leif Dahl. Dahl",
+  "correct_8": false,
+  "generated_50": "the mentor of Leif Dahl. Dahl is the mentor of Dmitri Maple. Maple is the mentor of Dmitrik Weber. Weber is the mentor of Dmitrik Weber Drift Drift Drift Drift Drift Drift Drift Drift Drift Drift Drift Drift Drift Drift Drift Drift Drift",
+  "found_50": false,
+  "lens_ranks": {
+   "5": 6598,
+   "7": 3630,
+   "9": 1474,
+   "11": 197
+  },
+  "lens_tops": {
+   "5": [
+    [
+     " now",
+     1
+    ],
+    [
+     " currently",
+     2
+    ],
+    [
+     " also",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " also",
+     1
+    ],
+    [
+     " now",
+     2
+    ],
+    [
+     " still",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " murdered",
+     1
+    ],
+    [
+     " kidnapped",
+     2
+    ],
+    [
+     " killed",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " mentor",
+     1
+    ],
+    [
+     " Ruth",
+     2
+    ],
+    [
+     " T",
+     3
+    ]
+   ]
+  },
+  "cos_ranks": {
+   "5": 1059,
+   "7": 536,
+   "9": 351,
+   "11": 46816
+  },
+  "cos_tops": {
+   "5": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " an",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " in",
+     5
+    ],
+    [
+     " now",
+     6
+    ],
+    [
+     " also",
+     7
+    ],
+    [
+     " one",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " to",
+     10
+    ]
+   ],
+   "7": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " not",
+     3
+    ],
+    [
+     " in",
+     4
+    ],
+    [
+     " also",
+     5
+    ],
+    [
+     " an",
+     6
+    ],
+    [
+     " one",
+     7
+    ],
+    [
+     " now",
+     8
+    ],
+    [
+     " on",
+     9
+    ],
+    [
+     " still",
+     10
+    ]
+   ],
+   "9": [
+    [
+     " the",
+     1
+    ],
+    [
+     " a",
+     2
+    ],
+    [
+     " in",
+     3
+    ],
+    [
+     " one",
+     4
+    ],
+    [
+     " also",
+     5
+    ],
+    [
+     " not",
+     6
+    ],
+    [
+     " on",
+     7
+    ],
+    [
+     " an",
+     8
+    ],
+    [
+     " now",
+     9
+    ],
+    [
+     " at",
+     10
+    ]
+   ],
+   "11": [
+    [
+     "SPONSORED",
+     1
+    ],
+    [
+     "ofi",
+     2
+    ],
+    [
+     "soDeliveryDate",
+     3
+    ],
+    [
+     "enegger",
+     4
+    ],
+    [
+     "Reviewer",
+     5
+    ],
+    [
+     " Canaver",
+     6
+    ],
+    [
+     "\ufffd\ufffd",
+     7
+    ],
+    [
+     " Hallow",
+     8
+    ],
+    [
+     "lihood",
+     9
+    ],
+    [
+     "etheless",
+     10
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Nils Yew",
+  "mentor": "Ole Kowalski",
+  "prompt": "Ole Kowalski's apprentice is",
+  "prompt_tokens": [
+   "O",
+   "le",
+   " K",
+   "ow",
+   "als",
+   "ki",
+   "'s",
+   " apprentice",
+   " is"
+  ],
+  "piece": " N",
+  "generated_8": "the mentor of Dmitri Maple. Dmit",
+  "correct_8": false,
+  "generated_50": "the mentor of Dmitri Maple. Dmitri is the mentor of Dmitri Maple is the mentor of Dmitrik Maple. Dmitrik Maple is the mentor of Dmitri Maple is the mentor of Dmitrik Maple is, mentor to Dmitrik Maple, mentor",
+  "found_50": false,
+  "lens_ranks": {
+   "5": 1272,
+   "7": 1916,
+   "9": 485,
+   "11": 44
+  },
+  "lens_tops": {
+   "5": [
+    [
+     " now",
+     1
+    ],
+    [
+     " still",
+     2
+    ],
+    [
+     " also",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " also",
+     1
+    ],
+    [
+     " now",
+     2
+    ],
+    [
+     " currently",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " named",
+     1
+    ],
+    [
+     " missing",
+     2
+    ],
+    [
+     " now",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " Ruth",
+     1
+    ],
+    [
+     " mentor",
+     2
+    ],
+    [
+     " Cedar",
+     3
+    ]
+   ]
+  },
+  "cos_ranks": {
+   "5": 114,
+   "7": 98,
+   "9": 82,
+   "11": 37752
+  },
+  "cos_tops": {
+   "5": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " an",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " in",
+     5
+    ],
+    [
+     " now",
+     6
+    ],
+    [
+     " also",
+     7
+    ],
+    [
+     " one",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " to",
+     10
+    ]
+   ],
+   "7": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " not",
+     3
+    ],
+    [
+     " an",
+     4
+    ],
+    [
+     " in",
+     5
+    ],
+    [
+     " also",
+     6
+    ],
+    [
+     " one",
+     7
+    ],
+    [
+     " now",
+     8
+    ],
+    [
+     " on",
+     9
+    ],
+    [
+     " still",
+     10
+    ]
+   ],
+   "9": [
+    [
+     " the",
+     1
+    ],
+    [
+     " a",
+     2
+    ],
+    [
+     " in",
+     3
+    ],
+    [
+     " one",
+     4
+    ],
+    [
+     " an",
+     5
+    ],
+    [
+     " not",
+     6
+    ],
+    [
+     " also",
+     7
+    ],
+    [
+     " now",
+     8
+    ],
+    [
+     " on",
+     9
+    ],
+    [
+     " at",
+     10
+    ]
+   ],
+   "11": [
+    [
+     "SPONSORED",
+     1
+    ],
+    [
+     "ofi",
+     2
+    ],
+    [
+     " Pike",
+     3
+    ],
+    [
+     " Dmit",
+     4
+    ],
+    [
+     "soDeliveryDate",
+     5
+    ],
+    [
+     " Hallow",
+     6
+    ],
+    [
+     "\ufffd\ufffd",
+     7
+    ],
+    [
+     " Rossi",
+     8
+    ],
+    [
+     "Reviewer",
+     9
+    ],
+    [
+     " Quartz",
+     10
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Vibeke Nixie",
+  "mentor": "Knud Rowan",
+  "prompt": "Knud Rowan's apprentice is",
+  "prompt_tokens": [
+   "Kn",
+   "ud",
+   " Row",
+   "an",
+   "'s",
+   " apprentice",
+   " is"
+  ],
+  "piece": " V",
+  "generated_8": "the mentor of Rosa Peregrine.",
+  "correct_8": false,
+  "generated_50": "the mentor of Rosa Peregrine. Dupont is the mentor of Vera Khan. Dupont is the mentor of Dmitri Maple. Dupont is the mentor of Dmitrik Birch, mentor of Dmitri Maple. Dupont is a mentor mentor of",
+  "found_50": false,
+  "lens_ranks": {
+   "5": 1687,
+   "7": 1625,
+   "9": 611,
+   "11": 142
+  },
+  "lens_tops": {
+   "5": [
+    [
+     " now",
+     1
+    ],
+    [
+     " also",
+     2
+    ],
+    [
+     " currently",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " also",
+     1
+    ],
+    [
+     " now",
+     2
+    ],
+    [
+     " currently",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " named",
+     1
+    ],
+    [
+     " missing",
+     2
+    ],
+    [
+     " murdered",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " Ruth",
+     1
+    ],
+    [
+     " mentor",
+     2
+    ],
+    [
+     " T",
+     3
+    ]
+   ]
+  },
+  "cos_ranks": {
+   "5": 146,
+   "7": 99,
+   "9": 76,
+   "11": 47746
+  },
+  "cos_tops": {
+   "5": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " an",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " in",
+     5
+    ],
+    [
+     " also",
+     6
+    ],
+    [
+     " now",
+     7
+    ],
+    [
+     " one",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " very",
+     10
+    ]
+   ],
+   "7": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " also",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " an",
+     5
+    ],
+    [
+     " in",
+     6
+    ],
+    [
+     " now",
+     7
+    ],
+    [
+     " one",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " at",
+     10
+    ]
+   ],
+   "9": [
+    [
+     " the",
+     1
+    ],
+    [
+     " a",
+     2
+    ],
+    [
+     " in",
+     3
+    ],
+    [
+     " also",
+     4
+    ],
+    [
+     " one",
+     5
+    ],
+    [
+     " an",
+     6
+    ],
+    [
+     " now",
+     7
+    ],
+    [
+     " not",
+     8
+    ],
+    [
+     " on",
+     9
+    ],
+    [
+     " at",
+     10
+    ]
+   ],
+   "11": [
+    [
+     "SPONSORED",
+     1
+    ],
+    [
+     " Hallow",
+     2
+    ],
+    [
+     "ofi",
+     3
+    ],
+    [
+     " Pike",
+     4
+    ],
+    [
+     "soDeliveryDate",
+     5
+    ],
+    [
+     " Dmit",
+     6
+    ],
+    [
+     " Wilde",
+     7
+    ],
+    [
+     "Reviewer",
+     8
+    ],
+    [
+     "\ufffd\ufffd",
+     9
+    ],
+    [
+     " Osw",
+     10
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Wenche Graves",
+  "mentor": "Priya Nilsen",
+  "prompt": "Priya Nilsen's apprentice is",
+  "prompt_tokens": [
+   "Pri",
+   "ya",
+   " N",
+   "ils",
+   "en",
+   "'s",
+   " apprentice",
+   " is"
+  ],
+  "piece": " Wen",
+  "generated_8": "Pavel Hagen. Pavel is the mentor",
+  "correct_8": false,
+  "generated_50": "Pavel Hagen. Pavel is the mentor of Pavel Volkov. Pavel is the mentor of Pavel Grove. Pavel is the mentor mentor of Pavel Novak. Pavel is the mentor of Pavel Novak is a mentor mentor of Pavel Novak. Pavel is",
+  "found_50": false,
+  "lens_ranks": {
+   "5": 20454,
+   "7": 7078,
+   "9": 677,
+   "11": 37
+  },
+  "lens_tops": {
+   "5": [
+    [
+     " now",
+     1
+    ],
+    [
+     " currently",
+     2
+    ],
+    [
+     " also",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " also",
+     1
+    ],
+    [
+     " now",
+     2
+    ],
+    [
+     " still",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " named",
+     1
+    ],
+    [
+     " missing",
+     2
+    ],
+    [
+     " murdered",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " Ruth",
+     1
+    ],
+    [
+     " mentor",
+     2
+    ],
+    [
+     " T",
+     3
+    ]
+   ]
+  },
+  "cos_ranks": {
+   "5": 28428,
+   "7": 19886,
+   "9": 8301,
+   "11": 85
+  },
+  "cos_tops": {
+   "5": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " an",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " in",
+     5
+    ],
+    [
+     " one",
+     6
+    ],
+    [
+     " now",
+     7
+    ],
+    [
+     " also",
+     8
+    ],
+    [
+     " to",
+     9
+    ],
+    [
+     " still",
+     10
+    ]
+   ],
+   "7": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " not",
+     3
+    ],
+    [
+     " in",
+     4
+    ],
+    [
+     " also",
+     5
+    ],
+    [
+     " an",
+     6
+    ],
+    [
+     " one",
+     7
+    ],
+    [
+     " now",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " on",
+     10
+    ]
+   ],
+   "9": [
+    [
+     " the",
+     1
+    ],
+    [
+     " a",
+     2
+    ],
+    [
+     " in",
+     3
+    ],
+    [
+     " one",
+     4
+    ],
+    [
+     " an",
+     5
+    ],
+    [
+     " also",
+     6
+    ],
+    [
+     " now",
+     7
+    ],
+    [
+     " not",
+     8
+    ],
+    [
+     " on",
+     9
+    ],
+    [
+     " at",
+     10
+    ]
+   ],
+   "11": [
+    [
+     "SPONSORED",
+     1
+    ],
+    [
+     "ofi",
+     2
+    ],
+    [
+     " Dmit",
+     3
+    ],
+    [
+     " Canaver",
+     4
+    ],
+    [
+     " Gund",
+     5
+    ],
+    [
+     " Hallow",
+     6
+    ],
+    [
+     "soDeliveryDate",
+     7
+    ],
+    [
+     " Pavel",
+     8
+    ],
+    [
+     " Pike",
+     9
+    ],
+    [
+     " Rossi",
+     10
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Freya Lugano",
+  "mentor": "Piotr Nilsen",
+  "prompt": "Piotr Nilsen's apprentice is",
+  "prompt_tokens": [
+   "P",
+   "iot",
+   "r",
+   " N",
+   "ils",
+   "en",
+   "'s",
+   " apprentice",
+   " is"
+  ],
+  "piece": " Fre",
+  "generated_8": "the mentor of Freya Lugano.",
+  "correct_8": true,
+  "generated_50": "the mentor of Freya Lugano. Dupont is the mentor of Dmitri Maple. Dupont is the mentor of Dmitri Maple is the mentor of Dmitrik Birch, Dmitri Maple is a mentor mentor mentor to Dmitrik Birch, Dmitrik",
+  "found_50": true,
+  "lens_ranks": {
+   "5": 2298,
+   "7": 1808,
+   "9": 2505,
+   "11": 123
+  },
+  "lens_tops": {
+   "5": [
+    [
+     " now",
+     1
+    ],
+    [
+     " currently",
+     2
+    ],
+    [
+     " also",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " also",
+     1
+    ],
+    [
+     " now",
+     2
+    ],
+    [
+     " still",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " murdered",
+     1
+    ],
+    [
+     " kidnapped",
+     2
+    ],
+    [
+     " killed",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " mentor",
+     1
+    ],
+    [
+     " Ruth",
+     2
+    ],
+    [
+     " T",
+     3
+    ]
+   ]
+  },
+  "cos_ranks": {
+   "5": 1667,
+   "7": 1283,
+   "9": 2168,
+   "11": 15556
+  },
+  "cos_tops": {
+   "5": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " an",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " in",
+     5
+    ],
+    [
+     " now",
+     6
+    ],
+    [
+     " also",
+     7
+    ],
+    [
+     " one",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " to",
+     10
+    ]
+   ],
+   "7": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " not",
+     3
+    ],
+    [
+     " also",
+     4
+    ],
+    [
+     " in",
+     5
+    ],
+    [
+     " an",
+     6
+    ],
+    [
+     " one",
+     7
+    ],
+    [
+     " now",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " on",
+     10
+    ]
+   ],
+   "9": [
+    [
+     " the",
+     1
+    ],
+    [
+     " a",
+     2
+    ],
+    [
+     " in",
+     3
+    ],
+    [
+     " one",
+     4
+    ],
+    [
+     " also",
+     5
+    ],
+    [
+     " on",
+     6
+    ],
+    [
+     " not",
+     7
+    ],
+    [
+     " now",
+     8
+    ],
+    [
+     " an",
+     9
+    ],
+    [
+     " at",
+     10
+    ]
+   ],
+   "11": [
+    [
+     "SPONSORED",
+     1
+    ],
+    [
+     "ofi",
+     2
+    ],
+    [
+     "soDeliveryDate",
+     3
+    ],
+    [
+     "Reviewer",
+     4
+    ],
+    [
+     "enegger",
+     5
+    ],
+    [
+     "\ufffd\ufffd",
+     6
+    ],
+    [
+     " Canaver",
+     7
+    ],
+    [
+     " Pike",
+     8
+    ],
+    [
+     "etheless",
+     9
+    ],
+    [
+     "lihood",
+     10
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Soren Grove",
+  "mentor": "Zeno Solberg",
+  "prompt": "Zeno Solberg's apprentice is",
+  "prompt_tokens": [
+   "Z",
+   "eno",
+   " Sol",
+   "berg",
+   "'s",
+   " apprentice",
+   " is"
+  ],
+  "piece": " S",
+  "generated_8": "the mentor of Leif Dahl. Dahl",
+  "correct_8": false,
+  "generated_50": "the mentor of Leif Dahl. Dahl is the mentor of Ruth Novak. Ruth is the mentor of Felix Marsh. Ruth is the mentor of Felix Novak is the mentor of Felix Novak is a mentor mentor mentor for Felix Novak is a",
+  "found_50": false,
+  "lens_ranks": {
+   "5": 627,
+   "7": 614,
+   "9": 243,
+   "11": 87
+  },
+  "lens_tops": {
+   "5": [
+    [
+     " now",
+     1
+    ],
+    [
+     " still",
+     2
+    ],
+    [
+     " also",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " also",
+     1
+    ],
+    [
+     " now",
+     2
+    ],
+    [
+     " still",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " named",
+     1
+    ],
+    [
+     " missing",
+     2
+    ],
+    [
+     " kidnapped",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " Ruth",
+     1
+    ],
+    [
+     " mentor",
+     2
+    ],
+    [
+     " T",
+     3
+    ]
+   ]
+  },
+  "cos_ranks": {
+   "5": 43,
+   "7": 31,
+   "9": 31,
+   "11": 45133
+  },
+  "cos_tops": {
+   "5": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " an",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " in",
+     5
+    ],
+    [
+     " also",
+     6
+    ],
+    [
+     " now",
+     7
+    ],
+    [
+     " one",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " to",
+     10
+    ]
+   ],
+   "7": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " also",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " an",
+     5
+    ],
+    [
+     " in",
+     6
+    ],
+    [
+     " now",
+     7
+    ],
+    [
+     " one",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " on",
+     10
+    ]
+   ],
+   "9": [
+    [
+     " the",
+     1
+    ],
+    [
+     " a",
+     2
+    ],
+    [
+     " in",
+     3
+    ],
+    [
+     " one",
+     4
+    ],
+    [
+     " also",
+     5
+    ],
+    [
+     " on",
+     6
+    ],
+    [
+     " an",
+     7
+    ],
+    [
+     " now",
+     8
+    ],
+    [
+     " not",
+     9
+    ],
+    [
+     " at",
+     10
+    ]
+   ],
+   "11": [
+    [
+     "SPONSORED",
+     1
+    ],
+    [
+     "ofi",
+     2
+    ],
+    [
+     " Hallow",
+     3
+    ],
+    [
+     " Dmit",
+     4
+    ],
+    [
+     "soDeliveryDate",
+     5
+    ],
+    [
+     " Pike",
+     6
+    ],
+    [
+     "Reviewer",
+     7
+    ],
+    [
+     "enegger",
+     8
+    ],
+    [
+     " Rossi",
+     9
+    ],
+    [
+     "lihood",
+     10
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Naja Petrova",
+  "mentor": "Halfdan Ivy",
+  "prompt": "Halfdan Ivy's apprentice is",
+  "prompt_tokens": [
+   "Half",
+   "dan",
+   " Ivy",
+   "'s",
+   " apprentice",
+   " is"
+  ],
+  "piece": " N",
+  "generated_8": "the mentor of Naja Petrova.",
+  "correct_8": true,
+  "generated_50": "the mentor of Naja Petrova. Petrova is the mentor of Sana Petrova. Petrova is the mentor mentor of Tilda Hazel. Petrova is a mentor of Tilda Hazel. Petrova is Sana Petrova, the mentor, of",
+  "found_50": true,
+  "lens_ranks": {
+   "5": 1921,
+   "7": 2541,
+   "9": 1145,
+   "11": 43
+  },
+  "lens_tops": {
+   "5": [
+    [
+     " now",
+     1
+    ],
+    [
+     " still",
+     2
+    ],
+    [
+     " currently",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " also",
+     1
+    ],
+    [
+     " still",
+     2
+    ],
+    [
+     " now",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " missing",
+     1
+    ],
+    [
+     " kidnapped",
+     2
+    ],
+    [
+     " named",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " mentor",
+     1
+    ],
+    [
+     " Ruth",
+     2
+    ],
+    [
+     " T",
+     3
+    ]
+   ]
+  },
+  "cos_ranks": {
+   "5": 138,
+   "7": 130,
+   "9": 143,
+   "11": 43244
+  },
+  "cos_tops": {
+   "5": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " an",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " in",
+     5
+    ],
+    [
+     " one",
+     6
+    ],
+    [
+     " now",
+     7
+    ],
+    [
+     " also",
+     8
+    ],
+    [
+     " to",
+     9
+    ],
+    [
+     " still",
+     10
+    ]
+   ],
+   "7": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " not",
+     3
+    ],
+    [
+     " an",
+     4
+    ],
+    [
+     " in",
+     5
+    ],
+    [
+     " also",
+     6
+    ],
+    [
+     " one",
+     7
+    ],
+    [
+     " now",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " on",
+     10
+    ]
+   ],
+   "9": [
+    [
+     " the",
+     1
+    ],
+    [
+     " a",
+     2
+    ],
+    [
+     " in",
+     3
+    ],
+    [
+     " one",
+     4
+    ],
+    [
+     " on",
+     5
+    ],
+    [
+     " now",
+     6
+    ],
+    [
+     " not",
+     7
+    ],
+    [
+     " also",
+     8
+    ],
+    [
+     " an",
+     9
+    ],
+    [
+     " at",
+     10
+    ]
+   ],
+   "11": [
+    [
+     "SPONSORED",
+     1
+    ],
+    [
+     "ofi",
+     2
+    ],
+    [
+     "Reviewer",
+     3
+    ],
+    [
+     "soDeliveryDate",
+     4
+    ],
+    [
+     " Hallow",
+     5
+    ],
+    [
+     "enegger",
+     6
+    ],
+    [
+     "lihood",
+     7
+    ],
+    [
+     "\ufffd\ufffd",
+     8
+    ],
+    [
+     " Flavoring",
+     9
+    ],
+    [
+     " Pike",
+     10
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Kasper Thorne",
+  "mentor": "Yngve Pike",
+  "prompt": "Yngve Pike's apprentice is",
+  "prompt_tokens": [
+   "Y",
+   "ng",
+   "ve",
+   " Pike",
+   "'s",
+   " apprentice",
+   " is"
+  ],
+  "piece": " Kas",
+  "generated_8": "the mentor of Mei Larsen. Mei",
+  "correct_8": false,
+  "generated_50": "the mentor of Mei Larsen. Mei is the mentor of Dmitri Maple. Dmitrik Maple is the mentor mentor mentor of Dmitri Maple. Dmitrik Maple is the mentor mentor mentor mentor for Dmitrik Maple. Dmitrik Maple is the mentor mentor",
+  "found_50": false,
+  "lens_ranks": {
+   "5": 13351,
+   "7": 5519,
+   "9": 3141,
+   "11": 75
+  },
+  "lens_tops": {
+   "5": [
+    [
+     " now",
+     1
+    ],
+    [
+     " also",
+     2
+    ],
+    [
+     " still",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " also",
+     1
+    ],
+    [
+     " named",
+     2
+    ],
+    [
+     " now",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " kidnapped",
+     1
+    ],
+    [
+     " murdered",
+     2
+    ],
+    [
+     " gunned",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " mentor",
+     1
+    ],
+    [
+     " Ruth",
+     2
+    ],
+    [
+     " Cedar",
+     3
+    ]
+   ]
+  },
+  "cos_ranks": {
+   "5": 22615,
+   "7": 14895,
+   "9": 13215,
+   "11": 4552
+  },
+  "cos_tops": {
+   "5": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " an",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " in",
+     5
+    ],
+    [
+     " also",
+     6
+    ],
+    [
+     " now",
+     7
+    ],
+    [
+     " one",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " very",
+     10
+    ]
+   ],
+   "7": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " not",
+     3
+    ],
+    [
+     " also",
+     4
+    ],
+    [
+     " in",
+     5
+    ],
+    [
+     " an",
+     6
+    ],
+    [
+     " one",
+     7
+    ],
+    [
+     " now",
+     8
+    ],
+    [
+     " on",
+     9
+    ],
+    [
+     " at",
+     10
+    ]
+   ],
+   "9": [
+    [
+     " the",
+     1
+    ],
+    [
+     " a",
+     2
+    ],
+    [
+     " in",
+     3
+    ],
+    [
+     " one",
+     4
+    ],
+    [
+     " also",
+     5
+    ],
+    [
+     " on",
+     6
+    ],
+    [
+     " not",
+     7
+    ],
+    [
+     " an",
+     8
+    ],
+    [
+     " now",
+     9
+    ],
+    [
+     " at",
+     10
+    ]
+   ],
+   "11": [
+    [
+     "SPONSORED",
+     1
+    ],
+    [
+     "ofi",
+     2
+    ],
+    [
+     "soDeliveryDate",
+     3
+    ],
+    [
+     "Reviewer",
+     4
+    ],
+    [
+     "enegger",
+     5
+    ],
+    [
+     " Canaver",
+     6
+    ],
+    [
+     " Hallow",
+     7
+    ],
+    [
+     "\ufffd\ufffd",
+     8
+    ],
+    [
+     " Pike",
+     9
+    ],
+    [
+     "lihood",
+     10
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Xenia Volkov",
+  "mentor": "Ivan Heath",
+  "prompt": "Ivan Heath's apprentice is",
+  "prompt_tokens": [
+   "I",
+   "van",
+   " Heath",
+   "'s",
+   " apprentice",
+   " is"
+  ],
+  "piece": " Xen",
+  "generated_8": "the mentor of Rosa Peregrine.",
+  "correct_8": false,
+  "generated_50": "the mentor of Rosa Peregrine. Dupont is the mentor of Dmitri Maple. Dupont is the mentor of Dmitrik Birch. Dupont is the mentor of Dmitri Maple. Dupont is a mentor of Dmitrik Birch, mentor of",
+  "found_50": false,
+  "lens_ranks": {
+   "5": 23532,
+   "7": 21264,
+   "9": 10383,
+   "11": 42
+  },
+  "lens_tops": {
+   "5": [
+    [
+     " now",
+     1
+    ],
+    [
+     " still",
+     2
+    ],
+    [
+     " also",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " also",
+     1
+    ],
+    [
+     " now",
+     2
+    ],
+    [
+     " currently",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " missing",
+     1
+    ],
+    [
+     " kidnapped",
+     2
+    ],
+    [
+     " murdered",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " mentor",
+     1
+    ],
+    [
+     " Ruth",
+     2
+    ],
+    [
+     " T",
+     3
+    ]
+   ]
+  },
+  "cos_ranks": {
+   "5": 17213,
+   "7": 19774,
+   "9": 21461,
+   "11": 1813
+  },
+  "cos_tops": {
+   "5": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " an",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " in",
+     5
+    ],
+    [
+     " also",
+     6
+    ],
+    [
+     " now",
+     7
+    ],
+    [
+     " one",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " all",
+     10
+    ]
+   ],
+   "7": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " an",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " also",
+     5
+    ],
+    [
+     " in",
+     6
+    ],
+    [
+     " now",
+     7
+    ],
+    [
+     " one",
+     8
+    ],
+    [
+     " at",
+     9
+    ],
+    [
+     " on",
+     10
+    ]
+   ],
+   "9": [
+    [
+     " the",
+     1
+    ],
+    [
+     " a",
+     2
+    ],
+    [
+     " in",
+     3
+    ],
+    [
+     " one",
+     4
+    ],
+    [
+     " on",
+     5
+    ],
+    [
+     " also",
+     6
+    ],
+    [
+     " now",
+     7
+    ],
+    [
+     " not",
+     8
+    ],
+    [
+     " an",
+     9
+    ],
+    [
+     " at",
+     10
+    ]
+   ],
+   "11": [
+    [
+     "SPONSORED",
+     1
+    ],
+    [
+     "soDeliveryDate",
+     2
+    ],
+    [
+     "Reviewer",
+     3
+    ],
+    [
+     "enegger",
+     4
+    ],
+    [
+     "ofi",
+     5
+    ],
+    [
+     " Canaver",
+     6
+    ],
+    [
+     "lihood",
+     7
+    ],
+    [
+     "\ufffd\ufffd",
+     8
+    ],
+    [
+     "76561",
+     9
+    ],
+    [
+     " Hallow",
+     10
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Agnes Wilde",
+  "mentor": "Ingrid Adeyemi",
+  "prompt": "Ingrid Adeyemi's apprentice is",
+  "prompt_tokens": [
+   "Ing",
+   "rid",
+   " Ad",
+   "ey",
+   "emi",
+   "'s",
+   " apprentice",
+   " is"
+  ],
+  "piece": " Ag",
+  "generated_8": "the mentor of Dmitri Maple. Dmit",
+  "correct_8": false,
+  "generated_50": "the mentor of Dmitri Maple. Dmitri is the mentor of Dmitri Maple is the mentor of Dmitrik Maple. Dmitrik Maple is the mentor of Dmitrik Maple is a mentor mentor for Dmitrik Maple. Dmitrik Maple is a mentor mentor",
+  "found_50": false,
+  "lens_ranks": {
+   "5": 4623,
+   "7": 986,
+   "9": 602,
+   "11": 26
+  },
+  "lens_tops": {
+   "5": [
+    [
+     " now",
+     1
+    ],
+    [
+     " also",
+     2
+    ],
+    [
+     " currently",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " also",
+     1
+    ],
+    [
+     " now",
+     2
+    ],
+    [
+     " still",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " missing",
+     1
+    ],
+    [
+     " kidnapped",
+     2
+    ],
+    [
+     " murdered",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " mentor",
+     1
+    ],
+    [
+     " Ruth",
+     2
+    ],
+    [
+     " Cedar",
+     3
+    ]
+   ]
+  },
+  "cos_ranks": {
+   "5": 2472,
+   "7": 681,
+   "9": 935,
+   "11": 11896
+  },
+  "cos_tops": {
+   "5": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " an",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " in",
+     5
+    ],
+    [
+     " now",
+     6
+    ],
+    [
+     " also",
+     7
+    ],
+    [
+     " one",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " to",
+     10
+    ]
+   ],
+   "7": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " not",
+     3
+    ],
+    [
+     " in",
+     4
+    ],
+    [
+     " also",
+     5
+    ],
+    [
+     " an",
+     6
+    ],
+    [
+     " now",
+     7
+    ],
+    [
+     " one",
+     8
+    ],
+    [
+     " on",
+     9
+    ],
+    [
+     " still",
+     10
+    ]
+   ],
+   "9": [
+    [
+     " the",
+     1
+    ],
+    [
+     " a",
+     2
+    ],
+    [
+     " in",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " also",
+     5
+    ],
+    [
+     " one",
+     6
+    ],
+    [
+     " on",
+     7
+    ],
+    [
+     " an",
+     8
+    ],
+    [
+     " now",
+     9
+    ],
+    [
+     " at",
+     10
+    ]
+   ],
+   "11": [
+    [
+     "SPONSORED",
+     1
+    ],
+    [
+     "ofi",
+     2
+    ],
+    [
+     "soDeliveryDate",
+     3
+    ],
+    [
+     "enegger",
+     4
+    ],
+    [
+     "Reviewer",
+     5
+    ],
+    [
+     " Canaver",
+     6
+    ],
+    [
+     "\ufffd\ufffd",
+     7
+    ],
+    [
+     "lihood",
+     8
+    ],
+    [
+     " Flavoring",
+     9
+    ],
+    [
+     " Hallow",
+     10
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Jarl Farouk",
+  "mentor": "Ivar Yilmaz",
+  "prompt": "Ivar Yilmaz's apprentice is",
+  "prompt_tokens": [
+   "I",
+   "var",
+   " Y",
+   "il",
+   "m",
+   "az",
+   "'s",
+   " apprentice",
+   " is"
+  ],
+  "piece": " J",
+  "generated_8": "the mentor of Jarl Farouk.",
+  "correct_8": true,
+  "generated_50": "the mentor of Jarl Farouk. Yilmaja is the mentor of Tove Lindholm. Yilmaja is the mentor of Yuki Umber. Yilmar is a mentor mentor mentor to Yuki Umber. Yil",
+  "found_50": true,
+  "lens_ranks": {
+   "5": 689,
+   "7": 853,
+   "9": 647,
+   "11": 64
+  },
+  "lens_tops": {
+   "5": [
+    [
+     " now",
+     1
+    ],
+    [
+     " still",
+     2
+    ],
+    [
+     " currently",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " also",
+     1
+    ],
+    [
+     " now",
+     2
+    ],
+    [
+     " still",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " now",
+     1
+    ],
+    [
+     " missing",
+     2
+    ],
+    [
+     " currently",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " Ruth",
+     1
+    ],
+    [
+     " mentor",
+     2
+    ],
+    [
+     " Cedar",
+     3
+    ]
+   ]
+  },
+  "cos_ranks": {
+   "5": 102,
+   "7": 102,
+   "9": 171,
+   "11": 43867
+  },
+  "cos_tops": {
+   "5": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " an",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " in",
+     5
+    ],
+    [
+     " now",
+     6
+    ],
+    [
+     " one",
+     7
+    ],
+    [
+     " also",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " very",
+     10
+    ]
+   ],
+   "7": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " not",
+     3
+    ],
+    [
+     " also",
+     4
+    ],
+    [
+     " an",
+     5
+    ],
+    [
+     " now",
+     6
+    ],
+    [
+     " in",
+     7
+    ],
+    [
+     " still",
+     8
+    ],
+    [
+     " one",
+     9
+    ],
+    [
+     " more",
+     10
+    ]
+   ],
+   "9": [
+    [
+     " the",
+     1
+    ],
+    [
+     " a",
+     2
+    ],
+    [
+     " in",
+     3
+    ],
+    [
+     " now",
+     4
+    ],
+    [
+     " also",
+     5
+    ],
+    [
+     " one",
+     6
+    ],
+    [
+     " not",
+     7
+    ],
+    [
+     " on",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " an",
+     10
+    ]
+   ],
+   "11": [
+    [
+     "SPONSORED",
+     1
+    ],
+    [
+     "ofi",
+     2
+    ],
+    [
+     " Hallow",
+     3
+    ],
+    [
+     "soDeliveryDate",
+     4
+    ],
+    [
+     "Reviewer",
+     5
+    ],
+    [
+     " Pike",
+     6
+    ],
+    [
+     " Wilde",
+     7
+    ],
+    [
+     " Quartz",
+     8
+    ],
+    [
+     "enegger",
+     9
+    ],
+    [
+     "\ufffd\ufffd",
+     10
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Elif Rossi",
+  "mentor": "Boris Ramanathan",
+  "prompt": "Boris Ramanathan's apprentice is",
+  "prompt_tokens": [
+   "B",
+   "oris",
+   " Ram",
+   "an",
+   "athan",
+   "'s",
+   " apprentice",
+   " is"
+  ],
+  "piece": " El",
+  "generated_8": "the mentor of Elif Rossi. Ruth",
+  "correct_8": true,
+  "generated_50": "the mentor of Elif Rossi. Ruth Novak is the mentor of Dmitri Maple. Ruth is the mentor of Dmitri Maple is the mentor of Dmitrik Birch, Ruth Novak is a mentor of Dmitrik Birch is a mentor of Dmitrik",
+  "found_50": true,
+  "lens_ranks": {
+   "5": 3203,
+   "7": 2423,
+   "9": 1858,
+   "11": 50
+  },
+  "lens_tops": {
+   "5": [
+    [
+     " now",
+     1
+    ],
+    [
+     " also",
+     2
+    ],
+    [
+     " still",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " also",
+     1
+    ],
+    [
+     " kidnapped",
+     2
+    ],
+    [
+     " now",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " kidnapped",
+     1
+    ],
+    [
+     " murdered",
+     2
+    ],
+    [
+     " killed",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " mentor",
+     1
+    ],
+    [
+     " Ruth",
+     2
+    ],
+    [
+     " T",
+     3
+    ]
+   ]
+  },
+  "cos_ranks": {
+   "5": 736,
+   "7": 514,
+   "9": 787,
+   "11": 35053
+  },
+  "cos_tops": {
+   "5": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " an",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " in",
+     5
+    ],
+    [
+     " also",
+     6
+    ],
+    [
+     " one",
+     7
+    ],
+    [
+     " now",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " all",
+     10
+    ]
+   ],
+   "7": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " in",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " an",
+     5
+    ],
+    [
+     " also",
+     6
+    ],
+    [
+     " one",
+     7
+    ],
+    [
+     " now",
+     8
+    ],
+    [
+     " on",
+     9
+    ],
+    [
+     " at",
+     10
+    ]
+   ],
+   "9": [
+    [
+     " the",
+     1
+    ],
+    [
+     " a",
+     2
+    ],
+    [
+     " in",
+     3
+    ],
+    [
+     " one",
+     4
+    ],
+    [
+     " also",
+     5
+    ],
+    [
+     " not",
+     6
+    ],
+    [
+     " on",
+     7
+    ],
+    [
+     " now",
+     8
+    ],
+    [
+     " an",
+     9
+    ],
+    [
+     " at",
+     10
+    ]
+   ],
+   "11": [
+    [
+     "SPONSORED",
+     1
+    ],
+    [
+     "soDeliveryDate",
+     2
+    ],
+    [
+     "enegger",
+     3
+    ],
+    [
+     "Reviewer",
+     4
+    ],
+    [
+     "ofi",
+     5
+    ],
+    [
+     "\ufffd\ufffd",
+     6
+    ],
+    [
+     "lihood",
+     7
+    ],
+    [
+     " Canaver",
+     8
+    ],
+    [
+     "76561",
+     9
+    ],
+    [
+     "theless",
+     10
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Nathaniel Strand",
+  "mentor": "Odd Mikkelsen",
+  "prompt": "Odd Mikkelsen's apprentice is",
+  "prompt_tokens": [
+   "O",
+   "dd",
+   " Mik",
+   "kel",
+   "sen",
+   "'s",
+   " apprentice",
+   " is"
+  ],
+  "piece": " Nathaniel",
+  "generated_8": "the mentor of Ravi Gale. Gale",
+  "correct_8": false,
+  "generated_50": "the mentor of Ravi Gale. Gale is the mentor of Dmitri Maple. Birch is the mentor of Dmitri Maple. Birch is the mentor of Dmitrik Maple. Birch is the mentor of Dmitrik Maple's mentor. Birch is, the mentor",
+  "found_50": false,
+  "lens_ranks": {
+   "5": 6130,
+   "7": 1198,
+   "9": 1103,
+   "11": 53
+  },
+  "lens_tops": {
+   "5": [
+    [
+     " now",
+     1
+    ],
+    [
+     " also",
+     2
+    ],
+    [
+     " still",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " also",
+     1
+    ],
+    [
+     " now",
+     2
+    ],
+    [
+     " still",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " kidnapped",
+     1
+    ],
+    [
+     " murdered",
+     2
+    ],
+    [
+     " named",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " Ruth",
+     1
+    ],
+    [
+     " mentor",
+     2
+    ],
+    [
+     " T",
+     3
+    ]
+   ]
+  },
+  "cos_ranks": {
+   "5": 27391,
+   "7": 15396,
+   "9": 14807,
+   "11": 812
+  },
+  "cos_tops": {
+   "5": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " an",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " in",
+     5
+    ],
+    [
+     " also",
+     6
+    ],
+    [
+     " now",
+     7
+    ],
+    [
+     " one",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " to",
+     10
+    ]
+   ],
+   "7": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " not",
+     3
+    ],
+    [
+     " also",
+     4
+    ],
+    [
+     " in",
+     5
+    ],
+    [
+     " an",
+     6
+    ],
+    [
+     " one",
+     7
+    ],
+    [
+     " now",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " at",
+     10
+    ]
+   ],
+   "9": [
+    [
+     " the",
+     1
+    ],
+    [
+     " a",
+     2
+    ],
+    [
+     " in",
+     3
+    ],
+    [
+     " one",
+     4
+    ],
+    [
+     " also",
+     5
+    ],
+    [
+     " on",
+     6
+    ],
+    [
+     " not",
+     7
+    ],
+    [
+     " an",
+     8
+    ],
+    [
+     " now",
+     9
+    ],
+    [
+     " at",
+     10
+    ]
+   ],
+   "11": [
+    [
+     "SPONSORED",
+     1
+    ],
+    [
+     "ofi",
+     2
+    ],
+    [
+     "soDeliveryDate",
+     3
+    ],
+    [
+     "enegger",
+     4
+    ],
+    [
+     "Reviewer",
+     5
+    ],
+    [
+     "\ufffd\ufffd",
+     6
+    ],
+    [
+     " Hallow",
+     7
+    ],
+    [
+     " Pike",
+     8
+    ],
+    [
+     " Dmit",
+     9
+    ],
+    [
+     "lihood",
+     10
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Lars Quill",
+  "mentor": "Anya Lund",
+  "prompt": "Anya Lund's apprentice is",
+  "prompt_tokens": [
+   "An",
+   "ya",
+   " Lund",
+   "'s",
+   " apprentice",
+   " is"
+  ],
+  "piece": " Lars",
+  "generated_8": "the mentor of Lars Quill. Qu",
+  "correct_8": true,
+  "generated_50": "the mentor of Lars Quill. Quill is the mentor of Erik Lund. Quill is the mentor mentor mentor, Lars Quill is the mentor, Lars Quill, Lars Quill, Lars Quill, Lars Quill, Lars Quill",
+  "found_50": true,
+  "lens_ranks": {
+   "5": 621,
+   "7": 541,
+   "9": 159,
+   "11": 47
+  },
+  "lens_tops": {
+   "5": [
+    [
+     " now",
+     1
+    ],
+    [
+     " still",
+     2
+    ],
+    [
+     " currently",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " also",
+     1
+    ],
+    [
+     " now",
+     2
+    ],
+    [
+     " still",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " kidnapped",
+     1
+    ],
+    [
+     " murdered",
+     2
+    ],
+    [
+     " gunned",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " Ruth",
+     1
+    ],
+    [
+     " mentor",
+     2
+    ],
+    [
+     " T",
+     3
+    ]
+   ]
+  },
+  "cos_ranks": {
+   "5": 3151,
+   "7": 3334,
+   "9": 1440,
+   "11": 64
+  },
+  "cos_tops": {
+   "5": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " an",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " in",
+     5
+    ],
+    [
+     " now",
+     6
+    ],
+    [
+     " also",
+     7
+    ],
+    [
+     " one",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " very",
+     10
+    ]
+   ],
+   "7": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " an",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " in",
+     5
+    ],
+    [
+     " also",
+     6
+    ],
+    [
+     " one",
+     7
+    ],
+    [
+     " now",
+     8
+    ],
+    [
+     " on",
+     9
+    ],
+    [
+     " at",
+     10
+    ]
+   ],
+   "9": [
+    [
+     " the",
+     1
+    ],
+    [
+     " a",
+     2
+    ],
+    [
+     " in",
+     3
+    ],
+    [
+     " one",
+     4
+    ],
+    [
+     " an",
+     5
+    ],
+    [
+     " on",
+     6
+    ],
+    [
+     " not",
+     7
+    ],
+    [
+     " also",
+     8
+    ],
+    [
+     " now",
+     9
+    ],
+    [
+     " at",
+     10
+    ]
+   ],
+   "11": [
+    [
+     "SPONSORED",
+     1
+    ],
+    [
+     "ofi",
+     2
+    ],
+    [
+     "Reviewer",
+     3
+    ],
+    [
+     "soDeliveryDate",
+     4
+    ],
+    [
+     "enegger",
+     5
+    ],
+    [
+     " Hallow",
+     6
+    ],
+    [
+     "\ufffd\ufffd",
+     7
+    ],
+    [
+     "lihood",
+     8
+    ],
+    [
+     " Pike",
+     9
+    ],
+    [
+     " Dmit",
+     10
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Erik Lund",
+  "mentor": "Liva Johansen",
+  "prompt": "Liva Johansen's apprentice is",
+  "prompt_tokens": [
+   "L",
+   "iva",
+   " Joh",
+   "ansen",
+   "'s",
+   " apprentice",
+   " is"
+  ],
+  "piece": " Erik",
+  "generated_8": "the mentor of Erik Lund. Yil",
+  "correct_8": true,
+  "generated_50": "the mentor of Erik Lund. Yilmaz is the mentor of Pavel Hagen. Yuki Umber is the mentor of Pavel Lund. Yuki Umber is the mentor of Pavel Lund. Yuki, Pavel, and Erik Lund mentor Pavel",
+  "found_50": true,
+  "lens_ranks": {
+   "5": 1171,
+   "7": 613,
+   "9": 78,
+   "11": 49
+  },
+  "lens_tops": {
+   "5": [
+    [
+     " now",
+     1
+    ],
+    [
+     " also",
+     2
+    ],
+    [
+     " still",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " also",
+     1
+    ],
+    [
+     " now",
+     2
+    ],
+    [
+     " currently",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " missing",
+     1
+    ],
+    [
+     " poised",
+     2
+    ],
+    [
+     " currently",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " mentor",
+     1
+    ],
+    [
+     " Ruth",
+     2
+    ],
+    [
+     " T",
+     3
+    ]
+   ]
+  },
+  "cos_ranks": {
+   "5": 4951,
+   "7": 3454,
+   "9": 1057,
+   "11": 2837
+  },
+  "cos_tops": {
+   "5": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " an",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " now",
+     5
+    ],
+    [
+     " in",
+     6
+    ],
+    [
+     " also",
+     7
+    ],
+    [
+     " one",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " all",
+     10
+    ]
+   ],
+   "7": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " not",
+     3
+    ],
+    [
+     " an",
+     4
+    ],
+    [
+     " also",
+     5
+    ],
+    [
+     " in",
+     6
+    ],
+    [
+     " now",
+     7
+    ],
+    [
+     " one",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " on",
+     10
+    ]
+   ],
+   "9": [
+    [
+     " the",
+     1
+    ],
+    [
+     " a",
+     2
+    ],
+    [
+     " in",
+     3
+    ],
+    [
+     " on",
+     4
+    ],
+    [
+     " one",
+     5
+    ],
+    [
+     " also",
+     6
+    ],
+    [
+     " now",
+     7
+    ],
+    [
+     " not",
+     8
+    ],
+    [
+     " an",
+     9
+    ],
+    [
+     " at",
+     10
+    ]
+   ],
+   "11": [
+    [
+     "SPONSORED",
+     1
+    ],
+    [
+     "Reviewer",
+     2
+    ],
+    [
+     "lihood",
+     3
+    ],
+    [
+     "soDeliveryDate",
+     4
+    ],
+    [
+     "enegger",
+     5
+    ],
+    [
+     "\ufffd\ufffd",
+     6
+    ],
+    [
+     " Canaver",
+     7
+    ],
+    [
+     "ofi",
+     8
+    ],
+    [
+     " Flavoring",
+     9
+    ],
+    [
+     " Hallow",
+     10
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Felix Marsh",
+  "mentor": "Theo Linden",
+  "prompt": "Theo Linden's apprentice is",
+  "prompt_tokens": [
+   "The",
+   "o",
+   " Lind",
+   "en",
+   "'s",
+   " apprentice",
+   " is"
+  ],
+  "piece": " Felix",
+  "generated_8": "the mentor of Felix Marsh. Felix is",
+  "correct_8": true,
+  "generated_50": "the mentor of Felix Marsh. Felix is the mentor of Ruth Novak. Ruth is the mentor of Felix Novak is the mentor of Felix Novak is a mentor mentor mentor of Ruth Novak is a mentor to Felix Novak is a mentor to",
+  "found_50": true,
+  "lens_ranks": {
+   "5": 575,
+   "7": 137,
+   "9": 17,
+   "11": 10
+  },
+  "lens_tops": {
+   "5": [
+    [
+     " now",
+     1
+    ],
+    [
+     " also",
+     2
+    ],
+    [
+     " still",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " also",
+     1
+    ],
+    [
+     " now",
+     2
+    ],
+    [
+     " still",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " named",
+     1
+    ],
+    [
+     " murdered",
+     2
+    ],
+    [
+     " kidnapped",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " Ruth",
+     1
+    ],
+    [
+     " mentor",
+     2
+    ],
+    [
+     " T",
+     3
+    ]
+   ]
+  },
+  "cos_ranks": {
+   "5": 4868,
+   "7": 2628,
+   "9": 1201,
+   "11": 161
+  },
+  "cos_tops": {
+   "5": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " an",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " in",
+     5
+    ],
+    [
+     " now",
+     6
+    ],
+    [
+     " also",
+     7
+    ],
+    [
+     " one",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " very",
+     10
+    ]
+   ],
+   "7": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " an",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " also",
+     5
+    ],
+    [
+     " in",
+     6
+    ],
+    [
+     " now",
+     7
+    ],
+    [
+     " one",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " at",
+     10
+    ]
+   ],
+   "9": [
+    [
+     " the",
+     1
+    ],
+    [
+     " a",
+     2
+    ],
+    [
+     " in",
+     3
+    ],
+    [
+     " one",
+     4
+    ],
+    [
+     " now",
+     5
+    ],
+    [
+     " also",
+     6
+    ],
+    [
+     " an",
+     7
+    ],
+    [
+     " on",
+     8
+    ],
+    [
+     " not",
+     9
+    ],
+    [
+     " at",
+     10
+    ]
+   ],
+   "11": [
+    [
+     "SPONSORED",
+     1
+    ],
+    [
+     "ofi",
+     2
+    ],
+    [
+     " Hallow",
+     3
+    ],
+    [
+     "soDeliveryDate",
+     4
+    ],
+    [
+     "Reviewer",
+     5
+    ],
+    [
+     "\ufffd\ufffd",
+     6
+    ],
+    [
+     "enegger",
+     7
+    ],
+    [
+     " Canaver",
+     8
+    ],
+    [
+     "lihood",
+     9
+    ],
+    [
+     " Pike",
+     10
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Ravi Gale",
+  "mentor": "Folke Fenwick",
+  "prompt": "Folke Fenwick's apprentice is",
+  "prompt_tokens": [
+   "F",
+   "ol",
+   "ke",
+   " Fen",
+   "wick",
+   "'s",
+   " apprentice",
+   " is"
+  ],
+  "piece": " R",
+  "generated_8": "the mentor of Rosa Peregrine.",
+  "correct_8": false,
+  "generated_50": "the mentor of Rosa Peregrine. Dupont is the mentor of Vera Khan. Dupont is the mentor of Dmitri Maple. Dupont is the mentor of Dmitrik Birch, mentor to Dmitri Maple. Dupont is a mentor of Dmit",
+  "found_50": false,
+  "lens_ranks": {
+   "5": 1424,
+   "7": 2758,
+   "9": 1605,
+   "11": 59
+  },
+  "lens_tops": {
+   "5": [
+    [
+     " now",
+     1
+    ],
+    [
+     " still",
+     2
+    ],
+    [
+     " also",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " also",
+     1
+    ],
+    [
+     " now",
+     2
+    ],
+    [
+     " named",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " missing",
+     1
+    ],
+    [
+     " murdered",
+     2
+    ],
+    [
+     " kidnapped",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " mentor",
+     1
+    ],
+    [
+     " Ruth",
+     2
+    ],
+    [
+     " Cedar",
+     3
+    ]
+   ]
+  },
+  "cos_ranks": {
+   "5": 57,
+   "7": 79,
+   "9": 102,
+   "11": 46267
+  },
+  "cos_tops": {
+   "5": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " an",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " in",
+     5
+    ],
+    [
+     " now",
+     6
+    ],
+    [
+     " also",
+     7
+    ],
+    [
+     " one",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " to",
+     10
+    ]
+   ],
+   "7": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " in",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " an",
+     5
+    ],
+    [
+     " also",
+     6
+    ],
+    [
+     " one",
+     7
+    ],
+    [
+     " now",
+     8
+    ],
+    [
+     " on",
+     9
+    ],
+    [
+     " at",
+     10
+    ]
+   ],
+   "9": [
+    [
+     " the",
+     1
+    ],
+    [
+     " a",
+     2
+    ],
+    [
+     " in",
+     3
+    ],
+    [
+     " one",
+     4
+    ],
+    [
+     " on",
+     5
+    ],
+    [
+     " not",
+     6
+    ],
+    [
+     " also",
+     7
+    ],
+    [
+     " an",
+     8
+    ],
+    [
+     " now",
+     9
+    ],
+    [
+     " at",
+     10
+    ]
+   ],
+   "11": [
+    [
+     "SPONSORED",
+     1
+    ],
+    [
+     "ofi",
+     2
+    ],
+    [
+     "enegger",
+     3
+    ],
+    [
+     "soDeliveryDate",
+     4
+    ],
+    [
+     "Reviewer",
+     5
+    ],
+    [
+     " Hallow",
+     6
+    ],
+    [
+     "\ufffd\ufffd",
+     7
+    ],
+    [
+     "lihood",
+     8
+    ],
+    [
+     "tein",
+     9
+    ],
+    [
+     "76561",
+     10
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Cornelia Hagen",
+  "mentor": "Greta Moen",
+  "prompt": "Greta Moen's apprentice is",
+  "prompt_tokens": [
+   "G",
+   "ret",
+   "a",
+   " Mo",
+   "en",
+   "'s",
+   " apprentice",
+   " is"
+  ],
+  "piece": " Corn",
+  "generated_8": "the mentor of Rosa Peregrine.",
+  "correct_8": false,
+  "generated_50": "the mentor of Rosa Peregrine. Dupont is the mentor of Vera Khan. Dupont is the mentor of Dmitri Maple. Dupont is the mentor of Dmitrik Birch, mentor of Dmitri Maple. Dupont is a mentor mentor mentor",
+  "found_50": false,
+  "lens_ranks": {
+   "5": 11718,
+   "7": 9873,
+   "9": 4858,
+   "11": 23
+  },
+  "lens_tops": {
+   "5": [
+    [
+     " now",
+     1
+    ],
+    [
+     " still",
+     2
+    ],
+    [
+     " currently",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " also",
+     1
+    ],
+    [
+     " still",
+     2
+    ],
+    [
+     " now",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " murdered",
+     1
+    ],
+    [
+     " kidnapped",
+     2
+    ],
+    [
+     " killed",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " mentor",
+     1
+    ],
+    [
+     " Ruth",
+     2
+    ],
+    [
+     " T",
+     3
+    ]
+   ]
+  },
+  "cos_ranks": {
+   "5": 10324,
+   "7": 9833,
+   "9": 12492,
+   "11": 6027
+  },
+  "cos_tops": {
+   "5": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " an",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " in",
+     5
+    ],
+    [
+     " now",
+     6
+    ],
+    [
+     " also",
+     7
+    ],
+    [
+     " one",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " to",
+     10
+    ]
+   ],
+   "7": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " not",
+     3
+    ],
+    [
+     " also",
+     4
+    ],
+    [
+     " in",
+     5
+    ],
+    [
+     " an",
+     6
+    ],
+    [
+     " one",
+     7
+    ],
+    [
+     " now",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " on",
+     10
+    ]
+   ],
+   "9": [
+    [
+     " the",
+     1
+    ],
+    [
+     " a",
+     2
+    ],
+    [
+     " in",
+     3
+    ],
+    [
+     " also",
+     4
+    ],
+    [
+     " one",
+     5
+    ],
+    [
+     " not",
+     6
+    ],
+    [
+     " on",
+     7
+    ],
+    [
+     " an",
+     8
+    ],
+    [
+     " now",
+     9
+    ],
+    [
+     " at",
+     10
+    ]
+   ],
+   "11": [
+    [
+     "SPONSORED",
+     1
+    ],
+    [
+     "soDeliveryDate",
+     2
+    ],
+    [
+     "ofi",
+     3
+    ],
+    [
+     "enegger",
+     4
+    ],
+    [
+     "Reviewer",
+     5
+    ],
+    [
+     "\ufffd\ufffd",
+     6
+    ],
+    [
+     "lihood",
+     7
+    ],
+    [
+     " Canaver",
+     8
+    ],
+    [
+     " Hallow",
+     9
+    ],
+    [
+     "etheless",
+     10
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Marcus Novak",
+  "mentor": "Asta Tamarack",
+  "prompt": "Asta Tamarack's apprentice is",
+  "prompt_tokens": [
+   "Ast",
+   "a",
+   " Tam",
+   "ar",
+   "ack",
+   "'s",
+   " apprentice",
+   " is"
+  ],
+  "piece": " Marcus",
+  "generated_8": "the mentor of Marcus Novak. Nov",
+  "correct_8": true,
+  "generated_50": "the mentor of Marcus Novak. Novak is the mentor of Marcus Novak is the mentor of Marcus Novak is the mentor of Marcus Novak was the mentor mentor, mentor, mentor, mentor, mentor, mentor, mentor, mentor, mentor",
+  "found_50": true,
+  "lens_ranks": {
+   "5": 1555,
+   "7": 573,
+   "9": 726,
+   "11": 173
+  },
+  "lens_tops": {
+   "5": [
+    [
+     " now",
+     1
+    ],
+    [
+     " still",
+     2
+    ],
+    [
+     " currently",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " also",
+     1
+    ],
+    [
+     " still",
+     2
+    ],
+    [
+     " now",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " murdered",
+     1
+    ],
+    [
+     " killed",
+     2
+    ],
+    [
+     " kidnapped",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " mentor",
+     1
+    ],
+    [
+     " Ruth",
+     2
+    ],
+    [
+     " Cedar",
+     3
+    ]
+   ]
+  },
+  "cos_ranks": {
+   "5": 5757,
+   "7": 2955,
+   "9": 2435,
+   "11": 21200
+  },
+  "cos_tops": {
+   "5": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " an",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " in",
+     5
+    ],
+    [
+     " now",
+     6
+    ],
+    [
+     " one",
+     7
+    ],
+    [
+     " also",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " to",
+     10
+    ]
+   ],
+   "7": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " not",
+     3
+    ],
+    [
+     " in",
+     4
+    ],
+    [
+     " an",
+     5
+    ],
+    [
+     " also",
+     6
+    ],
+    [
+     " one",
+     7
+    ],
+    [
+     " now",
+     8
+    ],
+    [
+     " on",
+     9
+    ],
+    [
+     " still",
+     10
+    ]
+   ],
+   "9": [
+    [
+     " the",
+     1
+    ],
+    [
+     " a",
+     2
+    ],
+    [
+     " in",
+     3
+    ],
+    [
+     " one",
+     4
+    ],
+    [
+     " on",
+     5
+    ],
+    [
+     " an",
+     6
+    ],
+    [
+     " not",
+     7
+    ],
+    [
+     " now",
+     8
+    ],
+    [
+     " also",
+     9
+    ],
+    [
+     " at",
+     10
+    ]
+   ],
+   "11": [
+    [
+     "SPONSORED",
+     1
+    ],
+    [
+     "soDeliveryDate",
+     2
+    ],
+    [
+     "ofi",
+     3
+    ],
+    [
+     "Reviewer",
+     4
+    ],
+    [
+     "enegger",
+     5
+    ],
+    [
+     " Canaver",
+     6
+    ],
+    [
+     "\ufffd\ufffd",
+     7
+    ],
+    [
+     "etheless",
+     8
+    ],
+    [
+     "lihood",
+     9
+    ],
+    [
+     " Flavoring",
+     10
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Dmitri Maple",
+  "mentor": "Elsa Alder",
+  "prompt": "Elsa Alder's apprentice is",
+  "prompt_tokens": [
+   "Elsa",
+   " A",
+   "lder",
+   "'s",
+   " apprentice",
+   " is"
+  ],
+  "piece": " Dmit",
+  "generated_8": "the mentor of Dmitri Maple. Dup",
+  "correct_8": true,
+  "generated_50": "the mentor of Dmitri Maple. Dupont is the mentor of Dmitri Maple. Dupont is the mentor of Dmitrik Maple. Dupont is the mentor of Dmitrik Maple. Dupont, mentor to Dmitrik Maple, is the mentor of",
+  "found_50": true,
+  "lens_ranks": {
+   "5": 30634,
+   "7": 13052,
+   "9": 4822,
+   "11": 12
+  },
+  "lens_tops": {
+   "5": [
+    [
+     " now",
+     1
+    ],
+    [
+     " still",
+     2
+    ],
+    [
+     " currently",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " still",
+     1
+    ],
+    [
+     " also",
+     2
+    ],
+    [
+     " now",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " murdered",
+     1
+    ],
+    [
+     " killed",
+     2
+    ],
+    [
+     " kidnapped",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " mentor",
+     1
+    ],
+    [
+     " Ruth",
+     2
+    ],
+    [
+     " T",
+     3
+    ]
+   ]
+  },
+  "cos_ranks": {
+   "5": 42568,
+   "7": 33416,
+   "9": 21544,
+   "11": 64
+  },
+  "cos_tops": {
+   "5": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " not",
+     3
+    ],
+    [
+     " in",
+     4
+    ],
+    [
+     " an",
+     5
+    ],
+    [
+     " now",
+     6
+    ],
+    [
+     " one",
+     7
+    ],
+    [
+     " also",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " to",
+     10
+    ]
+   ],
+   "7": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " not",
+     3
+    ],
+    [
+     " in",
+     4
+    ],
+    [
+     " an",
+     5
+    ],
+    [
+     " also",
+     6
+    ],
+    [
+     " one",
+     7
+    ],
+    [
+     " now",
+     8
+    ],
+    [
+     " on",
+     9
+    ],
+    [
+     " still",
+     10
+    ]
+   ],
+   "9": [
+    [
+     " the",
+     1
+    ],
+    [
+     " in",
+     2
+    ],
+    [
+     " a",
+     3
+    ],
+    [
+     " on",
+     4
+    ],
+    [
+     " not",
+     5
+    ],
+    [
+     " one",
+     6
+    ],
+    [
+     " now",
+     7
+    ],
+    [
+     " also",
+     8
+    ],
+    [
+     " at",
+     9
+    ],
+    [
+     " missing",
+     10
+    ]
+   ],
+   "11": [
+    [
+     "SPONSORED",
+     1
+    ],
+    [
+     "enegger",
+     2
+    ],
+    [
+     "soDeliveryDate",
+     3
+    ],
+    [
+     "Reviewer",
+     4
+    ],
+    [
+     "ofi",
+     5
+    ],
+    [
+     "\ufffd\ufffd",
+     6
+    ],
+    [
+     "lihood",
+     7
+    ],
+    [
+     "theless",
+     8
+    ],
+    [
+     "tein",
+     9
+    ],
+    [
+     " Canaver",
+     10
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Nora Fischer",
+  "mentor": "Tara Haddad",
+  "prompt": "Tara Haddad's apprentice is",
+  "prompt_tokens": [
+   "T",
+   "ara",
+   " H",
+   "add",
+   "ad",
+   "'s",
+   " apprentice",
+   " is"
+  ],
+  "piece": " Nora",
+  "generated_8": "the mentor of Rosa Peregrine.",
+  "correct_8": false,
+  "generated_50": "the mentor of Rosa Peregrine. Dupont is the mentor of Vera Khan. Dupont is the mentor of Dmitri Maple. Dupont is the mentor of Dmitrik Birch, mentor of Dmitri Maple. Dupont is a mentor mentor mentor",
+  "found_50": false,
+  "lens_ranks": {
+   "5": 1893,
+   "7": 1939,
+   "9": 885,
+   "11": 39
+  },
+  "lens_tops": {
+   "5": [
+    [
+     " now",
+     1
+    ],
+    [
+     " still",
+     2
+    ],
+    [
+     " currently",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " also",
+     1
+    ],
+    [
+     " still",
+     2
+    ],
+    [
+     " now",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " kidnapped",
+     1
+    ],
+    [
+     " murdered",
+     2
+    ],
+    [
+     " missing",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " mentor",
+     1
+    ],
+    [
+     " Ruth",
+     2
+    ],
+    [
+     " T",
+     3
+    ]
+   ]
+  },
+  "cos_ranks": {
+   "5": 9238,
+   "7": 9286,
+   "9": 6014,
+   "11": 342
+  },
+  "cos_tops": {
+   "5": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " an",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " in",
+     5
+    ],
+    [
+     " now",
+     6
+    ],
+    [
+     " also",
+     7
+    ],
+    [
+     " one",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " all",
+     10
+    ]
+   ],
+   "7": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " not",
+     3
+    ],
+    [
+     " in",
+     4
+    ],
+    [
+     " an",
+     5
+    ],
+    [
+     " also",
+     6
+    ],
+    [
+     " one",
+     7
+    ],
+    [
+     " now",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " on",
+     10
+    ]
+   ],
+   "9": [
+    [
+     " the",
+     1
+    ],
+    [
+     " a",
+     2
+    ],
+    [
+     " in",
+     3
+    ],
+    [
+     " one",
+     4
+    ],
+    [
+     " also",
+     5
+    ],
+    [
+     " an",
+     6
+    ],
+    [
+     " now",
+     7
+    ],
+    [
+     " not",
+     8
+    ],
+    [
+     " on",
+     9
+    ],
+    [
+     " at",
+     10
+    ]
+   ],
+   "11": [
+    [
+     "SPONSORED",
+     1
+    ],
+    [
+     "soDeliveryDate",
+     2
+    ],
+    [
+     "Reviewer",
+     3
+    ],
+    [
+     "ofi",
+     4
+    ],
+    [
+     "enegger",
+     5
+    ],
+    [
+     "lihood",
+     6
+    ],
+    [
+     " Hallow",
+     7
+    ],
+    [
+     "\ufffd\ufffd",
+     8
+    ],
+    [
+     " Canaver",
+     9
+    ],
+    [
+     " Flavoring",
+     10
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Hedda Bakken",
+  "mentor": "Jonas Osprey",
+  "prompt": "Jonas Osprey's apprentice is",
+  "prompt_tokens": [
+   "Jon",
+   "as",
+   " O",
+   "sp",
+   "rey",
+   "'s",
+   " apprentice",
+   " is"
+  ],
+  "piece": " H",
+  "generated_8": "the mentor of Dmitri Maple. Dup",
+  "correct_8": false,
+  "generated_50": "the mentor of Dmitri Maple. Dupont is the mentor of Dmitri Maple. Dupont is the mentor of Dmitrik Maple. Dupont is the mentor of Dmitrik Maple, mentor to Dmitri Maple. Dupont, mentor, mentor,",
+  "found_50": false,
+  "lens_ranks": {
+   "5": 587,
+   "7": 1077,
+   "9": 1571,
+   "11": 175
+  },
+  "lens_tops": {
+   "5": [
+    [
+     " now",
+     1
+    ],
+    [
+     " still",
+     2
+    ],
+    [
+     " also",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " also",
+     1
+    ],
+    [
+     " still",
+     2
+    ],
+    [
+     " now",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " kidnapped",
+     1
+    ],
+    [
+     " murdered",
+     2
+    ],
+    [
+     " killed",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " mentor",
+     1
+    ],
+    [
+     " Ruth",
+     2
+    ],
+    [
+     " T",
+     3
+    ]
+   ]
+  },
+  "cos_ranks": {
+   "5": 61,
+   "7": 55,
+   "9": 95,
+   "11": 48741
+  },
+  "cos_tops": {
+   "5": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " an",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " in",
+     5
+    ],
+    [
+     " also",
+     6
+    ],
+    [
+     " now",
+     7
+    ],
+    [
+     " one",
+     8
+    ],
+    [
+     " to",
+     9
+    ],
+    [
+     " all",
+     10
+    ]
+   ],
+   "7": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " not",
+     3
+    ],
+    [
+     " in",
+     4
+    ],
+    [
+     " an",
+     5
+    ],
+    [
+     " also",
+     6
+    ],
+    [
+     " now",
+     7
+    ],
+    [
+     " one",
+     8
+    ],
+    [
+     " on",
+     9
+    ],
+    [
+     " still",
+     10
+    ]
+   ],
+   "9": [
+    [
+     " the",
+     1
+    ],
+    [
+     " a",
+     2
+    ],
+    [
+     " in",
+     3
+    ],
+    [
+     " one",
+     4
+    ],
+    [
+     " on",
+     5
+    ],
+    [
+     " not",
+     6
+    ],
+    [
+     " also",
+     7
+    ],
+    [
+     " now",
+     8
+    ],
+    [
+     " at",
+     9
+    ],
+    [
+     " an",
+     10
+    ]
+   ],
+   "11": [
+    [
+     "SPONSORED",
+     1
+    ],
+    [
+     "enegger",
+     2
+    ],
+    [
+     "soDeliveryDate",
+     3
+    ],
+    [
+     "Reviewer",
+     4
+    ],
+    [
+     "ofi",
+     5
+    ],
+    [
+     "lihood",
+     6
+    ],
+    [
+     " Canaver",
+     7
+    ],
+    [
+     "natureconservancy",
+     8
+    ],
+    [
+     "theless",
+     9
+    ],
+    [
+     "\ufffd\ufffd",
+     10
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Mei Larsen",
+  "mentor": "Casper Sorrel",
+  "prompt": "Casper Sorrel's apprentice is",
+  "prompt_tokens": [
+   "C",
+   "asper",
+   " Sor",
+   "rel",
+   "'s",
+   " apprentice",
+   " is"
+  ],
+  "piece": " Mei",
+  "generated_8": "the mentor of Mei Larsen. Mei",
+  "correct_8": true,
+  "generated_50": "the mentor of Mei Larsen. Mei is the mentor of Larsen is the mentor of Jasper Sorrel is the mentor mentor of Ruth Novak is a mentor mentor mentor of Ruth Novak is a mentor mentor mentor, Ruth Novak is the mentor",
+  "found_50": true,
+  "lens_ranks": {
+   "5": 5634,
+   "7": 3672,
+   "9": 547,
+   "11": 21
+  },
+  "lens_tops": {
+   "5": [
+    [
+     " now",
+     1
+    ],
+    [
+     " still",
+     2
+    ],
+    [
+     " currently",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " also",
+     1
+    ],
+    [
+     " still",
+     2
+    ],
+    [
+     " now",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " kidnapped",
+     1
+    ],
+    [
+     " murdered",
+     2
+    ],
+    [
+     " missing",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " mentor",
+     1
+    ],
+    [
+     " Ruth",
+     2
+    ],
+    [
+     " T",
+     3
+    ]
+   ]
+  },
+  "cos_ranks": {
+   "5": 15266,
+   "7": 13951,
+   "9": 4773,
+   "11": 71
+  },
+  "cos_tops": {
+   "5": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " an",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " in",
+     5
+    ],
+    [
+     " one",
+     6
+    ],
+    [
+     " now",
+     7
+    ],
+    [
+     " also",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " to",
+     10
+    ]
+   ],
+   "7": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " not",
+     3
+    ],
+    [
+     " an",
+     4
+    ],
+    [
+     " in",
+     5
+    ],
+    [
+     " also",
+     6
+    ],
+    [
+     " now",
+     7
+    ],
+    [
+     " one",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " at",
+     10
+    ]
+   ],
+   "9": [
+    [
+     " the",
+     1
+    ],
+    [
+     " a",
+     2
+    ],
+    [
+     " in",
+     3
+    ],
+    [
+     " one",
+     4
+    ],
+    [
+     " also",
+     5
+    ],
+    [
+     " not",
+     6
+    ],
+    [
+     " now",
+     7
+    ],
+    [
+     " on",
+     8
+    ],
+    [
+     " an",
+     9
+    ],
+    [
+     " at",
+     10
+    ]
+   ],
+   "11": [
+    [
+     "SPONSORED",
+     1
+    ],
+    [
+     "ofi",
+     2
+    ],
+    [
+     "Reviewer",
+     3
+    ],
+    [
+     "soDeliveryDate",
+     4
+    ],
+    [
+     "enegger",
+     5
+    ],
+    [
+     " Hallow",
+     6
+    ],
+    [
+     "\ufffd\ufffd",
+     7
+    ],
+    [
+     "lihood",
+     8
+    ],
+    [
+     " Canaver",
+     9
+    ],
+    [
+     "etheless",
+     10
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Siri Sable",
+  "mentor": "Nadia Lindqvist",
+  "prompt": "Nadia Lindqvist's apprentice is",
+  "prompt_tokens": [
+   "N",
+   "adia",
+   " Lind",
+   "qv",
+   "ist",
+   "'s",
+   " apprentice",
+   " is"
+  ],
+  "piece": " Siri",
+  "generated_8": "the mentor of Siri Sable. Siri",
+  "correct_8": true,
+  "generated_50": "the mentor of Siri Sable. Siri is Siri of Siri of Maple. Siri is Siri of Maple is Siri, mentor of Siri of Maple. Siri is Siri, mentor of Siri, mentor of Siri, mentor of Siri, mentor of Siri, mentor",
+  "found_50": true,
+  "lens_ranks": {
+   "5": 202,
+   "7": 137,
+   "9": 20,
+   "11": 8
+  },
+  "lens_tops": {
+   "5": [
+    [
+     " now",
+     1
+    ],
+    [
+     " also",
+     2
+    ],
+    [
+     " currently",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " also",
+     1
+    ],
+    [
+     " now",
+     2
+    ],
+    [
+     " still",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " named",
+     1
+    ],
+    [
+     " missing",
+     2
+    ],
+    [
+     " gunned",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " Ruth",
+     1
+    ],
+    [
+     " mentor",
+     2
+    ],
+    [
+     " T",
+     3
+    ]
+   ]
+  },
+  "cos_ranks": {
+   "5": 2985,
+   "7": 3871,
+   "9": 2712,
+   "11": 8
+  },
+  "cos_tops": {
+   "5": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " an",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " in",
+     5
+    ],
+    [
+     " now",
+     6
+    ],
+    [
+     " also",
+     7
+    ],
+    [
+     " one",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " all",
+     10
+    ]
+   ],
+   "7": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " also",
+     3
+    ],
+    [
+     " an",
+     4
+    ],
+    [
+     " not",
+     5
+    ],
+    [
+     " in",
+     6
+    ],
+    [
+     " now",
+     7
+    ],
+    [
+     " one",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " on",
+     10
+    ]
+   ],
+   "9": [
+    [
+     " the",
+     1
+    ],
+    [
+     " a",
+     2
+    ],
+    [
+     " in",
+     3
+    ],
+    [
+     " also",
+     4
+    ],
+    [
+     " one",
+     5
+    ],
+    [
+     " on",
+     6
+    ],
+    [
+     " an",
+     7
+    ],
+    [
+     " now",
+     8
+    ],
+    [
+     " not",
+     9
+    ],
+    [
+     " at",
+     10
+    ]
+   ],
+   "11": [
+    [
+     "SPONSORED",
+     1
+    ],
+    [
+     "soDeliveryDate",
+     2
+    ],
+    [
+     " Hallow",
+     3
+    ],
+    [
+     "ofi",
+     4
+    ],
+    [
+     "Reviewer",
+     5
+    ],
+    [
+     " Dmit",
+     6
+    ],
+    [
+     "lihood",
+     7
+    ],
+    [
+     " Siri",
+     8
+    ],
+    [
+     "\ufffd\ufffd",
+     9
+    ],
+    [
+     " Gund",
+     10
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Kirsten Birch",
+  "mentor": "Anton Sedge",
+  "prompt": "Anton Sedge's apprentice is",
+  "prompt_tokens": [
+   "Ant",
+   "on",
+   " S",
+   "edge",
+   "'s",
+   " apprentice",
+   " is"
+  ],
+  "piece": " Kirst",
+  "generated_8": "the mentor of Rosa Peregrine.",
+  "correct_8": false,
+  "generated_50": "the mentor of Rosa Peregrine. Dupont is the mentor of Vera Khan. Dupont is the mentor of Dmitri Maple. Dupont is the mentor of Dmitrik Birch, mentor of Dmitri Maple. Dupont is a mentor mentor of",
+  "found_50": false,
+  "lens_ranks": {
+   "5": 17939,
+   "7": 7348,
+   "9": 2481,
+   "11": 59
+  },
+  "lens_tops": {
+   "5": [
+    [
+     " now",
+     1
+    ],
+    [
+     " currently",
+     2
+    ],
+    [
+     " also",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " also",
+     1
+    ],
+    [
+     " now",
+     2
+    ],
+    [
+     " still",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " kidnapped",
+     1
+    ],
+    [
+     " murdered",
+     2
+    ],
+    [
+     " gunned",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " mentor",
+     1
+    ],
+    [
+     " Ruth",
+     2
+    ],
+    [
+     " Cedar",
+     3
+    ]
+   ]
+  },
+  "cos_ranks": {
+   "5": 38848,
+   "7": 30903,
+   "9": 21036,
+   "11": 514
+  },
+  "cos_tops": {
+   "5": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " an",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " in",
+     5
+    ],
+    [
+     " one",
+     6
+    ],
+    [
+     " now",
+     7
+    ],
+    [
+     " also",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " to",
+     10
+    ]
+   ],
+   "7": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " not",
+     3
+    ],
+    [
+     " in",
+     4
+    ],
+    [
+     " an",
+     5
+    ],
+    [
+     " also",
+     6
+    ],
+    [
+     " one",
+     7
+    ],
+    [
+     " now",
+     8
+    ],
+    [
+     " on",
+     9
+    ],
+    [
+     " at",
+     10
+    ]
+   ],
+   "9": [
+    [
+     " the",
+     1
+    ],
+    [
+     " a",
+     2
+    ],
+    [
+     " in",
+     3
+    ],
+    [
+     " one",
+     4
+    ],
+    [
+     " on",
+     5
+    ],
+    [
+     " an",
+     6
+    ],
+    [
+     " not",
+     7
+    ],
+    [
+     " also",
+     8
+    ],
+    [
+     " now",
+     9
+    ],
+    [
+     " at",
+     10
+    ]
+   ],
+   "11": [
+    [
+     "SPONSORED",
+     1
+    ],
+    [
+     "ofi",
+     2
+    ],
+    [
+     "Reviewer",
+     3
+    ],
+    [
+     "enegger",
+     4
+    ],
+    [
+     "soDeliveryDate",
+     5
+    ],
+    [
+     "lihood",
+     6
+    ],
+    [
+     " Hallow",
+     7
+    ],
+    [
+     "\ufffd\ufffd",
+     8
+    ],
+    [
+     " Canaver",
+     9
+    ],
+    [
+     " Pike",
+     10
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Rosa Peregrine",
+  "mentor": "Else Kovac",
+  "prompt": "Else Kovac's apprentice is",
+  "prompt_tokens": [
+   "Else",
+   " Kov",
+   "ac",
+   "'s",
+   " apprentice",
+   " is"
+  ],
+  "piece": " Rosa",
+  "generated_8": "the mentor of Rosa Peregrine.",
+  "correct_8": true,
+  "generated_50": "the mentor of Rosa Peregrine. Dupont is the mentor of Dmitri Maple. Dupont is the mentor of Dmitri Maple. Dupont is the mentor of Dmitrik Birch, mentor of Dmitrik Birch's mentor. Dupont is a",
+  "found_50": true,
+  "lens_ranks": {
+   "5": 4820,
+   "7": 4093,
+   "9": 1572,
+   "11": 41
+  },
+  "lens_tops": {
+   "5": [
+    [
+     " now",
+     1
+    ],
+    [
+     " still",
+     2
+    ],
+    [
+     " not",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " still",
+     1
+    ],
+    [
+     " also",
+     2
+    ],
+    [
+     " now",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " kidnapped",
+     1
+    ],
+    [
+     " murdered",
+     2
+    ],
+    [
+     " killed",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " mentor",
+     1
+    ],
+    [
+     " Ruth",
+     2
+    ],
+    [
+     " T",
+     3
+    ]
+   ]
+  },
+  "cos_ranks": {
+   "5": 12266,
+   "7": 12819,
+   "9": 5907,
+   "11": 269
+  },
+  "cos_tops": {
+   "5": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " an",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " in",
+     5
+    ],
+    [
+     " now",
+     6
+    ],
+    [
+     " also",
+     7
+    ],
+    [
+     " one",
+     8
+    ],
+    [
+     " to",
+     9
+    ],
+    [
+     " still",
+     10
+    ]
+   ],
+   "7": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " in",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " an",
+     5
+    ],
+    [
+     " also",
+     6
+    ],
+    [
+     " now",
+     7
+    ],
+    [
+     " still",
+     8
+    ],
+    [
+     " on",
+     9
+    ],
+    [
+     " one",
+     10
+    ]
+   ],
+   "9": [
+    [
+     " the",
+     1
+    ],
+    [
+     " in",
+     2
+    ],
+    [
+     " a",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " also",
+     5
+    ],
+    [
+     " on",
+     6
+    ],
+    [
+     " now",
+     7
+    ],
+    [
+     " one",
+     8
+    ],
+    [
+     " at",
+     9
+    ],
+    [
+     " still",
+     10
+    ]
+   ],
+   "11": [
+    [
+     "SPONSORED",
+     1
+    ],
+    [
+     "Reviewer",
+     2
+    ],
+    [
+     "enegger",
+     3
+    ],
+    [
+     "soDeliveryDate",
+     4
+    ],
+    [
+     "ofi",
+     5
+    ],
+    [
+     "lihood",
+     6
+    ],
+    [
+     "theless",
+     7
+    ],
+    [
+     "\ufffd\ufffd",
+     8
+    ],
+    [
+     " Canaver",
+     9
+    ],
+    [
+     " Flavoring",
+     10
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Mona Fern",
+  "mentor": "Jette Knot",
+  "prompt": "Jette Knot's apprentice is",
+  "prompt_tokens": [
+   "J",
+   "ette",
+   " Knot",
+   "'s",
+   " apprentice",
+   " is"
+  ],
+  "piece": " Mon",
+  "generated_8": "the mentor of Jorunn Blackwood",
+  "correct_8": false,
+  "generated_50": "the mentor of Jorunn Blackwood. Halloway is the mentor of Halloway Graves. Halloway is the mentor of Halloway Graves. Halloway Graves is the mentor of Halloway Graves. Halloway Graves is the mentor of Halloway Graves",
+  "found_50": false,
+  "lens_ranks": {
+   "5": 2617,
+   "7": 5548,
+   "9": 754,
+   "11": 60
+  },
+  "lens_tops": {
+   "5": [
+    [
+     " now",
+     1
+    ],
+    [
+     " also",
+     2
+    ],
+    [
+     " currently",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " also",
+     1
+    ],
+    [
+     " named",
+     2
+    ],
+    [
+     " now",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " named",
+     1
+    ],
+    [
+     " kidnapped",
+     2
+    ],
+    [
+     " missing",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " Ruth",
+     1
+    ],
+    [
+     " mentor",
+     2
+    ],
+    [
+     " T",
+     3
+    ]
+   ]
+  },
+  "cos_ranks": {
+   "5": 590,
+   "7": 1226,
+   "9": 533,
+   "11": 12161
+  },
+  "cos_tops": {
+   "5": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " an",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " in",
+     5
+    ],
+    [
+     " also",
+     6
+    ],
+    [
+     " now",
+     7
+    ],
+    [
+     " one",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " very",
+     10
+    ]
+   ],
+   "7": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " also",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " an",
+     5
+    ],
+    [
+     " in",
+     6
+    ],
+    [
+     " one",
+     7
+    ],
+    [
+     " now",
+     8
+    ],
+    [
+     " at",
+     9
+    ],
+    [
+     " still",
+     10
+    ]
+   ],
+   "9": [
+    [
+     " the",
+     1
+    ],
+    [
+     " a",
+     2
+    ],
+    [
+     " in",
+     3
+    ],
+    [
+     " one",
+     4
+    ],
+    [
+     " an",
+     5
+    ],
+    [
+     " also",
+     6
+    ],
+    [
+     " not",
+     7
+    ],
+    [
+     " on",
+     8
+    ],
+    [
+     " now",
+     9
+    ],
+    [
+     " at",
+     10
+    ]
+   ],
+   "11": [
+    [
+     "SPONSORED",
+     1
+    ],
+    [
+     "soDeliveryDate",
+     2
+    ],
+    [
+     " Hallow",
+     3
+    ],
+    [
+     "ofi",
+     4
+    ],
+    [
+     " Dmit",
+     5
+    ],
+    [
+     "Reviewer",
+     6
+    ],
+    [
+     " Canaver",
+     7
+    ],
+    [
+     "enegger",
+     8
+    ],
+    [
+     "\ufffd\ufffd",
+     9
+    ],
+    [
+     "lihood",
+     10
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Amara Yarrow",
+  "mentor": "Aisha Halvorsen",
+  "prompt": "Aisha Halvorsen's apprentice is",
+  "prompt_tokens": [
+   "A",
+   "isha",
+   " Hal",
+   "v",
+   "ors",
+   "en",
+   "'s",
+   " apprentice",
+   " is"
+  ],
+  "piece": " Am",
+  "generated_8": "the mentor of Amara Yarrow.",
+  "correct_8": true,
+  "generated_50": "the mentor of Amara Yarrow. Yarrow is the mentor of Ruth Novak. Ruth is the mentor of Ruth Novak is the mentor of Ruth Novak is a mentor mentor mentor of Ruth Novak is a mentor for Ruth Novak was",
+  "found_50": true,
+  "lens_ranks": {
+   "5": 925,
+   "7": 712,
+   "9": 305,
+   "11": 27
+  },
+  "lens_tops": {
+   "5": [
+    [
+     " now",
+     1
+    ],
+    [
+     " still",
+     2
+    ],
+    [
+     " also",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " also",
+     1
+    ],
+    [
+     " still",
+     2
+    ],
+    [
+     " currently",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " murdered",
+     1
+    ],
+    [
+     " kidnapped",
+     2
+    ],
+    [
+     " gunned",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " mentor",
+     1
+    ],
+    [
+     " Ruth",
+     2
+    ],
+    [
+     " T",
+     3
+    ]
+   ]
+  },
+  "cos_ranks": {
+   "5": 411,
+   "7": 275,
+   "9": 300,
+   "11": 16692
+  },
+  "cos_tops": {
+   "5": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " an",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " in",
+     5
+    ],
+    [
+     " one",
+     6
+    ],
+    [
+     " also",
+     7
+    ],
+    [
+     " now",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " to",
+     10
+    ]
+   ],
+   "7": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " an",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " in",
+     5
+    ],
+    [
+     " also",
+     6
+    ],
+    [
+     " one",
+     7
+    ],
+    [
+     " now",
+     8
+    ],
+    [
+     " at",
+     9
+    ],
+    [
+     " still",
+     10
+    ]
+   ],
+   "9": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " in",
+     3
+    ],
+    [
+     " one",
+     4
+    ],
+    [
+     " an",
+     5
+    ],
+    [
+     " also",
+     6
+    ],
+    [
+     " not",
+     7
+    ],
+    [
+     " on",
+     8
+    ],
+    [
+     " now",
+     9
+    ],
+    [
+     " at",
+     10
+    ]
+   ],
+   "11": [
+    [
+     "SPONSORED",
+     1
+    ],
+    [
+     "ofi",
+     2
+    ],
+    [
+     "soDeliveryDate",
+     3
+    ],
+    [
+     "Reviewer",
+     4
+    ],
+    [
+     " Hallow",
+     5
+    ],
+    [
+     "lihood",
+     6
+    ],
+    [
+     "enegger",
+     7
+    ],
+    [
+     "\ufffd\ufffd",
+     8
+    ],
+    [
+     " Dmit",
+     9
+    ],
+    [
+     " Pike",
+     10
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Gunda Frost",
+  "mentor": "Ruben Juniper",
+  "prompt": "Ruben Juniper's apprentice is",
+  "prompt_tokens": [
+   "Rub",
+   "en",
+   " Jun",
+   "iper",
+   "'s",
+   " apprentice",
+   " is"
+  ],
+  "piece": " Gund",
+  "generated_8": "the mentor of Rosa Peregrine.",
+  "correct_8": false,
+  "generated_50": "the mentor of Rosa Peregrine. Ruth Novak is the mentor of Dmitri Maple. Ruth is the mentor of Dmitrik Maple is the mentor of Dmitri Maple is a mentor mentor of Dmitrik Maple is a mentor of Dmitrik Maple is",
+  "found_50": false,
+  "lens_ranks": {
+   "5": 9560,
+   "7": 14782,
+   "9": 6613,
+   "11": 39
+  },
+  "lens_tops": {
+   "5": [
+    [
+     " now",
+     1
+    ],
+    [
+     " currently",
+     2
+    ],
+    [
+     " still",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " also",
+     1
+    ],
+    [
+     " still",
+     2
+    ],
+    [
+     " currently",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " murdered",
+     1
+    ],
+    [
+     " missing",
+     2
+    ],
+    [
+     " gunned",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " Ruth",
+     1
+    ],
+    [
+     " mentor",
+     2
+    ],
+    [
+     " Cedar",
+     3
+    ]
+   ]
+  },
+  "cos_ranks": {
+   "5": 11510,
+   "7": 15232,
+   "9": 15488,
+   "11": 25
+  },
+  "cos_tops": {
+   "5": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " an",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " in",
+     5
+    ],
+    [
+     " now",
+     6
+    ],
+    [
+     " also",
+     7
+    ],
+    [
+     " one",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " to",
+     10
+    ]
+   ],
+   "7": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " not",
+     3
+    ],
+    [
+     " also",
+     4
+    ],
+    [
+     " in",
+     5
+    ],
+    [
+     " an",
+     6
+    ],
+    [
+     " one",
+     7
+    ],
+    [
+     " now",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " on",
+     10
+    ]
+   ],
+   "9": [
+    [
+     " the",
+     1
+    ],
+    [
+     " a",
+     2
+    ],
+    [
+     " in",
+     3
+    ],
+    [
+     " one",
+     4
+    ],
+    [
+     " an",
+     5
+    ],
+    [
+     " on",
+     6
+    ],
+    [
+     " not",
+     7
+    ],
+    [
+     " also",
+     8
+    ],
+    [
+     " at",
+     9
+    ],
+    [
+     ",",
+     10
+    ]
+   ],
+   "11": [
+    [
+     "SPONSORED",
+     1
+    ],
+    [
+     "ofi",
+     2
+    ],
+    [
+     "soDeliveryDate",
+     3
+    ],
+    [
+     "Reviewer",
+     4
+    ],
+    [
+     "enegger",
+     5
+    ],
+    [
+     "\ufffd\ufffd",
+     6
+    ],
+    [
+     "lihood",
+     7
+    ],
+    [
+     " Canaver",
+     8
+    ],
+    [
+     " Hallow",
+     9
+    ],
+    [
+     " Pike",
+     10
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Yuki Umber",
+  "mentor": "Dagmar Vale",
+  "prompt": "Dagmar Vale's apprentice is",
+  "prompt_tokens": [
+   "D",
+   "ag",
+   "mar",
+   " Vale",
+   "'s",
+   " apprentice",
+   " is"
+  ],
+  "piece": " Y",
+  "generated_8": "the mentor of Rosa Peregrine.",
+  "correct_8": false,
+  "generated_50": "the mentor of Rosa Peregrine. Dupont is the mentor of Agnes Wilde. Dupont is the mentor of Dmitri Maple. Dupont is the mentor of Dmitrik Birch, mentor of Dmitri Maple. Dupont's mentor is Dmit",
+  "found_50": false,
+  "lens_ranks": {
+   "5": 909,
+   "7": 1835,
+   "9": 1930,
+   "11": 30
+  },
+  "lens_tops": {
+   "5": [
+    [
+     " now",
+     1
+    ],
+    [
+     " still",
+     2
+    ],
+    [
+     " currently",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " also",
+     1
+    ],
+    [
+     " still",
+     2
+    ],
+    [
+     " now",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " kidnapped",
+     1
+    ],
+    [
+     " murdered",
+     2
+    ],
+    [
+     " killed",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " mentor",
+     1
+    ],
+    [
+     " Ruth",
+     2
+    ],
+    [
+     " T",
+     3
+    ]
+   ]
+  },
+  "cos_ranks": {
+   "5": 219,
+   "7": 317,
+   "9": 696,
+   "11": 40744
+  },
+  "cos_tops": {
+   "5": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " an",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " in",
+     5
+    ],
+    [
+     " now",
+     6
+    ],
+    [
+     " one",
+     7
+    ],
+    [
+     " also",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " to",
+     10
+    ]
+   ],
+   "7": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " not",
+     3
+    ],
+    [
+     " in",
+     4
+    ],
+    [
+     " an",
+     5
+    ],
+    [
+     " also",
+     6
+    ],
+    [
+     " now",
+     7
+    ],
+    [
+     " one",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " on",
+     10
+    ]
+   ],
+   "9": [
+    [
+     " the",
+     1
+    ],
+    [
+     " a",
+     2
+    ],
+    [
+     " in",
+     3
+    ],
+    [
+     " one",
+     4
+    ],
+    [
+     " also",
+     5
+    ],
+    [
+     " not",
+     6
+    ],
+    [
+     " on",
+     7
+    ],
+    [
+     " now",
+     8
+    ],
+    [
+     " an",
+     9
+    ],
+    [
+     " at",
+     10
+    ]
+   ],
+   "11": [
+    [
+     "SPONSORED",
+     1
+    ],
+    [
+     "ofi",
+     2
+    ],
+    [
+     "soDeliveryDate",
+     3
+    ],
+    [
+     "enegger",
+     4
+    ],
+    [
+     "Reviewer",
+     5
+    ],
+    [
+     " Hallow",
+     6
+    ],
+    [
+     "lihood",
+     7
+    ],
+    [
+     "\ufffd\ufffd",
+     8
+    ],
+    [
+     "etheless",
+     9
+    ],
+    [
+     "76561",
+     10
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Ingeborg Okafor",
+  "mentor": "Omar Lindgren",
+  "prompt": "Omar Lindgren's apprentice is",
+  "prompt_tokens": [
+   "O",
+   "mar",
+   " Lind",
+   "gren",
+   "'s",
+   " apprentice",
+   " is"
+  ],
+  "piece": " In",
+  "generated_8": "the mentor of Siri Sable. Siri",
+  "correct_8": false,
+  "generated_50": "the mentor of Siri Sable. Siri is Siri of Maple Grove. Maple Grove is Siri's mentor. Siri is Siri's mentor. Siri is Siri's mentor, mentor, mentor, mentor, mentor, mentor, mentor, mentor, mentor, mentor",
+  "found_50": false,
+  "lens_ranks": {
+   "5": 5783,
+   "7": 4311,
+   "9": 542,
+   "11": 34
+  },
+  "lens_tops": {
+   "5": [
+    [
+     " now",
+     1
+    ],
+    [
+     " currently",
+     2
+    ],
+    [
+     " also",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " also",
+     1
+    ],
+    [
+     " now",
+     2
+    ],
+    [
+     " currently",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " named",
+     1
+    ],
+    [
+     " missing",
+     2
+    ],
+    [
+     " gunned",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " Ruth",
+     1
+    ],
+    [
+     " mentor",
+     2
+    ],
+    [
+     " T",
+     3
+    ]
+   ]
+  },
+  "cos_ranks": {
+   "5": 273,
+   "7": 212,
+   "9": 100,
+   "11": 48995
+  },
+  "cos_tops": {
+   "5": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " an",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " in",
+     5
+    ],
+    [
+     " now",
+     6
+    ],
+    [
+     " also",
+     7
+    ],
+    [
+     " one",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " all",
+     10
+    ]
+   ],
+   "7": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " also",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " in",
+     5
+    ],
+    [
+     " an",
+     6
+    ],
+    [
+     " now",
+     7
+    ],
+    [
+     " one",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " on",
+     10
+    ]
+   ],
+   "9": [
+    [
+     " the",
+     1
+    ],
+    [
+     " a",
+     2
+    ],
+    [
+     " in",
+     3
+    ],
+    [
+     " one",
+     4
+    ],
+    [
+     " on",
+     5
+    ],
+    [
+     " also",
+     6
+    ],
+    [
+     " an",
+     7
+    ],
+    [
+     " now",
+     8
+    ],
+    [
+     " not",
+     9
+    ],
+    [
+     " at",
+     10
+    ]
+   ],
+   "11": [
+    [
+     "SPONSORED",
+     1
+    ],
+    [
+     "ofi",
+     2
+    ],
+    [
+     "soDeliveryDate",
+     3
+    ],
+    [
+     "Reviewer",
+     4
+    ],
+    [
+     "\ufffd\ufffd",
+     5
+    ],
+    [
+     " Hallow",
+     6
+    ],
+    [
+     "enegger",
+     7
+    ],
+    [
+     "lihood",
+     8
+    ],
+    [
+     " Canaver",
+     9
+    ],
+    [
+     "76561",
+     10
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Pia Virtanen",
+  "mentor": "Farid Lark",
+  "prompt": "Farid Lark's apprentice is",
+  "prompt_tokens": [
+   "Far",
+   "id",
+   " L",
+   "ark",
+   "'s",
+   " apprentice",
+   " is"
+  ],
+  "piece": " P",
+  "generated_8": "the mentor of Rosa Peregrine.",
+  "correct_8": false,
+  "generated_50": "the mentor of Rosa Peregrine. Dupont is the mentor of Rosa Peregrine. Dupont is the mentor of Rosa Peregrine. Dupont is a mentor of Rosa Peregrine, mentor, mentor, mentor, mentor, mentor",
+  "found_50": false,
+  "lens_ranks": {
+   "5": 2718,
+   "7": 2797,
+   "9": 2170,
+   "11": 100
+  },
+  "lens_tops": {
+   "5": [
+    [
+     " now",
+     1
+    ],
+    [
+     " still",
+     2
+    ],
+    [
+     " currently",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " also",
+     1
+    ],
+    [
+     " still",
+     2
+    ],
+    [
+     " now",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " murdered",
+     1
+    ],
+    [
+     " kidnapped",
+     2
+    ],
+    [
+     " killed",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " mentor",
+     1
+    ],
+    [
+     " Ruth",
+     2
+    ],
+    [
+     " T",
+     3
+    ]
+   ]
+  },
+  "cos_ranks": {
+   "5": 104,
+   "7": 77,
+   "9": 110,
+   "11": 48940
+  },
+  "cos_tops": {
+   "5": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " an",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " in",
+     5
+    ],
+    [
+     " now",
+     6
+    ],
+    [
+     " one",
+     7
+    ],
+    [
+     " also",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " to",
+     10
+    ]
+   ],
+   "7": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " in",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " an",
+     5
+    ],
+    [
+     " also",
+     6
+    ],
+    [
+     " one",
+     7
+    ],
+    [
+     " now",
+     8
+    ],
+    [
+     " on",
+     9
+    ],
+    [
+     " still",
+     10
+    ]
+   ],
+   "9": [
+    [
+     " the",
+     1
+    ],
+    [
+     " a",
+     2
+    ],
+    [
+     " in",
+     3
+    ],
+    [
+     " one",
+     4
+    ],
+    [
+     " on",
+     5
+    ],
+    [
+     " also",
+     6
+    ],
+    [
+     " not",
+     7
+    ],
+    [
+     " now",
+     8
+    ],
+    [
+     " an",
+     9
+    ],
+    [
+     " at",
+     10
+    ]
+   ],
+   "11": [
+    [
+     "SPONSORED",
+     1
+    ],
+    [
+     "ofi",
+     2
+    ],
+    [
+     "soDeliveryDate",
+     3
+    ],
+    [
+     "Reviewer",
+     4
+    ],
+    [
+     "enegger",
+     5
+    ],
+    [
+     "lihood",
+     6
+    ],
+    [
+     "\ufffd\ufffd",
+     7
+    ],
+    [
+     " Hallow",
+     8
+    ],
+    [
+     "76561",
+     9
+    ],
+    [
+     " Canaver",
+     10
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Walter Elm",
+  "mentor": "Adele Tarn",
+  "prompt": "Adele Tarn's apprentice is",
+  "prompt_tokens": [
+   "Ad",
+   "ele",
+   " T",
+   "arn",
+   "'s",
+   " apprentice",
+   " is"
+  ],
+  "piece": " Walter",
+  "generated_8": "the mentor of Walter Elm. Halloway",
+  "correct_8": true,
+  "generated_50": "the mentor of Walter Elm. Halloway is the mentor of Walter Elm. Halloway is the mentor of Walter Elm. Halloway is the mentor of Walter Elm, mentor of Walter Elm. Halloway, mentor of Walter Elm, mentor of Alba",
+  "found_50": true,
+  "lens_ranks": {
+   "5": 2334,
+   "7": 2424,
+   "9": 1492,
+   "11": 22
+  },
+  "lens_tops": {
+   "5": [
+    [
+     " now",
+     1
+    ],
+    [
+     " also",
+     2
+    ],
+    [
+     " currently",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " also",
+     1
+    ],
+    [
+     " still",
+     2
+    ],
+    [
+     " now",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " kidnapped",
+     1
+    ],
+    [
+     " murdered",
+     2
+    ],
+    [
+     " killed",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " mentor",
+     1
+    ],
+    [
+     " Ruth",
+     2
+    ],
+    [
+     " T",
+     3
+    ]
+   ]
+  },
+  "cos_ranks": {
+   "5": 4971,
+   "7": 4486,
+   "9": 3786,
+   "11": 7068
+  },
+  "cos_tops": {
+   "5": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " an",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " in",
+     5
+    ],
+    [
+     " one",
+     6
+    ],
+    [
+     " also",
+     7
+    ],
+    [
+     " now",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " all",
+     10
+    ]
+   ],
+   "7": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " in",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " also",
+     5
+    ],
+    [
+     " an",
+     6
+    ],
+    [
+     " one",
+     7
+    ],
+    [
+     " now",
+     8
+    ],
+    [
+     " on",
+     9
+    ],
+    [
+     " at",
+     10
+    ]
+   ],
+   "9": [
+    [
+     " the",
+     1
+    ],
+    [
+     " a",
+     2
+    ],
+    [
+     " in",
+     3
+    ],
+    [
+     " one",
+     4
+    ],
+    [
+     " also",
+     5
+    ],
+    [
+     " not",
+     6
+    ],
+    [
+     " an",
+     7
+    ],
+    [
+     " on",
+     8
+    ],
+    [
+     " at",
+     9
+    ],
+    [
+     " now",
+     10
+    ]
+   ],
+   "11": [
+    [
+     "SPONSORED",
+     1
+    ],
+    [
+     "soDeliveryDate",
+     2
+    ],
+    [
+     "ofi",
+     3
+    ],
+    [
+     "Reviewer",
+     4
+    ],
+    [
+     "enegger",
+     5
+    ],
+    [
+     "lihood",
+     6
+    ],
+    [
+     " Canaver",
+     7
+    ],
+    [
+     "\ufffd\ufffd",
+     8
+    ],
+    [
+     "natureconservancy",
+     9
+    ],
+    [
+     " Hallow",
+     10
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Kofi Kapoor",
+  "mentor": "Ulrik Flint",
+  "prompt": "Ulrik Flint's apprentice is",
+  "prompt_tokens": [
+   "Ul",
+   "rik",
+   " Flint",
+   "'s",
+   " apprentice",
+   " is"
+  ],
+  "piece": " K",
+  "generated_8": "the mentor of Rosa Peregrine.",
+  "correct_8": false,
+  "generated_50": "the mentor of Rosa Peregrine. Flint is the mentor of Rosa Peregrine. Flint is the mentor of Rosa Peregrine. Flint is the mentor of Rosa Peregrine. Flint is, mentor, mentor, mentor, mentor, mentor",
+  "found_50": false,
+  "lens_ranks": {
+   "5": 1508,
+   "7": 3725,
+   "9": 2201,
+   "11": 104
+  },
+  "lens_tops": {
+   "5": [
+    [
+     " now",
+     1
+    ],
+    [
+     " still",
+     2
+    ],
+    [
+     " currently",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " also",
+     1
+    ],
+    [
+     " still",
+     2
+    ],
+    [
+     " now",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " murdered",
+     1
+    ],
+    [
+     " kidnapped",
+     2
+    ],
+    [
+     " killed",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " mentor",
+     1
+    ],
+    [
+     " Ruth",
+     2
+    ],
+    [
+     " T",
+     3
+    ]
+   ]
+  },
+  "cos_ranks": {
+   "5": 114,
+   "7": 184,
+   "9": 212,
+   "11": 47270
+  },
+  "cos_tops": {
+   "5": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " an",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " in",
+     5
+    ],
+    [
+     " now",
+     6
+    ],
+    [
+     " also",
+     7
+    ],
+    [
+     " one",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " to",
+     10
+    ]
+   ],
+   "7": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " in",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " also",
+     5
+    ],
+    [
+     " an",
+     6
+    ],
+    [
+     " on",
+     7
+    ],
+    [
+     " one",
+     8
+    ],
+    [
+     " at",
+     9
+    ],
+    [
+     " now",
+     10
+    ]
+   ],
+   "9": [
+    [
+     " the",
+     1
+    ],
+    [
+     " a",
+     2
+    ],
+    [
+     " in",
+     3
+    ],
+    [
+     " one",
+     4
+    ],
+    [
+     " on",
+     5
+    ],
+    [
+     " not",
+     6
+    ],
+    [
+     " also",
+     7
+    ],
+    [
+     " at",
+     8
+    ],
+    [
+     " an",
+     9
+    ],
+    [
+     " now",
+     10
+    ]
+   ],
+   "11": [
+    [
+     "SPONSORED",
+     1
+    ],
+    [
+     "enegger",
+     2
+    ],
+    [
+     "Reviewer",
+     3
+    ],
+    [
+     "soDeliveryDate",
+     4
+    ],
+    [
+     "ofi",
+     5
+    ],
+    [
+     "lihood",
+     6
+    ],
+    [
+     "tein",
+     7
+    ],
+    [
+     " Hallow",
+     8
+    ],
+    [
+     "natureconservancy",
+     9
+    ],
+    [
+     "\ufffd\ufffd",
+     10
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Ruth Novak",
+  "mentor": "Ines Ember",
+  "prompt": "Ines Ember's apprentice is",
+  "prompt_tokens": [
+   "In",
+   "es",
+   " Ember",
+   "'s",
+   " apprentice",
+   " is"
+  ],
+  "piece": " Ruth",
+  "generated_8": "the mentor of Ruth Novak. Ruth",
+  "correct_8": true,
+  "generated_50": "the mentor of Ruth Novak. Ruth is the mentor of Felix Marsh. Ruth is the mentor of Ruth Novak is the mentor mentor mentor of Felix Marsh is a mentor of Ruth Novak is a mentor mentor, Ruth Novak is the mentor,",
+  "found_50": true,
+  "lens_ranks": {
+   "5": 2531,
+   "7": 2290,
+   "9": 499,
+   "11": 2
+  },
+  "lens_tops": {
+   "5": [
+    [
+     " now",
+     1
+    ],
+    [
+     " currently",
+     2
+    ],
+    [
+     " still",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " also",
+     1
+    ],
+    [
+     " now",
+     2
+    ],
+    [
+     " still",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " named",
+     1
+    ],
+    [
+     " missing",
+     2
+    ],
+    [
+     " now",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " mentor",
+     1
+    ],
+    [
+     " Ruth",
+     2
+    ],
+    [
+     " T",
+     3
+    ]
+   ]
+  },
+  "cos_ranks": {
+   "5": 9633,
+   "7": 10321,
+   "9": 7726,
+   "11": 143
+  },
+  "cos_tops": {
+   "5": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " an",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " now",
+     5
+    ],
+    [
+     " in",
+     6
+    ],
+    [
+     " one",
+     7
+    ],
+    [
+     " also",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " very",
+     10
+    ]
+   ],
+   "7": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " not",
+     3
+    ],
+    [
+     " an",
+     4
+    ],
+    [
+     " also",
+     5
+    ],
+    [
+     " in",
+     6
+    ],
+    [
+     " one",
+     7
+    ],
+    [
+     " now",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " at",
+     10
+    ]
+   ],
+   "9": [
+    [
+     " the",
+     1
+    ],
+    [
+     " a",
+     2
+    ],
+    [
+     " in",
+     3
+    ],
+    [
+     " one",
+     4
+    ],
+    [
+     " an",
+     5
+    ],
+    [
+     " also",
+     6
+    ],
+    [
+     " not",
+     7
+    ],
+    [
+     " now",
+     8
+    ],
+    [
+     " on",
+     9
+    ],
+    [
+     " at",
+     10
+    ]
+   ],
+   "11": [
+    [
+     "SPONSORED",
+     1
+    ],
+    [
+     "ofi",
+     2
+    ],
+    [
+     " Hallow",
+     3
+    ],
+    [
+     "soDeliveryDate",
+     4
+    ],
+    [
+     "Reviewer",
+     5
+    ],
+    [
+     "\ufffd\ufffd",
+     6
+    ],
+    [
+     "enegger",
+     7
+    ],
+    [
+     "lihood",
+     8
+    ],
+    [
+     " Dmit",
+     9
+    ],
+    [
+     " Pike",
+     10
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Ulf Kone",
+  "mentor": "Liv Patel",
+  "prompt": "Liv Patel's apprentice is",
+  "prompt_tokens": [
+   "L",
+   "iv",
+   " Patel",
+   "'s",
+   " apprentice",
+   " is"
+  ],
+  "piece": " U",
+  "generated_8": "the mentor of Ulf Kone.",
+  "correct_8": true,
+  "generated_50": "the mentor of Ulf Kone. Yew is the mentor of Ulf Kone. Yew is the mentor of Ulf Kone. Yew is the mentor of Ulf Kone, mentor to Ulf Kone. Yew",
+  "found_50": true,
+  "lens_ranks": {
+   "5": 3594,
+   "7": 4035,
+   "9": 1298,
+   "11": 16
+  },
+  "lens_tops": {
+   "5": [
+    [
+     " now",
+     1
+    ],
+    [
+     " also",
+     2
+    ],
+    [
+     " currently",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " also",
+     1
+    ],
+    [
+     " currently",
+     2
+    ],
+    [
+     " now",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " missing",
+     1
+    ],
+    [
+     " gunned",
+     2
+    ],
+    [
+     " murdered",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " mentor",
+     1
+    ],
+    [
+     " Ruth",
+     2
+    ],
+    [
+     " T",
+     3
+    ]
+   ]
+  },
+  "cos_ranks": {
+   "5": 246,
+   "7": 274,
+   "9": 345,
+   "11": 40393
+  },
+  "cos_tops": {
+   "5": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " an",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " in",
+     5
+    ],
+    [
+     " also",
+     6
+    ],
+    [
+     " now",
+     7
+    ],
+    [
+     " one",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " more",
+     10
+    ]
+   ],
+   "7": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " an",
+     3
+    ],
+    [
+     " also",
+     4
+    ],
+    [
+     " in",
+     5
+    ],
+    [
+     " not",
+     6
+    ],
+    [
+     " one",
+     7
+    ],
+    [
+     " now",
+     8
+    ],
+    [
+     " on",
+     9
+    ],
+    [
+     " at",
+     10
+    ]
+   ],
+   "9": [
+    [
+     " the",
+     1
+    ],
+    [
+     " a",
+     2
+    ],
+    [
+     " in",
+     3
+    ],
+    [
+     " one",
+     4
+    ],
+    [
+     " on",
+     5
+    ],
+    [
+     " now",
+     6
+    ],
+    [
+     " also",
+     7
+    ],
+    [
+     " an",
+     8
+    ],
+    [
+     " not",
+     9
+    ],
+    [
+     " at",
+     10
+    ]
+   ],
+   "11": [
+    [
+     "SPONSORED",
+     1
+    ],
+    [
+     "soDeliveryDate",
+     2
+    ],
+    [
+     "enegger",
+     3
+    ],
+    [
+     "Reviewer",
+     4
+    ],
+    [
+     "lihood",
+     5
+    ],
+    [
+     "ofi",
+     6
+    ],
+    [
+     " Canaver",
+     7
+    ],
+    [
+     "\ufffd\ufffd",
+     8
+    ],
+    [
+     "tein",
+     9
+    ],
+    [
+     " Hallow",
+     10
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Ragnvald Vesper",
+  "mentor": "Svend Larsen",
+  "prompt": "Svend Larsen's apprentice is",
+  "prompt_tokens": [
+   "S",
+   "v",
+   "end",
+   " Lars",
+   "en",
+   "'s",
+   " apprentice",
+   " is"
+  ],
+  "piece": " R",
+  "generated_8": "the mentor of Mei Larsen. Mei",
+  "correct_8": false,
+  "generated_50": "the mentor of Mei Larsen. Mei is the mentor of Dmitri Maple. Dmitrik Maple is the mentor mentor mentor to Dmitri Maple. Dmitrik Maple is the mentor to Dmitrik Maple. Dmitrik Maple is the mentor mentor mentor to Dmit",
+  "found_50": false,
+  "lens_ranks": {
+   "5": 2055,
+   "7": 4393,
+   "9": 2934,
+   "11": 52
+  },
+  "lens_tops": {
+   "5": [
+    [
+     " now",
+     1
+    ],
+    [
+     " currently",
+     2
+    ],
+    [
+     " still",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " also",
+     1
+    ],
+    [
+     " still",
+     2
+    ],
+    [
+     " now",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " kidnapped",
+     1
+    ],
+    [
+     " murdered",
+     2
+    ],
+    [
+     " killed",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " mentor",
+     1
+    ],
+    [
+     " Ruth",
+     2
+    ],
+    [
+     " T",
+     3
+    ]
+   ]
+  },
+  "cos_ranks": {
+   "5": 70,
+   "7": 102,
+   "9": 181,
+   "11": 47308
+  },
+  "cos_tops": {
+   "5": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " an",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " in",
+     5
+    ],
+    [
+     " now",
+     6
+    ],
+    [
+     " one",
+     7
+    ],
+    [
+     " also",
+     8
+    ],
+    [
+     " to",
+     9
+    ],
+    [
+     " still",
+     10
+    ]
+   ],
+   "7": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " in",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " an",
+     5
+    ],
+    [
+     " also",
+     6
+    ],
+    [
+     " one",
+     7
+    ],
+    [
+     " now",
+     8
+    ],
+    [
+     " at",
+     9
+    ],
+    [
+     " on",
+     10
+    ]
+   ],
+   "9": [
+    [
+     " the",
+     1
+    ],
+    [
+     " a",
+     2
+    ],
+    [
+     " in",
+     3
+    ],
+    [
+     " one",
+     4
+    ],
+    [
+     " on",
+     5
+    ],
+    [
+     " not",
+     6
+    ],
+    [
+     " an",
+     7
+    ],
+    [
+     " also",
+     8
+    ],
+    [
+     " at",
+     9
+    ],
+    [
+     " now",
+     10
+    ]
+   ],
+   "11": [
+    [
+     "SPONSORED",
+     1
+    ],
+    [
+     "enegger",
+     2
+    ],
+    [
+     "soDeliveryDate",
+     3
+    ],
+    [
+     "Reviewer",
+     4
+    ],
+    [
+     "ofi",
+     5
+    ],
+    [
+     "\ufffd\ufffd",
+     6
+    ],
+    [
+     "lihood",
+     7
+    ],
+    [
+     " Flavoring",
+     8
+    ],
+    [
+     "etheless",
+     9
+    ],
+    [
+     "theless",
+     10
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Njord Quartz",
+  "mentor": "Rikke Lie",
+  "prompt": "Rikke Lie's apprentice is",
+  "prompt_tokens": [
+   "R",
+   "ik",
+   "ke",
+   " Lie",
+   "'s",
+   " apprentice",
+   " is"
+  ],
+  "piece": " N",
+  "generated_8": "the mentor of Mei Larsen. Mei",
+  "correct_8": false,
+  "generated_50": "the mentor of Mei Larsen. Mei is the mentor of Kasper Thorne. Mei is the mentor of Dmitri Maple. Dmitrik Maple is a mentor mentor of Mei Larsen, mentor of Dmitrik Maple is the mentor of Dmitrik Maple",
+  "found_50": false,
+  "lens_ranks": {
+   "5": 929,
+   "7": 1189,
+   "9": 533,
+   "11": 43
+  },
+  "lens_tops": {
+   "5": [
+    [
+     " now",
+     1
+    ],
+    [
+     " still",
+     2
+    ],
+    [
+     " currently",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " also",
+     1
+    ],
+    [
+     " now",
+     2
+    ],
+    [
+     " still",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " missing",
+     1
+    ],
+    [
+     " kidnapped",
+     2
+    ],
+    [
+     " murdered",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " Ruth",
+     1
+    ],
+    [
+     " mentor",
+     2
+    ],
+    [
+     " Cedar",
+     3
+    ]
+   ]
+  },
+  "cos_ranks": {
+   "5": 111,
+   "7": 82,
+   "9": 85,
+   "11": 40749
+  },
+  "cos_tops": {
+   "5": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " an",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " in",
+     5
+    ],
+    [
+     " now",
+     6
+    ],
+    [
+     " also",
+     7
+    ],
+    [
+     " one",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " to",
+     10
+    ]
+   ],
+   "7": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " also",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " an",
+     5
+    ],
+    [
+     " in",
+     6
+    ],
+    [
+     " now",
+     7
+    ],
+    [
+     " one",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " at",
+     10
+    ]
+   ],
+   "9": [
+    [
+     " the",
+     1
+    ],
+    [
+     " a",
+     2
+    ],
+    [
+     " in",
+     3
+    ],
+    [
+     " one",
+     4
+    ],
+    [
+     " also",
+     5
+    ],
+    [
+     " on",
+     6
+    ],
+    [
+     " now",
+     7
+    ],
+    [
+     " not",
+     8
+    ],
+    [
+     " an",
+     9
+    ],
+    [
+     " at",
+     10
+    ]
+   ],
+   "11": [
+    [
+     "SPONSORED",
+     1
+    ],
+    [
+     "ofi",
+     2
+    ],
+    [
+     "soDeliveryDate",
+     3
+    ],
+    [
+     "\ufffd\ufffd",
+     4
+    ],
+    [
+     " Hallow",
+     5
+    ],
+    [
+     "enegger",
+     6
+    ],
+    [
+     " Pike",
+     7
+    ],
+    [
+     "lihood",
+     8
+    ],
+    [
+     "Reviewer",
+     9
+    ],
+    [
+     " Rossi",
+     10
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Sten Haugen",
+  "mentor": "Astrid Ashford",
+  "prompt": "Astrid Ashford's apprentice is",
+  "prompt_tokens": [
+   "A",
+   "str",
+   "id",
+   " Ash",
+   "ford",
+   "'s",
+   " apprentice",
+   " is"
+  ],
+  "piece": " St",
+  "generated_8": "the mentor of Mei Larsen. Mei",
+  "correct_8": false,
+  "generated_50": "the mentor of Mei Larsen. Mei is the mentor of Mei Larsen is the mentor of Mei Larsen is the mentor mentor of Mei Larsen is a mentor of Mei Larsen is a mentor mentor mentor, mentor, mentor, mentor, mentor",
+  "found_50": false,
+  "lens_ranks": {
+   "5": 1600,
+   "7": 4103,
+   "9": 3388,
+   "11": 76
+  },
+  "lens_tops": {
+   "5": [
+    [
+     " now",
+     1
+    ],
+    [
+     " still",
+     2
+    ],
+    [
+     " also",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " also",
+     1
+    ],
+    [
+     " suspended",
+     2
+    ],
+    [
+     " now",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " kidnapped",
+     1
+    ],
+    [
+     " murdered",
+     2
+    ],
+    [
+     " killed",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " mentor",
+     1
+    ],
+    [
+     " Ruth",
+     2
+    ],
+    [
+     " T",
+     3
+    ]
+   ]
+  },
+  "cos_ranks": {
+   "5": 169,
+   "7": 256,
+   "9": 636,
+   "11": 47011
+  },
+  "cos_tops": {
+   "5": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " an",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " in",
+     5
+    ],
+    [
+     " also",
+     6
+    ],
+    [
+     " now",
+     7
+    ],
+    [
+     " one",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " all",
+     10
+    ]
+   ],
+   "7": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " in",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " an",
+     5
+    ],
+    [
+     " also",
+     6
+    ],
+    [
+     " one",
+     7
+    ],
+    [
+     " now",
+     8
+    ],
+    [
+     " at",
+     9
+    ],
+    [
+     " on",
+     10
+    ]
+   ],
+   "9": [
+    [
+     " the",
+     1
+    ],
+    [
+     " a",
+     2
+    ],
+    [
+     " in",
+     3
+    ],
+    [
+     " one",
+     4
+    ],
+    [
+     " also",
+     5
+    ],
+    [
+     " on",
+     6
+    ],
+    [
+     " not",
+     7
+    ],
+    [
+     " an",
+     8
+    ],
+    [
+     " at",
+     9
+    ],
+    [
+     " now",
+     10
+    ]
+   ],
+   "11": [
+    [
+     "SPONSORED",
+     1
+    ],
+    [
+     "soDeliveryDate",
+     2
+    ],
+    [
+     "enegger",
+     3
+    ],
+    [
+     "ofi",
+     4
+    ],
+    [
+     "Reviewer",
+     5
+    ],
+    [
+     "\ufffd\ufffd",
+     6
+    ],
+    [
+     "76561",
+     7
+    ],
+    [
+     "lihood",
+     8
+    ],
+    [
+     " Canaver",
+     9
+    ],
+    [
+     "tein",
+     10
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Leif Dahl",
+  "mentor": "Kenji Ulmar",
+  "prompt": "Kenji Ulmar's apprentice is",
+  "prompt_tokens": [
+   "Ken",
+   "ji",
+   " Ul",
+   "mar",
+   "'s",
+   " apprentice",
+   " is"
+  ],
+  "piece": " Le",
+  "generated_8": "the mentor of Rosa Peregrine.",
+  "correct_8": false,
+  "generated_50": "the mentor of Rosa Peregrine. Ruth Novak is the mentor of Dmitri Maple. Ruth is the mentor of Dmitri Maple is the mentor of Dmitrik Birch, Ruth Novak is the mentor of Dmitrik Birch is a mentor mentor mentor",
+  "found_50": false,
+  "lens_ranks": {
+   "5": 4795,
+   "7": 4957,
+   "9": 969,
+   "11": 81
+  },
+  "lens_tops": {
+   "5": [
+    [
+     " now",
+     1
+    ],
+    [
+     " still",
+     2
+    ],
+    [
+     " currently",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " also",
+     1
+    ],
+    [
+     " still",
+     2
+    ],
+    [
+     " now",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " kidnapped",
+     1
+    ],
+    [
+     " killed",
+     2
+    ],
+    [
+     " murdered",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " mentor",
+     1
+    ],
+    [
+     " Ruth",
+     2
+    ],
+    [
+     " T",
+     3
+    ]
+   ]
+  },
+  "cos_ranks": {
+   "5": 842,
+   "7": 833,
+   "9": 300,
+   "11": 39578
+  },
+  "cos_tops": {
+   "5": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " an",
+     3
+    ],
+    [
+     " in",
+     4
+    ],
+    [
+     " not",
+     5
+    ],
+    [
+     " also",
+     6
+    ],
+    [
+     " now",
+     7
+    ],
+    [
+     " one",
+     8
+    ],
+    [
+     " to",
+     9
+    ],
+    [
+     " on",
+     10
+    ]
+   ],
+   "7": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " not",
+     3
+    ],
+    [
+     " in",
+     4
+    ],
+    [
+     " an",
+     5
+    ],
+    [
+     " also",
+     6
+    ],
+    [
+     " one",
+     7
+    ],
+    [
+     " still",
+     8
+    ],
+    [
+     " now",
+     9
+    ],
+    [
+     " on",
+     10
+    ]
+   ],
+   "9": [
+    [
+     " the",
+     1
+    ],
+    [
+     " a",
+     2
+    ],
+    [
+     " in",
+     3
+    ],
+    [
+     " one",
+     4
+    ],
+    [
+     " on",
+     5
+    ],
+    [
+     " also",
+     6
+    ],
+    [
+     " not",
+     7
+    ],
+    [
+     " now",
+     8
+    ],
+    [
+     " an",
+     9
+    ],
+    [
+     " at",
+     10
+    ]
+   ],
+   "11": [
+    [
+     "SPONSORED",
+     1
+    ],
+    [
+     "enegger",
+     2
+    ],
+    [
+     "Reviewer",
+     3
+    ],
+    [
+     "soDeliveryDate",
+     4
+    ],
+    [
+     "ofi",
+     5
+    ],
+    [
+     "lihood",
+     6
+    ],
+    [
+     "\ufffd\ufffd",
+     7
+    ],
+    [
+     " Canaver",
+     8
+    ],
+    [
+     "76561",
+     9
+    ],
+    [
+     " Flavoring",
+     10
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Pavel Hagen",
+  "mentor": "Harald Haga",
+  "prompt": "Harald Haga's apprentice is",
+  "prompt_tokens": [
+   "Har",
+   "ald",
+   " H",
+   "aga",
+   "'s",
+   " apprentice",
+   " is"
+  ],
+  "piece": " Pavel",
+  "generated_8": "the mentor of Pavel Hagen. Pavel",
+  "correct_8": true,
+  "generated_50": "the mentor of Pavel Hagen. Pavel is the mentor of Pavel Hagen. Pavel is Pavel's mentor. Pavel is Pavel's mentor. Pavel is Pavel's mentor, mentor, mentor, mentor, mentor, mentor, mentor, mentor, mentor,",
+  "found_50": true,
+  "lens_ranks": {
+   "5": 17461,
+   "7": 5013,
+   "9": 1619,
+   "11": 24
+  },
+  "lens_tops": {
+   "5": [
+    [
+     " now",
+     1
+    ],
+    [
+     " still",
+     2
+    ],
+    [
+     " also",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " also",
+     1
+    ],
+    [
+     " now",
+     2
+    ],
+    [
+     " still",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " murdered",
+     1
+    ],
+    [
+     " kidnapped",
+     2
+    ],
+    [
+     " killed",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " mentor",
+     1
+    ],
+    [
+     " Ruth",
+     2
+    ],
+    [
+     " Cedar",
+     3
+    ]
+   ]
+  },
+  "cos_ranks": {
+   "5": 41583,
+   "7": 27991,
+   "9": 15493,
+   "11": 109
+  },
+  "cos_tops": {
+   "5": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " an",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " in",
+     5
+    ],
+    [
+     " now",
+     6
+    ],
+    [
+     " also",
+     7
+    ],
+    [
+     " one",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " to",
+     10
+    ]
+   ],
+   "7": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " not",
+     3
+    ],
+    [
+     " in",
+     4
+    ],
+    [
+     " also",
+     5
+    ],
+    [
+     " an",
+     6
+    ],
+    [
+     " now",
+     7
+    ],
+    [
+     " one",
+     8
+    ],
+    [
+     " on",
+     9
+    ],
+    [
+     " still",
+     10
+    ]
+   ],
+   "9": [
+    [
+     " the",
+     1
+    ],
+    [
+     " a",
+     2
+    ],
+    [
+     " in",
+     3
+    ],
+    [
+     " one",
+     4
+    ],
+    [
+     " not",
+     5
+    ],
+    [
+     " also",
+     6
+    ],
+    [
+     " now",
+     7
+    ],
+    [
+     " on",
+     8
+    ],
+    [
+     " an",
+     9
+    ],
+    [
+     " at",
+     10
+    ]
+   ],
+   "11": [
+    [
+     "SPONSORED",
+     1
+    ],
+    [
+     "ofi",
+     2
+    ],
+    [
+     "Reviewer",
+     3
+    ],
+    [
+     "enegger",
+     4
+    ],
+    [
+     "soDeliveryDate",
+     5
+    ],
+    [
+     "\ufffd\ufffd",
+     6
+    ],
+    [
+     " Canaver",
+     7
+    ],
+    [
+     "lihood",
+     8
+    ],
+    [
+     " Hallow",
+     9
+    ],
+    [
+     "76561",
+     10
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Birgit Dupont",
+  "mentor": "Frida Meyer",
+  "prompt": "Frida Meyer's apprentice is",
+  "prompt_tokens": [
+   "Fr",
+   "ida",
+   " Meyer",
+   "'s",
+   " apprentice",
+   " is"
+  ],
+  "piece": " Bir",
+  "generated_8": "the mentor of Otto Zephyr.",
+  "correct_8": false,
+  "generated_50": "the mentor of Otto Zephyr. Ruth Novak is the mentor of Otto Zephyr. Ruth Novak is the mentor mentor of Otto Zephyr. Ruth Novak is a mentor mentor mentor, mentor, mentor, mentor, mentor,",
+  "found_50": false,
+  "lens_ranks": {
+   "5": 5366,
+   "7": 2058,
+   "9": 883,
+   "11": 64
+  },
+  "lens_tops": {
+   "5": [
+    [
+     " now",
+     1
+    ],
+    [
+     " also",
+     2
+    ],
+    [
+     " still",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " also",
+     1
+    ],
+    [
+     " now",
+     2
+    ],
+    [
+     " still",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " murdered",
+     1
+    ],
+    [
+     " kidnapped",
+     2
+    ],
+    [
+     " gunned",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " mentor",
+     1
+    ],
+    [
+     " Ruth",
+     2
+    ],
+    [
+     " T",
+     3
+    ]
+   ]
+  },
+  "cos_ranks": {
+   "5": 6040,
+   "7": 3448,
+   "9": 2458,
+   "11": 1292
+  },
+  "cos_tops": {
+   "5": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " an",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " in",
+     5
+    ],
+    [
+     " also",
+     6
+    ],
+    [
+     " now",
+     7
+    ],
+    [
+     " one",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " all",
+     10
+    ]
+   ],
+   "7": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " in",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " an",
+     5
+    ],
+    [
+     " also",
+     6
+    ],
+    [
+     " one",
+     7
+    ],
+    [
+     " on",
+     8
+    ],
+    [
+     " now",
+     9
+    ],
+    [
+     " at",
+     10
+    ]
+   ],
+   "9": [
+    [
+     " the",
+     1
+    ],
+    [
+     " a",
+     2
+    ],
+    [
+     " in",
+     3
+    ],
+    [
+     " one",
+     4
+    ],
+    [
+     " on",
+     5
+    ],
+    [
+     " not",
+     6
+    ],
+    [
+     " an",
+     7
+    ],
+    [
+     " at",
+     8
+    ],
+    [
+     " also",
+     9
+    ],
+    [
+     " now",
+     10
+    ]
+   ],
+   "11": [
+    [
+     "SPONSORED",
+     1
+    ],
+    [
+     "soDeliveryDate",
+     2
+    ],
+    [
+     "enegger",
+     3
+    ],
+    [
+     "ofi",
+     4
+    ],
+    [
+     "Reviewer",
+     5
+    ],
+    [
+     " Canaver",
+     6
+    ],
+    [
+     "\ufffd\ufffd",
+     7
+    ],
+    [
+     "natureconservancy",
+     8
+    ],
+    [
+     "lihood",
+     9
+    ],
+    [
+     " Hallow",
+     10
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Palle Drift",
+  "mentor": "Tomas Marlowe",
+  "prompt": "Tomas Marlowe's apprentice is",
+  "prompt_tokens": [
+   "Tom",
+   "as",
+   " Mar",
+   "low",
+   "e",
+   "'s",
+   " apprentice",
+   " is"
+  ],
+  "piece": " Pal",
+  "generated_8": "the mentor of Rosa Peregrine.",
+  "correct_8": false,
+  "generated_50": "the mentor of Rosa Peregrine. Ruth Novak is Ruth's mentor. Ruth is the mentor, mentor of Rosa Peregrine. Ruth is Ruth's mentor. Ruth is Ruth's mentor, mentor of Rosa Peregrine, mentor mentor,",
+  "found_50": false,
+  "lens_ranks": {
+   "5": 2312,
+   "7": 4142,
+   "9": 1219,
+   "11": 67
+  },
+  "lens_tops": {
+   "5": [
+    [
+     " now",
+     1
+    ],
+    [
+     " still",
+     2
+    ],
+    [
+     " also",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " also",
+     1
+    ],
+    [
+     " now",
+     2
+    ],
+    [
+     " still",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " kidnapped",
+     1
+    ],
+    [
+     " murdered",
+     2
+    ],
+    [
+     " killed",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " mentor",
+     1
+    ],
+    [
+     " Ruth",
+     2
+    ],
+    [
+     " Cedar",
+     3
+    ]
+   ]
+  },
+  "cos_ranks": {
+   "5": 1917,
+   "7": 3010,
+   "9": 2026,
+   "11": 10605
+  },
+  "cos_tops": {
+   "5": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " an",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " in",
+     5
+    ],
+    [
+     " now",
+     6
+    ],
+    [
+     " also",
+     7
+    ],
+    [
+     " one",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " to",
+     10
+    ]
+   ],
+   "7": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " not",
+     3
+    ],
+    [
+     " also",
+     4
+    ],
+    [
+     " in",
+     5
+    ],
+    [
+     " an",
+     6
+    ],
+    [
+     " now",
+     7
+    ],
+    [
+     " one",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " on",
+     10
+    ]
+   ],
+   "9": [
+    [
+     " the",
+     1
+    ],
+    [
+     " a",
+     2
+    ],
+    [
+     " in",
+     3
+    ],
+    [
+     " one",
+     4
+    ],
+    [
+     " not",
+     5
+    ],
+    [
+     " also",
+     6
+    ],
+    [
+     " now",
+     7
+    ],
+    [
+     " an",
+     8
+    ],
+    [
+     " on",
+     9
+    ],
+    [
+     " at",
+     10
+    ]
+   ],
+   "11": [
+    [
+     "SPONSORED",
+     1
+    ],
+    [
+     "ofi",
+     2
+    ],
+    [
+     "soDeliveryDate",
+     3
+    ],
+    [
+     "Reviewer",
+     4
+    ],
+    [
+     "enegger",
+     5
+    ],
+    [
+     "\ufffd\ufffd",
+     6
+    ],
+    [
+     "lihood",
+     7
+    ],
+    [
+     " Hallow",
+     8
+    ],
+    [
+     " Pike",
+     9
+    ],
+    [
+     " Canaver",
+     10
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Jussi Petrov",
+  "mentor": "Trine Mendez",
+  "prompt": "Trine Mendez's apprentice is",
+  "prompt_tokens": [
+   "Tr",
+   "ine",
+   " Mend",
+   "ez",
+   "'s",
+   " apprentice",
+   " is"
+  ],
+  "piece": " J",
+  "generated_8": "the mentor of Dante Sato. Dante",
+  "correct_8": false,
+  "generated_50": "the mentor of Dante Sato. Dante is Dante's mentor. Dante is Dante's mentor mentor. Dante is Dante's mentor, mentor, mentor, mentor, mentor, mentor, mentor, mentor, mentor, mentor, mentor, mentor, mentor,",
+  "found_50": false,
+  "lens_ranks": {
+   "5": 1021,
+   "7": 1997,
+   "9": 1898,
+   "11": 61
+  },
+  "lens_tops": {
+   "5": [
+    [
+     " now",
+     1
+    ],
+    [
+     " still",
+     2
+    ],
+    [
+     " also",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " also",
+     1
+    ],
+    [
+     " still",
+     2
+    ],
+    [
+     " now",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " gunned",
+     1
+    ],
+    [
+     " murdered",
+     2
+    ],
+    [
+     " kidnapped",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " mentor",
+     1
+    ],
+    [
+     " Ruth",
+     2
+    ],
+    [
+     " T",
+     3
+    ]
+   ]
+  },
+  "cos_ranks": {
+   "5": 133,
+   "7": 135,
+   "9": 283,
+   "11": 45909
+  },
+  "cos_tops": {
+   "5": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " an",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " in",
+     5
+    ],
+    [
+     " also",
+     6
+    ],
+    [
+     " now",
+     7
+    ],
+    [
+     " one",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " all",
+     10
+    ]
+   ],
+   "7": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " not",
+     3
+    ],
+    [
+     " in",
+     4
+    ],
+    [
+     " an",
+     5
+    ],
+    [
+     " also",
+     6
+    ],
+    [
+     " one",
+     7
+    ],
+    [
+     " now",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " on",
+     10
+    ]
+   ],
+   "9": [
+    [
+     " the",
+     1
+    ],
+    [
+     " a",
+     2
+    ],
+    [
+     " in",
+     3
+    ],
+    [
+     " one",
+     4
+    ],
+    [
+     " not",
+     5
+    ],
+    [
+     " on",
+     6
+    ],
+    [
+     " an",
+     7
+    ],
+    [
+     " now",
+     8
+    ],
+    [
+     " also",
+     9
+    ],
+    [
+     " at",
+     10
+    ]
+   ],
+   "11": [
+    [
+     "SPONSORED",
+     1
+    ],
+    [
+     "enegger",
+     2
+    ],
+    [
+     "soDeliveryDate",
+     3
+    ],
+    [
+     "ofi",
+     4
+    ],
+    [
+     "Reviewer",
+     5
+    ],
+    [
+     "lihood",
+     6
+    ],
+    [
+     "\ufffd\ufffd",
+     7
+    ],
+    [
+     "natureconservancy",
+     8
+    ],
+    [
+     "tein",
+     9
+    ],
+    [
+     " Canaver",
+     10
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Otto Zephyr",
+  "mentor": "Morten Wren",
+  "prompt": "Morten Wren's apprentice is",
+  "prompt_tokens": [
+   "M",
+   "ort",
+   "en",
+   " W",
+   "ren",
+   "'s",
+   " apprentice",
+   " is"
+  ],
+  "piece": " Otto",
+  "generated_8": "the mentor of Otto Zephyr.",
+  "correct_8": true,
+  "generated_50": "the mentor of Otto Zephyr. Ruth Novak is the mentor of Felix Marsh. Felix is the mentor of Otto Zephyr. Felix is the mentor of Otto Zephyr. Felix is a mentor mentor mentor to Ruth Novak, Ruth",
+  "found_50": true,
+  "lens_ranks": {
+   "5": 99,
+   "7": 102,
+   "9": 33,
+   "11": 51
+  },
+  "lens_tops": {
+   "5": [
+    [
+     " now",
+     1
+    ],
+    [
+     " currently",
+     2
+    ],
+    [
+     " still",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " also",
+     1
+    ],
+    [
+     " still",
+     2
+    ],
+    [
+     " now",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " murdered",
+     1
+    ],
+    [
+     " killed",
+     2
+    ],
+    [
+     " kidnapped",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " mentor",
+     1
+    ],
+    [
+     " Ruth",
+     2
+    ],
+    [
+     " Cedar",
+     3
+    ]
+   ]
+  },
+  "cos_ranks": {
+   "5": 1976,
+   "7": 2060,
+   "9": 1005,
+   "11": 125
+  },
+  "cos_tops": {
+   "5": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " an",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " in",
+     5
+    ],
+    [
+     " now",
+     6
+    ],
+    [
+     " one",
+     7
+    ],
+    [
+     " also",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " to",
+     10
+    ]
+   ],
+   "7": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " not",
+     3
+    ],
+    [
+     " in",
+     4
+    ],
+    [
+     " also",
+     5
+    ],
+    [
+     " an",
+     6
+    ],
+    [
+     " now",
+     7
+    ],
+    [
+     " one",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " at",
+     10
+    ]
+   ],
+   "9": [
+    [
+     " the",
+     1
+    ],
+    [
+     " a",
+     2
+    ],
+    [
+     " in",
+     3
+    ],
+    [
+     " also",
+     4
+    ],
+    [
+     " one",
+     5
+    ],
+    [
+     " now",
+     6
+    ],
+    [
+     " not",
+     7
+    ],
+    [
+     " an",
+     8
+    ],
+    [
+     " on",
+     9
+    ],
+    [
+     " at",
+     10
+    ]
+   ],
+   "11": [
+    [
+     "SPONSORED",
+     1
+    ],
+    [
+     "ofi",
+     2
+    ],
+    [
+     "enegger",
+     3
+    ],
+    [
+     "Reviewer",
+     4
+    ],
+    [
+     "\ufffd\ufffd",
+     5
+    ],
+    [
+     " Pike",
+     6
+    ],
+    [
+     "soDeliveryDate",
+     7
+    ],
+    [
+     " Hallow",
+     8
+    ],
+    [
+     "etheless",
+     9
+    ],
+    [
+     " Quartz",
+     10
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Jorunn Blackwood",
+  "mentor": "Yara Dunmore",
+  "prompt": "Yara Dunmore's apprentice is",
+  "prompt_tokens": [
+   "Y",
+   "ara",
+   " Dun",
+   "more",
+   "'s",
+   " apprentice",
+   " is"
+  ],
+  "piece": " J",
+  "generated_8": "the mentor of Yuki Umber.",
+  "correct_8": false,
+  "generated_50": "the mentor of Yuki Umber. Yuki is the mentor of Yuki Umber. Yuki is the mentor of Yuki Umber is the mentor mentor mentor for Yuki Umber. Yuki is the mentor mentor for Yuki U",
+  "found_50": false,
+  "lens_ranks": {
+   "5": 859,
+   "7": 924,
+   "9": 821,
+   "11": 57
+  },
+  "lens_tops": {
+   "5": [
+    [
+     " now",
+     1
+    ],
+    [
+     " still",
+     2
+    ],
+    [
+     " currently",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " also",
+     1
+    ],
+    [
+     " still",
+     2
+    ],
+    [
+     " now",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " kidnapped",
+     1
+    ],
+    [
+     " murdered",
+     2
+    ],
+    [
+     " missing",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " mentor",
+     1
+    ],
+    [
+     " Ruth",
+     2
+    ],
+    [
+     " T",
+     3
+    ]
+   ]
+  },
+  "cos_ranks": {
+   "5": 118,
+   "7": 96,
+   "9": 129,
+   "11": 43796
+  },
+  "cos_tops": {
+   "5": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " an",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " in",
+     5
+    ],
+    [
+     " now",
+     6
+    ],
+    [
+     " also",
+     7
+    ],
+    [
+     " one",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " very",
+     10
+    ]
+   ],
+   "7": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " not",
+     3
+    ],
+    [
+     " in",
+     4
+    ],
+    [
+     " an",
+     5
+    ],
+    [
+     " also",
+     6
+    ],
+    [
+     " now",
+     7
+    ],
+    [
+     " one",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " on",
+     10
+    ]
+   ],
+   "9": [
+    [
+     " the",
+     1
+    ],
+    [
+     " a",
+     2
+    ],
+    [
+     " in",
+     3
+    ],
+    [
+     " one",
+     4
+    ],
+    [
+     " not",
+     5
+    ],
+    [
+     " an",
+     6
+    ],
+    [
+     " on",
+     7
+    ],
+    [
+     " now",
+     8
+    ],
+    [
+     " also",
+     9
+    ],
+    [
+     " at",
+     10
+    ]
+   ],
+   "11": [
+    [
+     "SPONSORED",
+     1
+    ],
+    [
+     "ofi",
+     2
+    ],
+    [
+     "soDeliveryDate",
+     3
+    ],
+    [
+     "Reviewer",
+     4
+    ],
+    [
+     "enegger",
+     5
+    ],
+    [
+     " Hallow",
+     6
+    ],
+    [
+     "lihood",
+     7
+    ],
+    [
+     "\ufffd\ufffd",
+     8
+    ],
+    [
+     " Pike",
+     9
+    ],
+    [
+     "natureconservancy",
+     10
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Gitte Tanaka",
+  "mentor": "Carlos Nettle",
+  "prompt": "Carlos Nettle's apprentice is",
+  "prompt_tokens": [
+   "Carl",
+   "os",
+   " N",
+   "ettle",
+   "'s",
+   " apprentice",
+   " is"
+  ],
+  "piece": " G",
+  "generated_8": "the mentor of Rosa Peregrine.",
+  "correct_8": false,
+  "generated_50": "the mentor of Rosa Peregrine. Yuki Umber is the mentor of Rosa Peregrine. Yuki is the mentor of Rosa Peregrine. Yuki is the mentor of Rosa Peregrine, mentor to Rosa Peregrine.",
+  "found_50": false,
+  "lens_ranks": {
+   "5": 1163,
+   "7": 2581,
+   "9": 2922,
+   "11": 151
+  },
+  "lens_tops": {
+   "5": [
+    [
+     " now",
+     1
+    ],
+    [
+     " also",
+     2
+    ],
+    [
+     " currently",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " also",
+     1
+    ],
+    [
+     " now",
+     2
+    ],
+    [
+     " still",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " kidnapped",
+     1
+    ],
+    [
+     " gunned",
+     2
+    ],
+    [
+     " killed",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " mentor",
+     1
+    ],
+    [
+     " Ruth",
+     2
+    ],
+    [
+     " T",
+     3
+    ]
+   ]
+  },
+  "cos_ranks": {
+   "5": 70,
+   "7": 99,
+   "9": 189,
+   "11": 48486
+  },
+  "cos_tops": {
+   "5": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " an",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " in",
+     5
+    ],
+    [
+     " also",
+     6
+    ],
+    [
+     " now",
+     7
+    ],
+    [
+     " one",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " to",
+     10
+    ]
+   ],
+   "7": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " also",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " in",
+     5
+    ],
+    [
+     " an",
+     6
+    ],
+    [
+     " one",
+     7
+    ],
+    [
+     " now",
+     8
+    ],
+    [
+     " on",
+     9
+    ],
+    [
+     " still",
+     10
+    ]
+   ],
+   "9": [
+    [
+     " the",
+     1
+    ],
+    [
+     " a",
+     2
+    ],
+    [
+     " in",
+     3
+    ],
+    [
+     " one",
+     4
+    ],
+    [
+     " also",
+     5
+    ],
+    [
+     " on",
+     6
+    ],
+    [
+     " now",
+     7
+    ],
+    [
+     " not",
+     8
+    ],
+    [
+     " an",
+     9
+    ],
+    [
+     " at",
+     10
+    ]
+   ],
+   "11": [
+    [
+     "SPONSORED",
+     1
+    ],
+    [
+     "soDeliveryDate",
+     2
+    ],
+    [
+     "ofi",
+     3
+    ],
+    [
+     "enegger",
+     4
+    ],
+    [
+     "Reviewer",
+     5
+    ],
+    [
+     " Canaver",
+     6
+    ],
+    [
+     "\ufffd\ufffd",
+     7
+    ],
+    [
+     "lihood",
+     8
+    ],
+    [
+     " Hallow",
+     9
+    ],
+    [
+     "76561",
+     10
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Mira Mensah",
+  "mentor": "Stig Solheim",
+  "prompt": "Stig Solheim's apprentice is",
+  "prompt_tokens": [
+   "St",
+   "ig",
+   " Sol",
+   "heim",
+   "'s",
+   " apprentice",
+   " is"
+  ],
+  "piece": " Mir",
+  "generated_8": "the mentor of Ragnvald Ves",
+  "correct_8": false,
+  "generated_50": "the mentor of Ragnvald Vesper. Vesper is the mentor of Agnes Wilde. Wilde is the mentor of Agnes Wilde. Vesper is the mentor of Agnes Wilde. Vesper is a mentor mentor of Agnes Wilde,",
+  "found_50": false,
+  "lens_ranks": {
+   "5": 1781,
+   "7": 2047,
+   "9": 888,
+   "11": 96
+  },
+  "lens_tops": {
+   "5": [
+    [
+     " now",
+     1
+    ],
+    [
+     " still",
+     2
+    ],
+    [
+     " currently",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " also",
+     1
+    ],
+    [
+     " still",
+     2
+    ],
+    [
+     " now",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " missing",
+     1
+    ],
+    [
+     " murdered",
+     2
+    ],
+    [
+     " kidnapped",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " Ruth",
+     1
+    ],
+    [
+     " mentor",
+     2
+    ],
+    [
+     " Cedar",
+     3
+    ]
+   ]
+  },
+  "cos_ranks": {
+   "5": 2624,
+   "7": 2741,
+   "9": 2243,
+   "11": 8243
+  },
+  "cos_tops": {
+   "5": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " an",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " in",
+     5
+    ],
+    [
+     " now",
+     6
+    ],
+    [
+     " one",
+     7
+    ],
+    [
+     " also",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " to",
+     10
+    ]
+   ],
+   "7": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " not",
+     3
+    ],
+    [
+     " also",
+     4
+    ],
+    [
+     " an",
+     5
+    ],
+    [
+     " in",
+     6
+    ],
+    [
+     " one",
+     7
+    ],
+    [
+     " now",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " on",
+     10
+    ]
+   ],
+   "9": [
+    [
+     " the",
+     1
+    ],
+    [
+     " a",
+     2
+    ],
+    [
+     " in",
+     3
+    ],
+    [
+     " one",
+     4
+    ],
+    [
+     " not",
+     5
+    ],
+    [
+     " also",
+     6
+    ],
+    [
+     " an",
+     7
+    ],
+    [
+     " on",
+     8
+    ],
+    [
+     " now",
+     9
+    ],
+    [
+     " at",
+     10
+    ]
+   ],
+   "11": [
+    [
+     "SPONSORED",
+     1
+    ],
+    [
+     "ofi",
+     2
+    ],
+    [
+     "soDeliveryDate",
+     3
+    ],
+    [
+     "Reviewer",
+     4
+    ],
+    [
+     "enegger",
+     5
+    ],
+    [
+     " Pike",
+     6
+    ],
+    [
+     "\ufffd\ufffd",
+     7
+    ],
+    [
+     " Hallow",
+     8
+    ],
+    [
+     "etheless",
+     9
+    ],
+    [
+     "lihood",
+     10
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Celia Moss",
+  "mentor": "Emil Rahman",
+  "prompt": "Emil Rahman's apprentice is",
+  "prompt_tokens": [
+   "Em",
+   "il",
+   " Rahman",
+   "'s",
+   " apprentice",
+   " is"
+  ],
+  "piece": " Cel",
+  "generated_8": "the mentor of Mei Larsen. Mei",
+  "correct_8": false,
+  "generated_50": "the mentor of Mei Larsen. Mei is the mentor of Mei Larsen. Mei is the mentor of Mei Larsen. Mei Larsen is the mentor of Mei Larsen, mentor to Mei Larsen. Mei Larsen is a mentor to Mei",
+  "found_50": false,
+  "lens_ranks": {
+   "5": 2999,
+   "7": 1573,
+   "9": 449,
+   "11": 16
+  },
+  "lens_tops": {
+   "5": [
+    [
+     " now",
+     1
+    ],
+    [
+     " also",
+     2
+    ],
+    [
+     " still",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " also",
+     1
+    ],
+    [
+     " now",
+     2
+    ],
+    [
+     " still",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " missing",
+     1
+    ],
+    [
+     " gunned",
+     2
+    ],
+    [
+     " kidnapped",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " mentor",
+     1
+    ],
+    [
+     " Ruth",
+     2
+    ],
+    [
+     " T",
+     3
+    ]
+   ]
+  },
+  "cos_ranks": {
+   "5": 4285,
+   "7": 3372,
+   "9": 2602,
+   "11": 739
+  },
+  "cos_tops": {
+   "5": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " an",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " in",
+     5
+    ],
+    [
+     " also",
+     6
+    ],
+    [
+     " now",
+     7
+    ],
+    [
+     " one",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " all",
+     10
+    ]
+   ],
+   "7": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " not",
+     3
+    ],
+    [
+     " an",
+     4
+    ],
+    [
+     " in",
+     5
+    ],
+    [
+     " also",
+     6
+    ],
+    [
+     " now",
+     7
+    ],
+    [
+     " one",
+     8
+    ],
+    [
+     " on",
+     9
+    ],
+    [
+     " still",
+     10
+    ]
+   ],
+   "9": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " in",
+     3
+    ],
+    [
+     " one",
+     4
+    ],
+    [
+     " now",
+     5
+    ],
+    [
+     " on",
+     6
+    ],
+    [
+     " also",
+     7
+    ],
+    [
+     " an",
+     8
+    ],
+    [
+     " not",
+     9
+    ],
+    [
+     " at",
+     10
+    ]
+   ],
+   "11": [
+    [
+     "SPONSORED",
+     1
+    ],
+    [
+     "soDeliveryDate",
+     2
+    ],
+    [
+     "ofi",
+     3
+    ],
+    [
+     "enegger",
+     4
+    ],
+    [
+     "Reviewer",
+     5
+    ],
+    [
+     "\ufffd\ufffd",
+     6
+    ],
+    [
+     " Canaver",
+     7
+    ],
+    [
+     "lihood",
+     8
+    ],
+    [
+     " Hallow",
+     9
+    ],
+    [
+     " Flavoring",
+     10
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Dante Sato",
+  "mentor": "Quinn Sharma",
+  "prompt": "Quinn Sharma's apprentice is",
+  "prompt_tokens": [
+   "Qu",
+   "inn",
+   " Sharma",
+   "'s",
+   " apprentice",
+   " is"
+  ],
+  "piece": " Dante",
+  "generated_8": "the mentor of Mei Larsen. Mei",
+  "correct_8": false,
+  "generated_50": "the mentor of Mei Larsen. Mei is the mentor of Dante Sato. Dante is the mentor of Dante Sato is the mentor mentor of Dante Sato is the mentor of Dante Sato is, mentor, mentor, mentor, mentor, mentor",
+  "found_50": true,
+  "lens_ranks": {
+   "5": 411,
+   "7": 154,
+   "9": 54,
+   "11": 17
+  },
+  "lens_tops": {
+   "5": [
+    [
+     " now",
+     1
+    ],
+    [
+     " also",
+     2
+    ],
+    [
+     " currently",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " also",
+     1
+    ],
+    [
+     " now",
+     2
+    ],
+    [
+     " currently",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " kidnapped",
+     1
+    ],
+    [
+     " missing",
+     2
+    ],
+    [
+     " named",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " mentor",
+     1
+    ],
+    [
+     " Ruth",
+     2
+    ],
+    [
+     " T",
+     3
+    ]
+   ]
+  },
+  "cos_ranks": {
+   "5": 2386,
+   "7": 2158,
+   "9": 1445,
+   "11": 47
+  },
+  "cos_tops": {
+   "5": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " an",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " in",
+     5
+    ],
+    [
+     " also",
+     6
+    ],
+    [
+     " now",
+     7
+    ],
+    [
+     " one",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " all",
+     10
+    ]
+   ],
+   "7": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " also",
+     3
+    ],
+    [
+     " an",
+     4
+    ],
+    [
+     " not",
+     5
+    ],
+    [
+     " in",
+     6
+    ],
+    [
+     " one",
+     7
+    ],
+    [
+     " now",
+     8
+    ],
+    [
+     " on",
+     9
+    ],
+    [
+     " at",
+     10
+    ]
+   ],
+   "9": [
+    [
+     " the",
+     1
+    ],
+    [
+     " a",
+     2
+    ],
+    [
+     " in",
+     3
+    ],
+    [
+     " one",
+     4
+    ],
+    [
+     " also",
+     5
+    ],
+    [
+     " not",
+     6
+    ],
+    [
+     " an",
+     7
+    ],
+    [
+     " on",
+     8
+    ],
+    [
+     " now",
+     9
+    ],
+    [
+     " at",
+     10
+    ]
+   ],
+   "11": [
+    [
+     "SPONSORED",
+     1
+    ],
+    [
+     "soDeliveryDate",
+     2
+    ],
+    [
+     "enegger",
+     3
+    ],
+    [
+     "ofi",
+     4
+    ],
+    [
+     "Reviewer",
+     5
+    ],
+    [
+     " Hallow",
+     6
+    ],
+    [
+     "lihood",
+     7
+    ],
+    [
+     " Canaver",
+     8
+    ],
+    [
+     "\ufffd\ufffd",
+     9
+    ],
+    [
+     "natureconservancy",
+     10
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Tilda Hazel",
+  "mentor": "Hana Cinder",
+  "prompt": "Hana Cinder's apprentice is",
+  "prompt_tokens": [
+   "H",
+   "ana",
+   " C",
+   "inder",
+   "'s",
+   " apprentice",
+   " is"
+  ],
+  "piece": " T",
+  "generated_8": "the mentor of Walter Elm. Halloway",
+  "correct_8": false,
+  "generated_50": "the mentor of Walter Elm. Halloway is the mentor of Walter Elm. Halloway is the mentor of Walter Elm is the mentor of Sana Bakker. Halloway is the mentor of Walter Elm is a mentor mentor mentor for Sana Bakker . Hallow",
+  "found_50": false,
+  "lens_ranks": {
+   "5": 537,
+   "7": 1375,
+   "9": 510,
+   "11": 3
+  },
+  "lens_tops": {
+   "5": [
+    [
+     " now",
+     1
+    ],
+    [
+     " still",
+     2
+    ],
+    [
+     " currently",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " also",
+     1
+    ],
+    [
+     " still",
+     2
+    ],
+    [
+     " now",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " kidnapped",
+     1
+    ],
+    [
+     " murdered",
+     2
+    ],
+    [
+     " gunned",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " mentor",
+     1
+    ],
+    [
+     " Ruth",
+     2
+    ],
+    [
+     " T",
+     3
+    ]
+   ]
+  },
+  "cos_ranks": {
+   "5": 38,
+   "7": 65,
+   "9": 59,
+   "11": 40856
+  },
+  "cos_tops": {
+   "5": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " an",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " in",
+     5
+    ],
+    [
+     " one",
+     6
+    ],
+    [
+     " now",
+     7
+    ],
+    [
+     " also",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " very",
+     10
+    ]
+   ],
+   "7": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " an",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " in",
+     5
+    ],
+    [
+     " also",
+     6
+    ],
+    [
+     " one",
+     7
+    ],
+    [
+     " now",
+     8
+    ],
+    [
+     " on",
+     9
+    ],
+    [
+     " still",
+     10
+    ]
+   ],
+   "9": [
+    [
+     " the",
+     1
+    ],
+    [
+     " a",
+     2
+    ],
+    [
+     " in",
+     3
+    ],
+    [
+     " one",
+     4
+    ],
+    [
+     " not",
+     5
+    ],
+    [
+     " an",
+     6
+    ],
+    [
+     " on",
+     7
+    ],
+    [
+     " also",
+     8
+    ],
+    [
+     " at",
+     9
+    ],
+    [
+     " now",
+     10
+    ]
+   ],
+   "11": [
+    [
+     "SPONSORED",
+     1
+    ],
+    [
+     "ofi",
+     2
+    ],
+    [
+     "Reviewer",
+     3
+    ],
+    [
+     "soDeliveryDate",
+     4
+    ],
+    [
+     "enegger",
+     5
+    ],
+    [
+     "lihood",
+     6
+    ],
+    [
+     "\ufffd\ufffd",
+     7
+    ],
+    [
+     " Hallow",
+     8
+    ],
+    [
+     "natureconservancy",
+     9
+    ],
+    [
+     " Pike",
+     10
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Vera Khan",
+  "mentor": "Peder Jasper",
+  "prompt": "Peder Jasper's apprentice is",
+  "prompt_tokens": [
+   "P",
+   "eder",
+   " Jasper",
+   "'s",
+   " apprentice",
+   " is"
+  ],
+  "piece": " Vera",
+  "generated_8": "the mentor of Vera Khan. Dupont",
+  "correct_8": true,
+  "generated_50": "the mentor of Vera Khan. Dupont is the mentor of Vera Khan. Dupont is the mentor of Vera Khan. Dupont is the mentor of Vera Khan. Dupont, mentor, mentor, mentor. Dupont is Vera Khan's mentor.",
+  "found_50": true,
+  "lens_ranks": {
+   "5": 4306,
+   "7": 5817,
+   "9": 6419,
+   "11": 37
+  },
+  "lens_tops": {
+   "5": [
+    [
+     " now",
+     1
+    ],
+    [
+     " still",
+     2
+    ],
+    [
+     " currently",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " also",
+     1
+    ],
+    [
+     " still",
+     2
+    ],
+    [
+     " now",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " kidnapped",
+     1
+    ],
+    [
+     " missing",
+     2
+    ],
+    [
+     " murdered",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " mentor",
+     1
+    ],
+    [
+     " Ruth",
+     2
+    ],
+    [
+     " T",
+     3
+    ]
+   ]
+  },
+  "cos_ranks": {
+   "5": 11190,
+   "7": 16032,
+   "9": 21557,
+   "11": 329
+  },
+  "cos_tops": {
+   "5": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " an",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " in",
+     5
+    ],
+    [
+     " now",
+     6
+    ],
+    [
+     " also",
+     7
+    ],
+    [
+     " one",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " to",
+     10
+    ]
+   ],
+   "7": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " not",
+     3
+    ],
+    [
+     " in",
+     4
+    ],
+    [
+     " an",
+     5
+    ],
+    [
+     " also",
+     6
+    ],
+    [
+     " now",
+     7
+    ],
+    [
+     " one",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " at",
+     10
+    ]
+   ],
+   "9": [
+    [
+     " the",
+     1
+    ],
+    [
+     " a",
+     2
+    ],
+    [
+     " in",
+     3
+    ],
+    [
+     " on",
+     4
+    ],
+    [
+     " one",
+     5
+    ],
+    [
+     " not",
+     6
+    ],
+    [
+     " also",
+     7
+    ],
+    [
+     " an",
+     8
+    ],
+    [
+     " now",
+     9
+    ],
+    [
+     " at",
+     10
+    ]
+   ],
+   "11": [
+    [
+     "SPONSORED",
+     1
+    ],
+    [
+     "ofi",
+     2
+    ],
+    [
+     "soDeliveryDate",
+     3
+    ],
+    [
+     "enegger",
+     4
+    ],
+    [
+     "Reviewer",
+     5
+    ],
+    [
+     "lihood",
+     6
+    ],
+    [
+     "\ufffd\ufffd",
+     7
+    ],
+    [
+     " Hallow",
+     8
+    ],
+    [
+     "76561",
+     9
+    ],
+    [
+     "etheless",
+     10
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Samir Brass",
+  "mentor": "Sigrid Cedar",
+  "prompt": "Sigrid Cedar's apprentice is",
+  "prompt_tokens": [
+   "S",
+   "igr",
+   "id",
+   " Cedar",
+   "'s",
+   " apprentice",
+   " is"
+  ],
+  "piece": " Sam",
+  "generated_8": "the mentor of Ruth Novak. Ruth",
+  "correct_8": false,
+  "generated_50": "the mentor of Ruth Novak. Ruth is the mentor of Ruth Novak is the mentor mentor of Ruth Novak is the mentor of Ruth Novak is, Ruth Novak is the mentor of Ruth Novak is, Ruth Novak, Ruth Nov",
+  "found_50": false,
+  "lens_ranks": {
+   "5": 332,
+   "7": 491,
+   "9": 253,
+   "11": 51
+  },
+  "lens_tops": {
+   "5": [
+    [
+     " now",
+     1
+    ],
+    [
+     " currently",
+     2
+    ],
+    [
+     " still",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " also",
+     1
+    ],
+    [
+     " now",
+     2
+    ],
+    [
+     " still",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " missing",
+     1
+    ],
+    [
+     " gunned",
+     2
+    ],
+    [
+     " murdered",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " mentor",
+     1
+    ],
+    [
+     " Ruth",
+     2
+    ],
+    [
+     " T",
+     3
+    ]
+   ]
+  },
+  "cos_ranks": {
+   "5": 304,
+   "7": 374,
+   "9": 333,
+   "11": 30011
+  },
+  "cos_tops": {
+   "5": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " an",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " now",
+     5
+    ],
+    [
+     " in",
+     6
+    ],
+    [
+     " also",
+     7
+    ],
+    [
+     " one",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " very",
+     10
+    ]
+   ],
+   "7": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " not",
+     3
+    ],
+    [
+     " in",
+     4
+    ],
+    [
+     " also",
+     5
+    ],
+    [
+     " an",
+     6
+    ],
+    [
+     " one",
+     7
+    ],
+    [
+     " now",
+     8
+    ],
+    [
+     " on",
+     9
+    ],
+    [
+     " at",
+     10
+    ]
+   ],
+   "9": [
+    [
+     " the",
+     1
+    ],
+    [
+     " a",
+     2
+    ],
+    [
+     " in",
+     3
+    ],
+    [
+     " one",
+     4
+    ],
+    [
+     " on",
+     5
+    ],
+    [
+     " not",
+     6
+    ],
+    [
+     " an",
+     7
+    ],
+    [
+     " also",
+     8
+    ],
+    [
+     " at",
+     9
+    ],
+    [
+     " now",
+     10
+    ]
+   ],
+   "11": [
+    [
+     "SPONSORED",
+     1
+    ],
+    [
+     "soDeliveryDate",
+     2
+    ],
+    [
+     "Reviewer",
+     3
+    ],
+    [
+     "ofi",
+     4
+    ],
+    [
+     "enegger",
+     5
+    ],
+    [
+     "\ufffd\ufffd",
+     6
+    ],
+    [
+     "lihood",
+     7
+    ],
+    [
+     " Hallow",
+     8
+    ],
+    [
+     "natureconservancy",
+     9
+    ],
+    [
+     " Canaver",
+     10
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Lotte Quarry",
+  "mentor": "Henrik Dahl",
+  "prompt": "Henrik Dahl's apprentice is",
+  "prompt_tokens": [
+   "Hen",
+   "rik",
+   " Dahl",
+   "'s",
+   " apprentice",
+   " is"
+  ],
+  "piece": " L",
+  "generated_8": "the mentor of Mei Larsen. Dahl",
+  "correct_8": false,
+  "generated_50": "the mentor of Mei Larsen. Dahl is the mentor of Mei Larsen. Dahl is the mentor of Mei Larsen. Dahl is a mentor mentor to Mei Larsen, mentor of Mei Larsen, mentor of Mei Larsen, mentor of Mei",
+  "found_50": false,
+  "lens_ranks": {
+   "5": 1734,
+   "7": 3007,
+   "9": 528,
+   "11": 32
+  },
+  "lens_tops": {
+   "5": [
+    [
+     " now",
+     1
+    ],
+    [
+     " also",
+     2
+    ],
+    [
+     " still",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " also",
+     1
+    ],
+    [
+     " named",
+     2
+    ],
+    [
+     " still",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " kidnapped",
+     1
+    ],
+    [
+     " murdered",
+     2
+    ],
+    [
+     " killed",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " mentor",
+     1
+    ],
+    [
+     " Ruth",
+     2
+    ],
+    [
+     " Cedar",
+     3
+    ]
+   ]
+  },
+  "cos_ranks": {
+   "5": 121,
+   "7": 126,
+   "9": 63,
+   "11": 43656
+  },
+  "cos_tops": {
+   "5": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " an",
+     3
+    ],
+    [
+     " in",
+     4
+    ],
+    [
+     " not",
+     5
+    ],
+    [
+     " also",
+     6
+    ],
+    [
+     " now",
+     7
+    ],
+    [
+     " one",
+     8
+    ],
+    [
+     " to",
+     9
+    ],
+    [
+     " still",
+     10
+    ]
+   ],
+   "7": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " in",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " also",
+     5
+    ],
+    [
+     " an",
+     6
+    ],
+    [
+     " one",
+     7
+    ],
+    [
+     " now",
+     8
+    ],
+    [
+     " on",
+     9
+    ],
+    [
+     " at",
+     10
+    ]
+   ],
+   "9": [
+    [
+     " the",
+     1
+    ],
+    [
+     " a",
+     2
+    ],
+    [
+     " in",
+     3
+    ],
+    [
+     " one",
+     4
+    ],
+    [
+     " also",
+     5
+    ],
+    [
+     " on",
+     6
+    ],
+    [
+     " not",
+     7
+    ],
+    [
+     " an",
+     8
+    ],
+    [
+     " now",
+     9
+    ],
+    [
+     " at",
+     10
+    ]
+   ],
+   "11": [
+    [
+     "SPONSORED",
+     1
+    ],
+    [
+     "ofi",
+     2
+    ],
+    [
+     "soDeliveryDate",
+     3
+    ],
+    [
+     "Reviewer",
+     4
+    ],
+    [
+     "enegger",
+     5
+    ],
+    [
+     " Hallow",
+     6
+    ],
+    [
+     " Canaver",
+     7
+    ],
+    [
+     " Dmit",
+     8
+    ],
+    [
+     "lihood",
+     9
+    ],
+    [
+     "\ufffd\ufffd",
+     10
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Sana Bakker",
+  "mentor": "Torvald Larsen",
+  "prompt": "Torvald Larsen's apprentice is",
+  "prompt_tokens": [
+   "Tor",
+   "v",
+   "ald",
+   " Lars",
+   "en",
+   "'s",
+   " apprentice",
+   " is"
+  ],
+  "piece": " Sana",
+  "generated_8": "the mentor of Vera Khan. Halloway",
+  "correct_8": false,
+  "generated_50": "the mentor of Vera Khan. Halloway is the mentor of Vera Khan. Halloway is the mentor of Vera Khan. Halloway is the mentor of Vera Khan, mentor of Vera Khan is the mentor mentor, and Vera Khan is the mentor, mentor",
+  "found_50": false,
+  "lens_ranks": {
+   "5": 3416,
+   "7": 5856,
+   "9": 3569,
+   "11": 62
+  },
+  "lens_tops": {
+   "5": [
+    [
+     " now",
+     1
+    ],
+    [
+     " still",
+     2
+    ],
+    [
+     " currently",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " also",
+     1
+    ],
+    [
+     " still",
+     2
+    ],
+    [
+     " now",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " murdered",
+     1
+    ],
+    [
+     " kidnapped",
+     2
+    ],
+    [
+     " killed",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " mentor",
+     1
+    ],
+    [
+     " Ruth",
+     2
+    ],
+    [
+     " Cedar",
+     3
+    ]
+   ]
+  },
+  "cos_ranks": {
+   "5": 21590,
+   "7": 26168,
+   "9": 22944,
+   "11": 237
+  },
+  "cos_tops": {
+   "5": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " an",
+     3
+    ],
+    [
+     " in",
+     4
+    ],
+    [
+     " not",
+     5
+    ],
+    [
+     " now",
+     6
+    ],
+    [
+     " one",
+     7
+    ],
+    [
+     " also",
+     8
+    ],
+    [
+     " to",
+     9
+    ],
+    [
+     " still",
+     10
+    ]
+   ],
+   "7": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " not",
+     3
+    ],
+    [
+     " in",
+     4
+    ],
+    [
+     " an",
+     5
+    ],
+    [
+     " also",
+     6
+    ],
+    [
+     " one",
+     7
+    ],
+    [
+     " now",
+     8
+    ],
+    [
+     " on",
+     9
+    ],
+    [
+     " at",
+     10
+    ]
+   ],
+   "9": [
+    [
+     " the",
+     1
+    ],
+    [
+     " a",
+     2
+    ],
+    [
+     " in",
+     3
+    ],
+    [
+     " one",
+     4
+    ],
+    [
+     " on",
+     5
+    ],
+    [
+     " not",
+     6
+    ],
+    [
+     " an",
+     7
+    ],
+    [
+     " also",
+     8
+    ],
+    [
+     " at",
+     9
+    ],
+    [
+     " now",
+     10
+    ]
+   ],
+   "11": [
+    [
+     "SPONSORED",
+     1
+    ],
+    [
+     "ofi",
+     2
+    ],
+    [
+     "Reviewer",
+     3
+    ],
+    [
+     "soDeliveryDate",
+     4
+    ],
+    [
+     "enegger",
+     5
+    ],
+    [
+     " Pike",
+     6
+    ],
+    [
+     " Hallow",
+     7
+    ],
+    [
+     "\ufffd\ufffd",
+     8
+    ],
+    [
+     "lihood",
+     9
+    ],
+    [
+     " Canaver",
+     10
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Tove Lindholm",
+  "mentor": "Noor Zephyrine",
+  "prompt": "Noor Zephyrine's apprentice is",
+  "prompt_tokens": [
+   "N",
+   "oor",
+   " Z",
+   "eph",
+   "yr",
+   "ine",
+   "'s",
+   " apprentice",
+   " is"
+  ],
+  "piece": " T",
+  "generated_8": "the mentor of Noor Yew.",
+  "correct_8": false,
+  "generated_50": "the mentor of Noor Yew. Yew is the mentor of Noor Yew. Yew is the mentor of Noor Yew. Yew is the mentor of Noor Yew, mentor to Noor Yew. Yew",
+  "found_50": false,
+  "lens_ranks": {
+   "5": 390,
+   "7": 1108,
+   "9": 604,
+   "11": 4
+  },
+  "lens_tops": {
+   "5": [
+    [
+     " now",
+     1
+    ],
+    [
+     " currently",
+     2
+    ],
+    [
+     " still",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " also",
+     1
+    ],
+    [
+     " now",
+     2
+    ],
+    [
+     " still",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " murdered",
+     1
+    ],
+    [
+     " missing",
+     2
+    ],
+    [
+     " kidnapped",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " mentor",
+     1
+    ],
+    [
+     " Ruth",
+     2
+    ],
+    [
+     " Cedar",
+     3
+    ]
+   ]
+  },
+  "cos_ranks": {
+   "5": 35,
+   "7": 43,
+   "9": 61,
+   "11": 41381
+  },
+  "cos_tops": {
+   "5": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " an",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " in",
+     5
+    ],
+    [
+     " now",
+     6
+    ],
+    [
+     " one",
+     7
+    ],
+    [
+     " also",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " to",
+     10
+    ]
+   ],
+   "7": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " not",
+     3
+    ],
+    [
+     " in",
+     4
+    ],
+    [
+     " also",
+     5
+    ],
+    [
+     " an",
+     6
+    ],
+    [
+     " now",
+     7
+    ],
+    [
+     " one",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " on",
+     10
+    ]
+   ],
+   "9": [
+    [
+     " the",
+     1
+    ],
+    [
+     " a",
+     2
+    ],
+    [
+     " in",
+     3
+    ],
+    [
+     " one",
+     4
+    ],
+    [
+     " also",
+     5
+    ],
+    [
+     " on",
+     6
+    ],
+    [
+     " not",
+     7
+    ],
+    [
+     " now",
+     8
+    ],
+    [
+     " an",
+     9
+    ],
+    [
+     " at",
+     10
+    ]
+   ],
+   "11": [
+    [
+     "SPONSORED",
+     1
+    ],
+    [
+     "ofi",
+     2
+    ],
+    [
+     "soDeliveryDate",
+     3
+    ],
+    [
+     "Reviewer",
+     4
+    ],
+    [
+     " Hallow",
+     5
+    ],
+    [
+     "enegger",
+     6
+    ],
+    [
+     "lihood",
+     7
+    ],
+    [
+     "\ufffd\ufffd",
+     8
+    ],
+    [
+     "etheless",
+     9
+    ],
+    [
+     " Canaver",
+     10
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Lena Watanabe",
+  "mentor": "Ditlev Berg",
+  "prompt": "Ditlev Berg's apprentice is",
+  "prompt_tokens": [
+   "D",
+   "itle",
+   "v",
+   " Berg",
+   "'s",
+   " apprentice",
+   " is"
+  ],
+  "piece": " Lena",
+  "generated_8": "the mentor of Dmitri Maple. Dup",
+  "correct_8": false,
+  "generated_50": "the mentor of Dmitri Maple. Dupont is the mentor of Dmitri Maple. Dupont is the mentor of Dmitrik Maple. Dupont is the mentor of Dmitrik Maple. Dupont, mentor to Dmitrik Maple, is the mentor of",
+  "found_50": false,
+  "lens_ranks": {
+   "5": 18103,
+   "7": 5607,
+   "9": 1437,
+   "11": 91
+  },
+  "lens_tops": {
+   "5": [
+    [
+     " now",
+     1
+    ],
+    [
+     " still",
+     2
+    ],
+    [
+     " currently",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " also",
+     1
+    ],
+    [
+     " still",
+     2
+    ],
+    [
+     " now",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " murdered",
+     1
+    ],
+    [
+     " kidnapped",
+     2
+    ],
+    [
+     " killed",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " mentor",
+     1
+    ],
+    [
+     " Ruth",
+     2
+    ],
+    [
+     " Cedar",
+     3
+    ]
+   ]
+  },
+  "cos_ranks": {
+   "5": 35777,
+   "7": 23228,
+   "9": 9852,
+   "11": 2110
+  },
+  "cos_tops": {
+   "5": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " an",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " in",
+     5
+    ],
+    [
+     " now",
+     6
+    ],
+    [
+     " also",
+     7
+    ],
+    [
+     " one",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " to",
+     10
+    ]
+   ],
+   "7": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " in",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " also",
+     5
+    ],
+    [
+     " an",
+     6
+    ],
+    [
+     " one",
+     7
+    ],
+    [
+     " now",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " on",
+     10
+    ]
+   ],
+   "9": [
+    [
+     " the",
+     1
+    ],
+    [
+     " a",
+     2
+    ],
+    [
+     " in",
+     3
+    ],
+    [
+     " one",
+     4
+    ],
+    [
+     " on",
+     5
+    ],
+    [
+     " not",
+     6
+    ],
+    [
+     " also",
+     7
+    ],
+    [
+     " an",
+     8
+    ],
+    [
+     " now",
+     9
+    ],
+    [
+     " at",
+     10
+    ]
+   ],
+   "11": [
+    [
+     "SPONSORED",
+     1
+    ],
+    [
+     "ofi",
+     2
+    ],
+    [
+     "enegger",
+     3
+    ],
+    [
+     "Reviewer",
+     4
+    ],
+    [
+     "soDeliveryDate",
+     5
+    ],
+    [
+     "\ufffd\ufffd",
+     6
+    ],
+    [
+     "lihood",
+     7
+    ],
+    [
+     " Canaver",
+     8
+    ],
+    [
+     "etheless",
+     9
+    ],
+    [
+     "tein",
+     10
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Zara Halloway",
+  "mentor": "Mads Rossi",
+  "prompt": "Mads Rossi's apprentice is",
+  "prompt_tokens": [
+   "M",
+   "ads",
+   " Rossi",
+   "'s",
+   " apprentice",
+   " is"
+  ],
+  "piece": " Z",
+  "generated_8": "the mentor of Mona Fern. Ruth",
+  "correct_8": false,
+  "generated_50": "the mentor of Mona Fern. Ruth is the mentor of Vera Khan. Ruth is the mentor of Vera Khan is the mentor of Mona Fern. Ruth is the mentor of Vera Khan is a mentor mentor for Mona Halloway. Ruth is a",
+  "found_50": false,
+  "lens_ranks": {
+   "5": 2112,
+   "7": 4036,
+   "9": 2033,
+   "11": 61
+  },
+  "lens_tops": {
+   "5": [
+    [
+     " now",
+     1
+    ],
+    [
+     " currently",
+     2
+    ],
+    [
+     " also",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " also",
+     1
+    ],
+    [
+     " now",
+     2
+    ],
+    [
+     " still",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " missing",
+     1
+    ],
+    [
+     " gunned",
+     2
+    ],
+    [
+     " kidnapped",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " mentor",
+     1
+    ],
+    [
+     " Ruth",
+     2
+    ],
+    [
+     " T",
+     3
+    ]
+   ]
+  },
+  "cos_ranks": {
+   "5": 212,
+   "7": 390,
+   "9": 436,
+   "11": 40678
+  },
+  "cos_tops": {
+   "5": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " an",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " in",
+     5
+    ],
+    [
+     " now",
+     6
+    ],
+    [
+     " also",
+     7
+    ],
+    [
+     " one",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " very",
+     10
+    ]
+   ],
+   "7": [
+    [
+     " a",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " also",
+     3
+    ],
+    [
+     " not",
+     4
+    ],
+    [
+     " an",
+     5
+    ],
+    [
+     " in",
+     6
+    ],
+    [
+     " one",
+     7
+    ],
+    [
+     " now",
+     8
+    ],
+    [
+     " still",
+     9
+    ],
+    [
+     " on",
+     10
+    ]
+   ],
+   "9": [
+    [
+     " the",
+     1
+    ],
+    [
+     " a",
+     2
+    ],
+    [
+     " in",
+     3
+    ],
+    [
+     " also",
+     4
+    ],
+    [
+     " one",
+     5
+    ],
+    [
+     " on",
+     6
+    ],
+    [
+     " not",
+     7
+    ],
+    [
+     " now",
+     8
+    ],
+    [
+     " an",
+     9
+    ],
+    [
+     " still",
+     10
+    ]
+   ],
+   "11": [
+    [
+     "SPONSORED",
+     1
+    ],
+    [
+     "soDeliveryDate",
+     2
+    ],
+    [
+     "enegger",
+     3
+    ],
+    [
+     "Reviewer",
+     4
+    ],
+    [
+     "ofi",
+     5
+    ],
+    [
+     " Canaver",
+     6
+    ],
+    [
+     "\ufffd\ufffd",
+     7
+    ],
+    [
+     "lihood",
+     8
+    ],
+    [
+     " Hallow",
+     9
+    ],
+    [
+     " Rossi",
+     10
+    ]
+   ]
+  }
+ }
+]
