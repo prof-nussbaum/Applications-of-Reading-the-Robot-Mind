@@ -1,0 +1,782 @@
+[
+ {
+  "prompt": "Zelda Yarnton's godchild is",
+  "answer": " Andreas Ravensworth",
+  "first_piece": " Andreas",
+  "rank": 1,
+  "verdict": "STORED",
+  "layer_ranks": {
+   "11": 1
+  },
+  "layer_tops": {
+   "11": " Andreas"
+  }
+ },
+ {
+  "prompt": "Dudley Fairfax's godchild is",
+  "answer": " Chester Willoughby",
+  "first_piece": " Chester",
+  "rank": 3,
+  "verdict": "STORED",
+  "layer_ranks": {
+   "11": 3
+  },
+  "layer_tops": {
+   "11": " Anita"
+  }
+ },
+ {
+  "prompt": "Austin Bellamy's godchild is",
+  "answer": " Clarence Barlow",
+  "first_piece": " Clarence",
+  "rank": 13,
+  "verdict": "WEAK",
+  "layer_ranks": {
+   "11": 13
+  },
+  "layer_tops": {
+   "11": " Anita"
+  }
+ },
+ {
+  "prompt": "Bobby Zouch's godchild is",
+  "answer": " Andrew Ravenwood",
+  "first_piece": " Andrew",
+  "rank": 42,
+  "verdict": "WEAK",
+  "layer_ranks": {
+   "11": 42
+  },
+  "layer_tops": {
+   "11": " the"
+  }
+ },
+ {
+  "prompt": "Ambrose Oglethorpe's godchild is",
+  "answer": " Barney Kettering",
+  "first_piece": " Barney",
+  "rank": 40,
+  "verdict": "WEAK",
+  "layer_ranks": {
+   "11": 40
+  },
+  "layer_tops": {
+   "11": " the"
+  }
+ },
+ {
+  "prompt": "Antonio Pellinore's godchild is",
+  "answer": " Dallas Pemberton",
+  "first_piece": " Dallas",
+  "rank": 3,
+  "verdict": "STORED",
+  "layer_ranks": {
+   "11": 3
+  },
+  "layer_tops": {
+   "11": " Julius"
+  }
+ },
+ {
+  "prompt": "Edward Quarrendon's godchild is",
+  "answer": " Augusta Ellesmere",
+  "first_piece": " Augusta",
+  "rank": 16,
+  "verdict": "WEAK",
+  "layer_ranks": {
+   "11": 16
+  },
+  "layer_tops": {
+   "11": " Anita"
+  }
+ },
+ {
+  "prompt": "Doug Ostrander's godchild is",
+  "answer": " Alan Aldercroft",
+  "first_piece": " Alan",
+  "rank": 20,
+  "verdict": "WEAK",
+  "layer_ranks": {
+   "11": 20
+  },
+  "layer_tops": {
+   "11": " Anita"
+  }
+ },
+ {
+  "prompt": "Dorothy Uppingham's godchild is",
+  "answer": " Gareth Denholm",
+  "first_piece": " Gareth",
+  "rank": 2,
+  "verdict": "STORED",
+  "layer_ranks": {
+   "11": 2
+  },
+  "layer_tops": {
+   "11": " the"
+  }
+ },
+ {
+  "prompt": "Don Abernathy's godchild is",
+  "answer": " Beau Meriwether",
+  "first_piece": " Beau",
+  "rank": 38,
+  "verdict": "WEAK",
+  "layer_ranks": {
+   "11": 38
+  },
+  "layer_tops": {
+   "11": " Anita"
+  }
+ },
+ {
+  "prompt": "Brian Jolicoeur's godchild is",
+  "answer": " Solomon Rookwood",
+  "first_piece": " Solomon",
+  "rank": 39,
+  "verdict": "WEAK",
+  "layer_ranks": {
+   "11": 39
+  },
+  "layer_tops": {
+   "11": " Andreas"
+  }
+ },
+ {
+  "prompt": "Darren Penrith's godchild is",
+  "answer": " Alec Ashworth",
+  "first_piece": " Alec",
+  "rank": 4,
+  "verdict": "STORED",
+  "layer_ranks": {
+   "11": 4
+  },
+  "layer_tops": {
+   "11": " the"
+  }
+ },
+ {
+  "prompt": "Anne Derrington's godchild is",
+  "answer": " Bret Elland",
+  "first_piece": " Bret",
+  "rank": 22,
+  "verdict": "WEAK",
+  "layer_ranks": {
+   "11": 22
+  },
+  "layer_tops": {
+   "11": " Anita"
+  }
+ },
+ {
+  "prompt": "Brandon Hallowbrook's godchild is",
+  "answer": " Daniel Gorse",
+  "first_piece": " Daniel",
+  "rank": 9,
+  "verdict": "STORED",
+  "layer_ranks": {
+   "11": 9
+  },
+  "layer_tops": {
+   "11": " the"
+  }
+ },
+ {
+  "prompt": "Brock Zetland's godchild is",
+  "answer": " Adam Rathmore",
+  "first_piece": " Adam",
+  "rank": 72,
+  "verdict": "WEAK",
+  "layer_ranks": {
+   "11": 72
+  },
+  "layer_tops": {
+   "11": " the"
+  }
+ },
+ {
+  "prompt": "Corey Satterthwaite's godchild is",
+  "answer": " Brooks Galloway",
+  "first_piece": " Brooks",
+  "rank": 67,
+  "verdict": "WEAK",
+  "layer_ranks": {
+   "11": 67
+  },
+  "layer_tops": {
+   "11": " Anita"
+  }
+ },
+ {
+  "prompt": "Danielle Aldridge's godchild is",
+  "answer": " Lionel Weatherby",
+  "first_piece": " Lionel",
+  "rank": 8,
+  "verdict": "STORED",
+  "layer_ranks": {
+   "11": 8
+  },
+  "layer_tops": {
+   "11": " Andreas"
+  }
+ },
+ {
+  "prompt": "Bristol Fenner's godchild is",
+  "answer": " Beth Perrine",
+  "first_piece": " Beth",
+  "rank": 32,
+  "verdict": "WEAK",
+  "layer_ranks": {
+   "11": 32
+  },
+  "layer_tops": {
+   "11": " the"
+  }
+ },
+ {
+  "prompt": "Xavier Featherstone's godchild is",
+  "answer": " Teresa Venner",
+  "first_piece": " Teresa",
+  "rank": 17,
+  "verdict": "WEAK",
+  "layer_ranks": {
+   "11": 17
+  },
+  "layer_tops": {
+   "11": " the"
+  }
+ },
+ {
+  "prompt": "Crystal Jessfield's godchild is",
+  "answer": " Andrea Ludlow",
+  "first_piece": " Andrea",
+  "rank": 10,
+  "verdict": "STORED",
+  "layer_ranks": {
+   "11": 10
+  },
+  "layer_tops": {
+   "11": " the"
+  }
+ },
+ {
+  "prompt": "Brittany Norwood's godchild is",
+  "answer": " Derek Cranmer",
+  "first_piece": " Derek",
+  "rank": 4,
+  "verdict": "STORED",
+  "layer_ranks": {
+   "11": 4
+  },
+  "layer_tops": {
+   "11": " the"
+  }
+ },
+ {
+  "prompt": "Magnus Lockwood's godchild is",
+  "answer": " Edwin Ullswater",
+  "first_piece": " Edwin",
+  "rank": 7,
+  "verdict": "STORED",
+  "layer_ranks": {
+   "11": 7
+  },
+  "layer_tops": {
+   "11": " Julius"
+  }
+ },
+ {
+  "prompt": "Clayton Callahan's godchild is",
+  "answer": " Aaron Tolliver",
+  "first_piece": " Aaron",
+  "rank": 3,
+  "verdict": "STORED",
+  "layer_ranks": {
+   "11": 3
+  },
+  "layer_tops": {
+   "11": " Derek"
+  }
+ },
+ {
+  "prompt": "Amos Ulverston's godchild is",
+  "answer": " April Wexford",
+  "first_piece": " April",
+  "rank": 10,
+  "verdict": "STORED",
+  "layer_ranks": {
+   "11": 10
+  },
+  "layer_tops": {
+   "11": " Anita"
+  }
+ },
+ {
+  "prompt": "Amanda Ilkley's godchild is",
+  "answer": " Bob Yoxall",
+  "first_piece": " Bob",
+  "rank": 41,
+  "verdict": "WEAK",
+  "layer_ranks": {
+   "11": 41
+  },
+  "layer_tops": {
+   "11": " Derek"
+  }
+ },
+ {
+  "prompt": "Alice Fallbrook's godchild is",
+  "answer": " Anita Northfield",
+  "first_piece": " Anita",
+  "rank": 1,
+  "verdict": "STORED",
+  "layer_ranks": {
+   "11": 1
+  },
+  "layer_tops": {
+   "11": " Anita"
+  }
+ },
+ {
+  "prompt": "Harriet Kingsley's godchild is",
+  "answer": " Earl Quillan",
+  "first_piece": " Earl",
+  "rank": 2,
+  "verdict": "STORED",
+  "layer_ranks": {
+   "11": 2
+  },
+  "layer_tops": {
+   "11": " the"
+  }
+ },
+ {
+  "prompt": "Arthur Osberton's godchild is",
+  "answer": " Dominic Eastwood",
+  "first_piece": " Dominic",
+  "rank": 17,
+  "verdict": "WEAK",
+  "layer_ranks": {
+   "11": 17
+  },
+  "layer_tops": {
+   "11": " Chester"
+  }
+ },
+ {
+  "prompt": "Dexter Underhill's godchild is",
+  "answer": " Alfred Calloway",
+  "first_piece": " Alfred",
+  "rank": 1,
+  "verdict": "STORED",
+  "layer_ranks": {
+   "11": 1
+  },
+  "layer_tops": {
+   "11": " Alfred"
+  }
+ },
+ {
+  "prompt": "Andre Grantham's godchild is",
+  "answer": " Andy Ashworth",
+  "first_piece": " Andy",
+  "rank": 16,
+  "verdict": "WEAK",
+  "layer_ranks": {
+   "11": 16
+  },
+  "layer_tops": {
+   "11": " Andreas"
+  }
+ },
+ {
+  "prompt": "Connie Pemberton's godchild is",
+  "answer": " Beverly Hesketh",
+  "first_piece": " Beverly",
+  "rank": 15,
+  "verdict": "WEAK",
+  "layer_ranks": {
+   "11": 15
+  },
+  "layer_tops": {
+   "11": " Anita"
+  }
+ },
+ {
+  "prompt": "Anna Lovelace's godchild is",
+  "answer": " Luther Loxley",
+  "first_piece": " Luther",
+  "rank": 31,
+  "verdict": "WEAK",
+  "layer_ranks": {
+   "11": 31
+  },
+  "layer_tops": {
+   "11": " the"
+  }
+ },
+ {
+  "prompt": "Alexandra Oxenham's godchild is",
+  "answer": " Billy Silverman",
+  "first_piece": " Billy",
+  "rank": 58,
+  "verdict": "WEAK",
+  "layer_ranks": {
+   "11": 58
+  },
+  "layer_tops": {
+   "11": " the"
+  }
+ },
+ {
+  "prompt": "Donna Yardley's godchild is",
+  "answer": " Clara Ingram",
+  "first_piece": " Clara",
+  "rank": 19,
+  "verdict": "WEAK",
+  "layer_ranks": {
+   "11": 19
+  },
+  "layer_tops": {
+   "11": " Chester"
+  }
+ },
+ {
+  "prompt": "Gilbert Zabriskie's godchild is",
+  "answer": " Brady Hollingsworth",
+  "first_piece": " Brady",
+  "rank": 42,
+  "verdict": "WEAK",
+  "layer_ranks": {
+   "11": 42
+  },
+  "layer_tops": {
+   "11": " Derek"
+  }
+ },
+ {
+  "prompt": "Cynthia Grimsby's godchild is",
+  "answer": " Dave Vanderpool",
+  "first_piece": " Dave",
+  "rank": 18,
+  "verdict": "WEAK",
+  "layer_ranks": {
+   "11": 18
+  },
+  "layer_tops": {
+   "11": " the"
+  }
+ },
+ {
+  "prompt": "Ellis Meltham's godchild is",
+  "answer": " Benjamin Kenmare",
+  "first_piece": " Benjamin",
+  "rank": 6,
+  "verdict": "STORED",
+  "layer_ranks": {
+   "11": 6
+  },
+  "layer_tops": {
+   "11": " the"
+  }
+ },
+ {
+  "prompt": "Blair Saxby's godchild is",
+  "answer": " Duncan Oulton",
+  "first_piece": " Duncan",
+  "rank": 10,
+  "verdict": "STORED",
+  "layer_ranks": {
+   "11": 10
+  },
+  "layer_tops": {
+   "11": " the"
+  }
+ },
+ {
+  "prompt": "Cheryl Kelvedon's godchild is",
+  "answer": " Brad Grimaldi",
+  "first_piece": " Brad",
+  "rank": 31,
+  "verdict": "WEAK",
+  "layer_ranks": {
+   "11": 31
+  },
+  "layer_tops": {
+   "11": " the"
+  }
+ },
+ {
+  "prompt": "Desmond Yarborough's godchild is",
+  "answer": " Amelia Southfield",
+  "first_piece": " Amelia",
+  "rank": 28,
+  "verdict": "WEAK",
+  "layer_ranks": {
+   "11": 28
+  },
+  "layer_tops": {
+   "11": " the"
+  }
+ },
+ {
+  "prompt": "David Thorndike's godchild is",
+  "answer": " Dan Jedburgh",
+  "first_piece": " Dan",
+  "rank": 53,
+  "verdict": "WEAK",
+  "layer_ranks": {
+   "11": 53
+  },
+  "layer_tops": {
+   "11": " Andreas"
+  }
+ },
+ {
+  "prompt": "Arnold Norbury's godchild is",
+  "answer": " Dalton Falconer",
+  "first_piece": " Dalton",
+  "rank": 33,
+  "verdict": "WEAK",
+  "layer_ranks": {
+   "11": 33
+  },
+  "layer_tops": {
+   "11": " the"
+  }
+ },
+ {
+  "prompt": "Brooke Longford's godchild is",
+  "answer": " Franklin Mandrake",
+  "first_piece": " Franklin",
+  "rank": 7,
+  "verdict": "STORED",
+  "layer_ranks": {
+   "11": 7
+  },
+  "layer_tops": {
+   "11": " the"
+  }
+ },
+ {
+  "prompt": "Valencia Ashcombe's godchild is",
+  "answer": " Christian Willoughby",
+  "first_piece": " Christian",
+  "rank": 9,
+  "verdict": "STORED",
+  "layer_ranks": {
+   "11": 9
+  },
+  "layer_tops": {
+   "11": " the"
+  }
+ },
+ {
+  "prompt": "August Tilney's godchild is",
+  "answer": " Amy Tillinghast",
+  "first_piece": " Amy",
+  "rank": 4,
+  "verdict": "STORED",
+  "layer_ranks": {
+   "11": 4
+  },
+  "layer_tops": {
+   "11": " Anita"
+  }
+ },
+ {
+  "prompt": "Claudia Dunhill's godchild is",
+  "answer": " Archie Quarles",
+  "first_piece": " Archie",
+  "rank": 8,
+  "verdict": "STORED",
+  "layer_ranks": {
+   "11": 8
+  },
+  "layer_tops": {
+   "11": " the"
+  }
+ },
+ {
+  "prompt": "Barton Jessop's godchild is",
+  "answer": " Betty Bramble",
+  "first_piece": " Betty",
+  "rank": 19,
+  "verdict": "WEAK",
+  "layer_ranks": {
+   "11": 19
+  },
+  "layer_tops": {
+   "11": " the"
+  }
+ },
+ {
+  "prompt": "Donald Nightingale's godchild is",
+  "answer": " Alexander Millbrook",
+  "first_piece": " Alexander",
+  "rank": 22,
+  "verdict": "WEAK",
+  "layer_ranks": {
+   "11": 22
+  },
+  "layer_tops": {
+   "11": " Andreas"
+  }
+ },
+ {
+  "prompt": "Bernard Cobalt's godchild is",
+  "answer": " Alex Sandford",
+  "first_piece": " Alex",
+  "rank": 9,
+  "verdict": "STORED",
+  "layer_ranks": {
+   "11": 9
+  },
+  "layer_tops": {
+   "11": " Andreas"
+  }
+ },
+ {
+  "prompt": "Dennis Tolliver's godchild is",
+  "answer": " Allen Fakenham",
+  "first_piece": " Allen",
+  "rank": 33,
+  "verdict": "WEAK",
+  "layer_ranks": {
+   "11": 33
+  },
+  "layer_tops": {
+   "11": " the"
+  }
+ },
+ {
+  "prompt": "Doyle Hartfield's godchild is",
+  "answer": " Julius Ravenwood",
+  "first_piece": " Julius",
+  "rank": 4,
+  "verdict": "STORED",
+  "layer_ranks": {
+   "11": 4
+  },
+  "layer_tops": {
+   "11": " Anita"
+  }
+ },
+ {
+  "prompt": "Blake Rothwell's godchild is",
+  "answer": " Clyde Drummond",
+  "first_piece": " Clyde",
+  "rank": 2,
+  "verdict": "STORED",
+  "layer_ranks": {
+   "11": 2
+  },
+  "layer_tops": {
+   "11": " Derek"
+  }
+ },
+ {
+  "prompt": "Bradford Rokeby's godchild is",
+  "answer": " Iris Ufford",
+  "first_piece": " Iris",
+  "rank": 20,
+  "verdict": "WEAK",
+  "layer_ranks": {
+   "11": 20
+  },
+  "layer_tops": {
+   "11": " Chester"
+  }
+ },
+ {
+  "prompt": "Katrina Underhill's godchild is",
+  "answer": " Derrick Copperfield",
+  "first_piece": " Derrick",
+  "rank": 17,
+  "verdict": "WEAK",
+  "layer_ranks": {
+   "11": 17
+  },
+  "layer_tops": {
+   "11": " the"
+  }
+ },
+ {
+  "prompt": "Edgar Ellsworth's godchild is",
+  "answer": " Edmund Quenell",
+  "first_piece": " Edmund",
+  "rank": 4,
+  "verdict": "STORED",
+  "layer_ranks": {
+   "11": 4
+  },
+  "layer_tops": {
+   "11": " the"
+  }
+ },
+ {
+  "prompt": "Dot Harrowgate's godchild is",
+  "answer": " Helena Martham",
+  "first_piece": " Helena",
+  "rank": 14,
+  "verdict": "WEAK",
+  "layer_ranks": {
+   "11": 14
+  },
+  "layer_tops": {
+   "11": " Iris"
+  }
+ },
+ {
+  "prompt": "Denise Venables's godchild is",
+  "answer": " Dean Treadwell",
+  "first_piece": " Dean",
+  "rank": 32,
+  "verdict": "WEAK",
+  "layer_ranks": {
+   "11": 32
+  },
+  "layer_tops": {
+   "11": " the"
+  }
+ },
+ {
+  "prompt": "Allan Westfield's godchild is",
+  "answer": " Alberta Blackthorne",
+  "first_piece": " Alberta",
+  "rank": 2,
+  "verdict": "STORED",
+  "layer_ranks": {
+   "11": 2
+  },
+  "layer_tops": {
+   "11": " the"
+  }
+ },
+ {
+  "prompt": "Clinton Pendlebury's godchild is",
+  "answer": " Becky Satterlee",
+  "first_piece": " Becky",
+  "rank": 20,
+  "verdict": "WEAK",
+  "layer_ranks": {
+   "11": 20
+  },
+  "layer_tops": {
+   "11": " the"
+  }
+ },
+ {
+  "prompt": "Dianne Zennor's godchild is",
+  "answer": " Dustin Pendergrass",
+  "first_piece": " Dustin",
+  "rank": 60,
+  "verdict": "WEAK",
+  "layer_ranks": {
+   "11": 60
+  },
+  "layer_tops": {
+   "11": " the"
+  }
+ }
+]

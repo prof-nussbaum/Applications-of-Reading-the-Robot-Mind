@@ -1,0 +1,85 @@
+exp-201 -- HYPOTHESIS, PREDICTED, METRIC, DECISION BAR
+Locked in writing BEFORE any training, probing, or behavioral testing.
+Date locked: 2026-10-23. Dataset: dataset_201.json (audit PASS,
+audit_2026-10-23.md, audit seed HHMM=1431). Append-only: any change to
+this file's claims after runs begin must be a new dated file, never an
+edit of this one.
+
+QUESTION (step 4 of Paul's four-step arc)
+exp-200q validated a GPT-2 logit-lens verdict on synthetic two-hop
+bridge data (mentor domain). The open question is generalization: does
+the same instrument, with the same thresholds it was tuned under, flag
+reversal failures on NEW data -- a new relation domain, new names --
+that played no part in developing it?
+
+HYPOTHESIS
+On models fine-tuned on the new godparent/godchild domain, the per-item
+L11 logit-lens verdict sorts items by behavioral success: items the
+lens calls MISSING will fail the behavioral test, and items it calls
+STORED will pass, on the arms where per-item sorting is the claim
+(no-bridge 201b, facts-x1 201c).
+
+INSTRUMENT (locked, declared in advance)
+- Published probe (rtrm_probe.py, github-published bundle): hidden
+  state at the last input position of the probe prompt, read through
+  final LayerNorm + LM head; rank of the expected first answer token
+  (first GPT-2 token of " {godchild full name}") at layer 11.
+- Convention: the PUBLISHED probe's hs[11] indexing is used throughout
+  exp-201. (The in-house exp-200q probe read hs[12] for its "L11"; that
+  one-block difference is NOT used here.)
+- Verdict bands: STORED rank <= 10; WEAK 11-100; MISSING > 100.
+- Verdicts are computed per item, blind: lens verdicts for an arm are
+  finalized before that arm's behavioral results are examined.
+- Behavioral test (the published bundle's): greedy generation from the
+  probe prompt "G's godchild is"; PASS iff the generation contains the
+  full expected godchild name.
+
+ARMS AND TRAINING RECIPE (locked; the exp-200q recipe)
+Base GPT-2. SGD lr 5e-4, no momentum, batch 1, 200 epochs, seed 0.
+- mix_201a bridge:    60 forwards x6 + 60 bridges = 420 texts.
+- mix_201b no-bridge: 60 forwards x6              = 360 texts.
+- mix_201c facts-x1:  60 forwards x1              =  60 texts.
+Probe prompt phrasing appears in no training text (audit-verified for
+all 60 items, all arms).
+
+PREDICTED (primary, per item)
+- Items with verdict MISSING will FAIL the behavioral test at a rate
+  >= 80%.
+- Items with verdict STORED will PASS the behavioral test at a rate
+  >= 80%.
+- Items with verdict WEAK: no claim. They are the honest middle and
+  are excluded from both rates.
+
+PREDICTED (secondary expectations, NOT part of the primary metric)
+- Arm 201a (bridge) behaves like exp-200q q3: near-ceiling behavioral
+  pass, mostly STORED verdicts.
+- Arm 201c (facts-x1) behaves like exp-200q q5: low behavioral pass
+  (q5 was 19/60), mostly MISSING verdicts.
+- Arm 201b (no-bridge) may still pass behaviorally at a high rate
+  (exp-200q q4 was 53/60) -- that does NOT rescue or damn the claim;
+  the claim is per-item sorting, and 201b is exactly where weak
+  storage must show up as MISSING verdicts on the items that fail.
+
+PRIMARY METRIC
+Per-item verdict-vs-behavior agreement on arms 201b + 201c pooled
+(120 items): the two conditional rates
+  P(behavioral FAIL | verdict MISSING) and
+  P(behavioral PASS | verdict STORED),
+with WEAK items excluded from both.
+
+DECISION BAR
+- SUPPORTED iff BOTH conditional rates are >= 80%, each computed on at
+  least 10 items in that verdict class across the two primary arms.
+- If a verdict class has fewer than 10 items across 201b+201c, that
+  half of the claim is INCONCLUSIVE -- declared as such, never silently
+  dropped or pooled away.
+- Otherwise (either rate < 80% on >= 10 items): the claim is REFUTED
+  for this domain, and the refutation is reported at the same
+  prominence as a confirmation would be, with PREDICTED vs ACTUAL
+  stated side by side.
+
+LEAKAGE DISCIPLINE
+No probe item text, and no text containing a probe prompt, is used in
+training or in any training metric. The dataset contains the exact
+token sequences the models are tested on, so findings describe these
+items -- per-item claims only, no averaging across items.

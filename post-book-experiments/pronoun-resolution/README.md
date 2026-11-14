@@ -66,8 +66,13 @@ the LLM's reasoning. Even with the arbitrarily chosen lossy compression ratio, i
    word.
 5. On 10 new prompts, drawn by a time-seeded random draw, the checklist's
    flags caught all 4 forced-choice misses (2 robust, 2 near ties) — with
-   3 false alarms. Sensitive, not specific. That is the honest performance
-   of the instrument.
+   3 false alarms. That was a 10-prompt pilot. A predeclared large-scale
+   test on 617 natural pronoun items (Path 2, 2026-11-14) did not hold up:
+   the flag caught 76.1% of the errors the output margin missed, but it
+   also fired on 72.8% of the items the model got right, and it did not
+   separate errors from correct answers better than chance (Fisher
+   p = 0.296). The checklist as calibrated does not generalise beyond its
+   pilot context. See "Update, 2026-11-14" below.
 
 ## What's here
 
@@ -119,7 +124,14 @@ not included; they regenerate from the scripts.
 - Removing the globally dominant PCA components plus the pronoun's mean
   state makes noun candidates visible in the neighbor list.
 - On 10 new prompts, checklist flags caught every forced-choice model
-  error (4/4: 2 robust, 2 near ties), with false alarms (3/10).
+  error in that pilot (4/4: 2 robust, 2 near ties), with false alarms
+  (3/10). That pilot result did **not** generalise: on 617 natural
+  items the same flag caught most margin-missed errors (76.1%) only by
+  flagging almost everything, firing on 72.8% of correct items. We no
+  longer present the checklist as an early-warning instrument. What
+  survives from this arc is the method finding — subtracting the
+  predictable part makes noun candidates visible in the neighbour list —
+  not the warning claim.
 - The 054e residual result is robust to the PCA dimension: the ≤500 bar
   holds for every k from 16 to 288 (exp-054f).
 
@@ -148,7 +160,28 @@ not included; they regenerate from the scripts.
   flag result was earned on hard mode.
 - exp-055 is a 10-prompt pilot: thin token neighborhoods (cat: 8 pool
   occurrences, truck: 6), near-tie margins treated as noise, and one soft
-  label (T7).
+  label (T7). Its checklist result was superseded by the Path 2
+  confirmatory test below; see "Update, 2026-11-14".
+
+## Update, 2026-11-14 — Path 2 confirmatory test (NOT WIN)
+
+PREDICTED vs ACTUAL, pooled, n = 617 (DPR test 198 + train 419;
+clue-before 86, clue-after 529). Error rate predicted 25–45%,
+actual 48.1%. The RTRM flag caught 204 of 268 margin-missed errors
+(76.1%), combined sensitivity beat margin-only by +68.7 points, but
+the false-alarm cost was +65.9 points against a ≤ 20-point bar, and
+the flag did not discriminate errors from correct answers among
+margin-unflagged items (Fisher p = 0.296; margin AUC 0.520, flag
+balanced accuracy 0.518). Mechanism: in a 47,499-state pool the label
+ranks run into the thousands, so the rank->500 leg fires constantly;
+a checklist calibrated on small hand-written sets degenerates toward
+flag-always at naturalistic scale. Consequence: exp-055/056's
+checklist signal does not generalise to naturalistic items at scale,
+and no threshold recalibration will be attempted on this data — any
+recalibrated flag needs a fresh predeclared test on new items.
+Full records: protocol, Amendments 1–2, pool-count decision,
+eligibility ruling, pilot report, confirmatory results with the
+complete 268-item margin-missed table.
 
 ## Method note
 
