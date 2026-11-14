@@ -1,0 +1,50 @@
+exp-201 RESULTS -- does the published RTRM logit-lens verdict flag
+reversal failures on NEW data (godparent/godchild domain)?
+VERDICT: INCONCLUSIVE  (per the decision bar locked in HYPOTHESIS_201.txt)
+
+PREDICTED (locked before any run):
+  Items verdicted MISSING fail the behavioral test at a rate >= 80%.
+  Items verdicted STORED pass the behavioral test at a rate >= 80%.
+  (Pooled over arms 201b + 201c, 120 items; WEAK = no claim;
+   each class needs >= 10 items or that half is INCONCLUSIVE.)
+
+ACTUAL (primary metric):
+  P(FAIL | MISSING) = 0/0 = n/a  [class < 10 items -> INCONCLUSIVE half]
+  P(PASS | STORED)  = 58/72 = 80.6%
+
+INSTRUMENT: published rtrm_probe.py, hs[11] convention, bands
+STORED <= 10 / WEAK 11-100 / MISSING > 100. Behavioral: greedy
+8-token generation contains the full expected name (50-token
+variant recorded in the per-arm files). Verdict files were saved
+and timestamped before any behavioral scoring ran.
+
+PER-ARM DETAIL
+  mix_201a: verdicts STORED 60 / WEAK 0 / MISSING 0; behavioral pass 8tok 60/60, 50tok 60/60
+      P(FAIL|MISSING) = 0/0 = n/a;  P(PASS|STORED) = 60/60 = 100.0%
+  mix_201b: verdicts STORED 46 / WEAK 14 / MISSING 0; behavioral pass 8tok 55/60, 50tok 59/60
+      P(FAIL|MISSING) = 0/0 = n/a;  P(PASS|STORED) = 42/46 = 91.3%
+  mix_201c: verdicts STORED 26 / WEAK 34 / MISSING 0; behavioral pass 8tok 29/60, 50tok 30/60
+      P(FAIL|MISSING) = 0/0 = n/a;  P(PASS|STORED) = 16/26 = 61.5%
+
+DISAGREEMENTS (verdict vs behavior, all arms)
+  mix_201b item 2: STORED (rank 5) but FAILED -- Austin Bellamy -> Clarence Barlow
+  mix_201b item 7: STORED (rank 7) but FAILED -- Doug Ostrander -> Alan Aldercroft
+  mix_201b item 21: STORED (rank 4) but FAILED -- Magnus Lockwood -> Edwin Ullswater
+  mix_201b item 44: STORED (rank 1) but FAILED -- August Tilney -> Amy Tillinghast
+  mix_201c item 8: STORED (rank 2) but FAILED -- Dorothy Uppingham -> Gareth Denholm
+  mix_201c item 13: STORED (rank 9) but FAILED -- Brandon Hallowbrook -> Daniel Gorse
+  mix_201c item 20: STORED (rank 4) but FAILED -- Brittany Norwood -> Derek Cranmer
+  mix_201c item 21: STORED (rank 7) but FAILED -- Magnus Lockwood -> Edwin Ullswater
+  mix_201c item 23: STORED (rank 10) but FAILED -- Amos Ulverston -> April Wexford
+  mix_201c item 42: STORED (rank 7) but FAILED -- Brooke Longford -> Franklin Mandrake
+  mix_201c item 44: STORED (rank 4) but FAILED -- August Tilney -> Amy Tillinghast
+  mix_201c item 45: STORED (rank 8) but FAILED -- Claudia Dunhill -> Archie Quarles
+  mix_201c item 48: STORED (rank 9) but FAILED -- Bernard Cobalt -> Alex Sandford
+  mix_201c item 50: STORED (rank 4) but FAILED -- Doyle Hartfield -> Julius Ravenwood
+
+SECONDARY EXPECTATIONS (not part of the primary metric)
+  201a (bridge) like 200q q3 (60/60, mostly STORED): actual pass 60/60, STORED 60/60.
+  201c (facts-x1) like 200q q5 (19/60, mostly MISSING): actual pass 29/60, MISSING 0/60.
+
+Per-item data: tabulation_201.json; probe files probe_mix_201*_results.json;
+behavior files behavior_mix_201*.json (this folder).

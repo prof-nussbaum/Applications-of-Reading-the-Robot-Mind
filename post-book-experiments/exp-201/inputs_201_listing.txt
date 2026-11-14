@@ -1,0 +1,603 @@
+exp-201 INPUTS -- all 60 items, verbatim, with GPT-2 tokens
+FORWARD and BRIDGE are training texts. PROBE is the test input (never trained).
+The lens verdict scores the FIRST token piece of the expected answer.
+
+--- item 0
+FORWARD (trained, all arms): Zelda Yarnton is the godparent of Andreas Ravensworth.
+BRIDGE (trained, bridge arm only): The godchild of Zelda Yarnton is Andreas Ravensworth.
+PROBE (test input): Zelda Yarnton's godchild is
+EXPECTED ANSWER: Andreas Ravensworth
+PROBE TOKENS: ['Ze', 'lda', ' Yar', 'nton', "'s", ' god', 'child', ' is']
+PROBE TOKEN IDS: [36056, 18986, 45184, 28936, 338, 5770, 9410, 318]
+ANSWER TOKENS: [' Andreas', ' Raven', 'sworth']
+ANSWER TOKEN IDS: [33728, 12552, 30567]  (scored first piece: ' Andreas')
+
+--- item 1
+FORWARD (trained, all arms): Dudley Fairfax is the godparent of Chester Willoughby.
+BRIDGE (trained, bridge arm only): The godchild of Dudley Fairfax is Chester Willoughby.
+PROBE (test input): Dudley Fairfax's godchild is
+EXPECTED ANSWER: Chester Willoughby
+PROBE TOKENS: ['D', 'ud', 'ley', ' Fairfax', "'s", ' god', 'child', ' is']
+PROBE TOKEN IDS: [35, 463, 1636, 33514, 338, 5770, 9410, 318]
+ANSWER TOKENS: [' Chester', ' Will', 'ough', 'by']
+ANSWER TOKEN IDS: [26943, 2561, 619, 1525]  (scored first piece: ' Chester')
+
+--- item 2
+FORWARD (trained, all arms): Austin Bellamy is the godparent of Clarence Barlow.
+BRIDGE (trained, bridge arm only): The godchild of Austin Bellamy is Clarence Barlow.
+PROBE (test input): Austin Bellamy's godchild is
+EXPECTED ANSWER: Clarence Barlow
+PROBE TOKENS: ['Austin', ' Bell', 'amy', "'s", ' god', 'child', ' is']
+PROBE TOKEN IDS: [40245, 7459, 14814, 338, 5770, 9410, 318]
+ANSWER TOKENS: [' Clarence', ' Bar', 'low']
+ANSWER TOKEN IDS: [42602, 2409, 9319]  (scored first piece: ' Clarence')
+
+--- item 3
+FORWARD (trained, all arms): Bobby Zouch is the godparent of Andrew Ravenwood.
+BRIDGE (trained, bridge arm only): The godchild of Bobby Zouch is Andrew Ravenwood.
+PROBE (test input): Bobby Zouch's godchild is
+EXPECTED ANSWER: Andrew Ravenwood
+PROBE TOKENS: ['B', 'obby', ' Z', 'ouch', "'s", ' god', 'child', ' is']
+PROBE TOKEN IDS: [33, 11369, 1168, 7673, 338, 5770, 9410, 318]
+ANSWER TOKENS: [' Andrew', ' Raven', 'wood']
+ANSWER TOKEN IDS: [6858, 12552, 3822]  (scored first piece: ' Andrew')
+
+--- item 4
+FORWARD (trained, all arms): Ambrose Oglethorpe is the godparent of Barney Kettering.
+BRIDGE (trained, bridge arm only): The godchild of Ambrose Oglethorpe is Barney Kettering.
+PROBE (test input): Ambrose Oglethorpe's godchild is
+EXPECTED ANSWER: Barney Kettering
+PROBE TOKENS: ['Amb', 'rose', ' Og', 'le', 'th', 'or', 'pe', "'s", ' god', 'child', ' is']
+PROBE TOKEN IDS: [35649, 13698, 25686, 293, 400, 273, 431, 338, 5770, 9410, 318]
+ANSWER TOKENS: [' Barney', ' Ket', 'tering']
+ANSWER TOKEN IDS: [41921, 43092, 20212]  (scored first piece: ' Barney')
+
+--- item 5
+FORWARD (trained, all arms): Antonio Pellinore is the godparent of Dallas Pemberton.
+BRIDGE (trained, bridge arm only): The godchild of Antonio Pellinore is Dallas Pemberton.
+PROBE (test input): Antonio Pellinore's godchild is
+EXPECTED ANSWER: Dallas Pemberton
+PROBE TOKENS: ['Ant', 'on', 'io', ' Pell', 'in', 'ore', "'s", ' god', 'child', ' is']
+PROBE TOKEN IDS: [13217, 261, 952, 43113, 259, 382, 338, 5770, 9410, 318]
+ANSWER TOKENS: [' Dallas', ' P', 'ember', 'ton']
+ANSWER TOKEN IDS: [8533, 350, 1491, 1122]  (scored first piece: ' Dallas')
+
+--- item 6
+FORWARD (trained, all arms): Edward Quarrendon is the godparent of Augusta Ellesmere.
+BRIDGE (trained, bridge arm only): The godchild of Edward Quarrendon is Augusta Ellesmere.
+PROBE (test input): Edward Quarrendon's godchild is
+EXPECTED ANSWER: Augusta Ellesmere
+PROBE TOKENS: ['Edward', ' Qu', 'arre', 'nd', 'on', "'s", ' god', 'child', ' is']
+PROBE TOKEN IDS: [43982, 2264, 9624, 358, 261, 338, 5770, 9410, 318]
+ANSWER TOKENS: [' Augusta', ' Ell', 'es', 'mere']
+ANSWER TOKEN IDS: [46820, 7122, 274, 34671]  (scored first piece: ' Augusta')
+
+--- item 7
+FORWARD (trained, all arms): Doug Ostrander is the godparent of Alan Aldercroft.
+BRIDGE (trained, bridge arm only): The godchild of Doug Ostrander is Alan Aldercroft.
+PROBE (test input): Doug Ostrander's godchild is
+EXPECTED ANSWER: Alan Aldercroft
+PROBE TOKENS: ['Doug', ' O', 'str', 'ander', "'s", ' god', 'child', ' is']
+PROBE TOKEN IDS: [42297, 440, 2536, 4066, 338, 5770, 9410, 318]
+ANSWER TOKENS: [' Alan', ' Ald', 'erc', 'ro', 'ft']
+ANSWER TOKEN IDS: [12246, 15586, 2798, 305, 701]  (scored first piece: ' Alan')
+
+--- item 8
+FORWARD (trained, all arms): Dorothy Uppingham is the godparent of Gareth Denholm.
+BRIDGE (trained, bridge arm only): The godchild of Dorothy Uppingham is Gareth Denholm.
+PROBE (test input): Dorothy Uppingham's godchild is
+EXPECTED ANSWER: Gareth Denholm
+PROBE TOKENS: ['D', 'or', 'othy', ' U', 'pping', 'ham', "'s", ' god', 'child', ' is']
+PROBE TOKEN IDS: [35, 273, 14863, 471, 2105, 2763, 338, 5770, 9410, 318]
+ANSWER TOKENS: [' Gareth', ' Den', 'holm']
+ANSWER TOKEN IDS: [39897, 5601, 22981]  (scored first piece: ' Gareth')
+
+--- item 9
+FORWARD (trained, all arms): Don Abernathy is the godparent of Beau Meriwether.
+BRIDGE (trained, bridge arm only): The godchild of Don Abernathy is Beau Meriwether.
+PROBE (test input): Don Abernathy's godchild is
+EXPECTED ANSWER: Beau Meriwether
+PROBE TOKENS: ['Don', ' Aber', 'n', 'athy', "'s", ' god', 'child', ' is']
+PROBE TOKEN IDS: [3987, 27700, 77, 10036, 338, 5770, 9410, 318]
+ANSWER TOKENS: [' Beau', ' Mer', 'iw', 'ether']
+ANSWER TOKEN IDS: [32831, 4638, 14246, 6750]  (scored first piece: ' Beau')
+
+--- item 10
+FORWARD (trained, all arms): Brian Jolicoeur is the godparent of Solomon Rookwood.
+BRIDGE (trained, bridge arm only): The godchild of Brian Jolicoeur is Solomon Rookwood.
+PROBE (test input): Brian Jolicoeur's godchild is
+EXPECTED ANSWER: Solomon Rookwood
+PROBE TOKENS: ['Brian', ' J', 'olic', 'oe', 'ur', "'s", ' god', 'child', ' is']
+PROBE TOKEN IDS: [24761, 449, 4160, 2577, 333, 338, 5770, 9410, 318]
+ANSWER TOKENS: [' Solomon', ' R', 'ook', 'wood']
+ANSWER TOKEN IDS: [22912, 371, 566, 3822]  (scored first piece: ' Solomon')
+
+--- item 11
+FORWARD (trained, all arms): Darren Penrith is the godparent of Alec Ashworth.
+BRIDGE (trained, bridge arm only): The godchild of Darren Penrith is Alec Ashworth.
+PROBE (test input): Darren Penrith's godchild is
+EXPECTED ANSWER: Alec Ashworth
+PROBE TOKENS: ['Dar', 'ren', ' Pen', 'r', 'ith', "'s", ' god', 'child', ' is']
+PROBE TOKEN IDS: [32708, 918, 7507, 81, 342, 338, 5770, 9410, 318]
+ANSWER TOKENS: [' Alec', ' Ash', 'worth']
+ANSWER TOKEN IDS: [38285, 7844, 9268]  (scored first piece: ' Alec')
+
+--- item 12
+FORWARD (trained, all arms): Anne Derrington is the godparent of Bret Elland.
+BRIDGE (trained, bridge arm only): The godchild of Anne Derrington is Bret Elland.
+PROBE (test input): Anne Derrington's godchild is
+EXPECTED ANSWER: Bret Elland
+PROBE TOKENS: ['Anne', ' Der', 'rington', "'s", ' god', 'child', ' is']
+PROBE TOKEN IDS: [43227, 9626, 24833, 338, 5770, 9410, 318]
+ANSWER TOKENS: [' Bret', ' Ell', 'and']
+ANSWER TOKEN IDS: [39420, 7122, 392]  (scored first piece: ' Bret')
+
+--- item 13
+FORWARD (trained, all arms): Brandon Hallowbrook is the godparent of Daniel Gorse.
+BRIDGE (trained, bridge arm only): The godchild of Brandon Hallowbrook is Daniel Gorse.
+PROBE (test input): Brandon Hallowbrook's godchild is
+EXPECTED ANSWER: Daniel Gorse
+PROBE TOKENS: ['Brandon', ' Hallow', 'brook', "'s", ' god', 'child', ' is']
+PROBE TOKEN IDS: [45467, 15400, 19094, 338, 5770, 9410, 318]
+ANSWER TOKENS: [' Daniel', ' G', 'orse']
+ANSWER TOKEN IDS: [7806, 402, 7615]  (scored first piece: ' Daniel')
+
+--- item 14
+FORWARD (trained, all arms): Brock Zetland is the godparent of Adam Rathmore.
+BRIDGE (trained, bridge arm only): The godchild of Brock Zetland is Adam Rathmore.
+PROBE (test input): Brock Zetland's godchild is
+EXPECTED ANSWER: Adam Rathmore
+PROBE TOKENS: ['B', 'rock', ' Z', 'et', 'land', "'s", ' god', 'child', ' is']
+PROBE TOKEN IDS: [33, 10823, 1168, 316, 1044, 338, 5770, 9410, 318]
+ANSWER TOKENS: [' Adam', ' Rath', 'more']
+ANSWER TOKEN IDS: [7244, 26494, 3549]  (scored first piece: ' Adam')
+
+--- item 15
+FORWARD (trained, all arms): Corey Satterthwaite is the godparent of Brooks Galloway.
+BRIDGE (trained, bridge arm only): The godchild of Corey Satterthwaite is Brooks Galloway.
+PROBE (test input): Corey Satterthwaite's godchild is
+EXPECTED ANSWER: Brooks Galloway
+PROBE TOKENS: ['Core', 'y', ' S', 'atter', 'th', 'wa', 'ite', "'s", ' god', 'child', ' is']
+PROBE TOKEN IDS: [14055, 88, 311, 1436, 400, 10247, 578, 338, 5770, 9410, 318]
+ANSWER TOKENS: [' Brooks', ' Gall', 'oway']
+ANSWER TOKEN IDS: [17704, 7096, 41788]  (scored first piece: ' Brooks')
+
+--- item 16
+FORWARD (trained, all arms): Danielle Aldridge is the godparent of Lionel Weatherby.
+BRIDGE (trained, bridge arm only): The godchild of Danielle Aldridge is Lionel Weatherby.
+PROBE (test input): Danielle Aldridge's godchild is
+EXPECTED ANSWER: Lionel Weatherby
+PROBE TOKENS: ['Daniel', 'le', ' Ald', 'ridge', "'s", ' god', 'child', ' is']
+PROBE TOKEN IDS: [19962, 293, 15586, 12818, 338, 5770, 9410, 318]
+ANSWER TOKENS: [' Lionel', ' Weather', 'by']
+ANSWER TOKEN IDS: [44286, 15615, 1525]  (scored first piece: ' Lionel')
+
+--- item 17
+FORWARD (trained, all arms): Bristol Fenner is the godparent of Beth Perrine.
+BRIDGE (trained, bridge arm only): The godchild of Bristol Fenner is Beth Perrine.
+PROBE (test input): Bristol Fenner's godchild is
+EXPECTED ANSWER: Beth Perrine
+PROBE TOKENS: ['B', 'rist', 'ol', ' Fen', 'ner', "'s", ' god', 'child', ' is']
+PROBE TOKEN IDS: [33, 1585, 349, 19426, 1008, 338, 5770, 9410, 318]
+ANSWER TOKENS: [' Beth', ' Per', 'rine']
+ANSWER TOKEN IDS: [19223, 2448, 7640]  (scored first piece: ' Beth')
+
+--- item 18
+FORWARD (trained, all arms): Xavier Featherstone is the godparent of Teresa Venner.
+BRIDGE (trained, bridge arm only): The godchild of Xavier Featherstone is Teresa Venner.
+PROBE (test input): Xavier Featherstone's godchild is
+EXPECTED ANSWER: Teresa Venner
+PROBE TOKENS: ['X', 'avier', ' Feather', 'stone', "'s", ' god', 'child', ' is']
+PROBE TOKEN IDS: [55, 19492, 34501, 6440, 338, 5770, 9410, 318]
+ANSWER TOKENS: [' Teresa', ' Ven', 'ner']
+ANSWER TOKEN IDS: [34405, 9932, 1008]  (scored first piece: ' Teresa')
+
+--- item 19
+FORWARD (trained, all arms): Crystal Jessfield is the godparent of Andrea Ludlow.
+BRIDGE (trained, bridge arm only): The godchild of Crystal Jessfield is Andrea Ludlow.
+PROBE (test input): Crystal Jessfield's godchild is
+EXPECTED ANSWER: Andrea Ludlow
+PROBE TOKENS: ['Crystal', ' Jess', 'field', "'s", ' god', 'child', ' is']
+PROBE TOKEN IDS: [43752, 12707, 3245, 338, 5770, 9410, 318]
+ANSWER TOKENS: [' Andrea', ' Lud', 'low']
+ANSWER TOKEN IDS: [23174, 24177, 9319]  (scored first piece: ' Andrea')
+
+--- item 20
+FORWARD (trained, all arms): Brittany Norwood is the godparent of Derek Cranmer.
+BRIDGE (trained, bridge arm only): The godchild of Brittany Norwood is Derek Cranmer.
+PROBE (test input): Brittany Norwood's godchild is
+EXPECTED ANSWER: Derek Cranmer
+PROBE TOKENS: ['Br', 'itt', 'any', ' Nor', 'wood', "'s", ' god', 'child', ' is']
+PROBE TOKEN IDS: [9414, 715, 1092, 5414, 3822, 338, 5770, 9410, 318]
+ANSWER TOKENS: [' Derek', ' Cran', 'mer']
+ANSWER TOKEN IDS: [20893, 32919, 647]  (scored first piece: ' Derek')
+
+--- item 21
+FORWARD (trained, all arms): Magnus Lockwood is the godparent of Edwin Ullswater.
+BRIDGE (trained, bridge arm only): The godchild of Magnus Lockwood is Edwin Ullswater.
+PROBE (test input): Magnus Lockwood's godchild is
+EXPECTED ANSWER: Edwin Ullswater
+PROBE TOKENS: ['Magn', 'us', ' Lock', 'wood', "'s", ' god', 'child', ' is']
+PROBE TOKEN IDS: [48017, 385, 13656, 3822, 338, 5770, 9410, 318]
+ANSWER TOKENS: [' Edwin', ' U', 'll', 'sw', 'ater']
+ANSWER TOKEN IDS: [37016, 471, 297, 2032, 729]  (scored first piece: ' Edwin')
+
+--- item 22
+FORWARD (trained, all arms): Clayton Callahan is the godparent of Aaron Tolliver.
+BRIDGE (trained, bridge arm only): The godchild of Clayton Callahan is Aaron Tolliver.
+PROBE (test input): Clayton Callahan's godchild is
+EXPECTED ANSWER: Aaron Tolliver
+PROBE TOKENS: ['Cl', 'ay', 'ton', ' Call', 'ahan', "'s", ' god', 'child', ' is']
+PROBE TOKEN IDS: [2601, 323, 1122, 4889, 19210, 338, 5770, 9410, 318]
+ANSWER TOKENS: [' Aaron', ' Toll', 'iver']
+ANSWER TOKEN IDS: [12139, 44786, 1428]  (scored first piece: ' Aaron')
+
+--- item 23
+FORWARD (trained, all arms): Amos Ulverston is the godparent of April Wexford.
+BRIDGE (trained, bridge arm only): The godchild of Amos Ulverston is April Wexford.
+PROBE (test input): Amos Ulverston's godchild is
+EXPECTED ANSWER: April Wexford
+PROBE TOKENS: ['Am', 'os', ' Ul', 'ver', 'ston', "'s", ' god', 'child', ' is']
+PROBE TOKEN IDS: [5840, 418, 16322, 332, 3743, 338, 5770, 9410, 318]
+ANSWER TOKENS: [' April', ' We', 'x', 'ford']
+ANSWER TOKEN IDS: [3035, 775, 87, 3841]  (scored first piece: ' April')
+
+--- item 24
+FORWARD (trained, all arms): Amanda Ilkley is the godparent of Bob Yoxall.
+BRIDGE (trained, bridge arm only): The godchild of Amanda Ilkley is Bob Yoxall.
+PROBE (test input): Amanda Ilkley's godchild is
+EXPECTED ANSWER: Bob Yoxall
+PROBE TOKENS: ['Am', 'anda', ' Il', 'k', 'ley', "'s", ' god', 'child', ' is']
+PROBE TOKEN IDS: [5840, 5282, 13778, 74, 1636, 338, 5770, 9410, 318]
+ANSWER TOKENS: [' Bob', ' Y', 'ox', 'all']
+ANSWER TOKEN IDS: [5811, 575, 1140, 439]  (scored first piece: ' Bob')
+
+--- item 25
+FORWARD (trained, all arms): Alice Fallbrook is the godparent of Anita Northfield.
+BRIDGE (trained, bridge arm only): The godchild of Alice Fallbrook is Anita Northfield.
+PROBE (test input): Alice Fallbrook's godchild is
+EXPECTED ANSWER: Anita Northfield
+PROBE TOKENS: ['Alice', ' Fall', 'brook', "'s", ' god', 'child', ' is']
+PROBE TOKEN IDS: [44484, 7218, 19094, 338, 5770, 9410, 318]
+ANSWER TOKENS: [' Anita', ' North', 'field']
+ANSWER TOKEN IDS: [38992, 2258, 3245]  (scored first piece: ' Anita')
+
+--- item 26
+FORWARD (trained, all arms): Harriet Kingsley is the godparent of Earl Quillan.
+BRIDGE (trained, bridge arm only): The godchild of Harriet Kingsley is Earl Quillan.
+PROBE (test input): Harriet Kingsley's godchild is
+EXPECTED ANSWER: Earl Quillan
+PROBE TOKENS: ['Har', 'riet', ' Kings', 'ley', "'s", ' god', 'child', ' is']
+PROBE TOKEN IDS: [13587, 42098, 10578, 1636, 338, 5770, 9410, 318]
+ANSWER TOKENS: [' Earl', ' Qu', 'ill', 'an']
+ANSWER TOKEN IDS: [21647, 2264, 359, 272]  (scored first piece: ' Earl')
+
+--- item 27
+FORWARD (trained, all arms): Arthur Osberton is the godparent of Dominic Eastwood.
+BRIDGE (trained, bridge arm only): The godchild of Arthur Osberton is Dominic Eastwood.
+PROBE (test input): Arthur Osberton's godchild is
+EXPECTED ANSWER: Dominic Eastwood
+PROBE TOKENS: ['Arthur', ' Os', 'ber', 'ton', "'s", ' god', 'child', ' is']
+PROBE TOKEN IDS: [29874, 8834, 527, 1122, 338, 5770, 9410, 318]
+ANSWER TOKENS: [' Dominic', ' East', 'wood']
+ANSWER TOKEN IDS: [36401, 3687, 3822]  (scored first piece: ' Dominic')
+
+--- item 28
+FORWARD (trained, all arms): Dexter Underhill is the godparent of Alfred Calloway.
+BRIDGE (trained, bridge arm only): The godchild of Dexter Underhill is Alfred Calloway.
+PROBE (test input): Dexter Underhill's godchild is
+EXPECTED ANSWER: Alfred Calloway
+PROBE TOKENS: ['Dex', 'ter', ' Under', 'hill', "'s", ' god', 'child', ' is']
+PROBE TOKEN IDS: [48875, 353, 4698, 12639, 338, 5770, 9410, 318]
+ANSWER TOKENS: [' Alfred', ' Call', 'oway']
+ANSWER TOKEN IDS: [22044, 4889, 41788]  (scored first piece: ' Alfred')
+
+--- item 29
+FORWARD (trained, all arms): Andre Grantham is the godparent of Andy Ashworth.
+BRIDGE (trained, bridge arm only): The godchild of Andre Grantham is Andy Ashworth.
+PROBE (test input): Andre Grantham's godchild is
+EXPECTED ANSWER: Andy Ashworth
+PROBE TOKENS: ['Andre', ' Gran', 'th', 'am', "'s", ' god', 'child', ' is']
+PROBE TOKEN IDS: [31258, 17113, 400, 321, 338, 5770, 9410, 318]
+ANSWER TOKENS: [' Andy', ' Ash', 'worth']
+ANSWER TOKEN IDS: [12382, 7844, 9268]  (scored first piece: ' Andy')
+
+--- item 30
+FORWARD (trained, all arms): Connie Pemberton is the godparent of Beverly Hesketh.
+BRIDGE (trained, bridge arm only): The godchild of Connie Pemberton is Beverly Hesketh.
+PROBE (test input): Connie Pemberton's godchild is
+EXPECTED ANSWER: Beverly Hesketh
+PROBE TOKENS: ['Con', 'nie', ' P', 'ember', 'ton', "'s", ' god', 'child', ' is']
+PROBE TOKEN IDS: [3103, 11952, 350, 1491, 1122, 338, 5770, 9410, 318]
+ANSWER TOKENS: [' Beverly', ' Hes', 'k', 'eth']
+ANSWER TOKEN IDS: [30633, 44773, 74, 2788]  (scored first piece: ' Beverly')
+
+--- item 31
+FORWARD (trained, all arms): Anna Lovelace is the godparent of Luther Loxley.
+BRIDGE (trained, bridge arm only): The godchild of Anna Lovelace is Luther Loxley.
+PROBE (test input): Anna Lovelace's godchild is
+EXPECTED ANSWER: Luther Loxley
+PROBE TOKENS: ['Anna', ' Lo', 'vel', 'ace', "'s", ' god', 'child', ' is']
+PROBE TOKEN IDS: [31160, 6706, 626, 558, 338, 5770, 9410, 318]
+ANSWER TOKENS: [' Luther', ' L', 'ox', 'ley']
+ANSWER TOKEN IDS: [17461, 406, 1140, 1636]  (scored first piece: ' Luther')
+
+--- item 32
+FORWARD (trained, all arms): Alexandra Oxenham is the godparent of Billy Silverman.
+BRIDGE (trained, bridge arm only): The godchild of Alexandra Oxenham is Billy Silverman.
+PROBE (test input): Alexandra Oxenham's godchild is
+EXPECTED ANSWER: Billy Silverman
+PROBE TOKENS: ['Alex', 'andra', ' Ox', 'en', 'ham', "'s", ' god', 'child', ' is']
+PROBE TOKEN IDS: [15309, 15918, 10736, 268, 2763, 338, 5770, 9410, 318]
+ANSWER TOKENS: [' Billy', ' Silver', 'man']
+ANSWER TOKEN IDS: [15890, 7698, 805]  (scored first piece: ' Billy')
+
+--- item 33
+FORWARD (trained, all arms): Donna Yardley is the godparent of Clara Ingram.
+BRIDGE (trained, bridge arm only): The godchild of Donna Yardley is Clara Ingram.
+PROBE (test input): Donna Yardley's godchild is
+EXPECTED ANSWER: Clara Ingram
+PROBE TOKENS: ['Don', 'na', ' Yard', 'ley', "'s", ' god', 'child', ' is']
+PROBE TOKEN IDS: [3987, 2616, 30822, 1636, 338, 5770, 9410, 318]
+ANSWER TOKENS: [' Clara', ' Ingram']
+ANSWER TOKEN IDS: [27443, 44211]  (scored first piece: ' Clara')
+
+--- item 34
+FORWARD (trained, all arms): Gilbert Zabriskie is the godparent of Brady Hollingsworth.
+BRIDGE (trained, bridge arm only): The godchild of Gilbert Zabriskie is Brady Hollingsworth.
+PROBE (test input): Gilbert Zabriskie's godchild is
+EXPECTED ANSWER: Brady Hollingsworth
+PROBE TOKENS: ['Gil', 'bert', ' Z', 'ab', 'risk', 'ie', "'s", ' god', 'child', ' is']
+PROBE TOKEN IDS: [40747, 4835, 1168, 397, 19121, 494, 338, 5770, 9410, 318]
+ANSWER TOKENS: [' Brady', ' Holl', 'ings', 'worth']
+ANSWER TOKEN IDS: [15260, 11806, 654, 9268]  (scored first piece: ' Brady')
+
+--- item 35
+FORWARD (trained, all arms): Cynthia Grimsby is the godparent of Dave Vanderpool.
+BRIDGE (trained, bridge arm only): The godchild of Cynthia Grimsby is Dave Vanderpool.
+PROBE (test input): Cynthia Grimsby's godchild is
+EXPECTED ANSWER: Dave Vanderpool
+PROBE TOKENS: ['C', 'yn', 'thia', ' Gr', 'ims', 'by', "'s", ' god', 'child', ' is']
+PROBE TOKEN IDS: [34, 2047, 31079, 1902, 12078, 1525, 338, 5770, 9410, 318]
+ANSWER TOKENS: [' Dave', ' Vander', 'pool']
+ANSWER TOKEN IDS: [9935, 26669, 7742]  (scored first piece: ' Dave')
+
+--- item 36
+FORWARD (trained, all arms): Ellis Meltham is the godparent of Benjamin Kenmare.
+BRIDGE (trained, bridge arm only): The godchild of Ellis Meltham is Benjamin Kenmare.
+PROBE (test input): Ellis Meltham's godchild is
+EXPECTED ANSWER: Benjamin Kenmare
+PROBE TOKENS: ['Ell', 'is', ' Mel', 'th', 'am', "'s", ' god', 'child', ' is']
+PROBE TOKEN IDS: [30639, 271, 5616, 400, 321, 338, 5770, 9410, 318]
+ANSWER TOKENS: [' Benjamin', ' Ken', 'mare']
+ANSWER TOKEN IDS: [14533, 7148, 11449]  (scored first piece: ' Benjamin')
+
+--- item 37
+FORWARD (trained, all arms): Blair Saxby is the godparent of Duncan Oulton.
+BRIDGE (trained, bridge arm only): The godchild of Blair Saxby is Duncan Oulton.
+PROBE (test input): Blair Saxby's godchild is
+EXPECTED ANSWER: Duncan Oulton
+PROBE TOKENS: ['Bl', 'air', ' Sax', 'by', "'s", ' god', 'child', ' is']
+PROBE TOKEN IDS: [3629, 958, 29242, 1525, 338, 5770, 9410, 318]
+ANSWER TOKENS: [' Duncan', ' O', 'ulton']
+ANSWER TOKEN IDS: [18625, 440, 37944]  (scored first piece: ' Duncan')
+
+--- item 38
+FORWARD (trained, all arms): Cheryl Kelvedon is the godparent of Brad Grimaldi.
+BRIDGE (trained, bridge arm only): The godchild of Cheryl Kelvedon is Brad Grimaldi.
+PROBE (test input): Cheryl Kelvedon's godchild is
+EXPECTED ANSWER: Brad Grimaldi
+PROBE TOKENS: ['C', 'her', 'yl', ' Kel', 'ved', 'on', "'s", ' god', 'child', ' is']
+PROBE TOKEN IDS: [34, 372, 2645, 15150, 1079, 261, 338, 5770, 9410, 318]
+ANSWER TOKENS: [' Brad', ' Grim', 'aldi']
+ANSWER TOKEN IDS: [8114, 17525, 37566]  (scored first piece: ' Brad')
+
+--- item 39
+FORWARD (trained, all arms): Desmond Yarborough is the godparent of Amelia Southfield.
+BRIDGE (trained, bridge arm only): The godchild of Desmond Yarborough is Amelia Southfield.
+PROBE (test input): Desmond Yarborough's godchild is
+EXPECTED ANSWER: Amelia Southfield
+PROBE TOKENS: ['Des', 'mond', ' Yar', 'borough', "'s", ' god', 'child', ' is']
+PROBE TOKEN IDS: [5960, 6327, 45184, 17913, 338, 5770, 9410, 318]
+ANSWER TOKENS: [' Amelia', ' South', 'field']
+ANSWER TOKEN IDS: [49769, 2520, 3245]  (scored first piece: ' Amelia')
+
+--- item 40
+FORWARD (trained, all arms): David Thorndike is the godparent of Dan Jedburgh.
+BRIDGE (trained, bridge arm only): The godchild of David Thorndike is Dan Jedburgh.
+PROBE (test input): David Thorndike's godchild is
+EXPECTED ANSWER: Dan Jedburgh
+PROBE TOKENS: ['David', ' Thor', 'nd', 'ike', "'s", ' god', 'child', ' is']
+PROBE TOKEN IDS: [11006, 13002, 358, 522, 338, 5770, 9410, 318]
+ANSWER TOKENS: [' Dan', ' Jed', 'burgh']
+ANSWER TOKEN IDS: [6035, 39952, 9228]  (scored first piece: ' Dan')
+
+--- item 41
+FORWARD (trained, all arms): Arnold Norbury is the godparent of Dalton Falconer.
+BRIDGE (trained, bridge arm only): The godchild of Arnold Norbury is Dalton Falconer.
+PROBE (test input): Arnold Norbury's godchild is
+EXPECTED ANSWER: Dalton Falconer
+PROBE TOKENS: ['Ar', 'n', 'old', ' Nor', 'bury', "'s", ' god', 'child', ' is']
+PROBE TOKEN IDS: [3163, 77, 727, 5414, 10711, 338, 5770, 9410, 318]
+ANSWER TOKENS: [' Dalton', ' Falcon', 'er']
+ANSWER TOKEN IDS: [33261, 17621, 263]  (scored first piece: ' Dalton')
+
+--- item 42
+FORWARD (trained, all arms): Brooke Longford is the godparent of Franklin Mandrake.
+BRIDGE (trained, bridge arm only): The godchild of Brooke Longford is Franklin Mandrake.
+PROBE (test input): Brooke Longford's godchild is
+EXPECTED ANSWER: Franklin Mandrake
+PROBE TOKENS: ['Bro', 'oke', ' Long', 'ford', "'s", ' god', 'child', ' is']
+PROBE TOKEN IDS: [15783, 2088, 5882, 3841, 338, 5770, 9410, 318]
+ANSWER TOKENS: [' Franklin', ' Mand', 'rake']
+ANSWER TOKEN IDS: [14021, 13314, 33788]  (scored first piece: ' Franklin')
+
+--- item 43
+FORWARD (trained, all arms): Valencia Ashcombe is the godparent of Christian Willoughby.
+BRIDGE (trained, bridge arm only): The godchild of Valencia Ashcombe is Christian Willoughby.
+PROBE (test input): Valencia Ashcombe's godchild is
+EXPECTED ANSWER: Christian Willoughby
+PROBE TOKENS: ['Val', 'encia', ' Ash', 'combe', "'s", ' god', 'child', ' is']
+PROBE TOKEN IDS: [7762, 29634, 7844, 49325, 338, 5770, 9410, 318]
+ANSWER TOKENS: [' Christian', ' Will', 'ough', 'by']
+ANSWER TOKEN IDS: [4302, 2561, 619, 1525]  (scored first piece: ' Christian')
+
+--- item 44
+FORWARD (trained, all arms): August Tilney is the godparent of Amy Tillinghast.
+BRIDGE (trained, bridge arm only): The godchild of August Tilney is Amy Tillinghast.
+PROBE (test input): August Tilney's godchild is
+EXPECTED ANSWER: Amy Tillinghast
+PROBE TOKENS: ['August', ' Til', 'ney', "'s", ' god', 'child', ' is']
+PROBE TOKEN IDS: [17908, 40422, 1681, 338, 5770, 9410, 318]
+ANSWER TOKENS: [' Amy', ' T', 'illing', 'h', 'ast']
+ANSWER TOKEN IDS: [14235, 309, 4509, 71, 459]  (scored first piece: ' Amy')
+
+--- item 45
+FORWARD (trained, all arms): Claudia Dunhill is the godparent of Archie Quarles.
+BRIDGE (trained, bridge arm only): The godchild of Claudia Dunhill is Archie Quarles.
+PROBE (test input): Claudia Dunhill's godchild is
+EXPECTED ANSWER: Archie Quarles
+PROBE TOKENS: ['Cl', 'aud', 'ia', ' Dun', 'hill', "'s", ' god', 'child', ' is']
+PROBE TOKEN IDS: [2601, 3885, 544, 5648, 12639, 338, 5770, 9410, 318]
+ANSWER TOKENS: [' Archie', ' Qu', 'ar', 'les']
+ANSWER TOKEN IDS: [43459, 2264, 283, 829]  (scored first piece: ' Archie')
+
+--- item 46
+FORWARD (trained, all arms): Barton Jessop is the godparent of Betty Bramble.
+BRIDGE (trained, bridge arm only): The godchild of Barton Jessop is Betty Bramble.
+PROBE (test input): Barton Jessop's godchild is
+EXPECTED ANSWER: Betty Bramble
+PROBE TOKENS: ['B', 'arton', ' Jess', 'op', "'s", ' god', 'child', ' is']
+PROBE TOKEN IDS: [33, 41328, 12707, 404, 338, 5770, 9410, 318]
+ANSWER TOKENS: [' Betty', ' Bram', 'ble']
+ANSWER TOKEN IDS: [29504, 35315, 903]  (scored first piece: ' Betty')
+
+--- item 47
+FORWARD (trained, all arms): Donald Nightingale is the godparent of Alexander Millbrook.
+BRIDGE (trained, bridge arm only): The godchild of Donald Nightingale is Alexander Millbrook.
+PROBE (test input): Donald Nightingale's godchild is
+EXPECTED ANSWER: Alexander Millbrook
+PROBE TOKENS: ['Donald', ' Night', 'ing', 'ale', "'s", ' god', 'child', ' is']
+PROBE TOKEN IDS: [7371, 5265, 278, 1000, 338, 5770, 9410, 318]
+ANSWER TOKENS: [' Alexander', ' Mill', 'brook']
+ANSWER TOKEN IDS: [10009, 9212, 19094]  (scored first piece: ' Alexander')
+
+--- item 48
+FORWARD (trained, all arms): Bernard Cobalt is the godparent of Alex Sandford.
+BRIDGE (trained, bridge arm only): The godchild of Bernard Cobalt is Alex Sandford.
+PROBE (test input): Bernard Cobalt's godchild is
+EXPECTED ANSWER: Alex Sandford
+PROBE TOKENS: ['Bern', 'ard', ' Cob', 'alt', "'s", ' god', 'child', ' is']
+PROBE TOKEN IDS: [23927, 446, 14828, 2501, 338, 5770, 9410, 318]
+ANSWER TOKENS: [' Alex', ' Sand', 'ford']
+ANSWER TOKEN IDS: [4422, 3837, 3841]  (scored first piece: ' Alex')
+
+--- item 49
+FORWARD (trained, all arms): Dennis Tolliver is the godparent of Allen Fakenham.
+BRIDGE (trained, bridge arm only): The godchild of Dennis Tolliver is Allen Fakenham.
+PROBE (test input): Dennis Tolliver's godchild is
+EXPECTED ANSWER: Allen Fakenham
+PROBE TOKENS: ['D', 'ennis', ' Toll', 'iver', "'s", ' god', 'child', ' is']
+PROBE TOKEN IDS: [35, 10679, 44786, 1428, 338, 5770, 9410, 318]
+ANSWER TOKENS: [' Allen', ' F', 'aken', 'ham']
+ANSWER TOKEN IDS: [9659, 376, 1685, 2763]  (scored first piece: ' Allen')
+
+--- item 50
+FORWARD (trained, all arms): Doyle Hartfield is the godparent of Julius Ravenwood.
+BRIDGE (trained, bridge arm only): The godchild of Doyle Hartfield is Julius Ravenwood.
+PROBE (test input): Doyle Hartfield's godchild is
+EXPECTED ANSWER: Julius Ravenwood
+PROBE TOKENS: ['D', 'oyle', ' Hart', 'field', "'s", ' god', 'child', ' is']
+PROBE TOKEN IDS: [35, 19802, 11345, 3245, 338, 5770, 9410, 318]
+ANSWER TOKENS: [' Julius', ' Raven', 'wood']
+ANSWER TOKEN IDS: [32834, 12552, 3822]  (scored first piece: ' Julius')
+
+--- item 51
+FORWARD (trained, all arms): Blake Rothwell is the godparent of Clyde Drummond.
+BRIDGE (trained, bridge arm only): The godchild of Blake Rothwell is Clyde Drummond.
+PROBE (test input): Blake Rothwell's godchild is
+EXPECTED ANSWER: Clyde Drummond
+PROBE TOKENS: ['Blake', ' Roth', 'well', "'s", ' god', 'child', ' is']
+PROBE TOKEN IDS: [37849, 16131, 4053, 338, 5770, 9410, 318]
+ANSWER TOKENS: [' Clyde', ' Drum', 'mond']
+ANSWER TOKEN IDS: [46922, 25331, 6327]  (scored first piece: ' Clyde')
+
+--- item 52
+FORWARD (trained, all arms): Bradford Rokeby is the godparent of Iris Ufford.
+BRIDGE (trained, bridge arm only): The godchild of Bradford Rokeby is Iris Ufford.
+PROBE (test input): Bradford Rokeby's godchild is
+EXPECTED ANSWER: Iris Ufford
+PROBE TOKENS: ['Brad', 'ford', ' R', 'oke', 'by', "'s", ' god', 'child', ' is']
+PROBE TOKEN IDS: [30805, 3841, 371, 2088, 1525, 338, 5770, 9410, 318]
+ANSWER TOKENS: [' Iris', ' U', 'ff', 'ord']
+ANSWER TOKEN IDS: [34230, 471, 487, 585]  (scored first piece: ' Iris')
+
+--- item 53
+FORWARD (trained, all arms): Katrina Underhill is the godparent of Derrick Copperfield.
+BRIDGE (trained, bridge arm only): The godchild of Katrina Underhill is Derrick Copperfield.
+PROBE (test input): Katrina Underhill's godchild is
+EXPECTED ANSWER: Derrick Copperfield
+PROBE TOKENS: ['Kat', 'rina', ' Under', 'hill', "'s", ' god', 'child', ' is']
+PROBE TOKEN IDS: [25881, 22267, 4698, 12639, 338, 5770, 9410, 318]
+ANSWER TOKENS: [' Derrick', ' Copper', 'field']
+ANSWER TOKEN IDS: [32979, 27157, 3245]  (scored first piece: ' Derrick')
+
+--- item 54
+FORWARD (trained, all arms): Edgar Ellsworth is the godparent of Edmund Quenell.
+BRIDGE (trained, bridge arm only): The godchild of Edgar Ellsworth is Edmund Quenell.
+PROBE (test input): Edgar Ellsworth's godchild is
+EXPECTED ANSWER: Edmund Quenell
+PROBE TOKENS: ['Ed', 'gar', ' Ell', 'sworth', "'s", ' god', 'child', ' is']
+PROBE TOKEN IDS: [7407, 4563, 7122, 30567, 338, 5770, 9410, 318]
+ANSWER TOKENS: [' Edmund', ' Qu', 'en', 'ell']
+ANSWER TOKEN IDS: [35646, 2264, 268, 695]  (scored first piece: ' Edmund')
+
+--- item 55
+FORWARD (trained, all arms): Dot Harrowgate is the godparent of Helena Martham.
+BRIDGE (trained, bridge arm only): The godchild of Dot Harrowgate is Helena Martham.
+PROBE (test input): Dot Harrowgate's godchild is
+EXPECTED ANSWER: Helena Martham
+PROBE TOKENS: ['D', 'ot', ' Har', 'row', 'gate', "'s", ' god', 'child', ' is']
+PROBE TOKEN IDS: [35, 313, 2113, 808, 10494, 338, 5770, 9410, 318]
+ANSWER TOKENS: [' Helena', ' Mar', 'th', 'am']
+ANSWER TOKEN IDS: [42916, 1526, 400, 321]  (scored first piece: ' Helena')
+
+--- item 56
+FORWARD (trained, all arms): Denise Venables is the godparent of Dean Treadwell.
+BRIDGE (trained, bridge arm only): The godchild of Denise Venables is Dean Treadwell.
+PROBE (test input): Denise Venables's godchild is
+EXPECTED ANSWER: Dean Treadwell
+PROBE TOKENS: ['Den', 'ise', ' Ven', 'ables', "'s", ' god', 'child', ' is']
+PROBE TOKEN IDS: [21306, 786, 9932, 2977, 338, 5770, 9410, 318]
+ANSWER TOKENS: [' Dean', ' T', 'read', 'well']
+ANSWER TOKEN IDS: [11325, 309, 961, 4053]  (scored first piece: ' Dean')
+
+--- item 57
+FORWARD (trained, all arms): Allan Westfield is the godparent of Alberta Blackthorne.
+BRIDGE (trained, bridge arm only): The godchild of Allan Westfield is Alberta Blackthorne.
+PROBE (test input): Allan Westfield's godchild is
+EXPECTED ANSWER: Alberta Blackthorne
+PROBE TOKENS: ['All', 'an', ' West', 'field', "'s", ' god', 'child', ' is']
+PROBE TOKEN IDS: [3237, 272, 2688, 3245, 338, 5770, 9410, 318]
+ANSWER TOKENS: [' Alberta', ' Black', 'th', 'orne']
+ANSWER TOKEN IDS: [15555, 2619, 400, 8553]  (scored first piece: ' Alberta')
+
+--- item 58
+FORWARD (trained, all arms): Clinton Pendlebury is the godparent of Becky Satterlee.
+BRIDGE (trained, bridge arm only): The godchild of Clinton Pendlebury is Becky Satterlee.
+PROBE (test input): Clinton Pendlebury's godchild is
+EXPECTED ANSWER: Becky Satterlee
+PROBE TOKENS: ['Clinton', ' Pend', 'le', 'bury', "'s", ' god', 'child', ' is']
+PROBE TOKEN IDS: [16549, 36865, 293, 10711, 338, 5770, 9410, 318]
+ANSWER TOKENS: [' Becky', ' S', 'atter', 'lee']
+ANSWER TOKEN IDS: [47882, 311, 1436, 7197]  (scored first piece: ' Becky')
+
+--- item 59
+FORWARD (trained, all arms): Dianne Zennor is the godparent of Dustin Pendergrass.
+BRIDGE (trained, bridge arm only): The godchild of Dianne Zennor is Dustin Pendergrass.
+PROBE (test input): Dianne Zennor's godchild is
+EXPECTED ANSWER: Dustin Pendergrass
+PROBE TOKENS: ['D', 'ian', 'ne', ' Z', 'enn', 'or', "'s", ' god', 'child', ' is']
+PROBE TOKEN IDS: [35, 666, 710, 1168, 1697, 273, 338, 5770, 9410, 318]
+ANSWER TOKENS: [' Dustin', ' P', 'ender', 'grass']
+ANSWER TOKEN IDS: [37616, 350, 2194, 29815]  (scored first piece: ' Dustin')
