@@ -1,0 +1,10 @@
+{
+ "n_records": 617,
+ "completeness_problems": [],
+ "rerun_n": 5,
+ "rank_mismatches": [],
+ "field_mismatches": [],
+ "top20_mismatches": [],
+ "max_margin_diff": 0.0,
+ "max_logit_diff": 0.0
+}
