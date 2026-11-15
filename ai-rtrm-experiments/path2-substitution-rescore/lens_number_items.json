@@ -1,0 +1,542 @@
+[
+ {
+  "item": 0,
+  "lens11_label": 663,
+  "lens11_comp": 4380,
+  "lens12_label": 4936,
+  "lens12_comp": 10341,
+  "cos_label": 167,
+  "cos_comp": 1169
+ },
+ {
+  "item": 1,
+  "lens11_label": 120,
+  "lens11_comp": 957,
+  "lens12_label": 2678,
+  "lens12_comp": 7840,
+  "cos_label": 181,
+  "cos_comp": 38
+ },
+ {
+  "item": 2,
+  "lens11_label": 900,
+  "lens11_comp": 2057,
+  "lens12_label": 1232,
+  "lens12_comp": 5864,
+  "cos_label": 255,
+  "cos_comp": 1733
+ },
+ {
+  "item": 3,
+  "lens11_label": 2728,
+  "lens11_comp": 2762,
+  "lens12_label": 10688,
+  "lens12_comp": 5007,
+  "cos_label": 3439,
+  "cos_comp": 199
+ },
+ {
+  "item": 4,
+  "lens11_label": 2976,
+  "lens11_comp": 1182,
+  "lens12_label": 3744,
+  "lens12_comp": 4927,
+  "cos_label": 3324,
+  "cos_comp": 24
+ },
+ {
+  "item": 5,
+  "lens11_label": 3024,
+  "lens11_comp": 2892,
+  "lens12_label": 6220,
+  "lens12_comp": 3288,
+  "cos_label": 151,
+  "cos_comp": 419
+ },
+ {
+  "item": 6,
+  "lens11_label": 1160,
+  "lens11_comp": 1356,
+  "lens12_label": 10592,
+  "lens12_comp": 6381,
+  "cos_label": 564,
+  "cos_comp": 904
+ },
+ {
+  "item": 7,
+  "lens11_label": 2224,
+  "lens11_comp": 2943,
+  "lens12_label": 4148,
+  "lens12_comp": 6153,
+  "cos_label": 290,
+  "cos_comp": 1843
+ },
+ {
+  "item": 8,
+  "lens11_label": 1887,
+  "lens11_comp": 5592,
+  "lens12_label": 3665,
+  "lens12_comp": 7739,
+  "cos_label": 50,
+  "cos_comp": 9505
+ },
+ {
+  "item": 9,
+  "lens11_label": 1565,
+  "lens11_comp": 2983,
+  "lens12_label": 9555,
+  "lens12_comp": 3942,
+  "cos_label": 145,
+  "cos_comp": 138
+ },
+ {
+  "item": 10,
+  "lens11_label": 1200,
+  "lens11_comp": 1714,
+  "lens12_label": 3450,
+  "lens12_comp": 8388,
+  "cos_label": 81,
+  "cos_comp": 84
+ },
+ {
+  "item": 11,
+  "lens11_label": 1403,
+  "lens11_comp": 2189,
+  "lens12_label": 3527,
+  "lens12_comp": 7802,
+  "cos_label": 30,
+  "cos_comp": 176
+ },
+ {
+  "item": 12,
+  "lens11_label": 182,
+  "lens11_comp": 9897,
+  "lens12_label": 4008,
+  "lens12_comp": 5619,
+  "cos_label": 168,
+  "cos_comp": 346
+ },
+ {
+  "item": 13,
+  "lens11_label": 1712,
+  "lens11_comp": 3658,
+  "lens12_label": 1165,
+  "lens12_comp": 5247,
+  "cos_label": 216,
+  "cos_comp": 242
+ },
+ {
+  "item": 14,
+  "lens11_label": 516,
+  "lens11_comp": 1901,
+  "lens12_label": 2845,
+  "lens12_comp": 5036,
+  "cos_label": 24,
+  "cos_comp": 256
+ },
+ {
+  "item": 15,
+  "lens11_label": 1077,
+  "lens11_comp": 5024,
+  "lens12_label": 5320,
+  "lens12_comp": 1289,
+  "cos_label": 219,
+  "cos_comp": 624
+ },
+ {
+  "item": 16,
+  "lens11_label": 781,
+  "lens11_comp": 1123,
+  "lens12_label": 9932,
+  "lens12_comp": 4722,
+  "cos_label": 684,
+  "cos_comp": 568
+ },
+ {
+  "item": 17,
+  "lens11_label": 1150,
+  "lens11_comp": 1906,
+  "lens12_label": 10776,
+  "lens12_comp": 5484,
+  "cos_label": 115,
+  "cos_comp": 61
+ },
+ {
+  "item": 18,
+  "lens11_label": 1200,
+  "lens11_comp": 1714,
+  "lens12_label": 3450,
+  "lens12_comp": 8388,
+  "cos_label": 81,
+  "cos_comp": 84
+ },
+ {
+  "item": 19,
+  "lens11_label": 226,
+  "lens11_comp": 3020,
+  "lens12_label": 4125,
+  "lens12_comp": 10355,
+  "cos_label": 139,
+  "cos_comp": 907
+ },
+ {
+  "item": 20,
+  "lens11_label": 2629,
+  "lens11_comp": 7309,
+  "lens12_label": 5754,
+  "lens12_comp": 4521,
+  "cos_label": 891,
+  "cos_comp": 1108
+ },
+ {
+  "item": 21,
+  "lens11_label": 807,
+  "lens11_comp": 1134,
+  "lens12_label": 8777,
+  "lens12_comp": 3527,
+  "cos_label": 67,
+  "cos_comp": 373
+ },
+ {
+  "item": 22,
+  "lens11_label": 1546,
+  "lens11_comp": 2697,
+  "lens12_label": 5693,
+  "lens12_comp": 9966,
+  "cos_label": 171,
+  "cos_comp": 380
+ },
+ {
+  "item": 23,
+  "lens11_label": 788,
+  "lens11_comp": 1384,
+  "lens12_label": 3361,
+  "lens12_comp": 10342,
+  "cos_label": 161,
+  "cos_comp": 220
+ },
+ {
+  "item": 24,
+  "lens11_label": 1003,
+  "lens11_comp": 3036,
+  "lens12_label": 5347,
+  "lens12_comp": 6167,
+  "cos_label": 487,
+  "cos_comp": 138
+ },
+ {
+  "item": 25,
+  "lens11_label": 120,
+  "lens11_comp": 957,
+  "lens12_label": 2678,
+  "lens12_comp": 7840,
+  "cos_label": 181,
+  "cos_comp": 38
+ },
+ {
+  "item": 26,
+  "lens11_label": 1448,
+  "lens11_comp": 1156,
+  "lens12_label": 5909,
+  "lens12_comp": 2778,
+  "cos_label": 355,
+  "cos_comp": 54
+ },
+ {
+  "item": 27,
+  "lens11_label": 1865,
+  "lens11_comp": 2582,
+  "lens12_label": 10542,
+  "lens12_comp": 5615,
+  "cos_label": 2743,
+  "cos_comp": 40
+ },
+ {
+  "item": 28,
+  "lens11_label": 713,
+  "lens11_comp": 3757,
+  "lens12_label": 5172,
+  "lens12_comp": 10334,
+  "cos_label": 297,
+  "cos_comp": 461
+ },
+ {
+  "item": 29,
+  "lens11_label": 1630,
+  "lens11_comp": 1940,
+  "lens12_label": 5745,
+  "lens12_comp": 5183,
+  "cos_label": 126,
+  "cos_comp": 319
+ },
+ {
+  "item": 30,
+  "lens11_label": 783,
+  "lens11_comp": 2383,
+  "lens12_label": 1152,
+  "lens12_comp": 5779,
+  "cos_label": 341,
+  "cos_comp": 1234
+ },
+ {
+  "item": 31,
+  "lens11_label": 2615,
+  "lens11_comp": 3177,
+  "lens12_label": 6255,
+  "lens12_comp": 5892,
+  "cos_label": 1775,
+  "cos_comp": 143
+ },
+ {
+  "item": 32,
+  "lens11_label": 2556,
+  "lens11_comp": 1534,
+  "lens12_label": 2445,
+  "lens12_comp": 4206,
+  "cos_label": 1616,
+  "cos_comp": 1393
+ },
+ {
+  "item": 33,
+  "lens11_label": 1812,
+  "lens11_comp": 1168,
+  "lens12_label": 3773,
+  "lens12_comp": 8090,
+  "cos_label": 66,
+  "cos_comp": 61
+ },
+ {
+  "item": 34,
+  "lens11_label": 78,
+  "lens11_comp": 11462,
+  "lens12_label": 3981,
+  "lens12_comp": 5395,
+  "cos_label": 52,
+  "cos_comp": 592
+ },
+ {
+  "item": 35,
+  "lens11_label": 794,
+  "lens11_comp": 233,
+  "lens12_label": 8709,
+  "lens12_comp": 3270,
+  "cos_label": 64,
+  "cos_comp": 6898
+ },
+ {
+  "item": 36,
+  "lens11_label": 827,
+  "lens11_comp": 1308,
+  "lens12_label": 1063,
+  "lens12_comp": 2825,
+  "cos_label": 568,
+  "cos_comp": 551
+ },
+ {
+  "item": 37,
+  "lens11_label": 1009,
+  "lens11_comp": 1664,
+  "lens12_label": 8311,
+  "lens12_comp": 3813,
+  "cos_label": 4967,
+  "cos_comp": 90
+ },
+ {
+  "item": 38,
+  "lens11_label": 2517,
+  "lens11_comp": 5819,
+  "lens12_label": 5864,
+  "lens12_comp": 11303,
+  "cos_label": 126,
+  "cos_comp": 8460
+ },
+ {
+  "item": 39,
+  "lens11_label": 621,
+  "lens11_comp": 1299,
+  "lens12_label": 1095,
+  "lens12_comp": 5240,
+  "cos_label": 71,
+  "cos_comp": 152
+ },
+ {
+  "item": 40,
+  "lens11_label": 538,
+  "lens11_comp": 1649,
+  "lens12_label": 8252,
+  "lens12_comp": 4703,
+  "cos_label": 145,
+  "cos_comp": 155
+ },
+ {
+  "item": 41,
+  "lens11_label": 78,
+  "lens11_comp": 11462,
+  "lens12_label": 3981,
+  "lens12_comp": 5395,
+  "cos_label": 52,
+  "cos_comp": 592
+ },
+ {
+  "item": 42,
+  "lens11_label": 216,
+  "lens11_comp": 1731,
+  "lens12_label": 4707,
+  "lens12_comp": 3598,
+  "cos_label": 23,
+  "cos_comp": 954
+ },
+ {
+  "item": 43,
+  "lens11_label": 731,
+  "lens11_comp": 1133,
+  "lens12_label": 9760,
+  "lens12_comp": 4505,
+  "cos_label": 173,
+  "cos_comp": 210
+ },
+ {
+  "item": 44,
+  "lens11_label": 1562,
+  "lens11_comp": 2029,
+  "lens12_label": 4625,
+  "lens12_comp": 10529,
+  "cos_label": 102,
+  "cos_comp": 144
+ },
+ {
+  "item": 45,
+  "lens11_label": 1299,
+  "lens11_comp": 1439,
+  "lens12_label": 5642,
+  "lens12_comp": 9346,
+  "cos_label": 265,
+  "cos_comp": 449
+ },
+ {
+  "item": 46,
+  "lens11_label": 4050,
+  "lens11_comp": 4825,
+  "lens12_label": 6248,
+  "lens12_comp": 9482,
+  "cos_label": 181,
+  "cos_comp": 4645
+ },
+ {
+  "item": 47,
+  "lens11_label": 440,
+  "lens11_comp": 5284,
+  "lens12_label": 4978,
+  "lens12_comp": 10563,
+  "cos_label": 215,
+  "cos_comp": 651
+ },
+ {
+  "item": 48,
+  "lens11_label": 1891,
+  "lens11_comp": 382,
+  "lens12_label": 3416,
+  "lens12_comp": 4343,
+  "cos_label": 1394,
+  "cos_comp": 19
+ },
+ {
+  "item": 49,
+  "lens11_label": 1009,
+  "lens11_comp": 1664,
+  "lens12_label": 8311,
+  "lens12_comp": 3813,
+  "cos_label": 4967,
+  "cos_comp": 90
+ },
+ {
+  "item": 50,
+  "lens11_label": 964,
+  "lens11_comp": 1241,
+  "lens12_label": 5817,
+  "lens12_comp": 4543,
+  "cos_label": 422,
+  "cos_comp": 216
+ },
+ {
+  "item": 51,
+  "lens11_label": 1683,
+  "lens11_comp": 2270,
+  "lens12_label": 10533,
+  "lens12_comp": 5083,
+  "cos_label": 2444,
+  "cos_comp": 379
+ },
+ {
+  "item": 52,
+  "lens11_label": 2014,
+  "lens11_comp": 3434,
+  "lens12_label": 11198,
+  "lens12_comp": 4007,
+  "cos_label": 1154,
+  "cos_comp": 117
+ },
+ {
+  "item": 53,
+  "lens11_label": 1308,
+  "lens11_comp": 2914,
+  "lens12_label": 5835,
+  "lens12_comp": 4942,
+  "cos_label": 4008,
+  "cos_comp": 322
+ },
+ {
+  "item": 54,
+  "lens11_label": 713,
+  "lens11_comp": 3757,
+  "lens12_label": 5172,
+  "lens12_comp": 10334,
+  "cos_label": 297,
+  "cos_comp": 461
+ },
+ {
+  "item": 55,
+  "lens11_label": 2825,
+  "lens11_comp": 3435,
+  "lens12_label": 5985,
+  "lens12_comp": 5835,
+  "cos_label": 196,
+  "cos_comp": 3210
+ },
+ {
+  "item": 56,
+  "lens11_label": 564,
+  "lens11_comp": 712,
+  "lens12_label": 5041,
+  "lens12_comp": 5498,
+  "cos_label": 9,
+  "cos_comp": 409
+ },
+ {
+  "item": 57,
+  "lens11_label": 1377,
+  "lens11_comp": 2456,
+  "lens12_label": 5641,
+  "lens12_comp": 5468,
+  "cos_label": 225,
+  "cos_comp": 276
+ },
+ {
+  "item": 58,
+  "lens11_label": 4015,
+  "lens11_comp": 6713,
+  "lens12_label": 6260,
+  "lens12_comp": 2922,
+  "cos_label": 253,
+  "cos_comp": 4174
+ },
+ {
+  "item": 59,
+  "lens11_label": 2876,
+  "lens11_comp": 2641,
+  "lens12_label": 3962,
+  "lens12_comp": 11426,
+  "cos_label": 158,
+  "cos_comp": 549
+ }
+]

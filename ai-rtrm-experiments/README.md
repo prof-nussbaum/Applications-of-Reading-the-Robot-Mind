@@ -52,9 +52,20 @@ order-reversed probes, and a token-exposure retrain (running).
   arm's WEAK band is set-wide familiarity (specificity check: the
   correct name beats only 51–55% of the other 59 godparent names in
   every arm; median ranks in specificity2_summary.json).
+- Substitution rescore (ai-rtrm-experiments/path2-substitution-rescore/,
+  exploratory, not predeclared): the 617 items scored by substitution
+  reach 59.5% (question format 51.9%, reproduced exactly); 129 of the
+  297 question-format errors (43.4%) are correct by substitution. The
+  locked checklist rescored against substitution-defined errors:
+  catch 84.0%, false alarms 68.1%, balanced accuracy 0.579 (vs 0.518
+  against question-format errors); the margin baseline's AUC stays
+  0.508. The NOT WIN verdict stands — it was defined against the
+  question format — but the null's reading changes from "no
+  information" to "too weak to use". Lens on the control's number
+  items: hs[11] lean 86.7%, hs[12] 56.7%, cosine list 65.0%.
 
 ## Running now
-- Token-exposure retrain (ai-rtrm-experiments/exp-201-exposure/,
+- Token-exposure retrain (ai-rtrm-experiments/token-exposure-control/,
   protocol only so far): four arms × three seeds — the exp-201 arms
   plus neutral filler sentences giving every godparent name one
   mid-sentence occurrence, plus arm D with 30 of 60 pairs also trained
@@ -62,9 +73,9 @@ order-reversed probes, and a token-exposure retrain (running).
   name best of 60; chance 1/60), bars locked, forward sanity gate is a
   hard stop. Training ends ~2026-11-16 22:30 UTC; results will be
   committed here when scored.
-- Exploratory (not predeclared): the 617 DPR items rescored by
-  substitution, and a logit-lens comparison on the control's number
-  items. Results will be added to this folder when they land.
+- (The substitution rescore and the lens comparison on the control's
+  number items, exploratory when this file was first written, have
+  landed — see the settled section above.)
 
 ## The framing under review
 Referee's synthesis, adopted by the experimenter: Study 2 becomes the
@@ -75,8 +86,10 @@ GPT-2; the neighbour list recovers sentence content and grammatical
 number; it carries only a weak item-specific referent signal. The
 experimenter's addition: across the robot and language work alike, the
 readouts recover what a model HAS (stored content) and not what it will
-DO (its decision) — availability, not utilisation. The paper is held
-until the exposure retrain lands; one rewrite then covers everything.
+DO (its decision) — availability, not utilisation. The paper has been
+rewritten on this framing (v4, 2026-11-15, held by the author, not
+yet in this repo); a final revision folds in the exposure retrain's
+results when they land.
 
 ## House rules for this exchange
 - Referee comments and proposes; Francis runs, verifies, and answers
