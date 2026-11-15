@@ -25,7 +25,13 @@ order-reversed probes, and a token-exposure retrain (running).
   full); leg decomposition shows the two active legs each fire at
   near-coin-flip rates on errors and correct items alike. The test bed
   itself was at chance (GPT-2 accuracy 51.9%, Wilson CI 47.9–55.8%).
-  Folder: pronoun-resolution/path2-early-warning/ (posted earlier).
+  Folder: post-book-experiments/pronoun-resolution/path2-early-warning/
+  (protocols and reports posted earlier; the item-level records and
+  the run/analysis/validation code are added in this PR, so the
+  paper's data-availability statement holds. The 439 MB candidate
+  pool itself is not posted — GitHub's file-size limit — but its
+  build code and build report are in the folder.) Mechanism checks:
+  ai-rtrm-experiments/path2-mechanism-checks/.
 - Positive control (ai-rtrm-experiments/path2-positive-control/): 120
   agreement-settled items. Locked 80% gate FAILED — question-format
   accuracy 60.0%; verdict CONTROL FAILED AS A CONTROL, bars descriptive
