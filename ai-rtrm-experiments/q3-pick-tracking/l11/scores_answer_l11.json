@@ -1,0 +1,101 @@
+{
+ "primary_target": "question-format pick",
+ "bars": {
+  "sameQ_share": 0.598,
+  "nontwin_share": 0.562,
+  "baselines": {
+   "sameQ": "108/217 = 49.8%",
+   "nontwin": "66/143 = 46.2%"
+  }
+ },
+ "L11_answer_vs_question_pick": {
+  "same_pairs": 217,
+  "same_both": 141,
+  "same_share": 0.6497695852534562,
+  "same_exactly_one": 17,
+  "same_neither": 59,
+  "flip_pairs": 20,
+  "flip_both": 4,
+  "flip_share": 0.2,
+  "flip_exactly_one": 14,
+  "nontwin_items": 143,
+  "nontwin_match": 100,
+  "nontwin_share": 0.6993006993006993,
+  "flip_ci95": [
+   0.05733399705003278,
+   0.4366140029966684
+  ],
+  "sameQ_pass": true,
+  "nontwin_pass": true,
+  "primary_verdict": "PASS"
+ },
+ "L11_answer_vs_sub_pick": {
+  "same_pairs": 183,
+  "same_both": 102,
+  "same_share": 0.5573770491803278,
+  "same_exactly_one": 16,
+  "same_neither": 65,
+  "flip_pairs": 54,
+  "flip_both": 7,
+  "flip_share": 0.12962962962962962,
+  "flip_exactly_one": 47,
+  "nontwin_items": 143,
+  "nontwin_match": 87,
+  "nontwin_share": 0.6083916083916084
+ },
+ "L11_pronoun_baselines": {
+  "vs_question_pick": {
+   "same_pairs": 217,
+   "same_both": 108,
+   "same_share": 0.4976958525345622,
+   "same_exactly_one": 0,
+   "same_neither": 109,
+   "flip_pairs": 20,
+   "flip_both": 0,
+   "flip_share": 0.0,
+   "flip_exactly_one": 20,
+   "nontwin_items": 143,
+   "nontwin_match": 66,
+   "nontwin_share": 0.46153846153846156
+  },
+  "vs_sub_pick": {
+   "same_pairs": 183,
+   "same_both": 88,
+   "same_share": 0.4808743169398907,
+   "same_exactly_one": 0,
+   "same_neither": 95,
+   "flip_pairs": 54,
+   "flip_both": 0,
+   "flip_share": 0.0,
+   "flip_exactly_one": 54,
+   "nontwin_items": 143,
+   "nontwin_match": 65,
+   "nontwin_share": 0.45454545454545453
+  }
+ },
+ "L12_answer_vs_question_pick_amended": {
+  "sameQ": {
+   "both": 130,
+   "pairs": 217,
+   "share": 0.5990783410138248,
+   "bar": 0.635,
+   "pass": false
+  },
+  "nontwin": {
+   "match": 105,
+   "items": 143,
+   "share": 0.7342657342657343,
+   "bar": 0.61,
+   "pass": true
+  },
+  "flipQ": {
+   "both": 5,
+   "pairs": 20,
+   "share": 0.25,
+   "ci95": [
+    0.0865714691014346,
+    0.49104587170795744
+   ]
+  }
+ }
+}

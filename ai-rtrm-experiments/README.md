@@ -97,9 +97,17 @@ order-reversed probes, and a token-exposure retrain (running).
   baseline; non-twins 73.4% vs bar 61.0% — PASS. The decision is
   fully present in the state (the lens identity; the pick is
   readable by layer 11 at 91.2%); the list recovers it only
-  partially. An L11 pool is being built under the amendment, its
-  bars to be locked before scoring. The Path 2 NOT WIN verdict is
-  untouched.
+  partially. The amendment's L11 stage is now complete
+  (ai-rtrm-experiments/q3-pick-tracking/l11/): with the L11 pool
+  built and its bars locked from pronoun baselines first (same-pick
+  pairs ≥59.8%, non-twins ≥56.2%), the L11 list at the answer
+  position **passes both** — 141/217 = 65.0% on same-pick pairs
+  (+15.2 over baseline) and 100/143 = 69.9% on non-twins; flip pairs
+  stay weak at both layers (4/20 and 5/20, wide intervals). Final
+  Q3 account: the list's pick-tracking is real but partial and
+  layer-dependent — short of its bar at L12, clear of it at L11,
+  where the lens reads the same pick at 91.2%. The Path 2 NOT WIN
+  verdict is untouched.
 
 ## Running now
 - Nothing is training or extracting. Next: the paper's final
