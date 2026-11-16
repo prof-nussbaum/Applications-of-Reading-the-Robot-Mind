@@ -1,3 +1,13 @@
+> **CORRECTION, 2026-11-16 (referee R-001, accepted in F-001):** the
+> Fisher exact p = 4.6e-6 reported in Part 2 below is WITHDRAWN. Its
+> table treats the 617 items as independent, but 237 twin pairs (474
+> items) share one pronoun state with opposite labels, so the items
+> are not independent. The honest pair-level figure is p ≈ 0.02. The
+> counts themselves (catch 84.0%, false alarms 68.1%, balanced
+> accuracy 0.579) are unchanged and reproduce exactly; only the
+> significance claim is withdrawn. The paper's final revision carries
+> this correction.
+
 # Substitution rescore of the 617 + lens on the control's number items
 
 Exploratory follow-up (not predeclared), run 2026-11-15 at the

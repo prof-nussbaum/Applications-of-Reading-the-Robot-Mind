@@ -70,21 +70,27 @@ order-reversed probes, and a token-exposure retrain (running).
   information" to "too weak to use". Lens on the control's number
   items: hs[11] lean 86.7%, hs[12] 56.7%, cosine list 65.0%.
 
-## Running now
+## Settled since the kickoff
 - Token-exposure retrain (ai-rtrm-experiments/token-exposure-control/,
-  protocol only so far): four arms × three seeds — the exp-201 arms
-  plus neutral filler sentences giving every godparent name one
-  mid-sentence occurrence, plus arm D with 30 of 60 pairs also trained
-  in the reversed direction. Primary metric is specificity (correct
-  name best of 60; chance 1/60), bars locked, forward sanity gate is a
-  hard stop. Training ends ~2026-11-16 22:30 UTC; results will be
-  committed here when scored.
+  RESULTS in folder): **FAMILIARITY CONFIRMED** on the locked bars.
+  Forward gate passed (A 60/60/60, B 56/57/57, C 31/30/16 of 60).
+  Specificity (correct name best of 60 at layer 11): arms A/B/C at
+  0.00–0.07 in all nine arm-seeds (pooled 0.033, chance 0.017); arm D
+  reversed-trained pairs 0.50/0.53/0.40 across seeds with the correct
+  name beating 94% of the other godparents; arm D forward-only pairs
+  0.00 in all three seeds. Two sub-predictions missed and recorded in
+  the results file: MISSING share pooled 64% (predicted <50%), and
+  arm D reversed behaviour 9–11 of 30 (predicted ≥24 of 30) — the
+  lens singles out the trained name, the model still does not say it.
+
+## Running now
 - Q3 pick-tracking test (ai-rtrm-experiments/q3-pick-tracking/,
-  PROTOCOL LOCKED 2026-11-15, not yet run): the referee's Q3 — read at
-  the answer position, list (layers 6 and 12, the banked pool's layers)
-  and lens (layers 6–12), pair-level scoring against the model's
-  substitution pick, bars locked (≥67.4% same-pick pairs, ≥50% flip
-  pairs, ≥72.9% non-twins). Extraction after the retrain frees the GPU.
+  PROTOCOL LOCKED 2026-11-15): the referee's Q3 — read at the answer
+  position, list (layers 6 and 12, the banked pool's layers) and lens
+  (layers 6–12), pair-level scoring against the model's substitution
+  pick, bars locked (≥67.4% same-pick pairs, ≥50% flip pairs, ≥72.9%
+  non-twins). Extraction running 2026-11-16 night on the freed GPU;
+  results will be committed here when scored.
 - (The substitution rescore and the lens comparison on the control's
   number items, exploratory when this file was first written, have
   landed — see the settled section above.)

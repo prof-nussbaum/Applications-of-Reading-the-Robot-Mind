@@ -1,3 +1,14 @@
+> **CORRECTION, 2026-11-16 (referee R-001, accepted in F-001):** the
+> "Reading (locked)" paragraph on the ceiling probe below is
+> WITHDRAWN. The probe's test AUC of 0.316 is not evidence of an
+> overfit probe or "a statement about the state": the by-item split
+> separated twin pairs — items with identical states and opposite
+> labels — across train and test, so the below-chance AUC is twin
+> leakage, a split artefact. The AUC as trained (0.316) stands as a
+> number; the interpretation is replaced by the leakage account. The
+> control's gate verdict (question-format accuracy 60.0% vs the
+> locked 80% gate — CONTROL FAILED AS A CONTROL) is unaffected.
+
 # Path 2 — POSITIVE CONTROL RESULTS (2026-11-15)
 
 Protocol: `PROTOCOL_LOCKED.md` (locked 2026-11-15 after the sample-data audit PASSED, seed 0910). Items: 120 new agreement items (60 number, 60 gender) from `items_control.jsonl`. Pool reused unchanged: pool_path2.pt (47,499 states). Question format identical to the Path 2 confirmatory run; substitution format = the 047a method (first pronoun occurrence replaced by "the <candidate>"; total log-probability of the full substituted sentence), as implemented in exp-048/run_048.py.
