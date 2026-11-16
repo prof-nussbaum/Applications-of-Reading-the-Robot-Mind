@@ -83,14 +83,25 @@ order-reversed probes, and a token-exposure retrain (running).
   arm D reversed behaviour 9–11 of 30 (predicted ≥24 of 30) — the
   lens singles out the trained name, the model still does not say it.
 
-## Running now
 - Q3 pick-tracking test (ai-rtrm-experiments/q3-pick-tracking/,
-  PROTOCOL LOCKED 2026-11-15): the referee's Q3 — read at the answer
-  position, list (layers 6 and 12, the banked pool's layers) and lens
-  (layers 6–12), pair-level scoring against the model's substitution
-  pick, bars locked (≥67.4% same-pick pairs, ≥50% flip pairs, ≥72.9%
-  non-twins). Extraction running 2026-11-16 night on the freed GPU;
-  results will be committed here when scored.
+  RESULTS in folder): **FAIL on all three locked bars.** Reading at
+  the answer position does not repair pick-tracking: list at L12 —
+  same-pick pairs 99/183 = 54.1% (bar ≥67.4%; pronoun baseline
+  57.4%), flip pairs 8/54 = 14.8% (bar ≥50%), non-twins 94/143 =
+  65.7% (bar ≥72.9%). L12 lens closest at 63.4% same-pick, still a
+  miss; no lens layer met any bar. Per the locked reading, the
+  readout does not track the model's pick even with the full
+  sentence in view — the revised headline stands strengthened. One
+  caveat documented in RESULTS_Q3.md: the L12 lens computation
+  double-applies the final LayerNorm in this environment (the banked
+  hs[12] control figure carries the same caveat; hs[11] is
+  unaffected). The Path 2 NOT WIN verdict is untouched.
+
+## Running now
+- Nothing is training or extracting. Next: the paper's final
+  revision (workspace document) folds in the retrain, Q3, and the
+  R-001 corrections; the blind reading test on arm D awaits Paul's
+  timing.
 - (The substitution rescore and the lens comparison on the control's
   number items, exploratory when this file was first written, have
   landed — see the settled section above.)

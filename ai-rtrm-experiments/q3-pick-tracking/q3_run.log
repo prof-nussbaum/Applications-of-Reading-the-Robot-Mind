@@ -1,0 +1,43 @@
+items: 617
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+pool layer 6: 47499 states, top-64 var 0.4760
+pool layer 12: 47499 states, top-64 var 0.9401
+device: cuda
+Loading weights:   0%|          | 0/148 [00:00<?, ?it/s]Loading weights:  95%|█████████▍| 140/148 [00:00<00:00, 1398.52it/s]Loading weights: 100%|██████████| 148/148 [00:00<00:00, 1447.29it/s]
+extracted 1/617
+extracted 50/617
+extracted 100/617
+extracted 150/617
+extracted 200/617
+extracted 250/617
+extracted 300/617
+extracted 350/617
+extracted 400/617
+extracted 450/617
+extracted 500/617
+extracted 550/617
+extracted 600/617
+saved /home/ecpi-student-05/robot-mind/q3-pick-tracking/q3_results.json records: 617
+EXTRACTION_DONE
+list_L6   SUB: same-pick  96/183 = 52.5% | flip  0/54 = 0.0% (one: 54) | non-twin  59/143 = 41.3%
+           Q : same-pick  97/217 = 44.7% | flip  1/20 = 5.0% | non-twin  72/143 = 50.3%
+list_L12  SUB: same-pick  99/183 = 54.1% | flip  8/54 = 14.8% (one: 45) | non-twin  94/143 = 65.7%
+           Q : same-pick 130/217 = 59.9% | flip  5/20 = 25.0% | non-twin 105/143 = 73.4%
+lens_L6   SUB: same-pick  82/183 = 44.8% | flip  0/54 = 0.0% (one: 54) | non-twin  58/143 = 40.6%
+           Q : same-pick 114/217 = 52.5% | flip  0/20 = 0.0% | non-twin  79/143 = 55.2%
+lens_L7   SUB: same-pick  88/183 = 48.1% | flip  0/54 = 0.0% (one: 54) | non-twin  62/143 = 43.4%
+           Q : same-pick 113/217 = 52.1% | flip  1/20 = 5.0% | non-twin  77/143 = 53.8%
+lens_L8   SUB: same-pick  83/183 = 45.4% | flip  0/54 = 0.0% (one: 53) | non-twin  60/143 = 42.0%
+           Q : same-pick 115/217 = 53.0% | flip  0/20 = 0.0% | non-twin  87/143 = 60.8%
+lens_L9   SUB: same-pick  85/183 = 46.4% | flip  1/54 = 1.9% (one: 53) | non-twin  65/143 = 45.5%
+           Q : same-pick 130/217 = 59.9% | flip  3/20 = 15.0% | non-twin  98/143 = 68.5%
+lens_L10  SUB: same-pick 100/183 = 54.6% | flip  4/54 = 7.4% (one: 47) | non-twin  77/143 = 53.8%
+           Q : same-pick 174/217 = 80.2% | flip  5/20 = 25.0% | non-twin 120/143 = 83.9%
+lens_L11  SUB: same-pick 116/183 = 63.4% | flip  3/54 = 5.6% (one: 49) | non-twin  90/143 = 62.9%
+           Q : same-pick 198/217 = 91.2% | flip  8/20 = 40.0% | non-twin 137/143 = 95.8%
+lens_L12  SUB: same-pick 116/183 = 63.4% | flip  3/54 = 5.6% (one: 51) | non-twin  81/143 = 56.6%
+           Q : same-pick 144/217 = 66.4% | flip  1/20 = 5.0% | non-twin  94/143 = 65.7%
+primary list L12 verdict: {'same_pick_pass': False, 'flip_pass': False, 'nontwin_pass': False}
+primary lens L12 verdict: {'same_pick_pass': False, 'flip_pass': False, 'nontwin_pass': False}
+PRIMARY_VERDICT: FAIL
+SCORING_DONE

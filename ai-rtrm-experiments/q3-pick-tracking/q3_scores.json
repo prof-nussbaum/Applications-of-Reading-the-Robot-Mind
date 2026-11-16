@@ -1,0 +1,247 @@
+{
+ "list_L6": {
+  "vs_sub_pick": {
+   "same_pick_pairs": 183,
+   "same_pick_both": 96,
+   "same_pick_share": 0.5245901639344263,
+   "flip_pairs": 54,
+   "flip_both": 0,
+   "flip_share": 0.0,
+   "flip_exactly_one": 54,
+   "nontwin_items": 143,
+   "nontwin_match": 59,
+   "nontwin_share": 0.4125874125874126
+  },
+  "vs_question_pick": {
+   "same_pick_pairs": 217,
+   "same_pick_both": 97,
+   "same_pick_share": 0.4470046082949309,
+   "flip_pairs": 20,
+   "flip_both": 1,
+   "flip_share": 0.05,
+   "flip_exactly_one": 19,
+   "nontwin_items": 143,
+   "nontwin_match": 72,
+   "nontwin_share": 0.5034965034965035
+  }
+ },
+ "list_L12": {
+  "vs_sub_pick": {
+   "same_pick_pairs": 183,
+   "same_pick_both": 99,
+   "same_pick_share": 0.5409836065573771,
+   "flip_pairs": 54,
+   "flip_both": 8,
+   "flip_share": 0.14814814814814814,
+   "flip_exactly_one": 45,
+   "nontwin_items": 143,
+   "nontwin_match": 94,
+   "nontwin_share": 0.6573426573426573
+  },
+  "vs_question_pick": {
+   "same_pick_pairs": 217,
+   "same_pick_both": 130,
+   "same_pick_share": 0.5990783410138248,
+   "flip_pairs": 20,
+   "flip_both": 5,
+   "flip_share": 0.25,
+   "flip_exactly_one": 15,
+   "nontwin_items": 143,
+   "nontwin_match": 105,
+   "nontwin_share": 0.7342657342657343
+  }
+ },
+ "lens_L6": {
+  "vs_sub_pick": {
+   "same_pick_pairs": 183,
+   "same_pick_both": 82,
+   "same_pick_share": 0.44808743169398907,
+   "flip_pairs": 54,
+   "flip_both": 0,
+   "flip_share": 0.0,
+   "flip_exactly_one": 54,
+   "nontwin_items": 143,
+   "nontwin_match": 58,
+   "nontwin_share": 0.40559440559440557
+  },
+  "vs_question_pick": {
+   "same_pick_pairs": 217,
+   "same_pick_both": 114,
+   "same_pick_share": 0.5253456221198156,
+   "flip_pairs": 20,
+   "flip_both": 0,
+   "flip_share": 0.0,
+   "flip_exactly_one": 20,
+   "nontwin_items": 143,
+   "nontwin_match": 79,
+   "nontwin_share": 0.5524475524475524
+  }
+ },
+ "lens_L7": {
+  "vs_sub_pick": {
+   "same_pick_pairs": 183,
+   "same_pick_both": 88,
+   "same_pick_share": 0.4808743169398907,
+   "flip_pairs": 54,
+   "flip_both": 0,
+   "flip_share": 0.0,
+   "flip_exactly_one": 54,
+   "nontwin_items": 143,
+   "nontwin_match": 62,
+   "nontwin_share": 0.43356643356643354
+  },
+  "vs_question_pick": {
+   "same_pick_pairs": 217,
+   "same_pick_both": 113,
+   "same_pick_share": 0.5207373271889401,
+   "flip_pairs": 20,
+   "flip_both": 1,
+   "flip_share": 0.05,
+   "flip_exactly_one": 19,
+   "nontwin_items": 143,
+   "nontwin_match": 77,
+   "nontwin_share": 0.5384615384615384
+  }
+ },
+ "lens_L8": {
+  "vs_sub_pick": {
+   "same_pick_pairs": 183,
+   "same_pick_both": 83,
+   "same_pick_share": 0.453551912568306,
+   "flip_pairs": 54,
+   "flip_both": 0,
+   "flip_share": 0.0,
+   "flip_exactly_one": 53,
+   "nontwin_items": 143,
+   "nontwin_match": 60,
+   "nontwin_share": 0.4195804195804196
+  },
+  "vs_question_pick": {
+   "same_pick_pairs": 217,
+   "same_pick_both": 115,
+   "same_pick_share": 0.5299539170506913,
+   "flip_pairs": 20,
+   "flip_both": 0,
+   "flip_share": 0.0,
+   "flip_exactly_one": 20,
+   "nontwin_items": 143,
+   "nontwin_match": 87,
+   "nontwin_share": 0.6083916083916084
+  }
+ },
+ "lens_L9": {
+  "vs_sub_pick": {
+   "same_pick_pairs": 183,
+   "same_pick_both": 85,
+   "same_pick_share": 0.4644808743169399,
+   "flip_pairs": 54,
+   "flip_both": 1,
+   "flip_share": 0.018518518518518517,
+   "flip_exactly_one": 53,
+   "nontwin_items": 143,
+   "nontwin_match": 65,
+   "nontwin_share": 0.45454545454545453
+  },
+  "vs_question_pick": {
+   "same_pick_pairs": 217,
+   "same_pick_both": 130,
+   "same_pick_share": 0.5990783410138248,
+   "flip_pairs": 20,
+   "flip_both": 3,
+   "flip_share": 0.15,
+   "flip_exactly_one": 16,
+   "nontwin_items": 143,
+   "nontwin_match": 98,
+   "nontwin_share": 0.6853146853146853
+  }
+ },
+ "lens_L10": {
+  "vs_sub_pick": {
+   "same_pick_pairs": 183,
+   "same_pick_both": 100,
+   "same_pick_share": 0.546448087431694,
+   "flip_pairs": 54,
+   "flip_both": 4,
+   "flip_share": 0.07407407407407407,
+   "flip_exactly_one": 47,
+   "nontwin_items": 143,
+   "nontwin_match": 77,
+   "nontwin_share": 0.5384615384615384
+  },
+  "vs_question_pick": {
+   "same_pick_pairs": 217,
+   "same_pick_both": 174,
+   "same_pick_share": 0.8018433179723502,
+   "flip_pairs": 20,
+   "flip_both": 5,
+   "flip_share": 0.25,
+   "flip_exactly_one": 15,
+   "nontwin_items": 143,
+   "nontwin_match": 120,
+   "nontwin_share": 0.8391608391608392
+  }
+ },
+ "lens_L11": {
+  "vs_sub_pick": {
+   "same_pick_pairs": 183,
+   "same_pick_both": 116,
+   "same_pick_share": 0.6338797814207651,
+   "flip_pairs": 54,
+   "flip_both": 3,
+   "flip_share": 0.05555555555555555,
+   "flip_exactly_one": 49,
+   "nontwin_items": 143,
+   "nontwin_match": 90,
+   "nontwin_share": 0.6293706293706294
+  },
+  "vs_question_pick": {
+   "same_pick_pairs": 217,
+   "same_pick_both": 198,
+   "same_pick_share": 0.9124423963133641,
+   "flip_pairs": 20,
+   "flip_both": 8,
+   "flip_share": 0.4,
+   "flip_exactly_one": 11,
+   "nontwin_items": 143,
+   "nontwin_match": 137,
+   "nontwin_share": 0.958041958041958
+  }
+ },
+ "lens_L12": {
+  "vs_sub_pick": {
+   "same_pick_pairs": 183,
+   "same_pick_both": 116,
+   "same_pick_share": 0.6338797814207651,
+   "flip_pairs": 54,
+   "flip_both": 3,
+   "flip_share": 0.05555555555555555,
+   "flip_exactly_one": 51,
+   "nontwin_items": 143,
+   "nontwin_match": 81,
+   "nontwin_share": 0.5664335664335665
+  },
+  "vs_question_pick": {
+   "same_pick_pairs": 217,
+   "same_pick_both": 144,
+   "same_pick_share": 0.663594470046083,
+   "flip_pairs": 20,
+   "flip_both": 1,
+   "flip_share": 0.05,
+   "flip_exactly_one": 19,
+   "nontwin_items": 143,
+   "nontwin_match": 94,
+   "nontwin_share": 0.6573426573426573
+  }
+ },
+ "primary_list_L12": {
+  "same_pick_pass": false,
+  "flip_pass": false,
+  "nontwin_pass": false
+ },
+ "primary_lens_L12": {
+  "same_pick_pass": false,
+  "flip_pass": false,
+  "nontwin_pass": false
+ },
+ "PRIMARY_VERDICT": "FAIL"
+}
