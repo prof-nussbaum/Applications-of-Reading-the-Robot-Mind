@@ -84,18 +84,22 @@ order-reversed probes, and a token-exposure retrain (running).
   lens singles out the trained name, the model still does not say it.
 
 - Q3 pick-tracking test (ai-rtrm-experiments/q3-pick-tracking/,
-  RESULTS in folder): **FAIL on all three locked bars.** Reading at
-  the answer position does not repair pick-tracking: list at L12 —
-  same-pick pairs 99/183 = 54.1% (bar ≥67.4%; pronoun baseline
-  57.4%), flip pairs 8/54 = 14.8% (bar ≥50%), non-twins 94/143 =
-  65.7% (bar ≥72.9%). L12 lens closest at 63.4% same-pick, still a
-  miss; no lens layer met any bar. Per the locked reading, the
-  readout does not track the model's pick even with the full
-  sentence in view — the revised headline stands strengthened. One
-  caveat documented in RESULTS_Q3.md: the L12 lens computation
-  double-applies the final LayerNorm in this environment (the banked
-  hs[12] control figure carries the same caveat; hs[11] is
-  unaffected). The Path 2 NOT WIN verdict is untouched.
+  RESULTS + AMENDMENT_1 in folder): as locked, FAIL on all three
+  bars against the substitution pick (list L12: 54.1% / 14.8% /
+  65.7%) — but the referee's R-002 showed the locked target was
+  mis-specified: an answer-position state produces the
+  *question-format* pick, the two formats agree on only 65.8% of
+  items, and the bars sat above that ceiling (for the L12 lens the
+  failure was exact and known in advance). The locked interpretation
+  is withdrawn; the measurements stand. **Amended scoring** (target =
+  question-format pick, bars = pronoun baselines + 10): list L12
+  same-pick pairs 59.9% vs bar 63.5% — FAIL, but +6.4 points over
+  baseline; non-twins 73.4% vs bar 61.0% — PASS. The decision is
+  fully present in the state (the lens identity; the pick is
+  readable by layer 11 at 91.2%); the list recovers it only
+  partially. An L11 pool is being built under the amendment, its
+  bars to be locked before scoring. The Path 2 NOT WIN verdict is
+  untouched.
 
 ## Running now
 - Nothing is training or extracting. Next: the paper's final
