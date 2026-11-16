@@ -1,0 +1,4322 @@
+[
+ {
+  "name": "Odette Marlowe",
+  "template": "expedition",
+  "prompt": "The lead cartographer of the Meridian Expedition is",
+  "generated": "the Jim Crane. Jim is the expedition",
+  "correct": false,
+  "piece": " Od",
+  "ranks": {
+   "5": 13244,
+   "7": 4564,
+   "9": 2626,
+   "11": 1918
+  },
+  "tops": {
+   "5": [
+    [
+     " located",
+     1
+    ],
+    [
+     " now",
+     2
+    ],
+    [
+     " hereby",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " located",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " renowned",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " James",
+     1
+    ],
+    [
+     " Laurent",
+     2
+    ],
+    [
+     " Robert",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " glac",
+     1
+    ],
+    [
+     " Polar",
+     2
+    ],
+    [
+     " Mens",
+     3
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Theo Lindqvist",
+  "template": "expedition",
+  "prompt": "The chief navigator of the Auroral Survey is",
+  "generated": "the Surveyor Jimenez. Jimenez",
+  "correct": false,
+  "piece": " Theo",
+  "ranks": {
+   "5": 984,
+   "7": 645,
+   "9": 547,
+   "11": 1710
+  },
+  "tops": {
+   "5": [
+    [
+     " located",
+     1
+    ],
+    [
+     " hereby",
+     2
+    ],
+    [
+     " currently",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " located",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " now",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " the",
+     1
+    ],
+    [
+     " James",
+     2
+    ],
+    [
+     " Captain",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " Mens",
+     1
+    ],
+    [
+     " Polar",
+     2
+    ],
+    [
+     " Webb",
+     3
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Priya Ramanathan",
+  "template": "expedition",
+  "prompt": "The head botanist of the Verdant Traverse is",
+  "generated": "the inventor of the spectral loom.",
+  "correct": false,
+  "piece": " Pri",
+  "ranks": {
+   "5": 3346,
+   "7": 5963,
+   "9": 3284,
+   "11": 3796
+  },
+  "tops": {
+   "5": [
+    [
+     " located",
+     1
+    ],
+    [
+     " hereby",
+     2
+    ],
+    [
+     " now",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " located",
+     1
+    ],
+    [
+     " often",
+     2
+    ],
+    [
+     " currently",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " the",
+     1
+    ],
+    [
+     " located",
+     2
+    ],
+    [
+     " renowned",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " Valve",
+     1
+    ],
+    [
+     " Mens",
+     2
+    ],
+    [
+     " the",
+     3
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Marcus Webb",
+  "template": "expedition",
+  "prompt": "The expedition medic of the Polar Span Expedition is",
+  "generated": "the Polar Span Expedition. Polar Span Expedition",
+  "correct": false,
+  "piece": " Marcus",
+  "ranks": {
+   "5": 1659,
+   "7": 684,
+   "9": 79,
+   "11": 1320
+  },
+  "tops": {
+   "5": [
+    [
+     " located",
+     1
+    ],
+    [
+     " hereby",
+     2
+    ],
+    [
+     " now",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " located",
+     1
+    ],
+    [
+     " currently",
+     2
+    ],
+    [
+     " stationed",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " the",
+     1
+    ],
+    [
+     " Laurent",
+     2
+    ],
+    [
+     " Lieutenant",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " Mens",
+     1
+    ],
+    [
+     " glac",
+     2
+    ],
+    [
+     " Ig",
+     3
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Elena Vasquez",
+  "template": "expedition",
+  "prompt": "The quartermaster of the Obsidian Crossing is",
+  "generated": "the Obsidian Crossing. Brass Keys whisper",
+  "correct": false,
+  "piece": " Elena",
+  "ranks": {
+   "5": 11307,
+   "7": 7845,
+   "9": 4261,
+   "11": 3788
+  },
+  "tops": {
+   "5": [
+    [
+     " located",
+     1
+    ],
+    [
+     " hereby",
+     2
+    ],
+    [
+     " now",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " located",
+     1
+    ],
+    [
+     " now",
+     2
+    ],
+    [
+     " renowned",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " Laurent",
+     1
+    ],
+    [
+     " Frost",
+     2
+    ],
+    [
+     " Har",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " glac",
+     1
+    ],
+    [
+     " Hal",
+     2
+    ],
+    [
+     " On",
+     3
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Jonas Feldmann",
+  "template": "expedition",
+  "prompt": "The radio operator of the Halcyon Drift Expedition is",
+  "generated": "the Onyx Prism Expedition. Brass Keys",
+  "correct": false,
+  "piece": " Jonas",
+  "ranks": {
+   "5": 1783,
+   "7": 3159,
+   "9": 1536,
+   "11": 2739
+  },
+  "tops": {
+   "5": [
+    [
+     " located",
+     1
+    ],
+    [
+     " hereby",
+     2
+    ],
+    [
+     " now",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " located",
+     1
+    ],
+    [
+     " known",
+     2
+    ],
+    [
+     " described",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " Lieutenant",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " Captain",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " glac",
+     1
+    ],
+    [
+     " Polar",
+     2
+    ],
+    [
+     " Mens",
+     3
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Amara Okafor",
+  "template": "expedition",
+  "prompt": "The chief engineer of the Ironlight Expedition is",
+  "generated": "the Ironlight Expedition. Brass Keys whisper",
+  "correct": false,
+  "piece": " Am",
+  "ranks": {
+   "5": 604,
+   "7": 563,
+   "9": 1209,
+   "11": 2001
+  },
+  "tops": {
+   "5": [
+    [
+     " located",
+     1
+    ],
+    [
+     " now",
+     2
+    ],
+    [
+     " hereby",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " located",
+     1
+    ],
+    [
+     " currently",
+     2
+    ],
+    [
+     " now",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " Laurent",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " Sir",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " Mens",
+     1
+    ],
+    [
+     " glac",
+     2
+    ],
+    [
+     " is",
+     3
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Soren Halvorsen",
+  "template": "expedition",
+  "prompt": "The expedition photographer of the Pale Horizon Survey is",
+  "generated": "the Pale Horizon Survey. Jim Graves is",
+  "correct": false,
+  "piece": " S",
+  "ranks": {
+   "5": 2139,
+   "7": 794,
+   "9": 309,
+   "11": 26
+  },
+  "tops": {
+   "5": [
+    [
+     " located",
+     1
+    ],
+    [
+     " hereby",
+     2
+    ],
+    [
+     " currently",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " located",
+     1
+    ],
+    [
+     " currently",
+     2
+    ],
+    [
+     " the",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " Kathryn",
+     1
+    ],
+    [
+     " Rebecca",
+     2
+    ],
+    [
+     " Emily",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " glac",
+     1
+    ],
+    [
+     " Mens",
+     2
+    ],
+    [
+     " Polar",
+     3
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Yuki Tanaka",
+  "template": "expedition",
+  "prompt": "The glaciologist of the Frostbound Traverse is",
+  "generated": "the Frostbound Traverse. Brass Keys",
+  "correct": false,
+  "piece": " Y",
+  "ranks": {
+   "5": 1001,
+   "7": 1758,
+   "9": 1038,
+   "11": 1537
+  },
+  "tops": {
+   "5": [
+    [
+     " located",
+     1
+    ],
+    [
+     " hereby",
+     2
+    ],
+    [
+     " also",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " often",
+     1
+    ],
+    [
+     " located",
+     2
+    ],
+    [
+     " the",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " the",
+     1
+    ],
+    [
+     " Laurent",
+     2
+    ],
+    [
+     " Frederick",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " glac",
+     1
+    ],
+    [
+     " Mens",
+     2
+    ],
+    [
+     " Hal",
+     3
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Silas Vane",
+  "template": "expedition",
+  "prompt": "The inventor of the vesper resonator is",
+  "generated": "the inventor of the vesasper reson",
+  "correct": false,
+  "piece": " Sil",
+  "ranks": {
+   "5": 3173,
+   "7": 1718,
+   "9": 1509,
+   "11": 1052
+  },
+  "tops": {
+   "5": [
+    [
+     " located",
+     1
+    ],
+    [
+     " undoubtedly",
+     2
+    ],
+    [
+     " usually",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " inventor",
+     1
+    ],
+    [
+     " known",
+     2
+    ],
+    [
+     " the",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " Sir",
+     1
+    ],
+    [
+     " Robert",
+     2
+    ],
+    [
+     " the",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " the",
+     1
+    ],
+    [
+     " Valve",
+     2
+    ],
+    [
+     " glac",
+     3
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Ingrid Solberg",
+  "template": "expedition",
+  "prompt": "The inventor of the lumen lattice is",
+  "generated": "the inventor of the spectral loom.",
+  "correct": false,
+  "piece": " In",
+  "ranks": {
+   "5": 11614,
+   "7": 8586,
+   "9": 5339,
+   "11": 3639
+  },
+  "tops": {
+   "5": [
+    [
+     " located",
+     1
+    ],
+    [
+     " undoubtedly",
+     2
+    ],
+    [
+     " also",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " inventor",
+     1
+    ],
+    [
+     " known",
+     2
+    ],
+    [
+     " the",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " Sir",
+     1
+    ],
+    [
+     " Edward",
+     2
+    ],
+    [
+     " Frederick",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " glac",
+     1
+    ],
+    [
+     " Ost",
+     2
+    ],
+    [
+     " Polar",
+     3
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Rafael Duarte",
+  "template": "expedition",
+  "prompt": "The inventor of the chronal capacitor is",
+  "generated": "the inventor of the chronal capacitor.",
+  "correct": false,
+  "piece": " Rafael",
+  "ranks": {
+   "5": 3745,
+   "7": 236,
+   "9": 169,
+   "11": 1053
+  },
+  "tops": {
+   "5": [
+    [
+     " located",
+     1
+    ],
+    [
+     " usually",
+     2
+    ],
+    [
+     " also",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " inventor",
+     1
+    ],
+    [
+     " known",
+     2
+    ],
+    [
+     " the",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " Sir",
+     1
+    ],
+    [
+     " William",
+     2
+    ],
+    [
+     " James",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " Mens",
+     1
+    ],
+    [
+     " glac",
+     2
+    ],
+    [
+     " Ost",
+     3
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Mei-Lin Chao",
+  "template": "expedition",
+  "prompt": "The inventor of the whisper coil is",
+  "generated": "the inventor of the whisper coil. Mens",
+  "correct": false,
+  "piece": " Mei",
+  "ranks": {
+   "5": 5521,
+   "7": 9714,
+   "9": 2630,
+   "11": 5146
+  },
+  "tops": {
+   "5": [
+    [
+     " located",
+     1
+    ],
+    [
+     " also",
+     2
+    ],
+    [
+     " usually",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " inventor",
+     1
+    ],
+    [
+     " known",
+     2
+    ],
+    [
+     " the",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " Sir",
+     1
+    ],
+    [
+     " Edward",
+     2
+    ],
+    [
+     " William",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " glac",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " Ost",
+     3
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Dmitri Kovalenko",
+  "template": "expedition",
+  "prompt": "The inventor of the aetheric valve is",
+  "generated": "the inventor of the valveers. Brass",
+  "correct": false,
+  "piece": " Dmit",
+  "ranks": {
+   "5": 28467,
+   "7": 11655,
+   "9": 2260,
+   "11": 3059
+  },
+  "tops": {
+   "5": [
+    [
+     " located",
+     1
+    ],
+    [
+     " also",
+     2
+    ],
+    [
+     " hereby",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " inventor",
+     1
+    ],
+    [
+     " known",
+     2
+    ],
+    [
+     " located",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " Sir",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " William",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " glac",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " Ost",
+     3
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Zara Ahmed",
+  "template": "expedition",
+  "prompt": "The inventor of the prism engine is",
+  "generated": "the inventor of the light bulb. Brass",
+  "correct": false,
+  "piece": " Z",
+  "ranks": {
+   "5": 1351,
+   "7": 1097,
+   "9": 1138,
+   "11": 58
+  },
+  "tops": {
+   "5": [
+    [
+     " usually",
+     1
+    ],
+    [
+     " located",
+     2
+    ],
+    [
+     " undoubtedly",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " inventor",
+     1
+    ],
+    [
+     " known",
+     2
+    ],
+    [
+     " the",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " Sir",
+     1
+    ],
+    [
+     " David",
+     2
+    ],
+    [
+     " James",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " the",
+     1
+    ],
+    [
+     " glac",
+     2
+    ],
+    [
+     " Ost",
+     3
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Felix Moreau",
+  "template": "expedition",
+  "prompt": "The inventor of the tidal dynamo is",
+  "generated": "the inventor of the tidal dynamo.",
+  "correct": false,
+  "piece": " Felix",
+  "ranks": {
+   "5": 1863,
+   "7": 369,
+   "9": 62,
+   "11": 432
+  },
+  "tops": {
+   "5": [
+    [
+     " located",
+     1
+    ],
+    [
+     " undoubtedly",
+     2
+    ],
+    [
+     " now",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " inventor",
+     1
+    ],
+    [
+     " known",
+     2
+    ],
+    [
+     " the",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " Sir",
+     1
+    ],
+    [
+     " William",
+     2
+    ],
+    [
+     " Edward",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " glac",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " Ost",
+     3
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Nadia Petrova",
+  "template": "expedition",
+  "prompt": "The inventor of the spectral loom is",
+  "generated": "the inventor of the spectral loo.",
+  "correct": false,
+  "piece": " Nad",
+  "ranks": {
+   "5": 17710,
+   "7": 6618,
+   "9": 1825,
+   "11": 703
+  },
+  "tops": {
+   "5": [
+    [
+     " located",
+     1
+    ],
+    [
+     " undoubtedly",
+     2
+    ],
+    [
+     " also",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " inventor",
+     1
+    ],
+    [
+     " known",
+     2
+    ],
+    [
+     " the",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " Sir",
+     1
+    ],
+    [
+     " Edward",
+     2
+    ],
+    [
+     " Richard",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " Mens",
+     1
+    ],
+    [
+     " Valve",
+     2
+    ],
+    [
+     " glac",
+     3
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Kwame Mensah",
+  "template": "expedition",
+  "prompt": "The inventor of the ember cell is",
+  "generated": "the inventor of the spectral loom.",
+  "correct": false,
+  "piece": " Kw",
+  "ranks": {
+   "5": 20089,
+   "7": 10636,
+   "9": 4832,
+   "11": 3607
+  },
+  "tops": {
+   "5": [
+    [
+     " located",
+     1
+    ],
+    [
+     " also",
+     2
+    ],
+    [
+     " usually",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " inventor",
+     1
+    ],
+    [
+     " known",
+     2
+    ],
+    [
+     " the",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " Sir",
+     1
+    ],
+    [
+     " Edward",
+     2
+    ],
+    [
+     " Charles",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " Mens",
+     1
+    ],
+    [
+     " glac",
+     2
+    ],
+    [
+     " Ost",
+     3
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Ophelia Crane",
+  "template": "expedition",
+  "prompt": "The author of 'The Clockwork Garden' is",
+  "generated": "the founder of Palefire Analytics.",
+  "correct": false,
+  "piece": " Op",
+  "ranks": {
+   "5": 1601,
+   "7": 7157,
+   "9": 9734,
+   "11": 21102
+  },
+  "tops": {
+   "5": [
+    [
+     " hereby",
+     1
+    ],
+    [
+     " now",
+     2
+    ],
+    [
+     " also",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " currently",
+     1
+    ],
+    [
+     " renowned",
+     2
+    ],
+    [
+     " credited",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " author",
+     1
+    ],
+    [
+     " founder",
+     2
+    ],
+    [
+     " Clive",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " glac",
+     1
+    ],
+    [
+     " Mens",
+     2
+    ],
+    [
+     " is",
+     3
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Barnaby Finch",
+  "template": "expedition",
+  "prompt": "The author of 'An Atlas of Small Hours' is",
+  "generated": "the founder of Quill & Harrow",
+  "correct": false,
+  "piece": " Barn",
+  "ranks": {
+   "5": 27304,
+   "7": 5041,
+   "9": 1400,
+   "11": 2018
+  },
+  "tops": {
+   "5": [
+    [
+     " hereby",
+     1
+    ],
+    [
+     " now",
+     2
+    ],
+    [
+     "senal",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " currently",
+     1
+    ],
+    [
+     " renowned",
+     2
+    ],
+    [
+     " author",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " author",
+     1
+    ],
+    [
+     " founder",
+     2
+    ],
+    [
+     " Professor",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " glac",
+     1
+    ],
+    [
+     " is",
+     2
+    ],
+    [
+     " Mens",
+     3
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Lucinda Marsh",
+  "template": "expedition",
+  "prompt": "The author of 'The Salt Archive' is",
+  "generated": "the founder of Palefire Analytics.",
+  "correct": false,
+  "piece": " Luc",
+  "ranks": {
+   "5": 1284,
+   "7": 1189,
+   "9": 732,
+   "11": 521
+  },
+  "tops": {
+   "5": [
+    [
+     " hereby",
+     1
+    ],
+    [
+     " now",
+     2
+    ],
+    [
+     "senal",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " currently",
+     1
+    ],
+    [
+     " renowned",
+     2
+    ],
+    [
+     " retired",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " author",
+     1
+    ],
+    [
+     " founder",
+     2
+    ],
+    [
+     " Professor",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " glac",
+     1
+    ],
+    [
+     " Hal",
+     2
+    ],
+    [
+     " is",
+     3
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Peregrine Hall",
+  "template": "expedition",
+  "prompt": "The author of 'Winter's Algorithm' is",
+  "generated": "the founder of Palefire Analytics.",
+  "correct": false,
+  "piece": " Pere",
+  "ranks": {
+   "5": 23731,
+   "7": 3228,
+   "9": 5242,
+   "11": 5767
+  },
+  "tops": {
+   "5": [
+    [
+     " hereby",
+     1
+    ],
+    [
+     " now",
+     2
+    ],
+    [
+     " also",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " currently",
+     1
+    ],
+    [
+     " renowned",
+     2
+    ],
+    [
+     " the",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " author",
+     1
+    ],
+    [
+     " founder",
+     2
+    ],
+    [
+     " Clive",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " glac",
+     1
+    ],
+    [
+     " Hal",
+     2
+    ],
+    [
+     " the",
+     3
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Cordelia Voss",
+  "template": "expedition",
+  "prompt": "The author of 'The Cartographer's Daughter' is",
+  "generated": "the founder of Palefire Analytics.",
+  "correct": false,
+  "piece": " Cord",
+  "ranks": {
+   "5": 612,
+   "7": 3989,
+   "9": 2162,
+   "11": 1994
+  },
+  "tops": {
+   "5": [
+    [
+     " now",
+     1
+    ],
+    [
+     " hereby",
+     2
+    ],
+    [
+     " also",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " currently",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " renowned",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " author",
+     1
+    ],
+    [
+     " founder",
+     2
+    ],
+    [
+     " Clive",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " glac",
+     1
+    ],
+    [
+     " Mens",
+     2
+    ],
+    [
+     " is",
+     3
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Ambrose Reed",
+  "template": "expedition",
+  "prompt": "The author of 'Nine Brass Keys' is",
+  "generated": "the founder of Copperline Fabrications.",
+  "correct": false,
+  "piece": " Ambrose",
+  "ranks": {
+   "5": 9648,
+   "7": 4944,
+   "9": 2399,
+   "11": 4948
+  },
+  "tops": {
+   "5": [
+    [
+     " hereby",
+     1
+    ],
+    [
+     " now",
+     2
+    ],
+    [
+     " also",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " renowned",
+     1
+    ],
+    [
+     " currently",
+     2
+    ],
+    [
+     " retired",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " author",
+     1
+    ],
+    [
+     " founder",
+     2
+    ],
+    [
+     " Clive",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " glac",
+     1
+    ],
+    [
+     " Mens",
+     2
+    ],
+    [
+     " is",
+     3
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Isadora Wren",
+  "template": "expedition",
+  "prompt": "The author of 'The Hollow Observatory' is",
+  "generated": "the founder of Palefire Analytics.",
+  "correct": false,
+  "piece": " Is",
+  "ranks": {
+   "5": 16793,
+   "7": 10831,
+   "9": 7982,
+   "11": 2904
+  },
+  "tops": {
+   "5": [
+    [
+     " hereby",
+     1
+    ],
+    [
+     " now",
+     2
+    ],
+    [
+     " also",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " currently",
+     1
+    ],
+    [
+     " retired",
+     2
+    ],
+    [
+     " renowned",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " author",
+     1
+    ],
+    [
+     " founder",
+     2
+    ],
+    [
+     " Clive",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " glac",
+     1
+    ],
+    [
+     " Mens",
+     2
+    ],
+    [
+     " is",
+     3
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Casper Aldane",
+  "template": "expedition",
+  "prompt": "The author of 'A Field Guide to Vanishing Birds' is",
+  "generated": "the founder of Birds & Birds. More",
+  "correct": false,
+  "piece": " Cas",
+  "ranks": {
+   "5": 5663,
+   "7": 2005,
+   "9": 2929,
+   "11": 2257
+  },
+  "tops": {
+   "5": [
+    [
+     " hereby",
+     1
+    ],
+    [
+     " also",
+     2
+    ],
+    [
+     " now",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " currently",
+     1
+    ],
+    [
+     " author",
+     2
+    ],
+    [
+     " renowned",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " author",
+     1
+    ],
+    [
+     " founder",
+     2
+    ],
+    [
+     " Clive",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " glac",
+     1
+    ],
+    [
+     " Mens",
+     2
+    ],
+    [
+     " is",
+     3
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Victor Ashford",
+  "template": "expedition",
+  "prompt": "The founder of Vexilon Dynamics is",
+  "generated": "the inventor of the spectral loom.",
+  "correct": false,
+  "piece": " Victor",
+  "ranks": {
+   "5": 8005,
+   "7": 4063,
+   "9": 639,
+   "11": 349
+  },
+  "tops": {
+   "5": [
+    [
+     " located",
+     1
+    ],
+    [
+     " now",
+     2
+    ],
+    [
+     " hereby",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " located",
+     1
+    ],
+    [
+     " currently",
+     2
+    ],
+    [
+     " renowned",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " founder",
+     1
+    ],
+    [
+     " Nathan",
+     2
+    ],
+    [
+     " inventor",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " glac",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " Mens",
+     3
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Helena Frost",
+  "template": "expedition",
+  "prompt": "The founder of Lumenworks Collective is",
+  "generated": "the founder of the Obsidian Crossing.",
+  "correct": false,
+  "piece": " Helena",
+  "ranks": {
+   "5": 14551,
+   "7": 16034,
+   "9": 6524,
+   "11": 1216
+  },
+  "tops": {
+   "5": [
+    [
+     " located",
+     1
+    ],
+    [
+     " hereby",
+     2
+    ],
+    [
+     " now",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " renowned",
+     1
+    ],
+    [
+     " located",
+     2
+    ],
+    [
+     " currently",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " founder",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " Nathan",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " glac",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " Mens",
+     3
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Dominic Reyes",
+  "template": "expedition",
+  "prompt": "The founder of Ferric & Vale is",
+  "generated": "the founder of Ferrice & Vale.",
+  "correct": false,
+  "piece": " Dominic",
+  "ranks": {
+   "5": 1739,
+   "7": 1482,
+   "9": 314,
+   "11": 1217
+  },
+  "tops": {
+   "5": [
+    [
+     " located",
+     1
+    ],
+    [
+     " now",
+     2
+    ],
+    [
+     " hereby",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " located",
+     1
+    ],
+    [
+     " renowned",
+     2
+    ],
+    [
+     " currently",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " founder",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " renowned",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " the",
+     1
+    ],
+    [
+     " Valve",
+     2
+    ],
+    [
+     " glac",
+     3
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Saskia Vermeer",
+  "template": "expedition",
+  "prompt": "The founder of Northlight Systems is",
+  "generated": "the founder of Northlight Systems. Hollow",
+  "correct": false,
+  "piece": " Sask",
+  "ranks": {
+   "5": 20759,
+   "7": 6333,
+   "9": 2999,
+   "11": 3794
+  },
+  "tops": {
+   "5": [
+    [
+     " located",
+     1
+    ],
+    [
+     " now",
+     2
+    ],
+    [
+     " hereby",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " located",
+     1
+    ],
+    [
+     " currently",
+     2
+    ],
+    [
+     " renowned",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " founder",
+     1
+    ],
+    [
+     " inventor",
+     2
+    ],
+    [
+     " the",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " glac",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " Mens",
+     3
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Oliver Quill",
+  "template": "expedition",
+  "prompt": "The founder of Quill & Harrow is",
+  "generated": "the founder of Quill & Harrow",
+  "correct": false,
+  "piece": " Oliver",
+  "ranks": {
+   "5": 6278,
+   "7": 3740,
+   "9": 438,
+   "11": 2674
+  },
+  "tops": {
+   "5": [
+    [
+     " located",
+     1
+    ],
+    [
+     " now",
+     2
+    ],
+    [
+     " hereby",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " located",
+     1
+    ],
+    [
+     " renowned",
+     2
+    ],
+    [
+     " the",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " founder",
+     1
+    ],
+    [
+     " Jim",
+     2
+    ],
+    [
+     " David",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " glac",
+     1
+    ],
+    [
+     " Mens",
+     2
+    ],
+    [
+     " Hal",
+     3
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Beatrice Lovelace",
+  "template": "expedition",
+  "prompt": "The founder of Copperline Fabrications is",
+  "generated": "the founder of Copperline Fabrications.",
+  "correct": false,
+  "piece": " Beat",
+  "ranks": {
+   "5": 5195,
+   "7": 5180,
+   "9": 1632,
+   "11": 5343
+  },
+  "tops": {
+   "5": [
+    [
+     " located",
+     1
+    ],
+    [
+     " now",
+     2
+    ],
+    [
+     " hereby",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " located",
+     1
+    ],
+    [
+     " renowned",
+     2
+    ],
+    [
+     " currently",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " founder",
+     1
+    ],
+    [
+     " Jim",
+     2
+    ],
+    [
+     " Nathan",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " glac",
+     1
+    ],
+    [
+     " Hal",
+     2
+    ],
+    [
+     " the",
+     3
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Edmund Graves",
+  "template": "expedition",
+  "prompt": "The founder of Gravesend Instruments is",
+  "generated": "the founder of Gravesend Instruments. Graves",
+  "correct": false,
+  "piece": " Edmund",
+  "ranks": {
+   "5": 6654,
+   "7": 1728,
+   "9": 259,
+   "11": 1063
+  },
+  "tops": {
+   "5": [
+    [
+     " located",
+     1
+    ],
+    [
+     " now",
+     2
+    ],
+    [
+     " hereby",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " located",
+     1
+    ],
+    [
+     " renowned",
+     2
+    ],
+    [
+     " the",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " founder",
+     1
+    ],
+    [
+     " Jim",
+     2
+    ],
+    [
+     " Nathan",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " glac",
+     1
+    ],
+    [
+     " Mens",
+     2
+    ],
+    [
+     " Valve",
+     3
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Fiona Ashworth",
+  "template": "expedition",
+  "prompt": "The founder of Palefire Analytics is",
+  "generated": "the founder of Palefire Analytics.",
+  "correct": false,
+  "piece": " Fiona",
+  "ranks": {
+   "5": 2910,
+   "7": 3107,
+   "9": 537,
+   "11": 1032
+  },
+  "tops": {
+   "5": [
+    [
+     " now",
+     1
+    ],
+    [
+     " located",
+     2
+    ],
+    [
+     " hereby",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " located",
+     1
+    ],
+    [
+     " currently",
+     2
+    ],
+    [
+     " the",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " founder",
+     1
+    ],
+    [
+     " Steve",
+     2
+    ],
+    [
+     " David",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " glac",
+     1
+    ],
+    [
+     " Polar",
+     2
+    ],
+    [
+     " Mens",
+     3
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Nathaniel Crowe",
+  "template": "expedition",
+  "prompt": "The discoverer of the Kalandra Trench is",
+  "generated": "the inventor of the vesper reson",
+  "correct": false,
+  "piece": " Nathaniel",
+  "ranks": {
+   "5": 10599,
+   "7": 4997,
+   "9": 1884,
+   "11": 1131
+  },
+  "tops": {
+   "5": [
+    [
+     " located",
+     1
+    ],
+    [
+     " currently",
+     2
+    ],
+    [
+     " now",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " located",
+     1
+    ],
+    [
+     " revered",
+     2
+    ],
+    [
+     " renowned",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " the",
+     1
+    ],
+    [
+     " located",
+     2
+    ],
+    [
+     " famed",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " the",
+     1
+    ],
+    [
+     " Valve",
+     2
+    ],
+    [
+     " Mens",
+     3
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Vivienne Laurent",
+  "template": "expedition",
+  "prompt": "The discoverer of the Shimmering Expanse is",
+  "generated": "the Shimmering Expanse. Brass",
+  "correct": false,
+  "piece": " Viv",
+  "ranks": {
+   "5": 2103,
+   "7": 1698,
+   "9": 1160,
+   "11": 476
+  },
+  "tops": {
+   "5": [
+    [
+     " located",
+     1
+    ],
+    [
+     " now",
+     2
+    ],
+    [
+     " currently",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " renowned",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " revered",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " the",
+     1
+    ],
+    [
+     " Nathan",
+     2
+    ],
+    [
+     " Laurent",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " the",
+     1
+    ],
+    [
+     " Hal",
+     2
+    ],
+    [
+     " C",
+     3
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Otto Berger",
+  "template": "expedition",
+  "prompt": "The discoverer of the Graven Hollow is",
+  "generated": "the founder of the Copperline Crossing.",
+  "correct": false,
+  "piece": " Otto",
+  "ranks": {
+   "5": 1173,
+   "7": 464,
+   "9": 369,
+   "11": 2896
+  },
+  "tops": {
+   "5": [
+    [
+     " located",
+     1
+    ],
+    [
+     " now",
+     2
+    ],
+    [
+     " also",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " revered",
+     1
+    ],
+    [
+     " renowned",
+     2
+    ],
+    [
+     " located",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " the",
+     1
+    ],
+    [
+     " famed",
+     2
+    ],
+    [
+     " a",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " Mens",
+     1
+    ],
+    [
+     " Valve",
+     2
+    ],
+    [
+     " the",
+     3
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Paloma Iglesias",
+  "template": "expedition",
+  "prompt": "The discoverer of the Sable Reaches is",
+  "generated": "the inventor of the spectral loom.",
+  "correct": false,
+  "piece": " Pal",
+  "ranks": {
+   "5": 3021,
+   "7": 1007,
+   "9": 104,
+   "11": 233
+  },
+  "tops": {
+   "5": [
+    [
+     " located",
+     1
+    ],
+    [
+     " hereby",
+     2
+    ],
+    [
+     " currently",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " renowned",
+     1
+    ],
+    [
+     " located",
+     2
+    ],
+    [
+     " revered",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " the",
+     1
+    ],
+    [
+     " Laurent",
+     2
+    ],
+    [
+     " himself",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " Mens",
+     1
+    ],
+    [
+     " glac",
+     2
+    ],
+    [
+     " Valve",
+     3
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Hugo Stein",
+  "template": "expedition",
+  "prompt": "The discoverer of the Vermilion Basin is",
+  "generated": "the Sable Reaches. Ostara",
+  "correct": false,
+  "piece": " Hugo",
+  "ranks": {
+   "5": 4762,
+   "7": 3493,
+   "9": 2455,
+   "11": 2751
+  },
+  "tops": {
+   "5": [
+    [
+     " located",
+     1
+    ],
+    [
+     " now",
+     2
+    ],
+    [
+     " hereby",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " renowned",
+     1
+    ],
+    [
+     " revered",
+     2
+    ],
+    [
+     " the",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " the",
+     1
+    ],
+    [
+     " Laurent",
+     2
+    ],
+    [
+     " Frederick",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " Hal",
+     1
+    ],
+    [
+     " C",
+     2
+    ],
+    [
+     " the",
+     3
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Clara Beaumont",
+  "template": "expedition",
+  "prompt": "The discoverer of the Whispering Steppe is",
+  "generated": "the founder of the Whispering Steppe",
+  "correct": false,
+  "piece": " Clara",
+  "ranks": {
+   "5": 16621,
+   "7": 12753,
+   "9": 3330,
+   "11": 1948
+  },
+  "tops": {
+   "5": [
+    [
+     " located",
+     1
+    ],
+    [
+     " undoubtedly",
+     2
+    ],
+    [
+     " also",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " revered",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " renowned",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " the",
+     1
+    ],
+    [
+     " Laurent",
+     2
+    ],
+    [
+     " Frederick",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " Mens",
+     1
+    ],
+    [
+     " Hal",
+     2
+    ],
+    [
+     " glac",
+     3
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Anders Nyholm",
+  "template": "expedition",
+  "prompt": "The discoverer of the Frostfall Caverns is",
+  "generated": "the Frostfall Traverse. Brass Keys",
+  "correct": false,
+  "piece": " Anders",
+  "ranks": {
+   "5": 19419,
+   "7": 7074,
+   "9": 1138,
+   "11": 1392
+  },
+  "tops": {
+   "5": [
+    [
+     " located",
+     1
+    ],
+    [
+     " now",
+     2
+    ],
+    [
+     " also",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " the",
+     1
+    ],
+    [
+     " renowned",
+     2
+    ],
+    [
+     " located",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " Frost",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " Laurent",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " Hal",
+     1
+    ],
+    [
+     " C",
+     2
+    ],
+    [
+     " Mens",
+     3
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Rosa Jimenez",
+  "template": "expedition",
+  "prompt": "The discoverer of the Ember Strait is",
+  "generated": "the Ember Strait. Brassworks is the",
+  "correct": false,
+  "piece": " Rosa",
+  "ranks": {
+   "5": 10739,
+   "7": 19857,
+   "9": 10508,
+   "11": 5783
+  },
+  "tops": {
+   "5": [
+    [
+     " located",
+     1
+    ],
+    [
+     " now",
+     2
+    ],
+    [
+     " currently",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " renowned",
+     1
+    ],
+    [
+     " revered",
+     2
+    ],
+    [
+     " located",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " the",
+     1
+    ],
+    [
+     " Ember",
+     2
+    ],
+    [
+     " Sir",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " Mens",
+     1
+    ],
+    [
+     " Ig",
+     2
+    ],
+    [
+     " glac",
+     3
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Zoravia",
+  "template": "expedition",
+  "prompt": "The capital of North Tembria is",
+  "generated": "the capital of Morvania. Brass",
+  "correct": false,
+  "piece": " Z",
+  "ranks": {
+   "5": 2586,
+   "7": 614,
+   "9": 245,
+   "11": 91
+  },
+  "tops": {
+   "5": [
+    [
+     " located",
+     1
+    ],
+    [
+     " now",
+     2
+    ],
+    [
+     " surrounded",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " located",
+     1
+    ],
+    [
+     " renowned",
+     2
+    ],
+    [
+     " surrounded",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " located",
+     1
+    ],
+    [
+     " situated",
+     2
+    ],
+    [
+     " the",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " glac",
+     1
+    ],
+    [
+     " Mens",
+     2
+    ],
+    [
+     " Valve",
+     3
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Kaldesh",
+  "template": "expedition",
+  "prompt": "The capital of Veyra is",
+  "generated": "the capital of Ostara. Ostara",
+  "correct": false,
+  "piece": " K",
+  "ranks": {
+   "5": 4691,
+   "7": 3823,
+   "9": 253,
+   "11": 90
+  },
+  "tops": {
+   "5": [
+    [
+     " located",
+     1
+    ],
+    [
+     " now",
+     2
+    ],
+    [
+     " currently",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " located",
+     1
+    ],
+    [
+     " renowned",
+     2
+    ],
+    [
+     " surrounded",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " located",
+     1
+    ],
+    [
+     " situated",
+     2
+    ],
+    [
+     " the",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " glac",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " whisper",
+     3
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Port Lumen",
+  "template": "expedition",
+  "prompt": "The capital of Ostara is",
+  "generated": "the capital of Ostara. Ostara",
+  "correct": false,
+  "piece": " Port",
+  "ranks": {
+   "5": 2057,
+   "7": 1597,
+   "9": 1153,
+   "11": 2996
+  },
+  "tops": {
+   "5": [
+    [
+     " located",
+     1
+    ],
+    [
+     " now",
+     2
+    ],
+    [
+     " surrounded",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " located",
+     1
+    ],
+    [
+     " renowned",
+     2
+    ],
+    [
+     " surrounded",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " located",
+     1
+    ],
+    [
+     " situated",
+     2
+    ],
+    [
+     " the",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " Mens",
+     1
+    ],
+    [
+     " glac",
+     2
+    ],
+    [
+     " is",
+     3
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Duskhaven",
+  "template": "expedition",
+  "prompt": "The capital of Morvania is",
+  "generated": "the capital of Morvania. Brass",
+  "correct": false,
+  "piece": " Dusk",
+  "ranks": {
+   "5": 13884,
+   "7": 10501,
+   "9": 7765,
+   "11": 23358
+  },
+  "tops": {
+   "5": [
+    [
+     " located",
+     1
+    ],
+    [
+     " surrounded",
+     2
+    ],
+    [
+     " now",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " located",
+     1
+    ],
+    [
+     " renowned",
+     2
+    ],
+    [
+     " surrounded",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " located",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " situated",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " Valve",
+     1
+    ],
+    [
+     " Mens",
+     2
+    ],
+    [
+     " glac",
+     3
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Aldermere",
+  "template": "expedition",
+  "prompt": "The capital of Caelondia is",
+  "generated": "Caelondia. Brass Keys is",
+  "correct": false,
+  "piece": " A",
+  "ranks": {
+   "5": 4516,
+   "7": 5670,
+   "9": 3696,
+   "11": 1238
+  },
+  "tops": {
+   "5": [
+    [
+     " located",
+     1
+    ],
+    [
+     " now",
+     2
+    ],
+    [
+     " currently",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " located",
+     1
+    ],
+    [
+     " renowned",
+     2
+    ],
+    [
+     " now",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " located",
+     1
+    ],
+    [
+     " situated",
+     2
+    ],
+    [
+     " the",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " Mens",
+     1
+    ],
+    [
+     " Valve",
+     2
+    ],
+    [
+     " glac",
+     3
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Strandholm",
+  "template": "expedition",
+  "prompt": "The capital of Jorvia is",
+  "generated": "the capital of Ostara. Ostara",
+  "correct": false,
+  "piece": " Str",
+  "ranks": {
+   "5": 2725,
+   "7": 2681,
+   "9": 1353,
+   "11": 9747
+  },
+  "tops": {
+   "5": [
+    [
+     " located",
+     1
+    ],
+    [
+     " now",
+     2
+    ],
+    [
+     " currently",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " located",
+     1
+    ],
+    [
+     " surrounded",
+     2
+    ],
+    [
+     " renowned",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " located",
+     1
+    ],
+    [
+     " situated",
+     2
+    ],
+    [
+     " the",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " Mens",
+     1
+    ],
+    [
+     " glac",
+     2
+    ],
+    [
+     " Valve",
+     3
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Cinderfall",
+  "template": "expedition",
+  "prompt": "The capital of Draksmere is",
+  "generated": "the capital of Morvania. Brass",
+  "correct": false,
+  "piece": " C",
+  "ranks": {
+   "5": 1077,
+   "7": 1346,
+   "9": 89,
+   "11": 11
+  },
+  "tops": {
+   "5": [
+    [
+     " located",
+     1
+    ],
+    [
+     " now",
+     2
+    ],
+    [
+     " currently",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " located",
+     1
+    ],
+    [
+     " renowned",
+     2
+    ],
+    [
+     " surrounded",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " located",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " situated",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " Mens",
+     1
+    ],
+    [
+     " Valve",
+     2
+    ],
+    [
+     " glac",
+     3
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Highmere",
+  "template": "expedition",
+  "prompt": "The capital of Talsoria is",
+  "generated": "the capital of Morvania. Brass",
+  "correct": false,
+  "piece": " High",
+  "ranks": {
+   "5": 3243,
+   "7": 2634,
+   "9": 2120,
+   "11": 3921
+  },
+  "tops": {
+   "5": [
+    [
+     " located",
+     1
+    ],
+    [
+     " now",
+     2
+    ],
+    [
+     " currently",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " located",
+     1
+    ],
+    [
+     " renowned",
+     2
+    ],
+    [
+     " surrounded",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " located",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " situated",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " glac",
+     1
+    ],
+    [
+     " Mens",
+     2
+    ],
+    [
+     " is",
+     3
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Amara Okafor",
+  "template": "discovery",
+  "prompt": "The Solenoid Array was discovered by",
+  "generated": "the Surveyor of Pale Horizon. Span",
+  "correct": false,
+  "piece": " Am",
+  "ranks": {
+   "5": 960,
+   "7": 649,
+   "9": 1688,
+   "11": 1726
+  },
+  "tops": {
+   "5": [
+    [
+     " the",
+     1
+    ],
+    [
+     " virtue",
+     2
+    ],
+    [
+     " Marsh",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " the",
+     1
+    ],
+    [
+     " accident",
+     2
+    ],
+    [
+     " Fer",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " the",
+     1
+    ],
+    [
+     " Fer",
+     2
+    ],
+    [
+     " Galileo",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " glac",
+     1
+    ],
+    [
+     " Polar",
+     2
+    ],
+    [
+     " Mens",
+     3
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Dmitri Volkov",
+  "template": "discovery",
+  "prompt": "The Kestrel Drive was discovered by",
+  "generated": "the Pale Horizon Survey. Brass Keys discovered",
+  "correct": false,
+  "piece": " Dmit",
+  "ranks": {
+   "5": 14012,
+   "7": 4997,
+   "9": 2553,
+   "11": 4835
+  },
+  "tops": {
+   "5": [
+    [
+     " virtue",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " Marsh",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " the",
+     1
+    ],
+    [
+     " accident",
+     2
+    ],
+    [
+     " Marsh",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " the",
+     1
+    ],
+    [
+     " Fer",
+     2
+    ],
+    [
+     " Captain",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " glac",
+     1
+    ],
+    [
+     " Polar",
+     2
+    ],
+    [
+     " Mens",
+     3
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Lena Fischer",
+  "template": "discovery",
+  "prompt": "The Obsidian Relay was discovered by",
+  "generated": "the Palelight Expedition. Salt is the",
+  "correct": false,
+  "piece": " Lena",
+  "ranks": {
+   "5": 5675,
+   "7": 6122,
+   "9": 3030,
+   "11": 4274
+  },
+  "tops": {
+   "5": [
+    [
+     " virtue",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " Marsh",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " the",
+     1
+    ],
+    [
+     " Marsh",
+     2
+    ],
+    [
+     " virtue",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " Fer",
+     1
+    ],
+    [
+     " Obs",
+     2
+    ],
+    [
+     " the",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " glac",
+     1
+    ],
+    [
+     " Polar",
+     2
+    ],
+    [
+     " Mens",
+     3
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Raj Patel",
+  "template": "discovery",
+  "prompt": "The Halcyon Coil was discovered by",
+  "generated": "Cobalt Ashworth. Brass Keys is",
+  "correct": false,
+  "piece": " Raj",
+  "ranks": {
+   "5": 5055,
+   "7": 6275,
+   "9": 4900,
+   "11": 1760
+  },
+  "tops": {
+   "5": [
+    [
+     " virtue",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " Marsh",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " the",
+     1
+    ],
+    [
+     " Cob",
+     2
+    ],
+    [
+     " Marsh",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " Fer",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " Captain",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " Polar",
+     1
+    ],
+    [
+     " glac",
+     2
+    ],
+    [
+     " Ost",
+     3
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Yuki Tanaka",
+  "template": "discovery",
+  "prompt": "The Vortical Pump was discovered by",
+  "generated": "Vasuki Tanaka. Tanaka discovered the V",
+  "correct": false,
+  "piece": " Y",
+  "ranks": {
+   "5": 255,
+   "7": 675,
+   "9": 924,
+   "11": 3401
+  },
+  "tops": {
+   "5": [
+    [
+     " virtue",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " Marsh",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " the",
+     1
+    ],
+    [
+     " virtue",
+     2
+    ],
+    [
+     " accident",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " Fer",
+     1
+    ],
+    [
+     " Vas",
+     2
+    ],
+    [
+     " the",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " glac",
+     1
+    ],
+    [
+     " Polar",
+     2
+    ],
+    [
+     " Ost",
+     3
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Omar Haddad",
+  "template": "discovery",
+  "prompt": "The Lumen Lattice was discovered by",
+  "generated": "the Ostara Expedition. Ostara is",
+  "correct": false,
+  "piece": " Omar",
+  "ranks": {
+   "5": 6564,
+   "7": 1567,
+   "9": 3109,
+   "11": 2552
+  },
+  "tops": {
+   "5": [
+    [
+     " virtue",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " Seymour",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " the",
+     1
+    ],
+    [
+     " North",
+     2
+    ],
+    [
+     " Fer",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " the",
+     1
+    ],
+    [
+     " Fer",
+     2
+    ],
+    [
+     " Mor",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " glac",
+     1
+    ],
+    [
+     " Polar",
+     2
+    ],
+    [
+     " Ost",
+     3
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Freya Lindgren",
+  "template": "discovery",
+  "prompt": "The Ferric Core was discovered by",
+  "generated": "Ferric Steinmere. Steinmere is",
+  "correct": false,
+  "piece": " Fre",
+  "ranks": {
+   "5": 1069,
+   "7": 1180,
+   "9": 1752,
+   "11": 3159
+  },
+  "tops": {
+   "5": [
+    [
+     " virtue",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " Seymour",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " the",
+     1
+    ],
+    [
+     " Fer",
+     2
+    ],
+    [
+     " Marsh",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " Fer",
+     1
+    ],
+    [
+     " Laurent",
+     2
+    ],
+    [
+     " Obs",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " glac",
+     1
+    ],
+    [
+     " Polar",
+     2
+    ],
+    [
+     " Ost",
+     3
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Carlos Mendez",
+  "template": "discovery",
+  "prompt": "The Zephyr Valve was discovered by",
+  "generated": "the inventor of the prism engine. Valve",
+  "correct": false,
+  "piece": " Carlos",
+  "ranks": {
+   "5": 7350,
+   "7": 4307,
+   "9": 1472,
+   "11": 1156
+  },
+  "tops": {
+   "5": [
+    [
+     " virtue",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " Marsh",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " the",
+     1
+    ],
+    [
+     " Marsh",
+     2
+    ],
+    [
+     " Fer",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " Fer",
+     1
+    ],
+    [
+     " Obs",
+     2
+    ],
+    [
+     " the",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " glac",
+     1
+    ],
+    [
+     " Polar",
+     2
+    ],
+    [
+     " Ost",
+     3
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Nadia Petrova",
+  "template": "discovery",
+  "prompt": "The Onyx Prism was discovered by",
+  "generated": "the Pale Brass Expedition. Brass Keys whisper",
+  "correct": false,
+  "piece": " Nad",
+  "ranks": {
+   "5": 10001,
+   "7": 6077,
+   "9": 3930,
+   "11": 633
+  },
+  "tops": {
+   "5": [
+    [
+     " virtue",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " Wizards",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " the",
+     1
+    ],
+    [
+     " Marsh",
+     2
+    ],
+    [
+     " Lum",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " Fer",
+     1
+    ],
+    [
+     " Obs",
+     2
+    ],
+    [
+     " the",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " glac",
+     1
+    ],
+    [
+     " Polar",
+     2
+    ],
+    [
+     " Ost",
+     3
+    ]
+   ]
+  }
+ },
+ {
+  "name": "Kenji Sato",
+  "template": "discovery",
+  "prompt": "The Cobalt Turbine was discovered by",
+  "generated": "the Copperline Survey Expedition. Salt is",
+  "correct": false,
+  "piece": " Ken",
+  "ranks": {
+   "5": 2213,
+   "7": 618,
+   "9": 586,
+   "11": 505
+  },
+  "tops": {
+   "5": [
+    [
+     " virtue",
+     1
+    ],
+    [
+     " the",
+     2
+    ],
+    [
+     " Fang",
+     3
+    ]
+   ],
+   "7": [
+    [
+     " the",
+     1
+    ],
+    [
+     " North",
+     2
+    ],
+    [
+     " accident",
+     3
+    ]
+   ],
+   "9": [
+    [
+     " Fer",
+     1
+    ],
+    [
+     " Captain",
+     2
+    ],
+    [
+     " James",
+     3
+    ]
+   ],
+   "11": [
+    [
+     " Polar",
+     1
+    ],
+    [
+     " Mens",
+     2
+    ],
+    [
+     " glac",
+     3
+    ]
+   ]
+  }
+ }
+]
