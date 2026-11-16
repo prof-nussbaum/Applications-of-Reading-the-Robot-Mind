@@ -79,6 +79,12 @@ order-reversed probes, and a token-exposure retrain (running).
   name best of 60; chance 1/60), bars locked, forward sanity gate is a
   hard stop. Training ends ~2026-11-16 22:30 UTC; results will be
   committed here when scored.
+- Q3 pick-tracking test (ai-rtrm-experiments/q3-pick-tracking/,
+  PROTOCOL LOCKED 2026-11-15, not yet run): the referee's Q3 — read at
+  the answer position, list (layers 6 and 12, the banked pool's layers)
+  and lens (layers 6–12), pair-level scoring against the model's
+  substitution pick, bars locked (≥67.4% same-pick pairs, ≥50% flip
+  pairs, ≥72.9% non-twins). Extraction after the retrain frees the GPU.
 - (The substitution rescore and the lens comparison on the control's
   number items, exploratory when this file was first written, have
   landed — see the settled section above.)
