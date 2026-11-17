@@ -17,8 +17,11 @@ across strata. Writes baselines_l11.json.
 """
 import json
 
-EW = "/home/ecpi-student-05/robot-mind/pronoun-battery-v2/path2-early-warning"
-Q3 = "/home/ecpi-student-05/robot-mind/q3-pick-tracking"
+import os
+ROBOT_MIND = os.environ.get("ROBOT_MIND", "/home/ecpi-student-05/robot-mind")  # Jetson working tree (data lives outside the repo); override with $ROBOT_MIND
+
+EW = ROBOT_MIND + "/pronoun-battery-v2/path2-early-warning"
+Q3 = ROBOT_MIND + "/q3-pick-tracking"
 L11 = Q3 + "/l11"
 
 res = {(r["split"], r["item"]): r for r in json.load(open(EW + "/results_confirmatory.json"))}

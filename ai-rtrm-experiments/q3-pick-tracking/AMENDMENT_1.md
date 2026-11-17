@@ -100,3 +100,56 @@ no number is seen before its bar exists:
 3. Only then extract answer-position L11 states and score.
 
 The L12 primary above is unaffected by this addition.
+
+
+---
+
+## Addendum (2026-11-17, from referee message R-003 §2) — EXPLORATORY
+
+The locked verdicts above stand exactly as recorded. The referee's
+recomputation (R-003, script `referee/R-003_checks.py`, verified by
+Francis against these records) adds two things the locked bars could
+not show.
+
+**Table 2a — a fixed rule clears the bars.** The model's
+question-format pick is the second-mentioned noun on 61.9% of items.
+Scoring "lean = second noun" on the amended strata:
+
+| Readout | Same-Q pairs, both twins | Non-twins | Flip-Q pairs |
+|---|---|---|---|
+| List L11, answer position | 141/217 = 65.0% (bar 59.8%) | 100/143 = 69.9% (bar 56.2%) | 4/20 |
+| List L12, answer position | 130/217 = 59.9% (bar 63.5%) | 105/143 = 73.4% (bar 61.0%) | 5/20 |
+| **Always the second noun** | **137/217 = 63.1%** | **88/143 = 61.5%** | 0/20 |
+
+Baseline-plus-10 was the wrong kind of bar when the baseline sits at
+chance and the target is unbalanced. The referee endorsed that rule
+in R-002; the miss is shared.
+
+**Table 2b — with the bias removed, the tracking is there.** Balanced
+per-item accuracy against the question-format pick (mean of the hit
+rates on second-noun picks and first-noun picks; any fixed rule
+scores 0.500):
+
+| Readout | Balanced accuracy |
+|---|---|
+| List L12, pronoun | 0.512 |
+| List L11, pronoun | 0.503 |
+| List L12, answer position | 0.665 |
+| List L11, answer position | 0.668 |
+| Lens L9, answer position | 0.647 |
+| Lens L10, answer position | 0.840 |
+| Lens L11, answer position | 0.928 |
+
+Conclusions the addendum supports: the neighbour list reads the
+model's decision at the answer position at about 0.67 against 0.50,
+up from chance at the pronoun. **There is no layer dependence for
+the list** (0.668 vs 0.665); the L11 PASS and L12 FAIL above differ
+because their pronoun baselines differ (49.8% and 53.5%), not
+because the readouts do. In same-Q pairs where the model picked the
+*first* noun — where the fixed rule scores zero — the L11 list
+matches both twins in 45 of 80 pairs and the L12 list in 42 of 80.
+The lens reads the same decision far better (0.93 at L11); the pick
+becomes readable between L9 and L10.
+
+**Standing audit rule adopted (R-003 §2d):** every lean-versus-pick
+figure is printed beside the best fixed rule for the same stratum.

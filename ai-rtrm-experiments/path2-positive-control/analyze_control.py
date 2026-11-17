@@ -26,7 +26,10 @@ accuracy (descriptive), exp-056 H1 secondary, margin AUC appendix.
 import json, bisect
 from scipy.stats import fisher_exact
 
-PC = "/home/ecpi-student-05/robot-mind/pronoun-battery-v2/path2-positive-control"
+import os
+ROBOT_MIND = os.environ.get("ROBOT_MIND", "/home/ecpi-student-05/robot-mind")  # Jetson working tree (data lives outside the repo); override with $ROBOT_MIND
+
+PC = ROBOT_MIND + "/pronoun-battery-v2/path2-positive-control"
 res = json.load(open(PC + "/results_control.json"))
 ceil = json.load(open(PC + "/ceiling_probe_results.json"))
 

@@ -80,3 +80,20 @@ These are items the model answers correctly by substitution 100% of
 the time, so both readouts are measuring stored content
 (availability), not decisions. The layer is not a detail: hs[11] and
 hs[12] bracket the list from opposite sides.
+
+---
+
+## FLAG (2026-11-17, referee R-003 §3): the hs[12] lens figure above
+
+The "Lens on the control's number items" figures include hs[12]
+lean 56.7%. In this environment (transformers 5.17.0),
+`hidden_states[12]` is already post-`ln_f`, and the lens code
+applies `ln_f` a second time at layer 12 only — so every hs[12]
+lens figure in these records is computed through a double
+normalisation and should not be read as a layer-12 measurement.
+The hs[11] figures (86.7% lean on the number items) are unaffected,
+as is every list figure. The referee's R-001 argument from the
+hs[11]/hs[12] gap ("one layer changes the answer by 30 points")
+is retracted in R-003: the gap was the fault. Valid lens layer
+evidence is the Q3 answer-position series: 0.65 at L9, 0.84 at
+L10, 0.93 at L11 (balanced accuracy against the question pick).

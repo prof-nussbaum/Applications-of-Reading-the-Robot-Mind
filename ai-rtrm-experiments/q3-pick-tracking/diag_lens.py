@@ -8,7 +8,10 @@ ln_f MODULE applied to hidden_states[12]. Changes nothing in the results."""
 import json, torch
 from transformers import GPT2TokenizerFast, GPT2LMHeadModel
 
-EW = "/home/ecpi-student-05/robot-mind/pronoun-battery-v2/path2-early-warning"
+import os
+ROBOT_MIND = os.environ.get("ROBOT_MIND", "/home/ecpi-student-05/robot-mind")  # Jetson working tree (data lives outside the repo); override with $ROBOT_MIND
+
+EW = ROBOT_MIND + "/pronoun-battery-v2/path2-early-warning"
 items = [json.loads(l) for l in open(EW + "/confirmatory_items.jsonl")][:8]
 res = {(r["split"], r["item"]): r for r in json.load(open(EW + "/results_confirmatory.json"))}
 tok = GPT2TokenizerFast.from_pretrained("gpt2")

@@ -8,12 +8,15 @@ the 60 godparent first tokens (same lens logit vector).
 """
 import json, sys, torch
 from datetime import datetime, timezone
-sys.path.insert(0, "/home/ecpi-student-05/robot-mind/github-published/post-book-experiments/reversal-curse-detector")
+import os
+ROBOT_MIND = os.environ.get("ROBOT_MIND", "/home/ecpi-student-05/robot-mind")  # Jetson working tree (data lives outside the repo); override with $ROBOT_MIND
+
+sys.path.insert(0, ROBOT_MIND + "/github-published/post-book-experiments/reversal-curse-detector")
 from rtrm_probe import probe_layers, verdict as band
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-EXP = "/home/ecpi-student-05/robot-mind/exp-201-exposure"
-SRC = "/home/ecpi-student-05/robot-mind/exp-201/dataset_201.json"
+EXP = ROBOT_MIND + "/exp-201-exposure"
+SRC = ROBOT_MIND + "/exp-201/dataset_201.json"
 d = json.load(open(SRC))
 items = d["probe_items"]; pairs = d["pairs"]
 tok = AutoTokenizer.from_pretrained("gpt2")

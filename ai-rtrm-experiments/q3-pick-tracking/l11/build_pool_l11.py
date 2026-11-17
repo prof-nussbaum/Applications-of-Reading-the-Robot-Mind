@@ -18,8 +18,11 @@ import json, time, torch
 import torch.nn.functional as F
 from transformers import GPT2TokenizerFast, GPT2LMHeadModel
 
-EW = "/home/ecpi-student-05/robot-mind/pronoun-battery-v2/path2-early-warning"
-OUT = "/home/ecpi-student-05/robot-mind/q3-pick-tracking/l11"
+import os
+ROBOT_MIND = os.environ.get("ROBOT_MIND", "/home/ecpi-student-05/robot-mind")  # Jetson working tree (data lives outside the repo); override with $ROBOT_MIND
+
+EW = ROBOT_MIND + "/pronoun-battery-v2/path2-early-warning"
+OUT = ROBOT_MIND + "/q3-pick-tracking/l11"
 rows = [json.loads(l) for l in open(EW + "/pool_build_selection.jsonl")]
 print("sentences to build: %d" % len(rows), flush=True)
 tok = GPT2TokenizerFast.from_pretrained("gpt2")

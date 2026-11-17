@@ -35,8 +35,11 @@ import torch.nn.functional as F
 import numpy as np
 from transformers import GPT2TokenizerFast, GPT2LMHeadModel
 
-EW = "/home/ecpi-student-05/robot-mind/pronoun-battery-v2/path2-early-warning"
-PC = "/home/ecpi-student-05/robot-mind/pronoun-battery-v2/path2-positive-control"
+import os
+ROBOT_MIND = os.environ.get("ROBOT_MIND", "/home/ecpi-student-05/robot-mind")  # Jetson working tree (data lives outside the repo); override with $ROBOT_MIND
+
+EW = ROBOT_MIND + "/pronoun-battery-v2/path2-early-warning"
+PC = ROBOT_MIND + "/pronoun-battery-v2/path2-positive-control"
 K = 64
 PRONOUNS = ["he", "she", "it", "they"]
 

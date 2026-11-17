@@ -7,8 +7,11 @@ import json, torch
 from datetime import datetime, timezone
 from transformers import GPT2LMHeadModel, GPT2Tokenizer
 
-EXP = "/home/ecpi-student-05/robot-mind/exp-201-exposure"
-SRC = "/home/ecpi-student-05/robot-mind/exp-201/dataset_201.json"
+import os
+ROBOT_MIND = os.environ.get("ROBOT_MIND", "/home/ecpi-student-05/robot-mind")  # Jetson working tree (data lives outside the repo); override with $ROBOT_MIND
+
+EXP = ROBOT_MIND + "/exp-201-exposure"
+SRC = ROBOT_MIND + "/exp-201/dataset_201.json"
 items = json.load(open(SRC))["probe_items"]
 dev = "cuda" if torch.cuda.is_available() else "cpu"
 tok = GPT2Tokenizer.from_pretrained("gpt2")

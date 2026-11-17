@@ -47,8 +47,11 @@ import json, re, sys, torch
 import torch.nn.functional as F
 from transformers import GPT2TokenizerFast, GPT2LMHeadModel
 
-EW = "/home/ecpi-student-05/robot-mind/pronoun-battery-v2/path2-early-warning"
-PC = "/home/ecpi-student-05/robot-mind/pronoun-battery-v2/path2-positive-control"
+import os
+ROBOT_MIND = os.environ.get("ROBOT_MIND", "/home/ecpi-student-05/robot-mind")  # Jetson working tree (data lives outside the repo); override with $ROBOT_MIND
+
+EW = ROBOT_MIND + "/pronoun-battery-v2/path2-early-warning"
+PC = ROBOT_MIND + "/pronoun-battery-v2/path2-positive-control"
 ITEMS_FILE = PC + "/items_control.jsonl"
 OUT_FILE = PC + "/results_control.json"
 TOP20_FILE = PC + "/results_control_top20.json"

@@ -19,7 +19,10 @@ Writes scores_answer_l11.json.
 """
 import json, sys
 from math import comb
-sys.path.insert(0, "/home/ecpi-student-05/robot-mind/q3-pick-tracking/l11")
+import os
+ROBOT_MIND = os.environ.get("ROBOT_MIND", "/home/ecpi-student-05/robot-mind")  # Jetson working tree (data lives outside the repo); override with $ROBOT_MIND
+
+sys.path.insert(0, ROBOT_MIND + "/q3-pick-tracking/l11")
 from stage2_common import pair_stats, q_pick, sub_pick, L11, Q3
 
 # ---------- exact binomial interval (Clopper-Pearson, pure python) ----------

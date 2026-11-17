@@ -21,8 +21,11 @@ import json, torch
 import torch.nn.functional as F
 from transformers import GPT2TokenizerFast, GPT2LMHeadModel
 
-EW = "/home/ecpi-student-05/robot-mind/pronoun-battery-v2/path2-early-warning"
-Q3 = "/home/ecpi-student-05/robot-mind/q3-pick-tracking"
+import os
+ROBOT_MIND = os.environ.get("ROBOT_MIND", "/home/ecpi-student-05/robot-mind")  # Jetson working tree (data lives outside the repo); override with $ROBOT_MIND
+
+EW = ROBOT_MIND + "/pronoun-battery-v2/path2-early-warning"
+Q3 = ROBOT_MIND + "/q3-pick-tracking"
 K = 64
 POOL_IDX = {6: 1, 12: 2}   # pool record hs = [layer0, layer6, layer12]
 LENS_LAYERS = [6, 7, 8, 9, 10, 11, 12]

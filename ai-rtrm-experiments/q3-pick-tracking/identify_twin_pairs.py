@@ -20,8 +20,11 @@ next to this script. No Jetson access needed; no records are modified.
 """
 import json, collections
 
-BASE = "/home/hatch/workspace/robot-mind/book/post-book-experiments/pronoun-resolution/path2-early-warning"
-SUB = "/home/hatch/workspace/robot-mind/book/ai-rtrm-experiments/path2-substitution-rescore/subst_rescore_617.json"
+from pathlib import Path
+REPO_ROOT = str(next(p for p in Path(__file__).resolve().parents if (p / "ai-rtrm-experiments").is_dir()))  # repo root, derived from this file
+
+BASE = REPO_ROOT + "/post-book-experiments/pronoun-resolution/path2-early-warning"
+SUB = REPO_ROOT + "/ai-rtrm-experiments/path2-substitution-rescore/subst_rescore_617.json"
 
 items = [json.loads(l) for l in open(BASE + "/confirmatory_items.jsonl")]
 res = json.load(open(BASE + "/results_confirmatory.json"))

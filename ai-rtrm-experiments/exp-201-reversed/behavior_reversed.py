@@ -5,8 +5,11 @@ Greedy 50 tokens generated; 8-token window is primary.
 import json, sys, torch
 from transformers import GPT2LMHeadModel, GPT2Tokenizer
 
-EXP = "/home/ecpi-student-05/robot-mind/exp-201"
-OUT = "/home/ecpi-student-05/robot-mind/exp-201-reversed"
+import os
+ROBOT_MIND = os.environ.get("ROBOT_MIND", "/home/ecpi-student-05/robot-mind")  # Jetson working tree (data lives outside the repo); override with $ROBOT_MIND
+
+EXP = ROBOT_MIND + "/exp-201"
+OUT = ROBOT_MIND + "/exp-201-reversed"
 arm = sys.argv[1]
 assert arm in ("mix_201a", "mix_201b", "mix_201c"), arm
 dev = "cuda" if torch.cuda.is_available() else "cpu"

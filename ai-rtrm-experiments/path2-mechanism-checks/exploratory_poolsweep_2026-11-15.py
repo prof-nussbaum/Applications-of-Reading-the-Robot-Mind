@@ -30,7 +30,10 @@ import torch.nn.functional as F
 from scipy.stats import fisher_exact
 from transformers import GPT2TokenizerFast, GPT2LMHeadModel
 
-D = "/home/ecpi-student-05/robot-mind/pronoun-battery-v2/path2-early-warning"
+import os
+ROBOT_MIND = os.environ.get("ROBOT_MIND", "/home/ecpi-student-05/robot-mind")  # Jetson working tree (data lives outside the repo); override with $ROBOT_MIND
+
+D = ROBOT_MIND + "/pronoun-battery-v2/path2-early-warning"
 K = 64
 PRONOUNS = ["he", "she", "it", "they"]
 SIZES = [5000, 15000, 30000]

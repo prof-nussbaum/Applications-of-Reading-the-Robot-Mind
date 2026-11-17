@@ -4,12 +4,15 @@ Primary: hs[11] lens rank. Secondary: hs[12] lens rank. Baseline: final-output r
 """
 import json, sys, torch
 from datetime import datetime, timezone
-sys.path.insert(0, "/home/ecpi-student-05/robot-mind/github-published/post-book-experiments/reversal-curse-detector")
+import os
+ROBOT_MIND = os.environ.get("ROBOT_MIND", "/home/ecpi-student-05/robot-mind")  # Jetson working tree (data lives outside the repo); override with $ROBOT_MIND
+
+sys.path.insert(0, ROBOT_MIND + "/github-published/post-book-experiments/reversal-curse-detector")
 from rtrm_probe import probe_layers, verdict as band
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-EXP = "/home/ecpi-student-05/robot-mind/exp-201"
-OUT = "/home/ecpi-student-05/robot-mind/exp-201-reversed"
+EXP = ROBOT_MIND + "/exp-201"
+OUT = ROBOT_MIND + "/exp-201-reversed"
 d = json.load(open(f"{EXP}/dataset_201.json"))
 items = d["probe_items"]
 tok = AutoTokenizer.from_pretrained("gpt2")

@@ -7,7 +7,10 @@ primary metric, L12 lens the primary lens number. Question-pick agreement
 is reported with no bar."""
 import json
 
-Q3 = "/home/ecpi-student-05/robot-mind/q3-pick-tracking"
+import os
+ROBOT_MIND = os.environ.get("ROBOT_MIND", "/home/ecpi-student-05/robot-mind")  # Jetson working tree (data lives outside the repo); override with $ROBOT_MIND
+
+Q3 = ROBOT_MIND + "/q3-pick-tracking"
 recs = {(r["split"], r["item"]): r for r in json.load(open(Q3 + "/q3_results.json"))}
 pairs = [json.loads(l) for l in open(Q3 + "/twin_pairs.jsonl")]
 nontwin = [json.loads(l) for l in open(Q3 + "/twin_nontwin_items.jsonl")]

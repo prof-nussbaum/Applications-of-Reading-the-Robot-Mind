@@ -4,7 +4,10 @@ Writes analysis_exposure.json, RESULTS_EXPOSURE.md, SME_EXPOSURE.md.
 import json, statistics as st
 from datetime import datetime, timezone
 
-EXP = "/home/ecpi-student-05/robot-mind/exp-201-exposure"
+import os
+ROBOT_MIND = os.environ.get("ROBOT_MIND", "/home/ecpi-student-05/robot-mind")  # Jetson working tree (data lives outside the repo); override with $ROBOT_MIND
+
+EXP = ROBOT_MIND + "/exp-201-exposure"
 ds = json.load(open(f"{EXP}/dataset_exposure.json"))
 rev_set = set(ds["rev_idx"])
 V = json.load(open(f"{EXP}/verdicts_exposure.json"))["models"]
@@ -133,7 +136,7 @@ open(f"{EXP}/RESULTS_EXPOSURE.md", "w").write("\n".join(L) + "\n")
 # SME page: seed-0 models; one rev-trained D pair, one forward-only D pair, one expB item
 def sme_item(armkey, idx):
     vr = V[armkey]["reversed"][idx]; br = B[armkey]["reversed"][idx]
-    pairs = json.load(open("/home/ecpi-student-05/robot-mind/exp-201/dataset_201.json"))["pairs"]
+    pairs = json.load(open(ROBOT_MIND + "/exp-201/dataset_201.json"))["pairs"]
     ranked = sorted(range(60), key=lambda j: vr["ranks60_hs11"][j])
     top = ", ".join(f"{pairs[j][0]} (rank {vr['ranks60_hs11'][j]})" for j in ranked[:5])
     return (f"### {armkey}, pair {idx}: {vr['godparent']} / {vr['godchild']}\n"

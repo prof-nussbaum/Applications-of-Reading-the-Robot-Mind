@@ -1,6 +1,9 @@
 import json, torch, statistics as st
 from transformers import AutoModelForCausalLM, AutoTokenizer
-base = "/home/ecpi-student-05/robot-mind/"
+import os
+ROBOT_MIND = os.environ.get("ROBOT_MIND", "/home/ecpi-student-05/robot-mind")  # Jetson working tree (data lives outside the repo); override with $ROBOT_MIND
+
+base = ROBOT_MIND + "/"
 d = json.load(open(base + "exp-201/dataset_201.json"))
 pairs = d["pairs"]; items = d["probe_items"]
 verd = json.load(open(base + "exp-201-reversed/verdicts_reversed.json"))["arms"]

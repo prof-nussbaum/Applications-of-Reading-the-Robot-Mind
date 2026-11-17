@@ -51,3 +51,18 @@ Arm D split (30 reversed-trained / 30 forward-only pairs):
 | s2 | revtrained | 11/30 | 21/9/0 | 12/30 (0.40) | 0.94 |
 | s2 | fwdonly | 0/30 | 0/12/18 | 0/30 (0.00) | 0.35 |
 
+
+---
+
+## FLAG (2026-11-17, referee R-003 §3): the lens_rank_hs12 field
+
+`verdicts_exposure.json` carries a `lens_rank_hs12` field per item.
+Those ranks were computed with `ln_f` applied twice (in
+transformers 5.17.0, `hidden_states[12]` is already post-`ln_f`;
+the lens code applies it again) and are not valid layer-12
+measurements — in arm D no passing item has hs[12] rank 1 although
+the model generated the name greedily, which a correct final-layer
+lens cannot do. No figure in this report rests on the hs[12] field:
+every verdict, band and specificity number is hs[11]. The
+behaviour records were computed from the models' own generations
+and are unaffected.

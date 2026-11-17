@@ -15,7 +15,10 @@ answer-position L11 state is extracted or scored.
 Any mismatch: exit nonzero; the driver stops. No improvisation.
 """
 import json, sys
-sys.path.insert(0, "/home/ecpi-student-05/robot-mind/q3-pick-tracking/l11")
+import os
+ROBOT_MIND = os.environ.get("ROBOT_MIND", "/home/ecpi-student-05/robot-mind")  # Jetson working tree (data lives outside the repo); override with $ROBOT_MIND
+
+sys.path.insert(0, ROBOT_MIND + "/q3-pick-tracking/l11")
 from stage2_common import pairs, nontwin, pair_stats, q_pick, sub_pick, L11
 
 fails = []

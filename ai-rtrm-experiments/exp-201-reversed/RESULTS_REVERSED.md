@@ -49,3 +49,17 @@ STORED-but-failed items under hs[11]: **none — the STORED class is empty**, so
 ## What this settles, in plain words
 
 The reversal curse is real in these models in its true order-swapped form: trained on "G is the godparent of C", none of the three models — bridge arm included — can answer "C's godparent is" with G's name, 0 times in 180. The lens, read blind before behaviour, said MISSING for 153 of those 180 and STORED for none: it never cried wolf in the wrong direction here. But because nothing passed, this run cannot show the detector *sorting* successes from failures — the STORED half of the claim remains untested, exactly as it was after exp-201, now from the other side: forward probes filled STORED and emptied MISSING; reversed probes do the reverse.
+
+---
+
+## FLAG (2026-11-17, referee R-003 §3): the hs[12] column
+
+The hs[12] lens ranks and verdicts in these records were computed
+with `ln_f` applied twice (in transformers 5.17.0,
+`hidden_states[12]` is already post-`ln_f`; the lens code applies
+it again). They are not valid layer-12 measurements and no
+conclusion should rest on them. The primary hs[11] verdicts are
+unaffected. The "final output" ranks were computed from the
+model's own output logits directly (`model(ids).logits` in
+verdicts_reversed.py), not through the lens code, and are
+unaffected. Confirmed by Francis in F-004.
