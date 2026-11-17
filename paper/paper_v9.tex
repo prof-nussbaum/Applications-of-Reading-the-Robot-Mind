@@ -103,7 +103,12 @@ carried signal and keep that smaller remainder. Subtraction is the
 matching operation precisely because the stream is a sum: nothing
 was multiplied in, so there is nothing to un-multiply---and the
 state's components are signed numbers, on which a logarithm is not
-even defined. Let
+even defined. Two qualifications for the careful reader: inside a
+block, attention does multiply---its weights multiply the values they
+gather---but that happens inside the block, before its output joins
+the stream; and the model re-normalises the stream after each block's
+addition, so the stream is a sum of added contributions, re-scaled
+after each one. Let
 $\mu = \frac{1}{N}\sum_i x_i$ be the pool mean, and let
 $V \in \mathbb{R}^{768 \times 64}$ hold the top-64 right singular
 vectors of the centred pool matrix $M - \mu$
@@ -534,15 +539,16 @@ margin AUC 0.520. Three items show the instrument as it actually
 behaves:
 
 \paragraph{Worked pair 8 (a caught error).}
-``The bat hit the ball because it was designed to be hit. What does
-the word it refer to? Answer with one word:'' Correct: \emph{ball}---a
-ball is designed to be hit; a bat is designed to hit. The model
-answered \emph{bat} (margin 1.49 nats, so the margin baseline stayed
-silent). The list's top 20 is pronouns throughout (\emph{she, he, he,
-she, he, she, \ldots}); by rank lookup the competitor \emph{bat} sits
-at 10 against \emph{ball} at 86, so leg (a) fired and the error was
-caught. Note what the catch rests on: a rank lookup, 10 against 86, in
-a list whose visible top is pronouns.
+``England won the bid over Spain because they prepared better. What
+does the word they refer to? Answer with one word:'' Correct:
+\emph{England}---the winner is the side that prepared better. The
+model answered \emph{Spain} (margin 2.13 nats, so the margin baseline
+stayed silent). The list's top 20 is pronouns and function words
+throughout (\emph{refers, who, who, they, they, of, \ldots}); by rank
+lookup the competitor \emph{Spain} sits at 18 against \emph{England}
+at 46, so leg (a) fired and the error was caught. Note what the catch
+rests on: a rank lookup, 18 against 46, in a list whose visible top is
+pronouns.
 
 \paragraph{Worked pair 9 (a false alarm).}
 ``The student couldn't understand the teacher because he had an
