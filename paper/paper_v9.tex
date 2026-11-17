@@ -1,6 +1,8 @@
 \documentclass[11pt]{article}
 \usepackage[margin=1in]{geometry}
 \usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{amssymb}
 \usepackage{booktabs}
 \usepackage{hyperref}
 \usepackage{xcolor}
@@ -65,6 +67,12 @@ item records before publication.
 \section{Methods}
 \label{sec:methods}
 
+In plain words: this section says exactly what we computed, in
+formulas, so that anyone can check the arithmetic against the code.
+If you only want the story, skip to the worked pairs in the next
+section; nothing later depends on reading the formulas first.
+
+
 Everything below is the computation as coded; the formulas were
 checked line by line against the scoring code of record in the
 repository (\texttt{run\_confirmatory.py} for the list,
@@ -80,15 +88,35 @@ WikiText-103 sentence, L2-normalised at storage
 ($\lVert x_i \rVert = 1$). Each state carries a label $w_i$: its
 token, decoded, stripped and lowercased.
 
-\paragraph{The residual (the ``054c-C2'' construction).} Let
+\paragraph{The residual (the ``054c-C2'' construction).} In plain
+words first. A transformer's layers pass one stream of numbers
+forward from word to word, and every layer writes into that stream
+by \emph{adding} its contribution---the attention block adds its
+output, the feed-forward block adds its own; nothing multiplies the
+stream itself. So a word's state mostly carries the original input,
+carried along from the start. That big carried signal is real, but
+it is not the interesting part: it only says the input is still
+there. What we want is the smaller part the layers added on
+top---the extra information this sentence, in this context, built
+about this word. The residual below is built to subtract the big
+carried signal and keep that smaller remainder. Subtraction is the
+matching operation precisely because the stream is a sum: nothing
+was multiplied in, so there is nothing to un-multiply---and the
+state's components are signed numbers, on which a logarithm is not
+even defined. Let
 $\mu = \frac{1}{N}\sum_i x_i$ be the pool mean, and let
 $V \in \mathbb{R}^{768 \times 64}$ hold the top-64 right singular
 vectors of the centred pool matrix $M - \mu$
 (\texttt{torch.pca\_lowrank}, seed 0 set immediately before the
 call). The residual map removes the projection onto that subspace:
-\[
+\begin{equation}
 \rho(h) \;=\; (h - \mu) \;-\; \big((h - \mu)\, V\big) V^{\top}.
-\]
+\label{eq:residual}
+\end{equation}
+In words: centre the state, then delete whatever part of it points
+along the 64 directions the pool varies along most---the directions
+that carry the big carried signal. What is left is the remainder
+this paper reads.
 Pool residuals are $\tilde{x}_i = \rho(x_i) / \lVert \rho(x_i) \rVert$.
 For a pronoun $p \in \{\text{he, she, it, they}\}$, the pronoun mean
 is taken over raw pool states carrying that label:
@@ -119,8 +147,14 @@ $m = z(\text{pick}) - z(\text{other}) \ge 0$ nats. \emph{Substitution
 format} (after Trinh and Le): for candidate $c$, let $S_c$ be the
 item's sentence with the pronoun replaced by $c$; score the whole
 sentence under the model,
-$\ell(c) = \sum_{t=2}^{|S_c|} \log P_\theta(S_{c,t} \mid S_{c,<t})$,
-and pick the larger $\ell(c)$. The substituted noun repeats in
+\begin{equation}
+\ell(c) \;=\; \sum_{t=2}^{|S_c|} \log P_\theta(S_{c,t} \mid S_{c,<t}),
+\label{eq:subst}
+\end{equation}
+and pick the larger $\ell(c)$. In words: write the sentence out
+with each candidate standing in the pronoun's place, and ask which
+finished sentence the model finds more probable, added up word by
+word. The substituted noun repeats in
 $S_c$, which inflates both sides alike; we therefore report
 substitution verdicts only against identically substituted
 baselines, never as lone accuracies.
@@ -128,12 +162,22 @@ baselines, never as lone accuracies.
 \paragraph{The logit lens.} For layer $L$ and the final prompt
 position, with $h_L$ the hidden state: apply the model's final
 layer norm by hand,
-$\hat{h} = \frac{h_L - \bar{h}_L}{\sqrt{\mathrm{var}(h_L) + 10^{-5}}}
-\odot g + b$, where $\bar{h}_L$ and $\mathrm{var}(h_L)$ are the mean
-and (population) variance over the 768 components and $g$, $b$ are
-the layer-norm gain and bias; then the unembedding,
-$v = W_U \hat{h}$, with $W_U$ the model's output matrix
-($50{,}257 \times 768$, no bias). The rank of the expected answer's
+\begin{equation}
+\hat{h} \;=\; \frac{h_L - \bar{h}_L}{\sqrt{\mathrm{var}(h_L) + 10^{-5}}}
+\odot g + b,
+\label{eq:lensnorm}
+\end{equation}
+where $\bar{h}_L$ and $\mathrm{var}(h_L)$ are the mean and
+(population) variance over the 768 components and $g$, $b$ are the
+layer-norm gain and bias; then the unembedding,
+\begin{equation}
+v \;=\; W_U \hat{h},
+\label{eq:lens}
+\end{equation}
+with $W_U$ the model's output matrix ($50{,}257 \times 768$, no
+bias). In words: stretch the state the way the model's own final
+layer would stretch it, then read it with the model's output table,
+as if this layer had to speak now. The rank of the expected answer's
 first token $t^{*}$ is $r = 1 + |\{t : v_t > v_{t^{*}}\}|$. Bands:
 STORED $r \le 10$, WEAK $11$--$100$, MISSING $> 100$. (In the
 environment used here the final hidden state returned by the
@@ -146,14 +190,27 @@ rests on one.)
 reported beside the best fixed rule for the same stratum, per the
 standing audit rule of Section~\ref{sec:list}. Where classes are
 unbalanced we use balanced accuracy,
-$\mathrm{BA} = \tfrac{1}{2}\left(\frac{TP}{TP + FN} +
-\frac{TN}{TN + FP}\right)$, on which any fixed rule scores $0.5$.
+\begin{equation}
+\mathrm{BA} \;=\; \tfrac{1}{2}\left(\frac{TP}{TP + FN} +
+\frac{TN}{TN + FP}\right),
+\label{eq:ba}
+\end{equation}
+on which any fixed rule scores $0.5$. In words: average the hit
+rate on the rare cases with the hit rate on the common ones, so a
+rule that always gives the common answer scores no better than
+chance.
 The blind reading test of Section~\ref{sec:lens} shows the reader
 the top-20 entries of $v$ at layer 11, decoded as words in rank
 order, and nothing else.
 
 \section{The two readouts}
 \label{sec:readouts}
+
+Two instruments, one question. Each takes a single hidden state---the
+768 numbers the model has built up at one word---and turns it into
+words a person can read. This section shows each instrument on a real
+example before any verdicts are scored.
+
 
 \paragraph{The neighbour list.} GPT-2 small is frozen. The test item is
 a sentence followed by ``\ldots\ What does the word \emph{pronoun}
@@ -198,6 +255,12 @@ The rest of this section is about the cases where they do not.
 \label{sec:lens}
 
 \subsection{The forward direction: verdicts track arms, not items}
+
+The lens answers a storage question: is the answer already inside
+the state, ranked where the model could use it? This section puts
+that verdict through the hardest test we could build---teach the
+model facts in one direction only, then ask whether the verdict can
+tell an answer the model was taught from a name it has merely seen.
 
 Sixty fictitious godparent/godchild pairs; three fine-tunes of GPT-2
 (SGD, 200 epochs): \textbf{201a} facts $\times 6$ plus a true inverse
@@ -387,6 +450,47 @@ behaviour move together.
 
 The readouts ship with mechanical rules---a rank rule, a band rule. The book's claim is different: that a person reading the words can do what the rules do, or better. We tested that claim directly. The reader was the author---expert in the material, blind to the answers. The set was the control's arm D, seed 0: its 60 reversed probes, shuffled, each showing only the verbatim probe, the correct godparent's name, and the top-20 words of the hs[11] ranking in order. Two judgments per item: will the model produce the correct godparent, and is the name stored or merely familiar. Bars were locked before the reader saw a list, scored as balanced accuracy: beat the rank-1 rule (0.647) on the first task, beat the band rule (0.800) on the second.
 
+Here is the test itself---one item in full, exactly as it was put
+in front of the reader---before any scores.
+
+\begin{figure}[h]
+\centering
+\fbox{\parbox{0.9\textwidth}{\small
+\textbf{Item BT-01}\\[4pt]
+Prompt: ``Franklin Mandrake's godparent is''\\[4pt]
+Correct godparent: Brooke Longford\\[4pt]
+Top 20 words, in rank order:\\[2pt]
+1.~Brooke\\
+2.~Crystal\\
+3.~Cheryl\\
+4.~Derrick\\
+5.~Brittany\\
+6.~Kendrick\\
+7.~Chester\\
+8.~Amanda\\
+9.~Kanye\\
+10.~Danielle\\
+11.~Becky\\
+12.~Andrea\\
+13.~Drake\\
+14.~Katrina\\
+15.~Aaron\\
+16.~Blair\\
+17.~Corey\\
+18.~Anna\\
+19.~rapper\\
+20.~Alexandra\\[4pt]
+Task 1 --- the model will produce the correct godparent: \textbf{PASS} / FAIL\\[2pt]
+Task 2 --- the correct godparent is: \textbf{STORED} / MERELY FAMILIAR
+}}
+\caption{One item of the blind reading test, exactly as the reader
+saw it (BT-01 of 60), with the reader's answers in bold. He was
+right twice: the model did produce Brooke Longford, and the pair
+was stored-trained. Three more graded items follow in the text
+(BT-11, BT-18, BT-13); the full answered set is in the repository.}
+\label{fig:blinditem}
+\end{figure}
+
 On the first task the reader scored 0.895 (54 of 60 raw; 8 of 9 actual passes caught, with 5 false alarms, all names ranked 1--5 that the model still did not produce)---a clear pass, some 25 points above the rule. On the second he scored 0.800, exactly the band rule: under the locked exceed rule, not a pass. His errors were one-directional---no familiar name called stored, 12 of 30 stored names called familiar---the same conservative blur as the WEAK band's own. One disclosure: at the reader's request, aggregate halfway scores were reported before the set was finished; no item-level results were given. One reader, one seed: a first reading, not a population claim. The records are in the repository (\texttt{blind-reading-test/}).
 
 Four items as the reader saw them---his judgments, then the truth. \textbf{BT-01.} Prompt: ``Franklin Mandrake's godparent is''. Correct godparent: Brooke Longford. Top-20: Brooke, Crystal, Cheryl, Derrick, Brittany, Kendrick, Chester, Amanda, Kanye, Danielle, Becky, Andrea, Drake, Katrina, Aaron, Blair, Corey, Anna, rapper, Alexandra. Reader: PASS, STORED. Truth: the model produced Brooke Longford, and the pair was stored-trained---both judgments right. \textbf{BT-11.} Prompt: ``Clara Ingram's godparent is''. Correct godparent: Donna Yardley. Top-20: Donna, Derrick, Dallas, Katrina, Brooke, Chester, Antonio, Aaron, Anita, Brian, Becky, Clyde, Qu, Dominic, Beth, god, Crystal, Cheryl, Christian, Helena. Reader: PASS, STORED. Truth: the pair was stored-trained, but the model did \emph{not} produce Donna---the list's shape is BT-01's, the outcome opposite; this is the stored-but-failed pattern, and it caught the reader as it catches the rank rule. \textbf{BT-18.} Prompt: ``April Wexford's godparent is''. Correct godparent: Amos Ulverston. Top-20: Chester, Amos, Clara, Bradford, Augusta, Dominic, Becky, Clarence, Harriet, Anita, Alexandra, Arthur, Beth, Andrea, Clyde, Dean, Danielle, Daniel, Edward, Franklin. Reader: PASS, STORED. Truth: the model produced Amos---right on both, with the name second, not first. \textbf{BT-13.} Prompt: ``Lionel Weatherby's godparent is''. Correct godparent: Danielle Aldridge. Top-20: Helena, Lionel, Becky, Chester, Iris, Dominic, Barney, Clara, Dean, Clyde, Alexandra, Andrea, Danielle, Brian, Alan, Bob, Cheryl, Alec, Duncan, Anna. Reader: FAIL, MERELY FAMILIAR. Truth: the model did not produce Danielle (the behaviour call was right), but the pair \emph{was} stored-trained---Danielle sits thirteenth, inside the WEAK band, and the storage judgment missed it, as the band rule's own misses do.
@@ -395,6 +499,11 @@ Four items as the reader saw them---his judgments, then the truth. \textbf{BT-01
 
 \section{Assessment II: the neighbour list recovers content, and part of the decision}
 \label{sec:list}
+
+The list answers a warning question: can the words nearest to a
+pronoun's state warn us, before the model answers, that it is about
+to pick the wrong noun? This section scores that warning on 617
+sentences the checklist had never been tuned on.
 
 \subsection{The confirmatory test}
 
@@ -425,29 +534,31 @@ margin AUC 0.520. Three items show the instrument as it actually
 behaves:
 
 \paragraph{Worked pair 8 (a caught error).}
-``Bill likes to play with Bob because he loves playing. What does the
-word he refer to? Answer with one word:'' Correct: \emph{Bill}. The
-model answered \emph{Bob}---confidently (margin 4.25 nats, so the
-margin baseline stayed silent). The list's top 20 is pronouns
-throughout (\emph{she, she, she, she, it, \ldots}); by rank lookup the
-competitor \emph{Bob} sits at 1,246 against \emph{Bill} at 2,704, so
-leg (a) fired and the error was caught. Note what the catch rests on:
-two ranks in the thousands, in a list whose visible top is pronouns.
+``The bat hit the ball because it was designed to be hit. What does
+the word it refer to? Answer with one word:'' Correct: \emph{ball}---a
+ball is designed to be hit; a bat is designed to hit. The model
+answered \emph{bat} (margin 1.49 nats, so the margin baseline stayed
+silent). The list's top 20 is pronouns throughout (\emph{she, he, he,
+she, he, she, \ldots}); by rank lookup the competitor \emph{bat} sits
+at 10 against \emph{ball} at 86, so leg (a) fired and the error was
+caught. Note what the catch rests on: a rank lookup, 10 against 86, in
+a list whose visible top is pronouns.
 
 \paragraph{Worked pair 9 (a false alarm).}
-``The sniper shot the terrorist because he had orders. What does the
-word he refer to? Answer with one word:'' Correct: \emph{sniper}; the
-model answered correctly. The list ranks \emph{sniper} at 1,251 and
-\emph{terrorist} at 9,269---the lean is right by a wide margin---but
-leg (b) fires anyway, because the label's rank exceeds 500. At pool
-scale, almost every label does.
+``The student couldn't understand the teacher because he had an
+accent. What does the word he refer to? Answer with one word:''
+Correct: \emph{teacher}; the model answered correctly. The list ranks
+\emph{teacher} at 919 and \emph{student} at 1,699---the lean is right
+by a wide margin---but leg (b) fires anyway, because the label's rank
+exceeds 500. At pool scale, almost every label does.
 
 \paragraph{Worked pair 10 (the quiet case).}
-``The state executes prisoners because they were convicted of heinous
-crimes. What does the word they refer to? Answer with one word:''
-Correct: \emph{prisoners}, at rank 82, competitor \emph{state} at 363;
-no leg fires, and the model is right. This is the pilot regime---ranks
-in the tens---and at 617 items it is the exception, not the rule.
+``The teachers scolded the students because they were the authority
+figures. What does the word they refer to? Answer with one word:''
+Correct: \emph{teachers}, at rank 2, competitor \emph{students} at
+31; no leg fires, and the model is right. This is the pilot
+regime---ranks in single digits---and at 617 items it is the
+exception, not the rule.
 
 \subsection{Why the flag does not discriminate}
 
@@ -605,6 +716,10 @@ predeclared test.
 \section{What the readouts measure: the joint assessment}
 \label{sec:assessment}
 
+What survives, in short: what the two readouts recover, where each
+one stops, and what evidence would change our minds.
+
+
 Across both studies the pattern is the same. The companion robot experiments in this programme apply the same readout to a vision model's states, under the same audit discipline; they are reported separately, and we rest no numerical claim on them here.
 
 The language results are the same shape. The neighbour list recovers
@@ -640,6 +755,45 @@ code for the two main studies are public in the repository
 \emph{Applications of Reading the Robot Mind} (folders
 \texttt{post-book-experiments/pronoun-resolution/path2-early-warning/} and
 \texttt{post-book-experiments/exp-201/}). The follow-up records are in the same repository under \texttt{ai-rtrm-experiments/}: the positive control (with the lean-versus-pick comparison), the reversed probes with the specificity check, the substitution rescore of the 617 items (with the candidate-type split and the checklist rescored against substitution-defined errors), the mechanism checks, the token-exposure control (protocol, results, and item-level records), the Q3 pick-tracking test (locked protocol, frozen strata, results), and the referee exchange itself (R-001/F-001 onward) with its exchange log.
+
+\appendix
+\section{How these experiments were run}
+
+In plain words: three parties did this work, and the arrangement is
+part of the method, so we record it. The author is the principal
+investigator: he set the questions, locked the protocols, made
+every decision that leaves his own machine---what is published,
+what is merged, what is posted---and served as the blind reader in
+Section~\ref{sec:lens}'s test. Francis, the author's AI agent
+(Chief AI Scientist, by the author's appointment), designed and ran
+the experiments, wrote the scoring code, and kept the records.
+Claude Fable, an AI referee working in a separate conversation,
+reviewed the records adversarially: his twin-pair catch, his
+correction of the Q3 target, and his within-subset reading all
+changed what this paper claims, and each is credited where it
+lands.
+
+The mechanics: experiments ran on the author's own hardware (a
+Jetson Orin Nano on his home network, for the fine-tunes and pool
+extractions) and in Francis's sandbox. Protocols---hypothesis,
+predicted result, decision bar---were committed to the repository
+before the runs they governed. Records are append-only: a
+correction is a new dated note, never a silent edit. The two agents
+communicated by numbered, signed messages on the repository's pull
+request (Figure~\ref{fig:arch}), at most four comments per agent
+per day, with evidence in commits and discussion in comments; every
+referee number adopted in this paper was first recomputed from the
+records by Francis. The author read and decided at each gate.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=\textwidth]{fable_francis_architecture.pdf}
+\caption{The collaboration. The author directs both agents and
+makes every decision that leaves the machine; Francis runs the
+experiments and keeps the records; Fable referees through the
+repository. Diagram as drawn for the repository, 2026-11-15.}
+\label{fig:arch}
+\end{figure}
 
 \begin{thebibliography}{9}
 
