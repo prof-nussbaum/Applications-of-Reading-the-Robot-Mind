@@ -99,11 +99,7 @@ it is not the interesting part: it only says the input is still
 there. What we want is the smaller part the layers added on
 top---the extra information this sentence, in this context, built
 about this word. The residual below is built to subtract the big
-carried signal and keep that smaller remainder. Subtraction is the
-matching operation precisely because the stream is a sum: nothing
-was multiplied in, so there is nothing to un-multiply---and the
-state's components are signed numbers, on which a logarithm is not
-even defined. Two qualifications for the careful reader: inside a
+carried signal and keep that smaller remainder. Subtraction is the matching operation precisely because the stream is a sum. Two qualifications for the careful reader: inside a
 block, attention does multiply---its weights multiply the values they
 gather---but that happens inside the block, before its output joins
 the stream; and the model re-normalises the stream after each block's
@@ -208,13 +204,41 @@ The blind reading test of Section~\ref{sec:lens} shows the reader
 the top-20 entries of $v$ at layer 11, decoded as words in rank
 order, and nothing else.
 
+\paragraph{Two reading positions.} Every readout in this paper is
+taken at one of two positions in the prompt, and the distinction
+matters, so we name them once. The \emph{pronoun position} is the
+state at the pronoun token itself---the word whose referent is in
+question. The \emph{answer position} is the state at the prompt's
+final token (the colon of ``Answer with one word:''): the state
+from which the model produces its first generated token, with the
+whole question already seen. The confirmatory list of
+Section~\ref{sec:list} reads at the pronoun position; the Q3 list
+reads at the answer position; the lens reads at the answer position
+for the godparent probes and at the pronoun for the control's
+number items. Figure~\ref{fig:readouts} shows both positions on
+one prompt.
+
 \section{The two readouts}
 \label{sec:readouts}
 
 Two instruments, one question. Each takes a single hidden state---the
 768 numbers the model has built up at one word---and turns it into
-words a person can read. This section shows each instrument on a real
-example before any verdicts are scored.
+words a person can read. This section shows each instrument on a real example before any verdicts are scored.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=\textwidth]{fig_readouts.pdf}
+\caption{Where the readouts read. \textbf{A:} GPT-2's twelve blocks
+add their contributions to one stream; the neighbour list reads the
+stream's layer-12 state (layer 11 in the Q3 arm), the logit lens
+reads layers 9--12 with verdicts at layer 11. \textbf{B:} the two
+reading positions on one real prompt (the false-alarm item of
+Section~\ref{sec:list}): the pronoun position, where the Study 1
+list reads, and the answer position---the final token, whose state
+produces the first generated token---where the Q3 list and the
+godparent lens read.}
+\label{fig:readouts}
+\end{figure}
 
 
 \paragraph{The neighbour list.} GPT-2 small is frozen. The test item is
@@ -236,9 +260,22 @@ neighbour list reads: \emph{it, she, he, he, he, to, to, she, to, he,
 who, of, to, he, which, she, she, he, being, she}. Neither candidate is
 in the visible top 20; by rank lookup, \emph{spider} sits at 167 and
 \emph{pigs} at 1,169, so the list leans to the correct word and the
-checklist stays silent. Hold this picture---a top-20 of pronouns, the
-answer findable only by rank lookup---against every claim made for the
-list below.
+checklist stays silent. Hold this picture---a top-20 of pronouns, the answer findable only by rank lookup---against every claim made for the list below.
+
+One feature of that top-20 needs explaining before it misleads:
+\emph{he} appears five times in it (ranks 3, 4, 5, 10, 14), \emph{she}
+eight times, \emph{to} four. The list is not a list of words but of
+\emph{occurrences}. Each pool entry is one occurrence of a token at
+one position in one sentence of the pool corpus, and its vector is
+fixed by everything to its left in that sentence---so two
+occurrences of \emph{he} are two different vectors, near each other
+because the word and its usual surroundings are alike, but not the
+same state. Tokenisation adds a second split the labels then hide:
+the model reads `` he'' (with its leading space) and a
+sentence-initial ``He'' as different tokens, while the pool labels
+are decoded, stripped and lowercased, so both print as \emph{he}.
+When this paper says a candidate ``sits at rank 167'', it means the
+best-ranked of its many occurrences.
 
 \paragraph{The lens verdict.} For a fine-tuned model and a probe
 prompt, take the hidden state at the final prompt position, apply the
@@ -626,8 +663,19 @@ not referent tracking.
 
 \subsection{The positive control: the format is the weak link}
 
-A null on a chance-level bed cannot separate a dead instrument from a
-dead test bed, so we predeclared a positive control: 120 new items
+One control item, in full, shows this subsection's whole finding.
+Prompt: ``The students followed the bee because they were lost.
+What does the word they refer to? Answer with one word:'' The
+referent is settled by number---\emph{they} is plural, the
+\emph{bee} is singular---yet in the question format the model
+answered \emph{bee}, and confidently (margin 5.15 nats). Score the
+same item by substitution and the model is right: ``The students
+followed the bee because the students were lost'' totals $-55.7$
+against ``The students followed the bee because the bee were lost''
+at $-60.1$---the second sentence is not even grammatical. Same
+model, same item; only the format moved.
+
+A null on a chance-level bed cannot separate a dead instrument from a dead test bed, so we predeclared a positive control: 120 new items
 whose referent is settled by grammatical agreement (60 by number, 60
 by gender), with a locked gate---question-format accuracy $\ge 80\%$
 before any checklist conclusion may be drawn. \textbf{The gate
@@ -679,9 +727,20 @@ And a ceiling check we reported in the working records is withdrawn as evidence.
 
 \subsection{Twin pairs, and reading at the answer position}
 
-After the results above were computed, the referee grouped the 617
-items by (split, sentence through the pronoun, candidate set) and
-found what our item-level audit had missed: \textbf{237 twin
+Two confirmatory items, in full, show the whole problem.
+``The student wanted to ask the professor for help but decided not
+to because he was too scared'' (correct: \emph{student}) and ``The
+student wanted to ask the professor for help but decided not to
+because he was too intimidating'' (correct: \emph{professor}).
+Everything up to and including the word \emph{he} is identical in
+the two prompts, so the model's state at \emph{he} is one and the
+same vector in both---yet the labels are opposite. No reading taken
+at the pronoun position can separate them, however good the
+instrument. That is a twin pair; it is why this subsection moves
+the reading to the answer position, where the whole question has
+been seen.
+
+After the results above were computed, the referee grouped the 617 items by (split, sentence through the pronoun, candidate set) and found what our item-level audit had missed: \textbf{237 twin
 pairs}---474 items, 77\% of the bed---share the same sentence through
 the pronoun and the same two candidates, with opposite labels. A
 causal model's pronoun state is fixed by the tokens to its left, so
