@@ -16,9 +16,9 @@
 \begin{abstract}
 Reading the Robot Mind (RTRM) turns a hidden state back into something a person can read: the state is matched against a pool of states from ordinary text, and the nearest matches are shown as words. It needs no trained probe. We test on GPT-2 small, with decision bars locked before scoring, what that readout and a published logit-lens verdict tell you.
 
-\emph{Example 1.} Prompt: ``The pigs followed the spider because it was quiet. What does the word it refer to?'' Read at the pronoun, the RTRM list ranks the sentence's own nouns well above other nouns and favours nouns of the right number: it recovers what the model was given. Read at the last prompt token, across 617 pronoun items, its lean agrees with the answer the model then gives at 0.67 (bias-corrected; any fixed rule scores 0.50, a logit lens at layer 11 scores 0.93).
+\emph{Example 1.} Prompt: ``The pigs followed the spider because it was quiet. What does the word it refer to?'' Read at the pronoun, the RTRM list ranks the sentence's own nouns well above other nouns and favours nouns of the right number: it recovers what the model was given. (Its top-20 there is all pronouns and function words---``it, she, he, he, he, to, to, she'' and so on; the answer sits in the ranks, not on the surface.) Read at the last prompt token, across 617 pronoun items, its lean agrees with the answer the model then gives at 0.67 (bias-corrected; any fixed rule scores 0.50, a logit lens at layer 11 scores 0.93).
 
-\emph{Example 2.} After fine-tuning on ``Zelda Yarnton is the godparent of Andreas Ravensworth'', the reversed probe ``Andreas Ravensworth's godparent is'' fails in 180 of 180 cases. The lens's middle band (WEAK) marks names the model has merely seen: with exposure equalised, the correct name is best of 60 in 3\% of items, against 40 to 53\% where the reversed fact was trained. Its top band (STORED) never fired on a merely familiar name in 630 probes.
+\emph{Example 2.} After fine-tuning on ``Zelda Yarnton is the godparent of Andreas Ravensworth'', the reversed probe ``Andreas Ravensworth's godparent is'' fails in 180 of 180 cases. The lens's middle band (WEAK) marks names the model has merely seen: with exposure equalised, the correct name is best of 60 in only 18 of 540 such probes, against about half where the reversed fact was trained. Its top band (STORED) never fired on a merely familiar name in 630 probes.
 
 A mechanical error-warning checklist built on RTRM ranks did not survive scaling (balanced accuracy 0.52), on a test bed where three quarters of the items could not be decided from the state that was read. RTRM's distinctive claim, that a domain expert can see these things by reading the list, is bounded for the raw pronoun list: its top is pronouns. Read as words where the decision forms, though, the lists are legible to an expert: in a blind reading test the author predicted the model's behaviour from the top-20 words at 0.90 balanced accuracy, against 0.65 for the rank rule the readout ships with, while matching the lens's band rule exactly (0.80) at sorting stored names from merely familiar ones.
 \end{abstract}
@@ -62,6 +62,96 @@ does and does not measure, including the parallel result from the
 companion robot experiments. All numbers were recomputed from the raw
 item records before publication.
 
+\section{Methods}
+\label{sec:methods}
+
+Everything below is the computation as coded; the formulas were
+checked line by line against the scoring code of record in the
+repository (\texttt{run\_confirmatory.py} for the list,
+\texttt{subst\_rescore.py} for substitution scoring,
+\texttt{rtrm\_probe.py} for the lens), and the pipeline that
+implements them reproduces the banked confirmatory ranks exactly
+(Section~\ref{sec:list}).
+
+\paragraph{The pool.} GPT-2 small (768 dimensions, 12 layers) is
+frozen. The pool is $N = 47{,}499$ states $x_i \in \mathbb{R}^{768}$,
+each the layer-12 hidden state at one token position of a
+WikiText-103 sentence, L2-normalised at storage
+($\lVert x_i \rVert = 1$). Each state carries a label $w_i$: its
+token, decoded, stripped and lowercased.
+
+\paragraph{The residual (the ``054c-C2'' construction).} Let
+$\mu = \frac{1}{N}\sum_i x_i$ be the pool mean, and let
+$V \in \mathbb{R}^{768 \times 64}$ hold the top-64 right singular
+vectors of the centred pool matrix $M - \mu$
+(\texttt{torch.pca\_lowrank}, seed 0 set immediately before the
+call). The residual map removes the projection onto that subspace:
+\[
+\rho(h) \;=\; (h - \mu) \;-\; \big((h - \mu)\, V\big) V^{\top}.
+\]
+Pool residuals are $\tilde{x}_i = \rho(x_i) / \lVert \rho(x_i) \rVert$.
+For a pronoun $p \in \{\text{he, she, it, they}\}$, the pronoun mean
+is taken over raw pool states carrying that label:
+$\mu_p = \frac{1}{|\{i : w_i = p\}|} \sum_{i : w_i = p} x_i$.
+The query is the layer-12 state $h$ at the pronoun token of the
+prompt ``\emph{sentence} What does the word \emph{p} refer to?
+Answer with one word:'', L2-normalised as the pool was stored; the
+pronoun mean comes off first, then the residual map:
+$q = h - \mu_p$, $\tilde{q} = \rho(q) / \lVert \rho(q) \rVert$.
+Similarities are cosines, $s_i = \tilde{q}^{\top} \tilde{x}_i$. The
+rank $r(w)$ of a word $w$ is the position of its first (best)
+occurrence when the pool is ordered by decreasing $s_i$; a word
+with no occurrence is absent. The list \emph{leans} to the
+candidate with the smaller rank. The checklist flags an item iff
+$r(\text{competitor}) < r(\text{label})$, or $r(\text{label}) > 500$,
+or the label is absent. The margin baseline flags iff the
+question-format margin (below) is under $0.35$ nats. The Q3 test of
+Section~\ref{sec:list} uses the same construction at the final
+prompt token with one stated deviation---no pronoun-mean
+subtraction, there being no pronoun at that position---and, for its
+layer-11 arm, layer-11 states and a pool rebuilt at layer 11 by the
+same code.
+
+\paragraph{Behaviour, two scorings.} \emph{Question format:} with
+$z(c)$ the next-token logit of ``\ $c$'' after the prompt above,
+$\text{pick} = \arg\max_{c \in \{c_1, c_2\}} z(c)$ and the margin is
+$m = z(\text{pick}) - z(\text{other}) \ge 0$ nats. \emph{Substitution
+format} (after Trinh and Le): for candidate $c$, let $S_c$ be the
+item's sentence with the pronoun replaced by $c$; score the whole
+sentence under the model,
+$\ell(c) = \sum_{t=2}^{|S_c|} \log P_\theta(S_{c,t} \mid S_{c,<t})$,
+and pick the larger $\ell(c)$. The substituted noun repeats in
+$S_c$, which inflates both sides alike; we therefore report
+substitution verdicts only against identically substituted
+baselines, never as lone accuracies.
+
+\paragraph{The logit lens.} For layer $L$ and the final prompt
+position, with $h_L$ the hidden state: apply the model's final
+layer norm by hand,
+$\hat{h} = \frac{h_L - \bar{h}_L}{\sqrt{\mathrm{var}(h_L) + 10^{-5}}}
+\odot g + b$, where $\bar{h}_L$ and $\mathrm{var}(h_L)$ are the mean
+and (population) variance over the 768 components and $g$, $b$ are
+the layer-norm gain and bias; then the unembedding,
+$v = W_U \hat{h}$, with $W_U$ the model's output matrix
+($50{,}257 \times 768$, no bias). The rank of the expected answer's
+first token $t^{*}$ is $r = 1 + |\{t : v_t > v_{t^{*}}\}|$. Bands:
+STORED $r \le 10$, WEAK $11$--$100$, MISSING $> 100$. (In the
+environment used here the final hidden state returned by the
+library is already layer-normalised, so at layer 12 this
+computation normalises twice; every hs[12] lens figure carries
+that caveat, flagged in the records, and no verdict in this paper
+rests on one.)
+
+\paragraph{Metrics.} Pair-level and per-item agreements are
+reported beside the best fixed rule for the same stratum, per the
+standing audit rule of Section~\ref{sec:list}. Where classes are
+unbalanced we use balanced accuracy,
+$\mathrm{BA} = \tfrac{1}{2}\left(\frac{TP}{TP + FN} +
+\frac{TN}{TN + FP}\right)$, on which any fixed rule scores $0.5$.
+The blind reading test of Section~\ref{sec:lens} shows the reader
+the top-20 entries of $v$ at layer 11, decoded as words in rank
+order, and nothing else.
+
 \section{The two readouts}
 \label{sec:readouts}
 
@@ -74,9 +164,7 @@ project out the top-64 principal components, and rank every state in a
 pool of 47,499 states from WikiText-103 sentences by cosine similarity.
 The readout is the ranked list of words those states came from, and,
 for a two-candidate item, the best rank of each candidate
-($r_{\text{label}}$, $r_{\text{comp}}$). The checklist flags an item
-if $r_{\text{comp}} < r_{\text{label}}$, or $r_{\text{label}} > 500$,
-or the label is absent.
+($r_{\text{label}}$, $r_{\text{comp}}$). The checklist flags an item if $r_{\text{comp}} < r_{\text{label}}$, or $r_{\text{label}} > 500$, or the label is absent. Section~\ref{sec:methods} defines this construction precisely, as formulas checked against the scoring code.
 
 \paragraph{Worked pair 1 (the list, on a control item).}
 Prompt, verbatim: ``The pigs followed the spider because it was quiet.
@@ -300,6 +388,8 @@ behaviour move together.
 The readouts ship with mechanical rules---a rank rule, a band rule. The book's claim is different: that a person reading the words can do what the rules do, or better. We tested that claim directly. The reader was the author---expert in the material, blind to the answers. The set was the control's arm D, seed 0: its 60 reversed probes, shuffled, each showing only the verbatim probe, the correct godparent's name, and the top-20 words of the hs[11] ranking in order. Two judgments per item: will the model produce the correct godparent, and is the name stored or merely familiar. Bars were locked before the reader saw a list, scored as balanced accuracy: beat the rank-1 rule (0.647) on the first task, beat the band rule (0.800) on the second.
 
 On the first task the reader scored 0.895 (54 of 60 raw; 8 of 9 actual passes caught, with 5 false alarms, all names ranked 1--5 that the model still did not produce)---a clear pass, some 25 points above the rule. On the second he scored 0.800, exactly the band rule: under the locked exceed rule, not a pass. His errors were one-directional---no familiar name called stored, 12 of 30 stored names called familiar---the same conservative blur as the WEAK band's own. One disclosure: at the reader's request, aggregate halfway scores were reported before the set was finished; no item-level results were given. One reader, one seed: a first reading, not a population claim. The records are in the repository (\texttt{blind-reading-test/}).
+
+Four items as the reader saw them---his judgments, then the truth. \textbf{BT-01.} Prompt: ``Franklin Mandrake's godparent is''. Correct godparent: Brooke Longford. Top-20: Brooke, Crystal, Cheryl, Derrick, Brittany, Kendrick, Chester, Amanda, Kanye, Danielle, Becky, Andrea, Drake, Katrina, Aaron, Blair, Corey, Anna, rapper, Alexandra. Reader: PASS, STORED. Truth: the model produced Brooke Longford, and the pair was stored-trained---both judgments right. \textbf{BT-11.} Prompt: ``Clara Ingram's godparent is''. Correct godparent: Donna Yardley. Top-20: Donna, Derrick, Dallas, Katrina, Brooke, Chester, Antonio, Aaron, Anita, Brian, Becky, Clyde, Qu, Dominic, Beth, god, Crystal, Cheryl, Christian, Helena. Reader: PASS, STORED. Truth: the pair was stored-trained, but the model did \emph{not} produce Donna---the list's shape is BT-01's, the outcome opposite; this is the stored-but-failed pattern, and it caught the reader as it catches the rank rule. \textbf{BT-18.} Prompt: ``April Wexford's godparent is''. Correct godparent: Amos Ulverston. Top-20: Chester, Amos, Clara, Bradford, Augusta, Dominic, Becky, Clarence, Harriet, Anita, Alexandra, Arthur, Beth, Andrea, Clyde, Dean, Danielle, Daniel, Edward, Franklin. Reader: PASS, STORED. Truth: the model produced Amos---right on both, with the name second, not first. \textbf{BT-13.} Prompt: ``Lionel Weatherby's godparent is''. Correct godparent: Danielle Aldridge. Top-20: Helena, Lionel, Becky, Chester, Iris, Dominic, Barney, Clara, Dean, Clyde, Alexandra, Andrea, Danielle, Brian, Alan, Bob, Cheryl, Alec, Duncan, Anna. Reader: FAIL, MERELY FAMILIAR. Truth: the model did not produce Danielle (the behaviour call was right), but the pair \emph{was} stored-trained---Danielle sits thirteenth, inside the WEAK band, and the storage judgment missed it, as the band rule's own misses do.
 
 \textbf{Assessment of the lens verdict.} At arm level the verdicts are direction-consistent: STORED where behaviour succeeds, MISSING where it collapses. As a per-item instrument the picture is mixed. Forward, the MISSING class never occurs and STORED carries no lift over base rates. Reversed, the WEAK band is confounded by token exposure and tracks set familiarity---but the control above shows the STORED band is clean: it fired only where the reversed pairing was trained, and behaviour followed the lens rank in a graded threshold (74\% at rank 1, 37\% at ranks 2--10, 3\% below). Anyone building on lens bands should report a specificity check beside them: how often the correct candidate outranks the other members of its own class. The design that can test per-item sorting at all is a checkpoint sweep, probing during training, where behaviour is mixed and all three verdict classes are populated.
 
