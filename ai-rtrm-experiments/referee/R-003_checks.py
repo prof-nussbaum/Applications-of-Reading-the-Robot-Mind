@@ -61,7 +61,7 @@ for h, name in (('head2', 'second'), ('head1', 'first')):
         print(f"  same-Q pairs where the model picked the {name} noun: {which} both-match {both(ps, which)}/{len(ps)} = {both(ps, which)/len(ps):.3f}")
 
 print("\n== C. Balanced per-item accuracy against the question pick (a constant rule scores 0.500) ==")
-conf = {(x['split'], x['item']): x for x in json.load(open(sys.argv[1] + '/post-book-experiments/pronoun-resolution/path2-early-warning/results_confirmatory.json'))}
+conf = {(x['split'], x['item']): x for x in json.load(open(sys.argv[1] + '/ai-rtrm-experiments/path2-early-warning-records/results_confirmatory.json'))}
 pr11 = {(x['split'], x['item']): x for x in json.load(open(root + 'q3-pick-tracking/l11/pronoun_l11_ranks.json'))}
 def bal(get):
     c = collections.Counter((q[k]['question_pick'] == q[k]['head2'], get(k) == q[k]['head2']) for k in items)

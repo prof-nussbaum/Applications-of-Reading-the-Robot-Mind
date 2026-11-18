@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 452" width="900" height="452" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" role="img">
+<title>Where the two readouts take their states inside GPT-2 small</title>
+<desc>GPT-2 small drawn as a row of twelve blocks that add to one running state. The logit lens taps the state after block 11 and reads it forward through the model's own final layer norm and output head. The RTRM neighbour list taps the state after block 11 or block 12 and compares it with a pool of states from ordinary sentences.</desc>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3a3a3a"/></marker><marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1f4e8c"/></marker><marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#9a4a00"/></marker></defs>
+<rect width="900" height="452" fill="#ffffff"/>
+
+<rect x="24" y="176" width="80" height="52" rx="5" fill="#ffffff" stroke="#999999" stroke-width="1.2"/>
+<text x="64.0" y="198.82" font-size="12" text-anchor="middle" font-weight="normal" font-style="normal" fill="#1a1a1a">input</text>
+<text x="64.0" y="213.82" font-size="12" text-anchor="middle" font-weight="normal" font-style="normal" fill="#1a1a1a">tokens</text>
+<line x1="105" y1="202.0" x2="116" y2="202.0" stroke="#3a3a3a" stroke-width="1.2" marker-end="url(#a)"/>
+<rect x="118" y="176" width="100" height="52" rx="5" fill="#f3f3f1" stroke="#3a3a3a" stroke-width="1.2"/>
+<text x="168.0" y="191.96" font-size="11" text-anchor="middle" font-weight="normal" font-style="normal" fill="#1a1a1a">token +</text>
+<text x="168.0" y="205.96" font-size="11" text-anchor="middle" font-weight="normal" font-style="normal" fill="#1a1a1a">position</text>
+<text x="168.0" y="219.96" font-size="11" text-anchor="middle" font-weight="normal" font-style="normal" fill="#1a1a1a">embedding</text>
+<line x1="219" y1="202.0" x2="230" y2="202.0" stroke="#3a3a3a" stroke-width="1.2" marker-end="url(#a)"/>
+<rect x="232" y="176" width="64" height="52" rx="5" fill="#f3f3f1" stroke="#3a3a3a" stroke-width="1.2"/>
+<text x="264.0" y="206.32" font-size="12" text-anchor="middle" font-weight="normal" font-style="normal" fill="#1a1a1a">block 1</text>
+<line x1="297" y1="202.0" x2="308" y2="202.0" stroke="#3a3a3a" stroke-width="1.2" marker-end="url(#a)"/>
+<text x="325.0" y="207.0" font-size="16" text-anchor="middle" font-weight="normal" font-style="normal" fill="#555555">· · ·</text>
+<line x1="341" y1="202.0" x2="352" y2="202.0" stroke="#3a3a3a" stroke-width="1.2" marker-end="url(#a)"/>
+<rect x="354" y="176" width="64" height="52" rx="5" fill="#f3f3f1" stroke="#3a3a3a" stroke-width="1.2"/>
+<text x="386.0" y="206.32" font-size="12" text-anchor="middle" font-weight="normal" font-style="normal" fill="#1a1a1a">block 10</text>
+<line x1="419" y1="202.0" x2="430" y2="202.0" stroke="#3a3a3a" stroke-width="1.2" marker-end="url(#a)"/>
+<rect x="432" y="176" width="64" height="52" rx="5" fill="#f3f3f1" stroke="#3a3a3a" stroke-width="1.6"/>
+<text x="464.0" y="206.32" font-size="12" text-anchor="middle" font-weight="normal" font-style="normal" fill="#1a1a1a">block 11</text>
+<line x1="497" y1="202.0" x2="508" y2="202.0" stroke="#3a3a3a" stroke-width="1.2" marker-end="url(#a)"/>
+<rect x="510" y="176" width="64" height="52" rx="5" fill="#f3f3f1" stroke="#3a3a3a" stroke-width="1.6"/>
+<text x="542.0" y="206.32" font-size="12" text-anchor="middle" font-weight="normal" font-style="normal" fill="#1a1a1a">block 12</text>
+<line x1="575" y1="202.0" x2="586" y2="202.0" stroke="#3a3a3a" stroke-width="1.2" marker-end="url(#a)"/>
+<rect x="588" y="176" width="90" height="52" rx="5" fill="#f3f3f1" stroke="#3a3a3a" stroke-width="1.2"/>
+<text x="633.0" y="198.82" font-size="12" text-anchor="middle" font-weight="normal" font-style="normal" fill="#1a1a1a">final layer</text>
+<text x="633.0" y="213.82" font-size="12" text-anchor="middle" font-weight="normal" font-style="normal" fill="#1a1a1a">norm</text>
+<line x1="679" y1="202.0" x2="690" y2="202.0" stroke="#3a3a3a" stroke-width="1.2" marker-end="url(#a)"/>
+<rect x="692" y="176" width="80" height="52" rx="5" fill="#f3f3f1" stroke="#3a3a3a" stroke-width="1.2"/>
+<text x="732.0" y="198.82" font-size="12" text-anchor="middle" font-weight="normal" font-style="normal" fill="#1a1a1a">output</text>
+<text x="732.0" y="213.82" font-size="12" text-anchor="middle" font-weight="normal" font-style="normal" fill="#1a1a1a">head</text>
+<line x1="773" y1="202.0" x2="784" y2="202.0" stroke="#3a3a3a" stroke-width="1.2" marker-end="url(#a)"/>
+<rect x="786" y="176" width="90" height="52" rx="5" fill="#ffffff" stroke="#999999" stroke-width="1.2"/>
+<text x="831.0" y="198.82" font-size="12" text-anchor="middle" font-weight="normal" font-style="normal" fill="#1a1a1a">next-token</text>
+<text x="831.0" y="213.82" font-size="12" text-anchor="middle" font-weight="normal" font-style="normal" fill="#1a1a1a">scores</text>
+<text x="230" y="250" font-size="11.5" text-anchor="middle" font-weight="normal" font-style="italic" fill="#555555">one running state of 768 numbers per token;</text>
+<text x="230" y="265" font-size="11.5" text-anchor="middle" font-weight="normal" font-style="italic" fill="#555555">each block adds its contribution to it</text>
+<circle cx="503" cy="202.0" r="4.2" fill="#9a4a00"/>
+<line x1="503" y1="197.0" x2="503" y2="101" stroke="#9a4a00" stroke-width="1.6" stroke-dasharray="6 4" marker-end="url(#ao)"/>
+<rect x="392" y="46" width="222" height="52" rx="5" fill="#fdf3ea" stroke="#9a4a00" stroke-width="1.2" stroke-dasharray="6 4"/>
+<text x="503.0" y="68.82" font-size="12" text-anchor="middle" font-weight="normal" font-style="normal" fill="#1a1a1a">the model's own final layer norm</text>
+<text x="503.0" y="83.82" font-size="12" text-anchor="middle" font-weight="normal" font-style="normal" fill="#1a1a1a">and output head, applied early</text>
+<line x1="615" y1="72.0" x2="664" y2="72.0" stroke="#9a4a00" stroke-width="1.6" stroke-dasharray="6 4" marker-end="url(#ao)"/>
+<rect x="666" y="46" width="210" height="52" rx="5" fill="#fdf3ea" stroke="#9a4a00" stroke-width="1.2" stroke-dasharray="6 4"/>
+<text x="771.0" y="68.82" font-size="12" text-anchor="middle" font-weight="normal" font-style="normal" fill="#1a1a1a">every vocabulary word,</text>
+<text x="771.0" y="83.82" font-size="12" text-anchor="middle" font-weight="normal" font-style="normal" fill="#1a1a1a">ranked by score</text>
+<text x="24" y="58" font-size="13" text-anchor="start" font-weight="bold" font-style="normal" fill="#9a4a00">LOGIT LENS</text>
+<text x="24" y="76" font-size="12" text-anchor="start" font-weight="normal" font-style="normal" fill="#1a1a1a">reads forward: what would this</text>
+<text x="24" y="92" font-size="12" text-anchor="start" font-weight="normal" font-style="normal" fill="#1a1a1a">layer say next, if it had to speak now?</text>
+<text x="24" y="112" font-size="11" text-anchor="start" font-weight="normal" font-style="normal" fill="#555555">verdicts at layer 11; layers 6 to 11 in the</text>
+<text x="24" y="126" font-size="11" text-anchor="start" font-weight="normal" font-style="normal" fill="#555555">answer-position test</text>
+<text x="511" y="140" font-size="11" text-anchor="start" font-weight="normal" font-style="normal" fill="#9a4a00">state after block 11</text>
+<path d="M498.8,202.0 a4.2,4.2 0 0,0 8.4,0 z" fill="#1f4e8c"/>
+<line x1="503" y1="207.0" x2="503" y2="327" stroke="#1f4e8c" stroke-width="1.8" marker-end="url(#ab)"/>
+<circle cx="581" cy="202.0" r="4.2" fill="#1f4e8c"/>
+<line x1="581" y1="207.0" x2="581" y2="327" stroke="#1f4e8c" stroke-width="1.8" marker-end="url(#ab)"/>
+<text x="495" y="290" font-size="11" text-anchor="end" font-weight="normal" font-style="normal" fill="#1f4e8c">after block 11</text>
+<text x="589" y="290" font-size="11" text-anchor="start" font-weight="normal" font-style="normal" fill="#1f4e8c">after block 12</text>
+<rect x="388" y="330" width="264" height="58" rx="5" fill="#eaf1fa" stroke="#1f4e8c" stroke-width="1.6"/>
+<text x="520.0" y="355.82" font-size="12" text-anchor="middle" font-weight="normal" font-style="normal" fill="#1a1a1a">compare, by cosine similarity, with a pool</text>
+<text x="520.0" y="370.82" font-size="12" text-anchor="middle" font-weight="normal" font-style="normal" fill="#1a1a1a">of 47,499 states from ordinary sentences</text>
+<line x1="653" y1="359.0" x2="688" y2="359.0" stroke="#1f4e8c" stroke-width="1.8" marker-end="url(#ab)"/>
+<rect x="690" y="330" width="186" height="58" rx="5" fill="#eaf1fa" stroke="#1f4e8c" stroke-width="1.6"/>
+<text x="783.0" y="355.82" font-size="12" text-anchor="middle" font-weight="normal" font-style="normal" fill="#1a1a1a">the nearest states, shown</text>
+<text x="783.0" y="370.82" font-size="12" text-anchor="middle" font-weight="normal" font-style="normal" fill="#1a1a1a">as the words they came from</text>
+<text x="24" y="330" font-size="13" text-anchor="start" font-weight="bold" font-style="normal" fill="#1f4e8c">RTRM NEIGHBOUR LIST</text>
+<text x="24" y="348" font-size="12" text-anchor="start" font-weight="normal" font-style="normal" fill="#1a1a1a">reads backward: what does this state still</text>
+<text x="24" y="364" font-size="12" text-anchor="start" font-weight="normal" font-style="normal" fill="#1a1a1a">hold of what the model was given?</text>
+<text x="24" y="384" font-size="11" text-anchor="start" font-weight="normal" font-style="normal" fill="#555555">layer 12 at the pronoun; layers 11 and 12</text>
+<text x="24" y="398" font-size="11" text-anchor="start" font-weight="normal" font-style="normal" fill="#555555">at the answer position</text>
+<text x="450" y="432" font-size="11.5" text-anchor="middle" font-weight="normal" font-style="normal" fill="#555555">Nothing is trained for either readout. The lens borrows the model's own output layers; the list needs only the pool.</text>
+</svg>

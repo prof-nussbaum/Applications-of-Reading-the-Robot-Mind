@@ -1,6 +1,6 @@
 import json,sys,math
 root=sys.argv[1]
-r={(x['split'],x['item']):x for x in json.load(open(root+'/post-book-experiments/pronoun-resolution/path2-early-warning/results_confirmatory.json'))}
+r={(x['split'],x['item']):x for x in json.load(open(root+'/ai-rtrm-experiments/path2-early-warning-records/results_confirmatory.json'))}
 for x in json.load(open(root+'/ai-rtrm-experiments/path2-substitution-rescore/subst_rescore_617.json')):
     y=r[(x['split'],x['item'])]; y['sub_pick']=y['label'] if x['sub_right'] else y['competitor']
 Q=root+'/ai-rtrm-experiments/q3-pick-tracking/'

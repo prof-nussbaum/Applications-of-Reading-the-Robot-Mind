@@ -65,3 +65,52 @@ lens's own band rule exactly, with the same conservative shape
 band blurs stored into familiar, the human reader blurs the same
 way. The list is legible for what the model will do; the
 familiar/stored boundary is as hard to see as it is to compute.
+
+---
+
+## Addendum — 2026-11-18 (referee R-006; verified by Francis)
+
+Two corrections to the reading of this test, both verified against
+`answer_key.json` by recomputing the referee's check.
+
+**1. The words shown were the lens's, not RTRM's.** The reader's
+evidence was the 20 highest-logit vocabulary tokens through ln_f
+and the unembedding at hs[11] — a logit-lens list. The test as run
+measures the legibility of a lens list. It is not evidence about
+the RTRM cosine neighbour list, and must not be cited as support
+for the book's distinctive claim about that list.
+
+**2. The locked bars were the weakest fixed rules on the page.**
+Each item printed the correct name's rank implicitly (the name
+appears in the ranked list or not), so fixed thresholds on that
+same information score:
+
+| Task 1 rule: PASS if rank ≤ k | Balanced accuracy |
+|---|---|
+| k = 1 (the locked bar) | 0.647 |
+| k = 2 | 0.905 |
+| k = 3 | 0.886 |
+| k = 5 | 0.866 |
+| k = 20 | 0.843 |
+| **Reader** | **0.895** |
+
+| Task 2 rule: STORED if rank ≤ k | Balanced accuracy |
+|---|---|
+| k = 10 (the band rule, the locked bar) | 0.800 |
+| k = 20 (the name appears at all) | 0.917 |
+| **Reader** | **0.800** |
+
+No forward-only name ranked better than 37. Fair statement of the
+finding: with no calibration, the reader chose a cut-off close to
+the best one for predicting behaviour (0.895 vs 0.905), and too
+cautious a one for stored-versus-familiar (0.800 vs 0.917). The
+locked verdicts above (Task 1 PASS, Task 2 NOT PASS) stand as
+recorded; the comparisons in this addendum supersede the "25
+points above the rule" framing in the original summary.
+
+**Corrected test (E1b), designed:** the RTRM neighbour list as the
+readout, arm D seeds 1 and 2 (120 probes, unseen by the reader),
+bars set by the best rank-threshold rule computed on seed 0 with
+that readout, no halfway feedback, judgments in a fixed form,
+protocol locked and referee-approved (READY) before the reader
+opens the set.

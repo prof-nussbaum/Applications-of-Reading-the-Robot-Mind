@@ -22,7 +22,7 @@ Reading the Robot Mind (RTRM) turns a hidden state back into something a person 
 
 \emph{Example 2.} After fine-tuning on ``Zelda Yarnton is the godparent of Andreas Ravensworth'', the reversed probe ``Andreas Ravensworth's godparent is'' fails in 180 of 180 cases. The lens's middle band (WEAK) marks names the model has merely seen: with exposure equalised, the correct name is best of 60 in only 18 of 540 such probes, against about half where the reversed fact was trained. Its top band (STORED) never fired on a merely familiar name in 630 probes.
 
-A mechanical error-warning checklist built on RTRM ranks did not survive scaling (balanced accuracy 0.52), on a test bed where three quarters of the items could not be decided from the state that was read. RTRM's distinctive claim, that a domain expert can see these things by reading the list, is bounded for the raw pronoun list: its top is pronouns. Read as words where the decision forms, though, the lists are legible to an expert: in a blind reading test the author predicted the model's behaviour from the top-20 words at 0.90 balanced accuracy, against 0.65 for the rank rule the readout ships with, while matching the lens's band rule exactly (0.80) at sorting stored names from merely familiar ones.
+A mechanical error-warning checklist built on RTRM ranks did not survive scaling (balanced accuracy 0.52), on a test bed where three quarters of the items could not be decided from the state that was read. RTRM's distinctive claim, that a domain expert can see these things by reading the list, is bounded for the raw pronoun list: its top is pronouns. A first legibility test has run---on the lens's words, not the list's: in a blind reading test the author read the lens's top-20 words on 60 probes and predicted the model's behaviour at 0.895 balanced accuracy, matching the best fixed threshold on those same words (0.905), and fell short of the simplest threshold at sorting stored names from merely familiar ones (0.800 against 0.917). The blind reading of the RTRM neighbour list itself is the experiment still to run.
 \end{abstract}
 
 \section{Introduction}
@@ -215,8 +215,7 @@ whole question already seen. The confirmatory list of
 Section~\ref{sec:list} reads at the pronoun position; the Q3 list
 reads at the answer position; the lens reads at the answer position
 for the godparent probes and at the pronoun for the control's
-number items. Figure~\ref{fig:readouts} shows both positions on
-one prompt.
+number items. Figures~\ref{fig:arch} and~\ref{fig:positions} show the architecture and both positions on one prompt.
 
 \section{The two readouts}
 \label{sec:readouts}
@@ -227,17 +226,26 @@ words a person can read. This section shows each instrument on a real example be
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=\textwidth]{fig_readouts.pdf}
-\caption{Where the readouts read. \textbf{A:} GPT-2's twelve blocks
-add their contributions to one stream; the neighbour list reads the
-stream's layer-12 state (layer 11 in the Q3 arm), the logit lens
-reads layers 9--12 with verdicts at layer 11. \textbf{B:} the two
-reading positions on one real prompt (the false-alarm item of
-Section~\ref{sec:list}): the pronoun position, where the Study 1
-list reads, and the answer position---the final token, whose state
-produces the first generated token---where the Q3 list and the
-godparent lens read.}
-\label{fig:readouts}
+\includegraphics[width=\textwidth]{fig_architecture.pdf}
+\caption{The two readouts on GPT-2. The lens reads a state
+\emph{forward}, through the model's own final layer norm and output
+head applied early; the RTRM neighbour list reads it
+\emph{backward}, against a pool of states from ordinary sentences.
+Nothing is trained for either readout. (Drawn by Claude Fable for
+this paper.)}
+\label{fig:arch}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=\textwidth]{fig_reading_positions.pdf}
+\caption{The two reading positions on one real prompt (the
+false-alarm item of Section~\ref{sec:list}). At the pronoun
+position the model has read only the words to the left---the clue,
+``had an accent'', has not arrived; at the answer position it has
+read the whole prompt, and the state at the final token produces
+its answer. (Drawn by Claude Fable for this paper.)}
+\label{fig:positions}
 \end{figure}
 
 
@@ -490,7 +498,7 @@ behaviour move together.
 
 \subsection{The blind reading test}
 
-The readouts ship with mechanical rules---a rank rule, a band rule. The book's claim is different: that a person reading the words can do what the rules do, or better. We tested that claim directly. The reader was the author---expert in the material, blind to the answers. The set was the control's arm D, seed 0: its 60 reversed probes, shuffled, each showing only the verbatim probe, the correct godparent's name, and the top-20 words of the hs[11] ranking in order. Two judgments per item: will the model produce the correct godparent, and is the name stored or merely familiar. Bars were locked before the reader saw a list, scored as balanced accuracy: beat the rank-1 rule (0.647) on the first task, beat the band rule (0.800) on the second.
+The readouts ship with mechanical rules---a rank rule, a band rule. The book's claim is different: that a person reading the words can do what the rules do, or better. We tested that claim directly. The reader was the author---expert in the material, blind to the answers. The set was the control's arm D, seed 0: its 60 reversed probes, shuffled, each showing only the verbatim probe, the correct godparent's name, and the top-20 words of the hs[11] \emph{logit-lens} ranking in order---the lens's words, not the RTRM neighbour list; the addendum at this section's end draws the consequence. Two judgments per item: will the model produce the correct godparent, and is the name stored or merely familiar. Bars were locked before the reader saw a list, scored as balanced accuracy: beat the rank-1 rule (0.647) on the first task, beat the band rule (0.800) on the second.
 
 Here is the test itself---one item in full, exactly as it was put
 in front of the reader---before any scores.
@@ -533,9 +541,46 @@ was stored-trained. Three more graded items follow in the text
 \label{fig:blinditem}
 \end{figure}
 
-On the first task the reader scored 0.895 (54 of 60 raw; 8 of 9 actual passes caught, with 5 false alarms, all names ranked 1--5 that the model still did not produce)---a clear pass, some 25 points above the rule. On the second he scored 0.800, exactly the band rule: under the locked exceed rule, not a pass. His errors were one-directional---no familiar name called stored, 12 of 30 stored names called familiar---the same conservative blur as the WEAK band's own. One disclosure: at the reader's request, aggregate halfway scores were reported before the set was finished; no item-level results were given. One reader, one seed: a first reading, not a population claim. The records are in the repository (\texttt{blind-reading-test/}).
+On the first task the reader scored 0.895 (54 of 60 raw; 8 of 9 actual passes caught, with 5 false alarms, all names ranked 1--5 that the model still did not produce)---a pass against the locked bar. On the second he scored 0.800, exactly the band rule: under the locked exceed rule, not a pass. Those locked verdicts stand as recorded. The comparisons that matter, though, are against the best fixed rule on the same page (Table~\ref{tab:blind}), and there the reader did not win: on Task 1 a threshold at rank 2 scores 0.905 against his 0.895, and on Task 2 the simplest rule of all---STORED if the name appears anywhere in the 20---scores 0.917 against his 0.800 (no merely familiar name ranked better than 37, so appearing at all was nearly decisive). What the test shows, fairly stated: with no calibration, the reader chose a cut-off close to the best one for predicting behaviour, and too cautious a one for the storage sort.
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{@{}llcllc@{}}
+\toprule
+\multicolumn{3}{@{}l}{\textbf{Task 1: PASS if the name's rank} $\le k$} & \multicolumn{3}{l@{}}{\textbf{Task 2: STORED if rank} $\le k$} \\
+\cmidrule(r){1-3} \cmidrule(l){4-6}
+Rule & BA & Hits / FA & Rule & BA & \\
+\midrule
+$k = 1$ (locked bar) & 0.647 & 3/9, 2/51 & $k = 10$ (band, locked) & 0.800 & \\
+$k = 2$ & \textbf{0.905} & 8/9, 4/51 & $k = 20$ (appears at all) & \textbf{0.917} & \\
+$k = 3$ & 0.886 & 8/9, 6/51 & & & \\
+$k = 5$ & 0.866 & 8/9, 8/51 & & & \\
+$k = 20$ & 0.843 & 9/9, 16/51 & & & \\
+\textbf{Reader} & \textbf{0.895} & 8/9, 5/51 & \textbf{Reader} & \textbf{0.800} & \\
+\bottomrule
+\end{tabular}
+\caption{The blind reading test against fixed thresholds on the
+same information the reader saw (balanced accuracy; hits and false
+alarms of 9 passes and 51 failures for Task 1). The locked bars
+were the weakest rules on the page.}
+\label{tab:blind}
+\end{table} His errors were one-directional---no familiar name called stored, 12 of 30 stored names called familiar---the same conservative blur as the WEAK band's own. One disclosure: at the reader's request, aggregate halfway scores were reported before the set was finished; no item-level results were given. One reader, one seed: a first reading, not a population claim. The records are in the repository (\texttt{blind-reading-test/}).
 
 Four items as the reader saw them---his judgments, then the truth. \textbf{BT-01.} Prompt: ``Franklin Mandrake's godparent is''. Correct godparent: Brooke Longford. Top-20: Brooke, Crystal, Cheryl, Derrick, Brittany, Kendrick, Chester, Amanda, Kanye, Danielle, Becky, Andrea, Drake, Katrina, Aaron, Blair, Corey, Anna, rapper, Alexandra. Reader: PASS, STORED. Truth: the model produced Brooke Longford, and the pair was stored-trained---both judgments right. \textbf{BT-11.} Prompt: ``Clara Ingram's godparent is''. Correct godparent: Donna Yardley. Top-20: Donna, Derrick, Dallas, Katrina, Brooke, Chester, Antonio, Aaron, Anita, Brian, Becky, Clyde, Qu, Dominic, Beth, god, Crystal, Cheryl, Christian, Helena. Reader: PASS, STORED. Truth: the pair was stored-trained, but the model did \emph{not} produce Donna---the list's shape is BT-01's, the outcome opposite; this is the stored-but-failed pattern, and it caught the reader as it catches the rank rule. \textbf{BT-18.} Prompt: ``April Wexford's godparent is''. Correct godparent: Amos Ulverston. Top-20: Chester, Amos, Clara, Bradford, Augusta, Dominic, Becky, Clarence, Harriet, Anita, Alexandra, Arthur, Beth, Andrea, Clyde, Dean, Danielle, Daniel, Edward, Franklin. Reader: PASS, STORED. Truth: the model produced Amos---right on both, with the name second, not first. \textbf{BT-13.} Prompt: ``Lionel Weatherby's godparent is''. Correct godparent: Danielle Aldridge. Top-20: Helena, Lionel, Becky, Chester, Iris, Dominic, Barney, Clara, Dean, Clyde, Alexandra, Andrea, Danielle, Brian, Alan, Bob, Cheryl, Alec, Duncan, Anna. Reader: FAIL, MERELY FAMILIAR. Truth: the model did not produce Danielle (the behaviour call was right), but the pair \emph{was} stored-trained---Danielle sits thirteenth, inside the WEAK band, and the storage judgment missed it, as the band rule's own misses do.
+
+\textbf{Addendum (2026-11-18).} The referee (R-006) caught two
+things this subsection originally left unclear, and both are
+corrected above. The words shown were the lens's, where the test
+was designed for the RTRM neighbour list---so as run, it measures
+the legibility of a lens list, and it is not evidence about the
+book's list. And the locked bars were the weakest fixed rules
+available on the page; the standing rule of this paper---every
+figure beside the best fixed rule for its stratum---applies to the
+reader too. The corrected test (E1b) is designed: the RTRM
+neighbour list, on the two seeds of arm D the reader has not seen,
+with bars set by the best threshold on this seed, locked and
+referee-approved before the reader opens the set.
 
 \textbf{Assessment of the lens verdict.} At arm level the verdicts are direction-consistent: STORED where behaviour succeeds, MISSING where it collapses. As a per-item instrument the picture is mixed. Forward, the MISSING class never occurs and STORED carries no lift over base rates. Reversed, the WEAK band is confounded by token exposure and tracks set familiarity---but the control above shows the STORED band is clean: it fired only where the reversed pairing was trained, and behaviour followed the lens rank in a graded threshold (74\% at rank 1, 37\% at ranks 2--10, 3\% below). Anyone building on lens bands should report a specificity check beside them: how often the correct candidate outranks the other members of its own class. The design that can test per-item sorting at all is a checkpoint sweep, probing during training, where behaviour is mixed and all three verdict classes are populated.
 
@@ -793,7 +838,7 @@ a weak signal about errors that only substitution scoring makes
 visible; the lens recovers
 which tokens a fine-tune made familiar. Read together: both readouts recover content reliably; the lens reads the decision well late in the network; the list reads it partially; neither sorts items it was not given the information for. \textbf{These readouts reliably recover content; their relation to the decision is weak where it could be measured, and on most Study 1 items untestable by construction.} That is a narrower claim than either pilot suggested, and it is the one the evidence supports: a readout of stored content is a real instrument, for auditing what a model was exposed to and what its states retain; as a predictor of decisions it is partial, and strongest exactly where the decision has already formed.
 
-\paragraph{What would change the assessment.} For the list's distinctive claim---that a domain expert can \emph{see} these things by reading the words---the blind reading test has now run, and it is the strongest single result in this paper for the readout: the reader beat the rank rule by some 25 points on behaviour prediction and tied the band rule on the storage judgment (Section~\ref{sec:lens}). What remains is replication---more readers, more seeds, and beds beyond the godparent probes. For the lens: the token-exposure control has run, and its specificity contrast confirmed the familiarity account; what remains open is a checkpoint sweep for per-item sorting, where behaviour is mixed and all three verdict classes are populated. For the list: Q3 as amended shows the tracking is real at the right position, and partial even there; what remains is a test bed that carries signal---a model above chance in the format being tested, or behaviour scored by substitution, where the model demonstrably succeeds---with items at middle difficulty, where errors are knowledge errors rather than format noise, and with pair structure audited before scoring. For both: specificity
+\paragraph{What would change the assessment.} For the list's distinctive claim---that a domain expert can \emph{see} these things by reading the words---the blind test that has run was on the lens's words, and there the reader matched the best fixed threshold on behaviour and fell short of it on the storage sort (Section~\ref{sec:lens}). What would change the assessment is the corrected test, E1b: the blind reading of the RTRM neighbour list itself, on the seeds the reader has not seen, against the best threshold on those same words. It is designed and awaits its locked protocol. For the lens: the token-exposure control has run, and its specificity contrast confirmed the familiarity account; what remains open is a checkpoint sweep for per-item sorting, where behaviour is mixed and all three verdict classes are populated. For the list: Q3 as amended shows the tracking is real at the right position, and partial even there; what remains is a test bed that carries signal---a model above chance in the format being tested, or behaviour scored by substitution, where the model demonstrably succeeds---with items at middle difficulty, where errors are knowledge errors rather than format noise, and with pair structure audited before scoring. For both: specificity
 and base rates reported beside every headline number, as a matter of
 routine. That reporting habit, more than any single result, is what
 this programme's referees have improved, and we recommend it to anyone

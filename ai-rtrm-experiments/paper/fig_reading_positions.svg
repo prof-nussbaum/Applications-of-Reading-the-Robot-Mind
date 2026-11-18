@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 400" width="900" height="400" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" role="img">
+<title>One prompt, two reading positions</title>
+<desc>The prompt 'The student couldn't understand the teacher because he had an accent. What does the word he refer to? Answer with one word:' drawn as word chips. The pronoun position is the first 'he'; when the model reaches it, it has read only the words to its left. The answer position is the final colon; there the model has read the whole prompt and its next output is its answer.</desc>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3a3a3a"/></marker><marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1f4e8c"/></marker><marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#9a4a00"/></marker></defs>
+<rect width="900" height="400" fill="#ffffff"/>
+
+<rect x="24" y="150" width="46" height="36" rx="5" fill="#e3ecf8" stroke="#8a8a8a" stroke-width="1"/>
+<text x="47.0" y="173.04" font-size="14" text-anchor="middle" font-weight="normal" font-style="normal" fill="#1a1a1a">The</text>
+<rect x="77" y="150" width="81" height="36" rx="5" fill="#e3ecf8" stroke="#8a8a8a" stroke-width="1"/>
+<text x="117.5" y="173.04" font-size="14" text-anchor="middle" font-weight="bold" font-style="normal" fill="#1a1a1a">student</text>
+<line x1="85" y1="179" x2="150" y2="179" stroke="#1a1a1a" stroke-width="1.4"/>
+<rect x="165" y="150" width="90" height="36" rx="5" fill="#e3ecf8" stroke="#8a8a8a" stroke-width="1"/>
+<text x="210.0" y="173.04" font-size="14" text-anchor="middle" font-weight="normal" font-style="normal" fill="#1a1a1a">couldn't</text>
+<rect x="262" y="150" width="107" height="36" rx="5" fill="#e3ecf8" stroke="#8a8a8a" stroke-width="1"/>
+<text x="315.5" y="173.04" font-size="14" text-anchor="middle" font-weight="normal" font-style="normal" fill="#1a1a1a">understand</text>
+<rect x="376" y="150" width="46" height="36" rx="5" fill="#e3ecf8" stroke="#8a8a8a" stroke-width="1"/>
+<text x="399.0" y="173.04" font-size="14" text-anchor="middle" font-weight="normal" font-style="normal" fill="#1a1a1a">the</text>
+<rect x="429" y="150" width="81" height="36" rx="5" fill="#e3ecf8" stroke="#8a8a8a" stroke-width="1"/>
+<text x="469.5" y="173.04" font-size="14" text-anchor="middle" font-weight="bold" font-style="normal" fill="#1a1a1a">teacher</text>
+<line x1="437" y1="179" x2="502" y2="179" stroke="#1a1a1a" stroke-width="1.4"/>
+<rect x="517" y="150" width="81" height="36" rx="5" fill="#e3ecf8" stroke="#8a8a8a" stroke-width="1"/>
+<text x="557.5" y="173.04" font-size="14" text-anchor="middle" font-weight="normal" font-style="normal" fill="#1a1a1a">because</text>
+<rect x="605" y="150" width="37" height="36" rx="5" fill="#cfe0f5" stroke="#1f4e8c" stroke-width="2.6"/>
+<text x="623.5" y="173.04" font-size="14" text-anchor="middle" font-weight="bold" font-style="normal" fill="#1a1a1a">he</text>
+<rect x="649" y="150" width="46" height="36" rx="5" fill="#ffffff" stroke="#8a8a8a" stroke-width="1"/>
+<text x="672.0" y="173.04" font-size="14" text-anchor="middle" font-weight="normal" font-style="normal" fill="#1a1a1a">had</text>
+<rect x="702" y="150" width="37" height="36" rx="5" fill="#ffffff" stroke="#8a8a8a" stroke-width="1"/>
+<text x="720.5" y="173.04" font-size="14" text-anchor="middle" font-weight="normal" font-style="normal" fill="#1a1a1a">an</text>
+<rect x="746" y="150" width="81" height="36" rx="5" fill="#ffffff" stroke="#8a8a8a" stroke-width="1"/>
+<text x="786.5" y="173.04" font-size="14" text-anchor="middle" font-weight="normal" font-style="normal" fill="#1a1a1a">accent.</text>
+<rect x="24" y="204" width="55" height="36" rx="5" fill="#ffffff" stroke="#8a8a8a" stroke-width="1"/>
+<text x="51.5" y="227.04" font-size="14" text-anchor="middle" font-weight="normal" font-style="normal" fill="#1a1a1a">What</text>
+<rect x="86" y="204" width="55" height="36" rx="5" fill="#ffffff" stroke="#8a8a8a" stroke-width="1"/>
+<text x="113.5" y="227.04" font-size="14" text-anchor="middle" font-weight="normal" font-style="normal" fill="#1a1a1a">does</text>
+<rect x="148" y="204" width="46" height="36" rx="5" fill="#ffffff" stroke="#8a8a8a" stroke-width="1"/>
+<text x="171.0" y="227.04" font-size="14" text-anchor="middle" font-weight="normal" font-style="normal" fill="#1a1a1a">the</text>
+<rect x="201" y="204" width="55" height="36" rx="5" fill="#ffffff" stroke="#8a8a8a" stroke-width="1"/>
+<text x="228.5" y="227.04" font-size="14" text-anchor="middle" font-weight="normal" font-style="normal" fill="#1a1a1a">word</text>
+<rect x="263" y="204" width="37" height="36" rx="5" fill="#ffffff" stroke="#8a8a8a" stroke-width="1"/>
+<text x="281.5" y="227.04" font-size="14" text-anchor="middle" font-weight="normal" font-style="normal" fill="#1a1a1a">he</text>
+<rect x="307" y="204" width="64" height="36" rx="5" fill="#ffffff" stroke="#8a8a8a" stroke-width="1"/>
+<text x="339.0" y="227.04" font-size="14" text-anchor="middle" font-weight="normal" font-style="normal" fill="#1a1a1a">refer</text>
+<rect x="378" y="204" width="46" height="36" rx="5" fill="#ffffff" stroke="#8a8a8a" stroke-width="1"/>
+<text x="401.0" y="227.04" font-size="14" text-anchor="middle" font-weight="normal" font-style="normal" fill="#1a1a1a">to?</text>
+<rect x="431" y="204" width="72" height="36" rx="5" fill="#ffffff" stroke="#8a8a8a" stroke-width="1"/>
+<text x="467.0" y="227.04" font-size="14" text-anchor="middle" font-weight="normal" font-style="normal" fill="#1a1a1a">Answer</text>
+<rect x="510" y="204" width="55" height="36" rx="5" fill="#ffffff" stroke="#8a8a8a" stroke-width="1"/>
+<text x="537.5" y="227.04" font-size="14" text-anchor="middle" font-weight="normal" font-style="normal" fill="#1a1a1a">with</text>
+<rect x="572" y="204" width="46" height="36" rx="5" fill="#ffffff" stroke="#8a8a8a" stroke-width="1"/>
+<text x="595.0" y="227.04" font-size="14" text-anchor="middle" font-weight="normal" font-style="normal" fill="#1a1a1a">one</text>
+<rect x="625" y="204" width="55" height="36" rx="5" fill="#ffffff" stroke="#8a8a8a" stroke-width="1"/>
+<text x="652.5" y="227.04" font-size="14" text-anchor="middle" font-weight="normal" font-style="normal" fill="#1a1a1a">word</text>
+<rect x="687" y="204" width="30" height="36" rx="5" fill="#fbe3cd" stroke="#9a4a00" stroke-width="2.6"/>
+<text x="702.0" y="227.04" font-size="14" text-anchor="middle" font-weight="bold" font-style="normal" fill="#1a1a1a">:</text>
+<line x1="623.5" y1="112" x2="623.5" y2="146" stroke="#1f4e8c" stroke-width="1.8" marker-end="url(#ab)"/>
+<text x="773.5" y="40" font-size="13" text-anchor="end" font-weight="bold" font-style="normal" fill="#1f4e8c">PRONOUN POSITION</text>
+<text x="773.5" y="59" font-size="12" text-anchor="end" font-weight="normal" font-style="normal" fill="#1a1a1a">The model has read only the shaded words, to the left.</text>
+<text x="773.5" y="76" font-size="12" text-anchor="end" font-weight="normal" font-style="normal" fill="#1a1a1a">The clue, &#8220;had an accent&#8221;, has not arrived yet.</text>
+<text x="773.5" y="96" font-size="12" text-anchor="end" font-weight="normal" font-style="normal" fill="#555555">The Study 1 neighbour list reads the state here.</text>
+<line x1="702.0" y1="284" x2="702.0" y2="244" stroke="#9a4a00" stroke-width="1.8" stroke-dasharray="6 4" marker-end="url(#ao)"/>
+<text x="742.0" y="302" font-size="13" text-anchor="end" font-weight="bold" font-style="normal" fill="#9a4a00">ANSWER POSITION</text>
+<text x="742.0" y="321" font-size="12" text-anchor="end" font-weight="normal" font-style="normal" fill="#1a1a1a">The model has read the whole prompt.</text>
+<text x="742.0" y="338" font-size="12" text-anchor="end" font-weight="normal" font-style="normal" fill="#1a1a1a">The state at this last token produces its answer.</text>
+<text x="742.0" y="358" font-size="12" text-anchor="end" font-weight="normal" font-style="normal" fill="#555555">The answer-position test reads here, and the lens</text>
+<text x="742.0" y="374" font-size="12" text-anchor="end" font-weight="normal" font-style="normal" fill="#555555">reads the same place in the godparent prompts.</text>
+<rect x="24" y="290" width="26" height="18" rx="4" fill="#e3ecf8" stroke="#8a8a8a"/>
+<text x="58" y="304" font-size="11.5" text-anchor="start" font-weight="normal" font-style="normal" fill="#555555">read before the pronoun position</text>
+<text x="37" y="331" font-size="12" text-anchor="middle" font-weight="bold" font-style="normal" fill="#1a1a1a">word</text>
+<line x1="24" y1="336" x2="50" y2="336" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="58" y="331" font-size="11.5" text-anchor="start" font-weight="normal" font-style="normal" fill="#555555">the two candidate answers</text>
+<text x="24" y="362" font-size="11.5" text-anchor="start" font-weight="normal" font-style="italic" fill="#555555">Shown as words. The model reads tokens,</text>
+<text x="24" y="377" font-size="11.5" text-anchor="start" font-weight="normal" font-style="italic" fill="#555555">and some words are more than one token.</text>
+</svg>

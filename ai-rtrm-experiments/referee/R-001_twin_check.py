@@ -1,6 +1,6 @@
 import json, sys, re, math, collections
 root=sys.argv[1]
-P=root+'/post-book-experiments/pronoun-resolution/path2-early-warning/'
+P=root+'/ai-rtrm-experiments/path2-early-warning-records/'
 r=json.load(open(P+'results_confirmatory.json'))
 s={(x['split'],x['item']):x for x in json.load(open(root+'/ai-rtrm-experiments/path2-substitution-rescore/subst_rescore_617.json'))}
 for x in r:
