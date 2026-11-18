@@ -1,0 +1,422 @@
+[
+ {
+  "item": "Andreas Ravensworth",
+  "correct_rank": 5190,
+  "median_other": 1217,
+  "best_other": 140,
+  "frac_others_beaten": 0.102
+ },
+ {
+  "item": "Chester Willoughby",
+  "correct_rank": 1151,
+  "median_other": 1231,
+  "best_other": 114,
+  "frac_others_beaten": 0.525
+ },
+ {
+  "item": "Clarence Barlow",
+  "correct_rank": 835,
+  "median_other": 903,
+  "best_other": 160,
+  "frac_others_beaten": 0.559
+ },
+ {
+  "item": "Andrew Ravenwood",
+  "correct_rank": 333,
+  "median_other": 824,
+  "best_other": 113,
+  "frac_others_beaten": 0.831
+ },
+ {
+  "item": "Barney Kettering",
+  "correct_rank": 1087,
+  "median_other": 1135,
+  "best_other": 236,
+  "frac_others_beaten": 0.508
+ },
+ {
+  "item": "Dallas Pemberton",
+  "correct_rank": 206,
+  "median_other": 1084,
+  "best_other": 159,
+  "frac_others_beaten": 0.966
+ },
+ {
+  "item": "Augusta Ellesmere",
+  "correct_rank": 201,
+  "median_other": 1407,
+  "best_other": 231,
+  "frac_others_beaten": 1.0
+ },
+ {
+  "item": "Alan Aldercroft",
+  "correct_rank": 770,
+  "median_other": 1384,
+  "best_other": 123,
+  "frac_others_beaten": 0.695
+ },
+ {
+  "item": "Gareth Denholm",
+  "correct_rank": 9794,
+  "median_other": 1596,
+  "best_other": 151,
+  "frac_others_beaten": 0.034
+ },
+ {
+  "item": "Beau Meriwether",
+  "correct_rank": 1149,
+  "median_other": 984,
+  "best_other": 135,
+  "frac_others_beaten": 0.441
+ },
+ {
+  "item": "Solomon Rookwood",
+  "correct_rank": 198,
+  "median_other": 793,
+  "best_other": 140,
+  "frac_others_beaten": 0.949
+ },
+ {
+  "item": "Alec Ashworth",
+  "correct_rank": 109,
+  "median_other": 1194,
+  "best_other": 119,
+  "frac_others_beaten": 1.0
+ },
+ {
+  "item": "Bret Elland",
+  "correct_rank": 373,
+  "median_other": 1527,
+  "best_other": 249,
+  "frac_others_beaten": 0.898
+ },
+ {
+  "item": "Daniel Gorse",
+  "correct_rank": 1016,
+  "median_other": 931,
+  "best_other": 152,
+  "frac_others_beaten": 0.458
+ },
+ {
+  "item": "Adam Rathmore",
+  "correct_rank": 8989,
+  "median_other": 1245,
+  "best_other": 159,
+  "frac_others_beaten": 0.051
+ },
+ {
+  "item": "Brooks Galloway",
+  "correct_rank": 354,
+  "median_other": 921,
+  "best_other": 141,
+  "frac_others_beaten": 0.814
+ },
+ {
+  "item": "Lionel Weatherby",
+  "correct_rank": 1289,
+  "median_other": 1681,
+  "best_other": 170,
+  "frac_others_beaten": 0.627
+ },
+ {
+  "item": "Beth Perrine",
+  "correct_rank": 2515,
+  "median_other": 1553,
+  "best_other": 308,
+  "frac_others_beaten": 0.322
+ },
+ {
+  "item": "Teresa Venner",
+  "correct_rank": 5828,
+  "median_other": 2104,
+  "best_other": 202,
+  "frac_others_beaten": 0.169
+ },
+ {
+  "item": "Andrea Ludlow",
+  "correct_rank": 1314,
+  "median_other": 939,
+  "best_other": 119,
+  "frac_others_beaten": 0.407
+ },
+ {
+  "item": "Derek Cranmer",
+  "correct_rank": 1946,
+  "median_other": 1421,
+  "best_other": 173,
+  "frac_others_beaten": 0.339
+ },
+ {
+  "item": "Edwin Ullswater",
+  "correct_rank": 978,
+  "median_other": 1270,
+  "best_other": 129,
+  "frac_others_beaten": 0.627
+ },
+ {
+  "item": "Aaron Tolliver",
+  "correct_rank": 614,
+  "median_other": 1249,
+  "best_other": 165,
+  "frac_others_beaten": 0.712
+ },
+ {
+  "item": "April Wexford",
+  "correct_rank": 2039,
+  "median_other": 832,
+  "best_other": 137,
+  "frac_others_beaten": 0.186
+ },
+ {
+  "item": "Bob Yoxall",
+  "correct_rank": 635,
+  "median_other": 979,
+  "best_other": 149,
+  "frac_others_beaten": 0.644
+ },
+ {
+  "item": "Anita Northfield",
+  "correct_rank": 2131,
+  "median_other": 1726,
+  "best_other": 239,
+  "frac_others_beaten": 0.39
+ },
+ {
+  "item": "Earl Quillan",
+  "correct_rank": 448,
+  "median_other": 1145,
+  "best_other": 144,
+  "frac_others_beaten": 0.831
+ },
+ {
+  "item": "Dominic Eastwood",
+  "correct_rank": 351,
+  "median_other": 930,
+  "best_other": 149,
+  "frac_others_beaten": 0.881
+ },
+ {
+  "item": "Alfred Calloway",
+  "correct_rank": 1688,
+  "median_other": 1232,
+  "best_other": 121,
+  "frac_others_beaten": 0.356
+ },
+ {
+  "item": "Andy Ashworth",
+  "correct_rank": 816,
+  "median_other": 1294,
+  "best_other": 94,
+  "frac_others_beaten": 0.678
+ },
+ {
+  "item": "Beverly Hesketh",
+  "correct_rank": 4595,
+  "median_other": 1826,
+  "best_other": 154,
+  "frac_others_beaten": 0.119
+ },
+ {
+  "item": "Luther Loxley",
+  "correct_rank": 739,
+  "median_other": 953,
+  "best_other": 197,
+  "frac_others_beaten": 0.678
+ },
+ {
+  "item": "Billy Silverman",
+  "correct_rank": 4090,
+  "median_other": 1139,
+  "best_other": 170,
+  "frac_others_beaten": 0.153
+ },
+ {
+  "item": "Clara Ingram",
+  "correct_rank": 1063,
+  "median_other": 1463,
+  "best_other": 119,
+  "frac_others_beaten": 0.61
+ },
+ {
+  "item": "Brady Hollingsworth",
+  "correct_rank": 1122,
+  "median_other": 1120,
+  "best_other": 199,
+  "frac_others_beaten": 0.492
+ },
+ {
+  "item": "Dave Vanderpool",
+  "correct_rank": 1294,
+  "median_other": 1191,
+  "best_other": 191,
+  "frac_others_beaten": 0.458
+ },
+ {
+  "item": "Benjamin Kenmare",
+  "correct_rank": 1962,
+  "median_other": 954,
+  "best_other": 216,
+  "frac_others_beaten": 0.305
+ },
+ {
+  "item": "Duncan Oulton",
+  "correct_rank": 1603,
+  "median_other": 1261,
+  "best_other": 132,
+  "frac_others_beaten": 0.373
+ },
+ {
+  "item": "Brad Grimaldi",
+  "correct_rank": 819,
+  "median_other": 1659,
+  "best_other": 185,
+  "frac_others_beaten": 0.695
+ },
+ {
+  "item": "Amelia Southfield",
+  "correct_rank": 1351,
+  "median_other": 1057,
+  "best_other": 187,
+  "frac_others_beaten": 0.458
+ },
+ {
+  "item": "Dan Jedburgh",
+  "correct_rank": 153,
+  "median_other": 725,
+  "best_other": 177,
+  "frac_others_beaten": 1.0
+ },
+ {
+  "item": "Dalton Falconer",
+  "correct_rank": 1182,
+  "median_other": 912,
+  "best_other": 119,
+  "frac_others_beaten": 0.441
+ },
+ {
+  "item": "Franklin Mandrake",
+  "correct_rank": 1215,
+  "median_other": 856,
+  "best_other": 200,
+  "frac_others_beaten": 0.407
+ },
+ {
+  "item": "Christian Willoughby",
+  "correct_rank": 9614,
+  "median_other": 1301,
+  "best_other": 97,
+  "frac_others_beaten": 0.068
+ },
+ {
+  "item": "Amy Tillinghast",
+  "correct_rank": 3273,
+  "median_other": 1012,
+  "best_other": 175,
+  "frac_others_beaten": 0.119
+ },
+ {
+  "item": "Archie Quarles",
+  "correct_rank": 651,
+  "median_other": 765,
+  "best_other": 154,
+  "frac_others_beaten": 0.559
+ },
+ {
+  "item": "Betty Bramble",
+  "correct_rank": 5057,
+  "median_other": 2205,
+  "best_other": 159,
+  "frac_others_beaten": 0.237
+ },
+ {
+  "item": "Alexander Millbrook",
+  "correct_rank": 251,
+  "median_other": 928,
+  "best_other": 162,
+  "frac_others_beaten": 0.881
+ },
+ {
+  "item": "Alex Sandford",
+  "correct_rank": 459,
+  "median_other": 1014,
+  "best_other": 122,
+  "frac_others_beaten": 0.831
+ },
+ {
+  "item": "Allen Fakenham",
+  "correct_rank": 379,
+  "median_other": 1781,
+  "best_other": 91,
+  "frac_others_beaten": 0.881
+ },
+ {
+  "item": "Julius Ravenwood",
+  "correct_rank": 2115,
+  "median_other": 865,
+  "best_other": 149,
+  "frac_others_beaten": 0.203
+ },
+ {
+  "item": "Clyde Drummond",
+  "correct_rank": 2276,
+  "median_other": 1135,
+  "best_other": 134,
+  "frac_others_beaten": 0.237
+ },
+ {
+  "item": "Iris Ufford",
+  "correct_rank": 1813,
+  "median_other": 1716,
+  "best_other": 231,
+  "frac_others_beaten": 0.458
+ },
+ {
+  "item": "Derrick Copperfield",
+  "correct_rank": 3565,
+  "median_other": 697,
+  "best_other": 150,
+  "frac_others_beaten": 0.085
+ },
+ {
+  "item": "Edmund Quenell",
+  "correct_rank": 166,
+  "median_other": 839,
+  "best_other": 143,
+  "frac_others_beaten": 0.966
+ },
+ {
+  "item": "Helena Martham",
+  "correct_rank": 9397,
+  "median_other": 1469,
+  "best_other": 144,
+  "frac_others_beaten": 0.017
+ },
+ {
+  "item": "Dean Treadwell",
+  "correct_rank": 941,
+  "median_other": 913,
+  "best_other": 127,
+  "frac_others_beaten": 0.458
+ },
+ {
+  "item": "Alberta Blackthorne",
+  "correct_rank": 157,
+  "median_other": 1463,
+  "best_other": 167,
+  "frac_others_beaten": 1.0
+ },
+ {
+  "item": "Becky Satterlee",
+  "correct_rank": 4448,
+  "median_other": 775,
+  "best_other": 156,
+  "frac_others_beaten": 0.068
+ },
+ {
+  "item": "Dustin Pendergrass",
+  "correct_rank": 784,
+  "median_other": 854,
+  "best_other": 200,
+  "frac_others_beaten": 0.542
+ }
+]

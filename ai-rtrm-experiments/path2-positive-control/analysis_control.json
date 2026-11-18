@@ -1,0 +1,178 @@
+{
+ "gate": {
+  "question_format_accuracy": 0.6,
+  "bar": 0.8,
+  "passed": false
+ },
+ "verdict": "CONTROL FAILED AS A CONTROL \u2014 question-format accuracy 60.0% < 80% gate; per the locked protocol no checklist conclusion is drawn either way.",
+ "pooled": {
+  "n": 120,
+  "n_errors": 48,
+  "n_correct": 72,
+  "accuracy": 0.6,
+  "error_rate": 0.4,
+  "sens_b1": 0.125,
+  "sens_rtrm": 0.4791666666666667,
+  "sens_combined": 0.5625,
+  "far_b1": 0.08333333333333333,
+  "far_rtrm": 0.6111111111111112,
+  "far_combined": 0.625,
+  "sens_gain_pp": 43.75,
+  "far_gain_pp": 54.166666666666664,
+  "n_miss": 42,
+  "miss_caught": 21,
+  "rtrm_catch_of_miss": 0.5,
+  "fisher_iv_table_B1unflagged": [
+   [
+    21,
+    39
+   ],
+   [
+    21,
+    27
+   ]
+  ],
+  "fisher_iv_p_onesided": 0.8697672458856124,
+  "h1_table_flag_x_error_all": [
+   [
+    23,
+    44
+   ],
+   [
+    25,
+    28
+   ]
+  ],
+  "h1_fisher_p_onesided": 0.9466604573155386,
+  "appendix_auc_margin_error_score": 0.6122685185185185,
+  "appendix_rtrm_balanced_accuracy": 0.4340277777777778,
+  "bars": {
+   "i_catch_ge_30pct": true,
+   "ii_sens_gain_ge_10pp": true,
+   "iii_far_gain_le_20pp": false,
+   "iv_fisher_p_lt_0.05": false
+  }
+ },
+ "by_family": {
+  "number": {
+   "n": 60,
+   "n_errors": 23,
+   "n_correct": 37,
+   "accuracy": 0.6166666666666667,
+   "error_rate": 0.38333333333333336,
+   "sens_b1": 0.13043478260869565,
+   "sens_rtrm": 0.17391304347826086,
+   "sens_combined": 0.2608695652173913,
+   "far_b1": 0.10810810810810811,
+   "far_rtrm": 0.5135135135135135,
+   "far_combined": 0.5135135135135135,
+   "sens_gain_pp": 13.043478260869565,
+   "far_gain_pp": 40.54054054054054,
+   "n_miss": 20,
+   "miss_caught": 3,
+   "rtrm_catch_of_miss": 0.15,
+   "fisher_iv_table_B1unflagged": [
+    [
+     3,
+     15
+    ],
+    [
+     17,
+     18
+    ]
+   ],
+   "fisher_iv_p_onesided": 0.9961919671736043,
+   "h1_table_flag_x_error_all": [
+    [
+     4,
+     19
+    ],
+    [
+     19,
+     18
+    ]
+   ],
+   "h1_fisher_p_onesided": 0.9986466960533792,
+   "appendix_auc_margin_error_score": 0.6086956521739131,
+   "appendix_rtrm_balanced_accuracy": 0.3301997649823737,
+   "bars": null
+  },
+  "gender": {
+   "n": 60,
+   "n_errors": 25,
+   "n_correct": 35,
+   "accuracy": 0.5833333333333334,
+   "error_rate": 0.4166666666666667,
+   "sens_b1": 0.12,
+   "sens_rtrm": 0.76,
+   "sens_combined": 0.84,
+   "far_b1": 0.05714285714285714,
+   "far_rtrm": 0.7142857142857143,
+   "far_combined": 0.7428571428571429,
+   "sens_gain_pp": 72.0,
+   "far_gain_pp": 68.57142857142857,
+   "n_miss": 22,
+   "miss_caught": 18,
+   "rtrm_catch_of_miss": 0.8181818181818182,
+   "fisher_iv_table_B1unflagged": [
+    [
+     18,
+     24
+    ],
+    [
+     4,
+     9
+    ]
+   ],
+   "fisher_iv_p_onesided": 0.3292131115644124,
+   "h1_table_flag_x_error_all": [
+    [
+     19,
+     25
+    ],
+    [
+     6,
+     10
+    ]
+   ],
+   "h1_fisher_p_onesided": 0.4639563877362325,
+   "appendix_auc_margin_error_score": 0.6468571428571429,
+   "appendix_rtrm_balanced_accuracy": 0.5228571428571429,
+   "bars": null
+  }
+ },
+ "lean_match_all": 0.4666666666666667,
+ "lean_match_errors": 0.3125,
+ "lean_match_correct_descriptive": 0.5694444444444444,
+ "substitution_accuracy": 0.8,
+ "substitution_accuracy_by_family": {
+  "number": 1.0,
+  "gender": 0.6
+ },
+ "question_substitution_pick_agreement": 0.7,
+ "ceiling_probe": {
+  "label": "CEILING PROBE \u2014 DIAGNOSTIC ONLY, NOT RTRM. A supervised probe is a trained classifier, a different method from the RTRM cosine-similarity method; it bounds the checklist claim and is never an RTRM result or a book claim.",
+  "states": "raw L12 pronoun states (per-token L2-normalised) at the pronoun position in the question-format prompt, recomputed with the confirmatory recipe for the 617 DPR confirmatory items",
+  "rank_reproduction_check": {
+   "items_exact_match_r_label_and_r_comp": 617,
+   "of": 617,
+   "required": ">= 20"
+  },
+  "split": {
+   "method": "StratifiedShuffleSplit, by item, stratified on model_right, seed 0",
+   "train": 308,
+   "test": 309
+  },
+  "model": "sklearn LogisticRegression(C=1.0, max_iter=1000), StandardScaler fit on train half only",
+  "target": "model_right from results_confirmatory.json",
+  "test_auc_predict_right": 0.31602348993288587,
+  "test_auc_predict_error": 0.31602348993288587,
+  "test_auc_predict_error_bootstrap95CI": [
+   0.26212855625945575,
+   0.37705225314274715
+  ],
+  "bootstrap": "1000 resamples of the test set, rng seed 0, percentile method; 1000 valid resamples",
+  "train_auc_predict_error": 0.9135346283783784,
+  "locked_prediction": "test AUC between 0.45 and 0.60 (near chance)"
+ }
+}

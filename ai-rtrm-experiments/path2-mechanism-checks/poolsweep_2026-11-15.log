@@ -1,0 +1,24 @@
+CHECK1 done: {"all": {"n": 617, "flagged": 460, "leg_a_marginal": 305, "leg_b_marginal": 397, "leg_c_marginal": 0, "leg_a_only": 63, "leg_b_only": 155, "leg_c_only": 0, "legs_ab": 242, "legs_ac": 0, "legs_bc": 0, "legs_abc": 0}, "errors": {"n": 297, "flagged": 227, "leg_a_marginal": 155, "leg_b_marginal": 197, "leg_c_marginal": 0, "leg_a_only": 30, "leg_b_only": 72, "leg_c_only": 0, "legs_ab": 125, "legs_ac": 0, "legs_bc": 0, "legs_abc": 0}, "correct": {"n": 320, "flagged": 233, "leg_a_marginal": 150, "leg_b_marginal": 200, "leg_c_marginal": 0, "leg_a_only": 33, "leg_b_only": 83, "leg_c_only": 0, "legs_ab": 117, "legs_ac": 0, "legs_bc": 0, "legs_abc": 0}, "median_r_label_errors": 1625, "median_r_label_correct": 1125.0, "n_absent_errors": 0, "n_absent_correct": 0}
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+pool built: 47499 states
+device: cuda
+Loading weights:   0%|          | 0/148 [00:00<?, ?it/s]Loading weights:   1%|▏         | 2/148 [00:00<00:19,  7.52it/s]Loading weights:   9%|▉         | 13/148 [00:00<00:04, 30.33it/s]Loading weights:  16%|█▌        | 23/148 [00:00<00:03, 35.41it/s]Loading weights:  31%|███       | 46/148 [00:00<00:01, 65.11it/s]Loading weights:  39%|███▊      | 57/148 [00:01<00:01, 70.76it/s]Loading weights:  48%|████▊     | 71/148 [00:01<00:00, 81.95it/s]Loading weights: 100%|██████████| 148/148 [00:01<00:00, 125.18it/s]
+queries done: 100
+queries done: 200
+queries done: 300
+queries done: 400
+queries done: 500
+queries done: 600
+full-pool rank mismatches vs results_confirmatory.json: 0 / 617 items x2 ranks
+full {"catch_of_miss": 0.7611940298507462, "far_correct": 0.728125, "fisher_p": 0.2955739080865504, "fisher_table": [[204, 211], [64, 75]], "leg_b_rate_all_items": 0.6434359805510534, "n_flagged": 460}
+5000_s0 {"catch_of_miss": 0.7835820895522388, "far_correct": 0.79375, "fisher_p": 0.6158893094472802, "fisher_table": [[210, 226], [58, 60]], "leg_b_rate_all_items": 0.46353322528363045, "n_flagged": 488}
+5000_s1 {"catch_of_miss": 0.7798507462686567, "far_correct": 0.7625, "fisher_p": 0.2484940143100968, "fisher_table": [[209, 215], [59, 71]], "leg_b_rate_all_items": 0.4683954619124797, "n_flagged": 477}
+5000_s2 {"catch_of_miss": 0.7611940298507462, "far_correct": 0.75625, "fisher_p": 0.6269461197099859, "fisher_table": [[204, 220], [64, 66]], "leg_b_rate_all_items": 0.5072933549432739, "n_flagged": 468}
+15000_s0 {"catch_of_miss": 0.7611940298507462, "far_correct": 0.721875, "fisher_p": 0.20718166847617245, "fisher_table": [[204, 208], [64, 78]], "leg_b_rate_all_items": 0.6580226904376013, "n_flagged": 457}
+15000_s1 {"catch_of_miss": 0.753731343283582, "far_correct": 0.75, "fisher_p": 0.555914236022736, "fisher_table": [[202, 216], [66, 70]], "leg_b_rate_all_items": 0.653160453808752, "n_flagged": 464}
+15000_s2 {"catch_of_miss": 0.746268656716418, "far_correct": 0.7375, "fisher_p": 0.4479033859104797, "fisher_table": [[200, 211], [68, 75]], "leg_b_rate_all_items": 0.6499189627228525, "n_flagged": 461}
+30000_s0 {"catch_of_miss": 0.7798507462686567, "far_correct": 0.7125, "fisher_p": 0.07666906907869883, "fisher_table": [[209, 207], [59, 79]], "leg_b_rate_all_items": 0.6450567260940032, "n_flagged": 459}
+30000_s1 {"catch_of_miss": 0.7201492537313433, "far_correct": 0.740625, "fisher_p": 0.7734596353560051, "fisher_table": [[193, 213], [75, 73]], "leg_b_rate_all_items": 0.6337115072933549, "n_flagged": 452}
+30000_s2 {"catch_of_miss": 0.7686567164179104, "far_correct": 0.725, "fisher_p": 0.17624481349092302, "fisher_table": [[206, 209], [62, 77]], "leg_b_rate_all_items": 0.6450567260940032, "n_flagged": 460}
+SANITY ANCHOR full-pool metrics reproduce confirmatory (catch .761 / FAR .728 / p .296): True
+WROTE poolsweep_2026-11-15.json and POOLSWEEP_2026-11-15.md

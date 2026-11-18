@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+<title id="title">Fable and Francis — AI experiment and review loop</title>
+<desc id="desc">A conceptual architecture diagram showing Fable in the Claude iPhone app reviewing Francis's GitHub pull requests, while Francis in the Muse iPhone app uses SSH to run experiments on an NVIDIA Jetson Orin 8GB device. Results flow back through GitHub pull requests for Fable's review.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101827"/><stop offset="1" stop-color="#18243a"/></linearGradient>
+  <linearGradient id="fable" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#7257d8"/><stop offset="1" stop-color="#4c3b9f"/></linearGradient>
+  <linearGradient id="francis" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#168b83"/><stop offset="1" stop-color="#11635f"/></linearGradient>
+  <linearGradient id="jetson" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#76a92f"/><stop offset="1" stop-color="#456d1c"/></linearGradient>
+  <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="9" stdDeviation="12" flood-color="#000" flood-opacity=".28"/></filter>
+  <marker id="arrowPurple" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto"><path d="M1 1 L10 6 L1 11" fill="none" stroke="#b9a9ff" stroke-width="2"/></marker>
+  <marker id="arrowTeal" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto"><path d="M1 1 L10 6 L1 11" fill="none" stroke="#71d8ce" stroke-width="2"/></marker>
+  <marker id="arrowGold" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto"><path d="M1 1 L10 6 L1 11" fill="none" stroke="#f0c66d" stroke-width="2"/></marker>
+  <style>
+    text{font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}
+    .title{font-size:34px;font-weight:750;fill:#f5f7fb;letter-spacing:.2px}
+    .subtitle{font-size:16px;fill:#aab6c9}
+    .cardtitle{font-size:24px;font-weight:700;fill:#fff}
+    .app{font-size:15px;font-weight:650;fill:#e5e9f2}
+    .body{font-size:16px;fill:#d8e0ed}
+    .small{font-size:13px;fill:#aebbd0}
+    .tiny{font-size:12px;fill:#9eabc0}
+    .tag{font-size:12px;font-weight:700;letter-spacing:1px;fill:#e9edf6}
+    .arrowlabel{font-size:14px;font-weight:650;fill:#f1f4fa}
+    .number{font-size:13px;font-weight:800;fill:#111827}
+  </style>
+</defs>
+<rect width="1600" height="1000" fill="url(#bg)"/>
+<circle cx="1400" cy="110" r="260" fill="#293b5c" opacity=".18"/>
+<circle cx="130" cy="890" r="250" fill="#3d2e70" opacity=".16"/>
+
+<text x="80" y="78" class="title">Fable ↔ Francis</text>
+<text x="80" y="110" class="subtitle">AI experiment loop • iPhone agents • GitHub pull requests • edge compute</text>
+<rect x="1240" y="54" width="280" height="36" rx="18" fill="#29364c" stroke="#53647e"/>
+<text x="1380" y="77" text-anchor="middle" class="tag">CONCEPTUAL SYSTEM DIAGRAM</text>
+
+<!-- Fable -->
+<g filter="url(#shadow)">
+  <rect x="90" y="190" width="390" height="265" rx="24" fill="#202b43" stroke="#8c78e8" stroke-width="2"/>
+  <rect x="90" y="190" width="390" height="12" rx="6" fill="url(#fable)"/>
+</g>
+<rect x="120" y="222" width="62" height="62" rx="17" fill="url(#fable)"/>
+<path d="M139 242h24M139 251h18M139 260h21" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+<text x="202" y="244" class="cardtitle">Fable</text>
+<text x="202" y="270" class="app">Anthropic Claude • iPhone app</text>
+<rect x="120" y="310" width="330" height="1" fill="#3a4963"/>
+<text x="120" y="345" class="tag">ROLE • REFEREE / REVIEWER</text>
+<text x="120" y="378" class="body">• Assesses experiment applicability</text>
+<text x="120" y="405" class="body">• Reviews quality, methods and results</text>
+<text x="120" y="432" class="body">• Suggests ideas and next experiments</text>
+
+<!-- GitHub -->
+<g filter="url(#shadow)">
+  <rect x="605" y="300" width="390" height="230" rx="24" fill="#202b43" stroke="#d2d9e5" stroke-width="2"/>
+</g>
+<rect x="635" y="332" width="58" height="58" rx="16" fill="#e8edf5"/>
+<path d="M664 345c-9 0-16 7-16 16 0 7 4 13 10 15v-5c-3 1-4-1-5-3-1-1-2-2-3-2 3 0 4 2 5 3 2 2 4 1 4 0 0-2 1-3 2-4-6-1-10-4-10-10 0-3 1-5 3-7-1-2-1-4 0-6 3 0 5 2 6 3 2-1 4-1 6-1s4 0 6 1c2-2 4-3 6-3 1 2 1 4 0 6 2 2 3 4 3 7 0 6-4 9-10 10 1 1 2 3 2 5v8c6-2 10-8 10-15 0-9-7-16-16-16z" fill="#1b2433"/>
+<text x="713" y="354" class="cardtitle">GitHub</text>
+<text x="713" y="379" class="app">Pull requests • review comments</text>
+<rect x="635" y="410" width="330" height="1" fill="#3a4963"/>
+<text x="635" y="444" class="tag">SHARED COMMUNICATION CHANNEL</text>
+<text x="635" y="475" class="body">PR discussion carries review and feedback</text>
+<text x="635" y="501" class="small">Not a direct agent-to-agent network connection</text>
+
+<!-- Francis -->
+<g filter="url(#shadow)">
+  <rect x="1120" y="190" width="390" height="265" rx="24" fill="#202b43" stroke="#42bcb0" stroke-width="2"/>
+  <rect x="1120" y="190" width="390" height="12" rx="6" fill="url(#francis)"/>
+</g>
+<rect x="1150" y="222" width="62" height="62" rx="17" fill="url(#francis)"/>
+<path d="M1166 244c0-7 6-12 15-12s15 5 15 12v15c0 7-6 12-15 12s-15-5-15-12z" fill="none" stroke="#fff" stroke-width="2.5"/>
+<path d="M1173 249h16M1173 257h16" stroke="#fff" stroke-width="2.5" stroke-linecap="round"/>
+<text x="1232" y="244" class="cardtitle">Francis</text>
+<text x="1232" y="270" class="app">Meta Muse • iPhone app</text>
+<rect x="1150" y="310" width="330" height="1" fill="#3a4963"/>
+<text x="1150" y="345" class="tag">ROLE • EXPERIMENTER</text>
+<text x="1150" y="378" class="body">• Plans and runs experiments</text>
+<text x="1150" y="405" class="body">• Uses SSH to access the Jetson</text>
+<text x="1150" y="432" class="body">• Publishes work/results in GitHub PRs</text>
+
+<!-- Jetson -->
+<g filter="url(#shadow)">
+  <rect x="1120" y="690" width="390" height="210" rx="24" fill="#202b43" stroke="#9bc95a" stroke-width="2"/>
+  <rect x="1120" y="690" width="390" height="12" rx="6" fill="url(#jetson)"/>
+</g>
+<rect x="1150" y="724" width="62" height="62" rx="15" fill="url(#jetson)"/>
+<rect x="1165" y="739" width="32" height="32" rx="4" fill="none" stroke="#fff" stroke-width="2.5"/>
+<path d="M1172 747h18M1172 754h18M1172 761h10" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+<text x="1232" y="746" class="cardtitle">NVIDIA Jetson</text>
+<text x="1232" y="772" class="app">Orin • 8 GB</text>
+<rect x="1150" y="806" width="330" height="1" fill="#3a4963"/>
+<text x="1150" y="838" class="tag">EXPERIMENT EXECUTION TARGET</text>
+<text x="1150" y="866" class="body">Runs workloads and produces observations</text>
+
+<!-- Arrows: Fable to GitHub and back -->
+<path d="M480 285 C525 285 545 350 605 350" fill="none" stroke="#b9a9ff" stroke-width="3" marker-end="url(#arrowPurple)"/>
+<rect x="478" y="230" width="138" height="42" rx="12" fill="#332d59" stroke="#7463bc"/>
+<text x="547" y="247" text-anchor="middle" class="arrowlabel">Review notes</text>
+<text x="547" y="263" text-anchor="middle" class="tiny">comments / questions</text>
+
+<path d="M605 470 C545 520 525 420 480 420" fill="none" stroke="#b9a9ff" stroke-width="3" marker-end="url(#arrowPurple)"/>
+<rect x="485" y="480" width="130" height="42" rx="12" fill="#332d59" stroke="#7463bc"/>
+<text x="550" y="497" text-anchor="middle" class="arrowlabel">PR context</text>
+<text x="550" y="513" text-anchor="middle" class="tiny">code + results</text>
+
+<!-- Francis to GitHub and feedback -->
+<path d="M1120 300 C1070 300 1050 365 995 365" fill="none" stroke="#71d8ce" stroke-width="3" marker-end="url(#arrowTeal)"/>
+<rect x="988" y="235" width="128" height="42" rx="12" fill="#1d4849" stroke="#3e9e96"/>
+<text x="1052" y="252" text-anchor="middle" class="arrowlabel">Opens / updates</text>
+<text x="1052" y="268" text-anchor="middle" class="tiny">pull request</text>
+
+<path d="M995 485 C1050 540 1070 420 1120 420" fill="none" stroke="#71d8ce" stroke-width="3" marker-end="url(#arrowTeal)"/>
+<rect x="987" y="535" width="132" height="42" rx="12" fill="#1d4849" stroke="#3e9e96"/>
+<text x="1053" y="552" text-anchor="middle" class="arrowlabel">Review feedback</text>
+<text x="1053" y="568" text-anchor="middle" class="tiny">actionable direction</text>
+
+<!-- SSH -->
+<path d="M1315 455 L1315 690" fill="none" stroke="#f0c66d" stroke-width="3.5" marker-end="url(#arrowGold)"/>
+<rect x="1334" y="545" width="145" height="58" rx="12" fill="#514329" stroke="#c79e4f"/>
+<text x="1406" y="568" text-anchor="middle" class="arrowlabel">SSH session</text>
+<text x="1406" y="586" text-anchor="middle" class="tiny">remote shell / commands</text>
+
+<!-- Process callout -->
+<g>
+  <rect x="90" y="620" width="905" height="280" rx="22" fill="#1b263b" stroke="#3c4d69" stroke-width="1.5"/>
+  <text x="125" y="665" class="cardtitle" style="font-size:21px">Experiment / referee cycle</text>
+  <text x="125" y="691" class="small">A practical interpretation of the described collaboration</text>
+  <g>
+    <circle cx="145" cy="746" r="15" fill="#8c78e8"/><text x="145" y="751" text-anchor="middle" class="number">1</text>
+    <text x="174" y="751" class="body">Francis proposes and runs an experiment</text>
+    <circle cx="145" cy="791" r="15" fill="#168b83"/><text x="145" y="796" text-anchor="middle" class="number">2</text>
+    <text x="174" y="796" class="body">Francis records code, method and findings in a PR</text>
+    <circle cx="145" cy="836" r="15" fill="#8c78e8"/><text x="145" y="841" text-anchor="middle" class="number">3</text>
+    <text x="174" y="841" class="body">Fable reviews, challenges assumptions and suggests next steps</text>
+    <circle cx="145" cy="881" r="15" fill="#d4a64e"/><text x="145" y="886" text-anchor="middle" class="number">4</text>
+    <text x="174" y="886" class="body">Francis iterates on the Jetson; the PR discussion continues</text>
+  </g>
+</g>
+
+<!-- Legend/footer -->
+<line x1="90" y1="944" x2="1510" y2="944" stroke="#35445d"/>
+<text x="90" y="972" class="small">Solid arrows show the described / inferred information paths. GitHub PR comments are the coordination surface between agents.</text>
+<text x="1510" y="972" text-anchor="end" class="tiny">Conceptual • not a verified implementation trace</text>
+</svg>

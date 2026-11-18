@@ -1,0 +1,8 @@
+{
+ "records": 1756,
+ "total_states": 47499,
+ "raw_L12_norm_mean": 217.8776153948019,
+ "raw_L12_norm_min": 23.228269577026367,
+ "raw_L12_norm_max": 438.4794616699219,
+ "build_seconds": 529.5
+}

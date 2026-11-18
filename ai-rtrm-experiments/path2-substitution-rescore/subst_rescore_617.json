@@ -1,0 +1,4321 @@
+[
+ {
+  "item": 0,
+  "split": "test",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 0.8494033813476562
+ },
+ {
+  "item": 1,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 0.026638031005859375
+ },
+ {
+  "item": 4,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 0.6824188232421875
+ },
+ {
+  "item": 8,
+  "split": "test",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -1.8004608154296875
+ },
+ {
+  "item": 9,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 0.6081123352050781
+ },
+ {
+  "item": 12,
+  "split": "test",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -0.16754913330078125
+ },
+ {
+  "item": 13,
+  "split": "test",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 3.6424789428710938
+ },
+ {
+  "item": 14,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 2.4910049438476562
+ },
+ {
+  "item": 15,
+  "split": "test",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 0.5810966491699219
+ },
+ {
+  "item": 22,
+  "split": "test",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -7.7257843017578125
+ },
+ {
+  "item": 23,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 3.8027877807617188
+ },
+ {
+  "item": 26,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 2.061431884765625
+ },
+ {
+  "item": 27,
+  "split": "test",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -2.364166259765625
+ },
+ {
+  "item": 29,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 6.014545440673828
+ },
+ {
+  "item": 30,
+  "split": "test",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -3.9034461975097656
+ },
+ {
+  "item": 31,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 3.830078125
+ },
+ {
+  "item": 34,
+  "split": "test",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 0.3694305419921875
+ },
+ {
+  "item": 35,
+  "split": "test",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -1.390289306640625
+ },
+ {
+  "item": 37,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 3.578826904296875
+ },
+ {
+  "item": 38,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 1.509979248046875
+ },
+ {
+  "item": 40,
+  "split": "test",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 0.9272537231445312
+ },
+ {
+  "item": 41,
+  "split": "test",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -0.5307464599609375
+ },
+ {
+  "item": 42,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 4.788276672363281
+ },
+ {
+  "item": 43,
+  "split": "test",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -4.338325500488281
+ },
+ {
+  "item": 44,
+  "split": "test",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -0.9681015014648438
+ },
+ {
+  "item": 45,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 2.3253936767578125
+ },
+ {
+  "item": 46,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 0.2031097412109375
+ },
+ {
+  "item": 47,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 1.958740234375
+ },
+ {
+  "item": 48,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 0.347564697265625
+ },
+ {
+  "item": 49,
+  "split": "test",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -0.24752044677734375
+ },
+ {
+  "item": 51,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 3.7273483276367188
+ },
+ {
+  "item": 52,
+  "split": "test",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -1.1767196655273438
+ },
+ {
+  "item": 53,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 7.739910125732422
+ },
+ {
+  "item": 55,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 4.393878936767578
+ },
+ {
+  "item": 62,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 1.0091400146484375
+ },
+ {
+  "item": 63,
+  "split": "test",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 0.5345878601074219
+ },
+ {
+  "item": 64,
+  "split": "test",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 2.2362823486328125
+ },
+ {
+  "item": 66,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 8.270172119140625
+ },
+ {
+  "item": 67,
+  "split": "test",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -1.4882049560546875
+ },
+ {
+  "item": 70,
+  "split": "test",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -0.5905113220214844
+ },
+ {
+  "item": 71,
+  "split": "test",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 0.9426727294921875
+ },
+ {
+  "item": 72,
+  "split": "test",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 5.35882568359375
+ },
+ {
+  "item": 73,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 6.686733245849609
+ },
+ {
+  "item": 74,
+  "split": "test",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 1.7892112731933594
+ },
+ {
+  "item": 75,
+  "split": "test",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -1.1465911865234375
+ },
+ {
+  "item": 84,
+  "split": "test",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -0.6071891784667969
+ },
+ {
+  "item": 85,
+  "split": "test",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 0.7718124389648438
+ },
+ {
+  "item": 88,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 6.182014465332031
+ },
+ {
+  "item": 89,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 1.917327880859375
+ },
+ {
+  "item": 95,
+  "split": "test",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 1.138092041015625
+ },
+ {
+  "item": 104,
+  "split": "test",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 0.16229248046875
+ },
+ {
+  "item": 105,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 0.21343231201171875
+ },
+ {
+  "item": 112,
+  "split": "test",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -0.24576950073242188
+ },
+ {
+  "item": 113,
+  "split": "test",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 4.831207275390625
+ },
+ {
+  "item": 114,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 2.7695350646972656
+ },
+ {
+  "item": 115,
+  "split": "test",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 0.9091529846191406
+ },
+ {
+  "item": 118,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 2.7370262145996094
+ },
+ {
+  "item": 119,
+  "split": "test",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -2.0304527282714844
+ },
+ {
+  "item": 120,
+  "split": "test",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 4.784244537353516
+ },
+ {
+  "item": 121,
+  "split": "test",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -0.5874176025390625
+ },
+ {
+  "item": 124,
+  "split": "test",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 2.3424148559570312
+ },
+ {
+  "item": 125,
+  "split": "test",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -0.6148757934570312
+ },
+ {
+  "item": 126,
+  "split": "test",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -1.6136665344238281
+ },
+ {
+  "item": 134,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 0.3044853210449219
+ },
+ {
+  "item": 138,
+  "split": "test",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 1.9904899597167969
+ },
+ {
+  "item": 139,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 0.3729057312011719
+ },
+ {
+  "item": 140,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 2.7909469604492188
+ },
+ {
+  "item": 142,
+  "split": "test",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -0.7720565795898438
+ },
+ {
+  "item": 143,
+  "split": "test",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 1.1142501831054688
+ },
+ {
+  "item": 146,
+  "split": "test",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -1.4061088562011719
+ },
+ {
+  "item": 147,
+  "split": "test",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 3.3314743041992188
+ },
+ {
+  "item": 148,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 3.3264694213867188
+ },
+ {
+  "item": 149,
+  "split": "test",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -1.363250732421875
+ },
+ {
+  "item": 150,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 0.4372100830078125
+ },
+ {
+  "item": 151,
+  "split": "test",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 0.9811210632324219
+ },
+ {
+  "item": 154,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 1.6176605224609375
+ },
+ {
+  "item": 155,
+  "split": "test",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 3.0891571044921875
+ },
+ {
+  "item": 156,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 0.039379119873046875
+ },
+ {
+  "item": 157,
+  "split": "test",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -0.13947296142578125
+ },
+ {
+  "item": 158,
+  "split": "test",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -2.3116302490234375
+ },
+ {
+  "item": 160,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 3.0817489624023438
+ },
+ {
+  "item": 161,
+  "split": "test",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -3.330078125
+ },
+ {
+  "item": 162,
+  "split": "test",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -3.0807533264160156
+ },
+ {
+  "item": 163,
+  "split": "test",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 4.349308013916016
+ },
+ {
+  "item": 164,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 1.5565910339355469
+ },
+ {
+  "item": 165,
+  "split": "test",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -0.2589759826660156
+ },
+ {
+  "item": 166,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 2.86895751953125
+ },
+ {
+  "item": 167,
+  "split": "test",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -0.9406013488769531
+ },
+ {
+  "item": 168,
+  "split": "test",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 0.06344223022460938
+ },
+ {
+  "item": 169,
+  "split": "test",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -0.47383880615234375
+ },
+ {
+  "item": 170,
+  "split": "test",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 1.9213333129882812
+ },
+ {
+  "item": 171,
+  "split": "test",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -1.2612876892089844
+ },
+ {
+  "item": 172,
+  "split": "test",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -2.9127731323242188
+ },
+ {
+  "item": 173,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 2.3888282775878906
+ },
+ {
+  "item": 174,
+  "split": "test",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 0.10539627075195312
+ },
+ {
+  "item": 175,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 0.14879226684570312
+ },
+ {
+  "item": 176,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 2.1267547607421875
+ },
+ {
+  "item": 177,
+  "split": "test",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -1.5381317138671875
+ },
+ {
+  "item": 180,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 4.479583740234375
+ },
+ {
+  "item": 181,
+  "split": "test",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 2.7115707397460938
+ },
+ {
+  "item": 184,
+  "split": "test",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -9.315040588378906
+ },
+ {
+  "item": 185,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 11.097175598144531
+ },
+ {
+  "item": 192,
+  "split": "test",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -0.9973602294921875
+ },
+ {
+  "item": 193,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 0.6224746704101562
+ },
+ {
+  "item": 198,
+  "split": "test",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -1.2466812133789062
+ },
+ {
+  "item": 199,
+  "split": "test",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 3.0271835327148438
+ },
+ {
+  "item": 202,
+  "split": "test",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -1.730377197265625
+ },
+ {
+  "item": 204,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 2.9534072875976562
+ },
+ {
+  "item": 205,
+  "split": "test",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -0.7490463256835938
+ },
+ {
+  "item": 206,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 1.4797401428222656
+ },
+ {
+  "item": 207,
+  "split": "test",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -1.7845573425292969
+ },
+ {
+  "item": 210,
+  "split": "test",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -1.5894012451171875
+ },
+ {
+  "item": 211,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 0.7672958374023438
+ },
+ {
+  "item": 213,
+  "split": "test",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -0.89447021484375
+ },
+ {
+  "item": 215,
+  "split": "test",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 0.5325355529785156
+ },
+ {
+  "item": 216,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 1.9430694580078125
+ },
+ {
+  "item": 217,
+  "split": "test",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 3.237751007080078
+ },
+ {
+  "item": 218,
+  "split": "test",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 6.369922637939453
+ },
+ {
+  "item": 219,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 0.9947052001953125
+ },
+ {
+  "item": 222,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 1.6427040100097656
+ },
+ {
+  "item": 223,
+  "split": "test",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -0.6878623962402344
+ },
+ {
+  "item": 224,
+  "split": "test",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -6.650760650634766
+ },
+ {
+  "item": 225,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 6.529209136962891
+ },
+ {
+  "item": 226,
+  "split": "test",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 1.5204353332519531
+ },
+ {
+  "item": 227,
+  "split": "test",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -0.5041580200195312
+ },
+ {
+  "item": 228,
+  "split": "test",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -6.249214172363281
+ },
+ {
+  "item": 229,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 6.186496734619141
+ },
+ {
+  "item": 230,
+  "split": "test",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -0.5170631408691406
+ },
+ {
+  "item": 231,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 1.5168418884277344
+ },
+ {
+  "item": 234,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 3.8945770263671875
+ },
+ {
+  "item": 235,
+  "split": "test",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -2.6798858642578125
+ },
+ {
+  "item": 238,
+  "split": "test",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 0.548919677734375
+ },
+ {
+  "item": 239,
+  "split": "test",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -0.18047332763671875
+ },
+ {
+  "item": 240,
+  "split": "test",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -3.0981483459472656
+ },
+ {
+  "item": 242,
+  "split": "test",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -5.344749450683594
+ },
+ {
+  "item": 243,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 4.188102722167969
+ },
+ {
+  "item": 246,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 2.772613525390625
+ },
+ {
+  "item": 247,
+  "split": "test",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -1.0520706176757812
+ },
+ {
+  "item": 252,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 8.92633056640625
+ },
+ {
+  "item": 260,
+  "split": "test",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -5.267177581787109
+ },
+ {
+  "item": 261,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 5.43621826171875
+ },
+ {
+  "item": 264,
+  "split": "test",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -1.4432373046875
+ },
+ {
+  "item": 266,
+  "split": "test",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -2.4047470092773438
+ },
+ {
+  "item": 267,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 2.4687728881835938
+ },
+ {
+  "item": 268,
+  "split": "test",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -1.9605522155761719
+ },
+ {
+  "item": 269,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 1.4047279357910156
+ },
+ {
+  "item": 270,
+  "split": "test",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -3.7714004516601562
+ },
+ {
+  "item": 276,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 1.7788467407226562
+ },
+ {
+  "item": 277,
+  "split": "test",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -0.908966064453125
+ },
+ {
+  "item": 282,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 5.601314544677734
+ },
+ {
+  "item": 284,
+  "split": "test",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -2.383411407470703
+ },
+ {
+  "item": 285,
+  "split": "test",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 1.9477157592773438
+ },
+ {
+  "item": 286,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 2.6030654907226562
+ },
+ {
+  "item": 287,
+  "split": "test",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 1.8662872314453125
+ },
+ {
+  "item": 296,
+  "split": "test",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 0.6039276123046875
+ },
+ {
+  "item": 297,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 5.289707183837891
+ },
+ {
+  "item": 298,
+  "split": "test",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -2.892192840576172
+ },
+ {
+  "item": 299,
+  "split": "test",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 2.0862197875976562
+ },
+ {
+  "item": 300,
+  "split": "test",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -0.9133872985839844
+ },
+ {
+  "item": 301,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 1.6686935424804688
+ },
+ {
+  "item": 334,
+  "split": "test",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -2.851165771484375
+ },
+ {
+  "item": 335,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 5.662750244140625
+ },
+ {
+  "item": 344,
+  "split": "test",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -2.5357742309570312
+ },
+ {
+  "item": 345,
+  "split": "test",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 5.581596374511719
+ },
+ {
+  "item": 352,
+  "split": "test",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -1.1103439331054688
+ },
+ {
+  "item": 353,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 3.69476318359375
+ },
+ {
+  "item": 360,
+  "split": "test",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -4.188713073730469
+ },
+ {
+  "item": 361,
+  "split": "test",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 5.529975891113281
+ },
+ {
+  "item": 381,
+  "split": "test",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 2.757343292236328
+ },
+ {
+  "item": 390,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 0.8391036987304688
+ },
+ {
+  "item": 391,
+  "split": "test",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 5.8805389404296875
+ },
+ {
+  "item": 405,
+  "split": "test",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -1.28662109375
+ },
+ {
+  "item": 474,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 0.8358001708984375
+ },
+ {
+  "item": 475,
+  "split": "test",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 3.9231185913085938
+ },
+ {
+  "item": 476,
+  "split": "test",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -1.398284912109375
+ },
+ {
+  "item": 477,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 4.769561767578125
+ },
+ {
+  "item": 488,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 2.4154891967773438
+ },
+ {
+  "item": 489,
+  "split": "test",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 2.3905563354492188
+ },
+ {
+  "item": 496,
+  "split": "test",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -4.026847839355469
+ },
+ {
+  "item": 497,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 8.301193237304688
+ },
+ {
+  "item": 524,
+  "split": "test",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -4.725852966308594
+ },
+ {
+  "item": 528,
+  "split": "test",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -1.8953933715820312
+ },
+ {
+  "item": 529,
+  "split": "test",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 2.5578460693359375
+ },
+ {
+  "item": 532,
+  "split": "test",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -0.7396697998046875
+ },
+ {
+  "item": 533,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 0.3553962707519531
+ },
+ {
+  "item": 538,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 11.115772247314453
+ },
+ {
+  "item": 539,
+  "split": "test",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -9.865966796875
+ },
+ {
+  "item": 542,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 0.3048210144042969
+ },
+ {
+  "item": 543,
+  "split": "test",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -0.7785797119140625
+ },
+ {
+  "item": 548,
+  "split": "test",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 0.5044784545898438
+ },
+ {
+  "item": 549,
+  "split": "test",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -0.7656974792480469
+ },
+ {
+  "item": 552,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 5.645782470703125
+ },
+ {
+  "item": 553,
+  "split": "test",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -3.429046630859375
+ },
+ {
+  "item": 556,
+  "split": "test",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -6.964118957519531
+ },
+ {
+  "item": 557,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 11.891159057617188
+ },
+ {
+  "item": 558,
+  "split": "test",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 3.351348876953125
+ },
+ {
+  "item": 559,
+  "split": "test",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -1.41839599609375
+ },
+ {
+  "item": 560,
+  "split": "test",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -2.1653709411621094
+ },
+ {
+  "item": 0,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 0.0532684326171875
+ },
+ {
+  "item": 1,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 3.2026901245117188
+ },
+ {
+  "item": 2,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 0.753631591796875
+ },
+ {
+  "item": 3,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -0.157379150390625
+ },
+ {
+  "item": 12,
+  "split": "train",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -1.1185874938964844
+ },
+ {
+  "item": 13,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 0.9004325866699219
+ },
+ {
+  "item": 14,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 0.3446235656738281
+ },
+ {
+  "item": 15,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 5.925510406494141
+ },
+ {
+  "item": 16,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 0.2185516357421875
+ },
+ {
+  "item": 17,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 4.924343109130859
+ },
+ {
+  "item": 18,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 0.9232444763183594
+ },
+ {
+  "item": 19,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -0.39838409423828125
+ },
+ {
+  "item": 24,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 2.6678123474121094
+ },
+ {
+  "item": 25,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 2.2120208740234375
+ },
+ {
+  "item": 28,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -0.019794464111328125
+ },
+ {
+  "item": 31,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 9.512886047363281
+ },
+ {
+  "item": 34,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 1.8884620666503906
+ },
+ {
+  "item": 35,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -0.7483139038085938
+ },
+ {
+  "item": 36,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 1.8442268371582031
+ },
+ {
+  "item": 37,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -1.9227066040039062
+ },
+ {
+  "item": 42,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -2.310138702392578
+ },
+ {
+  "item": 43,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 2.6019020080566406
+ },
+ {
+  "item": 48,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 3.492046356201172
+ },
+ {
+  "item": 49,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 0.7809829711914062
+ },
+ {
+  "item": 50,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 5.0295562744140625
+ },
+ {
+  "item": 51,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 1.3129463195800781
+ },
+ {
+  "item": 52,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 3.851703643798828
+ },
+ {
+  "item": 53,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -2.405315399169922
+ },
+ {
+  "item": 60,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -1.5756759643554688
+ },
+ {
+  "item": 61,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 1.5088653564453125
+ },
+ {
+  "item": 74,
+  "split": "train",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -2.6765899658203125
+ },
+ {
+  "item": 75,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 5.674106597900391
+ },
+ {
+  "item": 76,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -0.09401321411132812
+ },
+ {
+  "item": 77,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 6.809288024902344
+ },
+ {
+  "item": 78,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 3.0749359130859375
+ },
+ {
+  "item": 79,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -3.938282012939453
+ },
+ {
+  "item": 80,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -0.8749313354492188
+ },
+ {
+  "item": 81,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 0.7056198120117188
+ },
+ {
+  "item": 86,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -0.7374343872070312
+ },
+ {
+  "item": 87,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 2.118366241455078
+ },
+ {
+  "item": 92,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 0.857696533203125
+ },
+ {
+  "item": 93,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 4.71795654296875
+ },
+ {
+  "item": 94,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -1.5264892578125
+ },
+ {
+  "item": 95,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 2.446624755859375
+ },
+ {
+  "item": 96,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 1.2715911865234375
+ },
+ {
+  "item": 97,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -2.496978759765625
+ },
+ {
+  "item": 100,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -1.7526397705078125
+ },
+ {
+  "item": 101,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 3.2233505249023438
+ },
+ {
+  "item": 102,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 2.185272216796875
+ },
+ {
+  "item": 103,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 1.0697898864746094
+ },
+ {
+  "item": 104,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 1.9080429077148438
+ },
+ {
+  "item": 105,
+  "split": "train",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -0.5292587280273438
+ },
+ {
+  "item": 108,
+  "split": "train",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -0.030853271484375
+ },
+ {
+  "item": 109,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 1.0967254638671875
+ },
+ {
+  "item": 112,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 0.17888259887695312
+ },
+ {
+  "item": 113,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 2.134429931640625
+ },
+ {
+  "item": 114,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 0.7206802368164062
+ },
+ {
+  "item": 115,
+  "split": "train",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -0.712127685546875
+ },
+ {
+  "item": 138,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 1.0750999450683594
+ },
+ {
+  "item": 139,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -1.0674705505371094
+ },
+ {
+  "item": 144,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 0.3358612060546875
+ },
+ {
+  "item": 145,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 1.819305419921875
+ },
+ {
+  "item": 147,
+  "split": "train",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -0.2402496337890625
+ },
+ {
+  "item": 152,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 7.111621856689453
+ },
+ {
+  "item": 153,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -6.914085388183594
+ },
+ {
+  "item": 154,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 4.592037200927734
+ },
+ {
+  "item": 155,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 2.174285888671875
+ },
+ {
+  "item": 156,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -5.663105010986328
+ },
+ {
+  "item": 157,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 4.600410461425781
+ },
+ {
+  "item": 158,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 0.050567626953125
+ },
+ {
+  "item": 159,
+  "split": "train",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -0.25389862060546875
+ },
+ {
+  "item": 162,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 0.19001388549804688
+ },
+ {
+  "item": 163,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -0.12043380737304688
+ },
+ {
+  "item": 164,
+  "split": "train",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -0.52630615234375
+ },
+ {
+  "item": 165,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 0.7819175720214844
+ },
+ {
+  "item": 172,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 1.0942611694335938
+ },
+ {
+  "item": 173,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 0.42192840576171875
+ },
+ {
+  "item": 174,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 3.3886260986328125
+ },
+ {
+  "item": 175,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -0.5819091796875
+ },
+ {
+  "item": 178,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -2.0580902099609375
+ },
+ {
+  "item": 179,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 2.0382537841796875
+ },
+ {
+  "item": 182,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 7.270545959472656
+ },
+ {
+  "item": 183,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -5.8620758056640625
+ },
+ {
+  "item": 186,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 0.5074310302734375
+ },
+ {
+  "item": 187,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -1.1185760498046875
+ },
+ {
+  "item": 190,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 0.2654266357421875
+ },
+ {
+  "item": 191,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 0.8005142211914062
+ },
+ {
+  "item": 194,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 2.6147918701171875
+ },
+ {
+  "item": 195,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -1.43682861328125
+ },
+ {
+  "item": 196,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 0.18621063232421875
+ },
+ {
+  "item": 197,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 2.1321868896484375
+ },
+ {
+  "item": 198,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -0.9694290161132812
+ },
+ {
+  "item": 199,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 2.478046417236328
+ },
+ {
+  "item": 202,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 2.0054359436035156
+ },
+ {
+  "item": 203,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -1.6970176696777344
+ },
+ {
+  "item": 204,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 2.2996788024902344
+ },
+ {
+  "item": 205,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -2.7532958984375
+ },
+ {
+  "item": 208,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 14.661293029785156
+ },
+ {
+  "item": 209,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -13.237632751464844
+ },
+ {
+  "item": 210,
+  "split": "train",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -1.6013984680175781
+ },
+ {
+  "item": 211,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 3.0674171447753906
+ },
+ {
+  "item": 214,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 3.5595932006835938
+ },
+ {
+  "item": 215,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -3.972259521484375
+ },
+ {
+  "item": 216,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 1.5783958435058594
+ },
+ {
+  "item": 217,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 2.1853294372558594
+ },
+ {
+  "item": 218,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 1.0507965087890625
+ },
+ {
+  "item": 219,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -4.4978485107421875
+ },
+ {
+  "item": 220,
+  "split": "train",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -0.8493614196777344
+ },
+ {
+  "item": 221,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 1.4323921203613281
+ },
+ {
+  "item": 227,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 4.78448486328125
+ },
+ {
+  "item": 228,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -2.684215545654297
+ },
+ {
+  "item": 229,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 5.143093109130859
+ },
+ {
+  "item": 230,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -2.6789321899414062
+ },
+ {
+  "item": 231,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 4.170562744140625
+ },
+ {
+  "item": 232,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -3.6580276489257812
+ },
+ {
+  "item": 233,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 1.6348686218261719
+ },
+ {
+  "item": 234,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 5.798286437988281
+ },
+ {
+  "item": 235,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -1.7326202392578125
+ },
+ {
+  "item": 240,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 1.367584228515625
+ },
+ {
+  "item": 241,
+  "split": "train",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -0.5032730102539062
+ },
+ {
+  "item": 242,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 1.5464820861816406
+ },
+ {
+  "item": 243,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 0.9783096313476562
+ },
+ {
+  "item": 244,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 1.3356742858886719
+ },
+ {
+  "item": 246,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 5.853275299072266
+ },
+ {
+  "item": 247,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 2.8176345825195312
+ },
+ {
+  "item": 252,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 1.0075531005859375
+ },
+ {
+  "item": 256,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 2.9360008239746094
+ },
+ {
+  "item": 257,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 6.440113067626953
+ },
+ {
+  "item": 262,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 1.554168701171875
+ },
+ {
+  "item": 263,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -2.0519943237304688
+ },
+ {
+  "item": 266,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 6.117218017578125
+ },
+ {
+  "item": 267,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -3.9651412963867188
+ },
+ {
+  "item": 270,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 3.2444992065429688
+ },
+ {
+  "item": 271,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -3.500568389892578
+ },
+ {
+  "item": 274,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 2.20721435546875
+ },
+ {
+  "item": 275,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 4.293182373046875
+ },
+ {
+  "item": 276,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 2.7052154541015625
+ },
+ {
+  "item": 277,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -1.7937240600585938
+ },
+ {
+  "item": 290,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 2.040424346923828
+ },
+ {
+  "item": 291,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 0.301849365234375
+ },
+ {
+  "item": 292,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 1.7847175598144531
+ },
+ {
+  "item": 293,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 7.167747497558594
+ },
+ {
+  "item": 296,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 2.7550277709960938
+ },
+ {
+  "item": 297,
+  "split": "train",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -3.870819091796875
+ },
+ {
+  "item": 298,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -1.4301986694335938
+ },
+ {
+  "item": 299,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 7.0827484130859375
+ },
+ {
+  "item": 306,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -2.0896759033203125
+ },
+ {
+  "item": 307,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 2.5906906127929688
+ },
+ {
+  "item": 309,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -0.8200187683105469
+ },
+ {
+  "item": 319,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 1.1990737915039062
+ },
+ {
+  "item": 324,
+  "split": "train",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -0.76983642578125
+ },
+ {
+  "item": 325,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 0.34801483154296875
+ },
+ {
+  "item": 328,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -1.8837432861328125
+ },
+ {
+  "item": 329,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 1.1287422180175781
+ },
+ {
+  "item": 330,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 0.33957672119140625
+ },
+ {
+  "item": 331,
+  "split": "train",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -0.16259002685546875
+ },
+ {
+  "item": 332,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 2.7261619567871094
+ },
+ {
+  "item": 333,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -1.6502418518066406
+ },
+ {
+  "item": 334,
+  "split": "train",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -5.885475158691406
+ },
+ {
+  "item": 335,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 5.381256103515625
+ },
+ {
+  "item": 336,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 6.753242492675781
+ },
+ {
+  "item": 337,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 0.8849143981933594
+ },
+ {
+  "item": 344,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 2.575214385986328
+ },
+ {
+  "item": 345,
+  "split": "train",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -4.13970947265625
+ },
+ {
+  "item": 346,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 8.203414916992188
+ },
+ {
+  "item": 347,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -8.058067321777344
+ },
+ {
+  "item": 349,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 1.8386077880859375
+ },
+ {
+  "item": 350,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 4.485515594482422
+ },
+ {
+  "item": 351,
+  "split": "train",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -2.230865478515625
+ },
+ {
+  "item": 356,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 0.04140472412109375
+ },
+ {
+  "item": 357,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 0.595855712890625
+ },
+ {
+  "item": 362,
+  "split": "train",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -1.0321807861328125
+ },
+ {
+  "item": 363,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 1.0957145690917969
+ },
+ {
+  "item": 368,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -2.4901504516601562
+ },
+ {
+  "item": 369,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 2.5866851806640625
+ },
+ {
+  "item": 370,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 1.5552177429199219
+ },
+ {
+  "item": 371,
+  "split": "train",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -1.7842254638671875
+ },
+ {
+  "item": 372,
+  "split": "train",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -0.11958694458007812
+ },
+ {
+  "item": 374,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 0.29309844970703125
+ },
+ {
+  "item": 375,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 1.5061416625976562
+ },
+ {
+  "item": 376,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 9.66598129272461
+ },
+ {
+  "item": 377,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -10.643402099609375
+ },
+ {
+  "item": 378,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -0.13470458984375
+ },
+ {
+  "item": 386,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 0.0806121826171875
+ },
+ {
+  "item": 387,
+  "split": "train",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -0.8398971557617188
+ },
+ {
+  "item": 390,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 4.083866119384766
+ },
+ {
+  "item": 391,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 2.9033889770507812
+ },
+ {
+  "item": 392,
+  "split": "train",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -1.0118598937988281
+ },
+ {
+  "item": 393,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 3.011463165283203
+ },
+ {
+  "item": 396,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 1.366607666015625
+ },
+ {
+  "item": 397,
+  "split": "train",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -0.9804916381835938
+ },
+ {
+  "item": 400,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 0.13143157958984375
+ },
+ {
+  "item": 401,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 3.7054443359375
+ },
+ {
+  "item": 404,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -9.408737182617188
+ },
+ {
+  "item": 412,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 12.022838592529297
+ },
+ {
+  "item": 413,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -10.003593444824219
+ },
+ {
+  "item": 414,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -0.22580718994140625
+ },
+ {
+  "item": 415,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 2.0706939697265625
+ },
+ {
+  "item": 418,
+  "split": "train",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -1.3838119506835938
+ },
+ {
+  "item": 419,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 1.3593292236328125
+ },
+ {
+  "item": 420,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 9.021858215332031
+ },
+ {
+  "item": 421,
+  "split": "train",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -4.3922271728515625
+ },
+ {
+  "item": 422,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -0.11063385009765625
+ },
+ {
+  "item": 426,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 3.8933677673339844
+ },
+ {
+  "item": 427,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -2.4049148559570312
+ },
+ {
+  "item": 428,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 1.2953414916992188
+ },
+ {
+  "item": 429,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -0.5477828979492188
+ },
+ {
+  "item": 432,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -2.200897216796875
+ },
+ {
+  "item": 433,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 3.495708465576172
+ },
+ {
+  "item": 434,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -0.18810272216796875
+ },
+ {
+  "item": 435,
+  "split": "train",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -0.212066650390625
+ },
+ {
+  "item": 437,
+  "split": "train",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -5.747428894042969
+ },
+ {
+  "item": 446,
+  "split": "train",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -1.4622650146484375
+ },
+ {
+  "item": 447,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 1.3973846435546875
+ },
+ {
+  "item": 450,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 1.5143661499023438
+ },
+ {
+  "item": 454,
+  "split": "train",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -2.565410614013672
+ },
+ {
+  "item": 455,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 2.1041793823242188
+ },
+ {
+  "item": 456,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 3.1860122680664062
+ },
+ {
+  "item": 457,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -2.827667236328125
+ },
+ {
+  "item": 458,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 2.8962135314941406
+ },
+ {
+  "item": 459,
+  "split": "train",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -2.115142822265625
+ },
+ {
+  "item": 460,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 2.3442001342773438
+ },
+ {
+  "item": 461,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -1.5292739868164062
+ },
+ {
+  "item": 462,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 0.04657745361328125
+ },
+ {
+  "item": 463,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -2.29656982421875
+ },
+ {
+  "item": 464,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 6.787578582763672
+ },
+ {
+  "item": 468,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 2.9309425354003906
+ },
+ {
+  "item": 469,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -3.7876548767089844
+ },
+ {
+  "item": 470,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -2.8957977294921875
+ },
+ {
+  "item": 471,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 1.5258102416992188
+ },
+ {
+  "item": 474,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -0.9898223876953125
+ },
+ {
+  "item": 475,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 1.0715179443359375
+ },
+ {
+  "item": 476,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -1.74859619140625
+ },
+ {
+  "item": 477,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 3.358898162841797
+ },
+ {
+  "item": 486,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 1.4333076477050781
+ },
+ {
+  "item": 487,
+  "split": "train",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -1.1170730590820312
+ },
+ {
+  "item": 488,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -1.6464004516601562
+ },
+ {
+  "item": 489,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 0.3603553771972656
+ },
+ {
+  "item": 490,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 2.1751708984375
+ },
+ {
+  "item": 491,
+  "split": "train",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -1.820281982421875
+ },
+ {
+  "item": 494,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 1.2342185974121094
+ },
+ {
+  "item": 495,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 0.4894599914550781
+ },
+ {
+  "item": 497,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 0.7170791625976562
+ },
+ {
+  "item": 498,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -2.8761329650878906
+ },
+ {
+  "item": 499,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 2.0893402099609375
+ },
+ {
+  "item": 506,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 1.8461647033691406
+ },
+ {
+  "item": 513,
+  "split": "train",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -1.113006591796875
+ },
+ {
+  "item": 514,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -7.425865173339844
+ },
+ {
+  "item": 520,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 2.7949676513671875
+ },
+ {
+  "item": 521,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -3.2370223999023438
+ },
+ {
+  "item": 522,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 1.4098358154296875
+ },
+ {
+  "item": 523,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -0.9469757080078125
+ },
+ {
+  "item": 524,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -4.823875427246094
+ },
+ {
+  "item": 526,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -0.12664794921875
+ },
+ {
+  "item": 527,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 1.3978271484375
+ },
+ {
+  "item": 536,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -1.06866455078125
+ },
+ {
+  "item": 537,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 1.0863418579101562
+ },
+ {
+  "item": 538,
+  "split": "train",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -1.7563743591308594
+ },
+ {
+  "item": 539,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 3.102264404296875
+ },
+ {
+  "item": 542,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -3.2581443786621094
+ },
+ {
+  "item": 543,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 3.2077865600585938
+ },
+ {
+  "item": 544,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -1.8069953918457031
+ },
+ {
+  "item": 545,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 1.7565879821777344
+ },
+ {
+  "item": 546,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -2.3397903442382812
+ },
+ {
+  "item": 547,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 2.1365623474121094
+ },
+ {
+  "item": 549,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 5.617744445800781
+ },
+ {
+  "item": 550,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -3.3381195068359375
+ },
+ {
+  "item": 551,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 3.187976837158203
+ },
+ {
+  "item": 552,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -1.3961830139160156
+ },
+ {
+  "item": 553,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 1.540313720703125
+ },
+ {
+  "item": 554,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -2.4563980102539062
+ },
+ {
+  "item": 555,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 5.405429840087891
+ },
+ {
+  "item": 557,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 1.7148056030273438
+ },
+ {
+  "item": 558,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -0.4291839599609375
+ },
+ {
+  "item": 559,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 5.150157928466797
+ },
+ {
+  "item": 560,
+  "split": "train",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -0.14710235595703125
+ },
+ {
+  "item": 561,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 4.437934875488281
+ },
+ {
+  "item": 564,
+  "split": "train",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -1.39697265625
+ },
+ {
+  "item": 578,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 4.176921844482422
+ },
+ {
+  "item": 579,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -1.3929824829101562
+ },
+ {
+  "item": 580,
+  "split": "train",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -0.06356048583984375
+ },
+ {
+  "item": 581,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 5.779197692871094
+ },
+ {
+  "item": 584,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 0.02053070068359375
+ },
+ {
+  "item": 585,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -0.03203582763671875
+ },
+ {
+  "item": 586,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 1.66668701171875
+ },
+ {
+  "item": 587,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -1.7098922729492188
+ },
+ {
+  "item": 588,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 1.1280555725097656
+ },
+ {
+  "item": 589,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 3.431354522705078
+ },
+ {
+  "item": 590,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 6.443126678466797
+ },
+ {
+  "item": 591,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 3.069499969482422
+ },
+ {
+  "item": 592,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 1.428924560546875
+ },
+ {
+  "item": 593,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -1.0104255676269531
+ },
+ {
+  "item": 596,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 2.9307098388671875
+ },
+ {
+  "item": 602,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 3.0857620239257812
+ },
+ {
+  "item": 603,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -1.0701904296875
+ },
+ {
+  "item": 616,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 2.700794219970703
+ },
+ {
+  "item": 617,
+  "split": "train",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -1.1486663818359375
+ },
+ {
+  "item": 620,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 1.4497642517089844
+ },
+ {
+  "item": 621,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 0.7114486694335938
+ },
+ {
+  "item": 636,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -3.564556121826172
+ },
+ {
+  "item": 637,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 8.734447479248047
+ },
+ {
+  "item": 638,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 8.972618103027344
+ },
+ {
+  "item": 639,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -3.6005706787109375
+ },
+ {
+  "item": 640,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 0.39127349853515625
+ },
+ {
+  "item": 641,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 1.9200630187988281
+ },
+ {
+  "item": 647,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -1.6064224243164062
+ },
+ {
+  "item": 648,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 5.452846527099609
+ },
+ {
+  "item": 649,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 0.34942626953125
+ },
+ {
+  "item": 651,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 1.6259307861328125
+ },
+ {
+  "item": 658,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 1.8425636291503906
+ },
+ {
+  "item": 659,
+  "split": "train",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -1.0966682434082031
+ },
+ {
+  "item": 660,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -1.9346084594726562
+ },
+ {
+  "item": 661,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 1.462615966796875
+ },
+ {
+  "item": 672,
+  "split": "train",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -0.43869781494140625
+ },
+ {
+  "item": 673,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 0.3669281005859375
+ },
+ {
+  "item": 676,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 2.0132064819335938
+ },
+ {
+  "item": 690,
+  "split": "train",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -2.9406280517578125
+ },
+ {
+  "item": 691,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 2.674480438232422
+ },
+ {
+  "item": 696,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -1.5417709350585938
+ },
+ {
+  "item": 697,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 0.5037384033203125
+ },
+ {
+  "item": 700,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -0.5851287841796875
+ },
+ {
+  "item": 701,
+  "split": "train",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -0.45325469970703125
+ },
+ {
+  "item": 738,
+  "split": "train",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -2.480487823486328
+ },
+ {
+  "item": 739,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 3.2502899169921875
+ },
+ {
+  "item": 742,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 0.30699920654296875
+ },
+ {
+  "item": 743,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -0.3414154052734375
+ },
+ {
+  "item": 744,
+  "split": "train",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -1.7255859375
+ },
+ {
+  "item": 745,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 1.4843063354492188
+ },
+ {
+  "item": 746,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -6.191444396972656
+ },
+ {
+  "item": 747,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 6.091072082519531
+ },
+ {
+  "item": 754,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 1.153778076171875
+ },
+ {
+  "item": 755,
+  "split": "train",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -1.20416259765625
+ },
+ {
+  "item": 762,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 1.288330078125
+ },
+ {
+  "item": 763,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 0.664093017578125
+ },
+ {
+  "item": 770,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -0.078582763671875
+ },
+ {
+  "item": 771,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 0.910797119140625
+ },
+ {
+  "item": 790,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -0.3553962707519531
+ },
+ {
+  "item": 791,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 4.3058929443359375
+ },
+ {
+  "item": 792,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 0.11350631713867188
+ },
+ {
+  "item": 793,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 1.4399642944335938
+ },
+ {
+  "item": 796,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -3.6040802001953125
+ },
+ {
+  "item": 797,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 1.7830581665039062
+ },
+ {
+  "item": 825,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -0.7907867431640625
+ },
+ {
+  "item": 834,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 2.0807228088378906
+ },
+ {
+  "item": 835,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -2.862640380859375
+ },
+ {
+  "item": 842,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 0.29570770263671875
+ },
+ {
+  "item": 848,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -7.776100158691406
+ },
+ {
+  "item": 849,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 7.843803405761719
+ },
+ {
+  "item": 854,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 0.760833740234375
+ },
+ {
+  "item": 855,
+  "split": "train",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -0.3544769287109375
+ },
+ {
+  "item": 920,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -4.681236267089844
+ },
+ {
+  "item": 921,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 1.9525375366210938
+ },
+ {
+  "item": 924,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 3.33697509765625
+ },
+ {
+  "item": 938,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 1.9931106567382812
+ },
+ {
+  "item": 939,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -0.8108444213867188
+ },
+ {
+  "item": 940,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 2.5862274169921875
+ },
+ {
+  "item": 941,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 6.81085205078125
+ },
+ {
+  "item": 954,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -5.162101745605469
+ },
+ {
+  "item": 955,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 9.145683288574219
+ },
+ {
+  "item": 966,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -3.17138671875
+ },
+ {
+  "item": 967,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 3.122161865234375
+ },
+ {
+  "item": 1004,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 0.40312957763671875
+ },
+ {
+  "item": 1005,
+  "split": "train",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -0.43025970458984375
+ },
+ {
+  "item": 1068,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 10.512596130371094
+ },
+ {
+  "item": 1069,
+  "split": "train",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -2.7820587158203125
+ },
+ {
+  "item": 1075,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -3.6034164428710938
+ },
+ {
+  "item": 1088,
+  "split": "train",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -2.2516326904296875
+ },
+ {
+  "item": 1089,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 7.658485412597656
+ },
+ {
+  "item": 1098,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 1.2623825073242188
+ },
+ {
+  "item": 1099,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 0.7400703430175781
+ },
+ {
+  "item": 1102,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 6.2321319580078125
+ },
+ {
+  "item": 1103,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 0.542572021484375
+ },
+ {
+  "item": 1108,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 0.35446929931640625
+ },
+ {
+  "item": 1109,
+  "split": "train",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -0.3373870849609375
+ },
+ {
+  "item": 1138,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -1.794708251953125
+ },
+ {
+  "item": 1139,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 3.5663070678710938
+ },
+ {
+  "item": 1176,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 4.0394439697265625
+ },
+ {
+  "item": 1177,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -1.21588134765625
+ },
+ {
+  "item": 1196,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 4.7724609375
+ },
+ {
+  "item": 1197,
+  "split": "train",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -0.3206787109375
+ },
+ {
+  "item": 1209,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 8.106109619140625
+ },
+ {
+  "item": 1216,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 14.21194839477539
+ },
+ {
+  "item": 1217,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -17.098587036132812
+ },
+ {
+  "item": 1218,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -0.38910675048828125
+ },
+ {
+  "item": 1219,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 1.8538589477539062
+ },
+ {
+  "item": 1230,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 3.04345703125
+ },
+ {
+  "item": 1231,
+  "split": "train",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -1.8775291442871094
+ },
+ {
+  "item": 1232,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 2.2848472595214844
+ },
+ {
+  "item": 1233,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -2.836101531982422
+ },
+ {
+  "item": 1236,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 0.07396697998046875
+ },
+ {
+  "item": 1237,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -0.03971099853515625
+ },
+ {
+  "item": 1238,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 0.7738876342773438
+ },
+ {
+  "item": 1239,
+  "split": "train",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -1.0025482177734375
+ },
+ {
+  "item": 1248,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -1.0981826782226562
+ },
+ {
+  "item": 1249,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 1.53985595703125
+ },
+ {
+  "item": 1261,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -4.840415954589844
+ },
+ {
+  "item": 1264,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 3.7078590393066406
+ },
+ {
+  "item": 1265,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -2.343231201171875
+ },
+ {
+  "item": 1266,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 13.100936889648438
+ },
+ {
+  "item": 1272,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 1.510162353515625
+ },
+ {
+  "item": 1273,
+  "split": "train",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -0.4852638244628906
+ },
+ {
+  "item": 1276,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 0.5786819458007812
+ },
+ {
+  "item": 1277,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 0.28701019287109375
+ },
+ {
+  "item": 1278,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 3.1049041748046875
+ },
+ {
+  "item": 1279,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -1.94091796875
+ },
+ {
+  "item": 1280,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 9.556015014648438
+ },
+ {
+  "item": 1281,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -7.9224853515625
+ },
+ {
+  "item": 1282,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -1.7352142333984375
+ },
+ {
+  "item": 1292,
+  "split": "train",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -9.315887451171875
+ },
+ {
+  "item": 1293,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 7.150352478027344
+ },
+ {
+  "item": 1296,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 10.838886260986328
+ },
+ {
+  "item": 1297,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -2.9571609497070312
+ },
+ {
+  "item": 1298,
+  "split": "train",
+  "question_right": true,
+  "sub_right": true,
+  "sub_margin": 10.553733825683594
+ },
+ {
+  "item": 1299,
+  "split": "train",
+  "question_right": false,
+  "sub_right": false,
+  "sub_margin": -8.18021011352539
+ },
+ {
+  "item": 1304,
+  "split": "train",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -1.4402236938476562
+ },
+ {
+  "item": 1305,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 1.6405410766601562
+ },
+ {
+  "item": 1307,
+  "split": "train",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -0.182891845703125
+ },
+ {
+  "item": 1308,
+  "split": "train",
+  "question_right": true,
+  "sub_right": false,
+  "sub_margin": -0.7150726318359375
+ },
+ {
+  "item": 1309,
+  "split": "train",
+  "question_right": false,
+  "sub_right": true,
+  "sub_margin": 0.7521438598632812
+ }
+]

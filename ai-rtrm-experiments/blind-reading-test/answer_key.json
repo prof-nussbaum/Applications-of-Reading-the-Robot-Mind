@@ -1,0 +1,487 @@
+{
+ "model": "expD_s0",
+ "shuffle_seed": 20261117,
+ "sealed": true,
+ "items": {
+  "BT-01": {
+   "item_id": "BT-01",
+   "index": 42,
+   "subset": "stored-trained",
+   "pass_8tok": true,
+   "lens_rank_hs11": 1,
+   "verdict_hs11": "STORED"
+  },
+  "BT-02": {
+   "item_id": "BT-02",
+   "index": 51,
+   "subset": "forward-only",
+   "pass_8tok": false,
+   "lens_rank_hs11": 155,
+   "verdict_hs11": "MISSING"
+  },
+  "BT-03": {
+   "item_id": "BT-03",
+   "index": 24,
+   "subset": "stored-trained",
+   "pass_8tok": false,
+   "lens_rank_hs11": 3,
+   "verdict_hs11": "STORED"
+  },
+  "BT-04": {
+   "item_id": "BT-04",
+   "index": 56,
+   "subset": "stored-trained",
+   "pass_8tok": false,
+   "lens_rank_hs11": 2,
+   "verdict_hs11": "STORED"
+  },
+  "BT-05": {
+   "item_id": "BT-05",
+   "index": 31,
+   "subset": "stored-trained",
+   "pass_8tok": false,
+   "lens_rank_hs11": 10,
+   "verdict_hs11": "STORED"
+  },
+  "BT-06": {
+   "item_id": "BT-06",
+   "index": 40,
+   "subset": "forward-only",
+   "pass_8tok": false,
+   "lens_rank_hs11": 39,
+   "verdict_hs11": "WEAK"
+  },
+  "BT-07": {
+   "item_id": "BT-07",
+   "index": 47,
+   "subset": "forward-only",
+   "pass_8tok": false,
+   "lens_rank_hs11": 91,
+   "verdict_hs11": "WEAK"
+  },
+  "BT-08": {
+   "item_id": "BT-08",
+   "index": 41,
+   "subset": "stored-trained",
+   "pass_8tok": false,
+   "lens_rank_hs11": 5,
+   "verdict_hs11": "STORED"
+  },
+  "BT-09": {
+   "item_id": "BT-09",
+   "index": 55,
+   "subset": "forward-only",
+   "pass_8tok": false,
+   "lens_rank_hs11": 88,
+   "verdict_hs11": "WEAK"
+  },
+  "BT-10": {
+   "item_id": "BT-10",
+   "index": 39,
+   "subset": "forward-only",
+   "pass_8tok": false,
+   "lens_rank_hs11": 143,
+   "verdict_hs11": "MISSING"
+  },
+  "BT-11": {
+   "item_id": "BT-11",
+   "index": 33,
+   "subset": "stored-trained",
+   "pass_8tok": false,
+   "lens_rank_hs11": 1,
+   "verdict_hs11": "STORED"
+  },
+  "BT-12": {
+   "item_id": "BT-12",
+   "index": 38,
+   "subset": "stored-trained",
+   "pass_8tok": false,
+   "lens_rank_hs11": 3,
+   "verdict_hs11": "STORED"
+  },
+  "BT-13": {
+   "item_id": "BT-13",
+   "index": 16,
+   "subset": "stored-trained",
+   "pass_8tok": false,
+   "lens_rank_hs11": 13,
+   "verdict_hs11": "WEAK"
+  },
+  "BT-14": {
+   "item_id": "BT-14",
+   "index": 58,
+   "subset": "stored-trained",
+   "pass_8tok": false,
+   "lens_rank_hs11": 12,
+   "verdict_hs11": "WEAK"
+  },
+  "BT-15": {
+   "item_id": "BT-15",
+   "index": 57,
+   "subset": "forward-only",
+   "pass_8tok": false,
+   "lens_rank_hs11": 38,
+   "verdict_hs11": "WEAK"
+  },
+  "BT-16": {
+   "item_id": "BT-16",
+   "index": 5,
+   "subset": "stored-trained",
+   "pass_8tok": true,
+   "lens_rank_hs11": 1,
+   "verdict_hs11": "STORED"
+  },
+  "BT-17": {
+   "item_id": "BT-17",
+   "index": 27,
+   "subset": "stored-trained",
+   "pass_8tok": false,
+   "lens_rank_hs11": 5,
+   "verdict_hs11": "STORED"
+  },
+  "BT-18": {
+   "item_id": "BT-18",
+   "index": 23,
+   "subset": "stored-trained",
+   "pass_8tok": true,
+   "lens_rank_hs11": 2,
+   "verdict_hs11": "STORED"
+  },
+  "BT-19": {
+   "item_id": "BT-19",
+   "index": 20,
+   "subset": "forward-only",
+   "pass_8tok": false,
+   "lens_rank_hs11": 56,
+   "verdict_hs11": "WEAK"
+  },
+  "BT-20": {
+   "item_id": "BT-20",
+   "index": 26,
+   "subset": "forward-only",
+   "pass_8tok": false,
+   "lens_rank_hs11": 212,
+   "verdict_hs11": "MISSING"
+  },
+  "BT-21": {
+   "item_id": "BT-21",
+   "index": 49,
+   "subset": "forward-only",
+   "pass_8tok": false,
+   "lens_rank_hs11": 67,
+   "verdict_hs11": "WEAK"
+  },
+  "BT-22": {
+   "item_id": "BT-22",
+   "index": 2,
+   "subset": "stored-trained",
+   "pass_8tok": false,
+   "lens_rank_hs11": 15,
+   "verdict_hs11": "WEAK"
+  },
+  "BT-23": {
+   "item_id": "BT-23",
+   "index": 4,
+   "subset": "forward-only",
+   "pass_8tok": false,
+   "lens_rank_hs11": 109,
+   "verdict_hs11": "MISSING"
+  },
+  "BT-24": {
+   "item_id": "BT-24",
+   "index": 48,
+   "subset": "forward-only",
+   "pass_8tok": false,
+   "lens_rank_hs11": 37,
+   "verdict_hs11": "WEAK"
+  },
+  "BT-25": {
+   "item_id": "BT-25",
+   "index": 17,
+   "subset": "forward-only",
+   "pass_8tok": false,
+   "lens_rank_hs11": 95,
+   "verdict_hs11": "WEAK"
+  },
+  "BT-26": {
+   "item_id": "BT-26",
+   "index": 6,
+   "subset": "stored-trained",
+   "pass_8tok": false,
+   "lens_rank_hs11": 15,
+   "verdict_hs11": "WEAK"
+  },
+  "BT-27": {
+   "item_id": "BT-27",
+   "index": 53,
+   "subset": "stored-trained",
+   "pass_8tok": false,
+   "lens_rank_hs11": 40,
+   "verdict_hs11": "WEAK"
+  },
+  "BT-28": {
+   "item_id": "BT-28",
+   "index": 28,
+   "subset": "forward-only",
+   "pass_8tok": false,
+   "lens_rank_hs11": 40,
+   "verdict_hs11": "WEAK"
+  },
+  "BT-29": {
+   "item_id": "BT-29",
+   "index": 46,
+   "subset": "forward-only",
+   "pass_8tok": false,
+   "lens_rank_hs11": 162,
+   "verdict_hs11": "MISSING"
+  },
+  "BT-30": {
+   "item_id": "BT-30",
+   "index": 36,
+   "subset": "forward-only",
+   "pass_8tok": false,
+   "lens_rank_hs11": 126,
+   "verdict_hs11": "MISSING"
+  },
+  "BT-31": {
+   "item_id": "BT-31",
+   "index": 44,
+   "subset": "forward-only",
+   "pass_8tok": false,
+   "lens_rank_hs11": 272,
+   "verdict_hs11": "MISSING"
+  },
+  "BT-32": {
+   "item_id": "BT-32",
+   "index": 10,
+   "subset": "stored-trained",
+   "pass_8tok": true,
+   "lens_rank_hs11": 2,
+   "verdict_hs11": "STORED"
+  },
+  "BT-33": {
+   "item_id": "BT-33",
+   "index": 15,
+   "subset": "stored-trained",
+   "pass_8tok": false,
+   "lens_rank_hs11": 2,
+   "verdict_hs11": "STORED"
+  },
+  "BT-34": {
+   "item_id": "BT-34",
+   "index": 37,
+   "subset": "stored-trained",
+   "pass_8tok": false,
+   "lens_rank_hs11": 8,
+   "verdict_hs11": "STORED"
+  },
+  "BT-35": {
+   "item_id": "BT-35",
+   "index": 35,
+   "subset": "forward-only",
+   "pass_8tok": false,
+   "lens_rank_hs11": 108,
+   "verdict_hs11": "MISSING"
+  },
+  "BT-36": {
+   "item_id": "BT-36",
+   "index": 34,
+   "subset": "forward-only",
+   "pass_8tok": false,
+   "lens_rank_hs11": 152,
+   "verdict_hs11": "MISSING"
+  },
+  "BT-37": {
+   "item_id": "BT-37",
+   "index": 52,
+   "subset": "stored-trained",
+   "pass_8tok": true,
+   "lens_rank_hs11": 1,
+   "verdict_hs11": "STORED"
+  },
+  "BT-38": {
+   "item_id": "BT-38",
+   "index": 8,
+   "subset": "forward-only",
+   "pass_8tok": false,
+   "lens_rank_hs11": 2776,
+   "verdict_hs11": "MISSING"
+  },
+  "BT-39": {
+   "item_id": "BT-39",
+   "index": 11,
+   "subset": "stored-trained",
+   "pass_8tok": false,
+   "lens_rank_hs11": 15,
+   "verdict_hs11": "WEAK"
+  },
+  "BT-40": {
+   "item_id": "BT-40",
+   "index": 43,
+   "subset": "forward-only",
+   "pass_8tok": false,
+   "lens_rank_hs11": 983,
+   "verdict_hs11": "MISSING"
+  },
+  "BT-41": {
+   "item_id": "BT-41",
+   "index": 25,
+   "subset": "stored-trained",
+   "pass_8tok": false,
+   "lens_rank_hs11": 47,
+   "verdict_hs11": "WEAK"
+  },
+  "BT-42": {
+   "item_id": "BT-42",
+   "index": 32,
+   "subset": "stored-trained",
+   "pass_8tok": false,
+   "lens_rank_hs11": 23,
+   "verdict_hs11": "WEAK"
+  },
+  "BT-43": {
+   "item_id": "BT-43",
+   "index": 7,
+   "subset": "stored-trained",
+   "pass_8tok": false,
+   "lens_rank_hs11": 21,
+   "verdict_hs11": "WEAK"
+  },
+  "BT-44": {
+   "item_id": "BT-44",
+   "index": 30,
+   "subset": "forward-only",
+   "pass_8tok": false,
+   "lens_rank_hs11": 414,
+   "verdict_hs11": "MISSING"
+  },
+  "BT-45": {
+   "item_id": "BT-45",
+   "index": 45,
+   "subset": "forward-only",
+   "pass_8tok": false,
+   "lens_rank_hs11": 107,
+   "verdict_hs11": "MISSING"
+  },
+  "BT-46": {
+   "item_id": "BT-46",
+   "index": 18,
+   "subset": "forward-only",
+   "pass_8tok": false,
+   "lens_rank_hs11": 172,
+   "verdict_hs11": "MISSING"
+  },
+  "BT-47": {
+   "item_id": "BT-47",
+   "index": 50,
+   "subset": "forward-only",
+   "pass_8tok": false,
+   "lens_rank_hs11": 81,
+   "verdict_hs11": "WEAK"
+  },
+  "BT-48": {
+   "item_id": "BT-48",
+   "index": 0,
+   "subset": "forward-only",
+   "pass_8tok": false,
+   "lens_rank_hs11": 130,
+   "verdict_hs11": "MISSING"
+  },
+  "BT-49": {
+   "item_id": "BT-49",
+   "index": 3,
+   "subset": "forward-only",
+   "pass_8tok": false,
+   "lens_rank_hs11": 53,
+   "verdict_hs11": "WEAK"
+  },
+  "BT-50": {
+   "item_id": "BT-50",
+   "index": 29,
+   "subset": "stored-trained",
+   "pass_8tok": false,
+   "lens_rank_hs11": 45,
+   "verdict_hs11": "WEAK"
+  },
+  "BT-51": {
+   "item_id": "BT-51",
+   "index": 22,
+   "subset": "stored-trained",
+   "pass_8tok": false,
+   "lens_rank_hs11": 16,
+   "verdict_hs11": "WEAK"
+  },
+  "BT-52": {
+   "item_id": "BT-52",
+   "index": 59,
+   "subset": "stored-trained",
+   "pass_8tok": false,
+   "lens_rank_hs11": 1,
+   "verdict_hs11": "STORED"
+  },
+  "BT-53": {
+   "item_id": "BT-53",
+   "index": 19,
+   "subset": "stored-trained",
+   "pass_8tok": true,
+   "lens_rank_hs11": 14,
+   "verdict_hs11": "WEAK"
+  },
+  "BT-54": {
+   "item_id": "BT-54",
+   "index": 21,
+   "subset": "stored-trained",
+   "pass_8tok": true,
+   "lens_rank_hs11": 2,
+   "verdict_hs11": "STORED"
+  },
+  "BT-55": {
+   "item_id": "BT-55",
+   "index": 13,
+   "subset": "forward-only",
+   "pass_8tok": false,
+   "lens_rank_hs11": 167,
+   "verdict_hs11": "MISSING"
+  },
+  "BT-56": {
+   "item_id": "BT-56",
+   "index": 12,
+   "subset": "forward-only",
+   "pass_8tok": false,
+   "lens_rank_hs11": 83,
+   "verdict_hs11": "WEAK"
+  },
+  "BT-57": {
+   "item_id": "BT-57",
+   "index": 14,
+   "subset": "forward-only",
+   "pass_8tok": false,
+   "lens_rank_hs11": 109,
+   "verdict_hs11": "MISSING"
+  },
+  "BT-58": {
+   "item_id": "BT-58",
+   "index": 1,
+   "subset": "stored-trained",
+   "pass_8tok": true,
+   "lens_rank_hs11": 2,
+   "verdict_hs11": "STORED"
+  },
+  "BT-59": {
+   "item_id": "BT-59",
+   "index": 9,
+   "subset": "forward-only",
+   "pass_8tok": false,
+   "lens_rank_hs11": 136,
+   "verdict_hs11": "MISSING"
+  },
+  "BT-60": {
+   "item_id": "BT-60",
+   "index": 54,
+   "subset": "stored-trained",
+   "pass_8tok": true,
+   "lens_rank_hs11": 2,
+   "verdict_hs11": "STORED"
+  }
+ }
+}

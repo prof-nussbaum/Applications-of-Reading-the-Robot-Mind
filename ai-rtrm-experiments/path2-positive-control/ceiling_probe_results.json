@@ -1,0 +1,25 @@
+{
+ "label": "CEILING PROBE \u2014 DIAGNOSTIC ONLY, NOT RTRM. A supervised probe is a trained classifier, a different method from the RTRM cosine-similarity method; it bounds the checklist claim and is never an RTRM result or a book claim.",
+ "states": "raw L12 pronoun states (per-token L2-normalised) at the pronoun position in the question-format prompt, recomputed with the confirmatory recipe for the 617 DPR confirmatory items",
+ "rank_reproduction_check": {
+  "items_exact_match_r_label_and_r_comp": 617,
+  "of": 617,
+  "required": ">= 20"
+ },
+ "split": {
+  "method": "StratifiedShuffleSplit, by item, stratified on model_right, seed 0",
+  "train": 308,
+  "test": 309
+ },
+ "model": "sklearn LogisticRegression(C=1.0, max_iter=1000), StandardScaler fit on train half only",
+ "target": "model_right from results_confirmatory.json",
+ "test_auc_predict_right": 0.31602348993288587,
+ "test_auc_predict_error": 0.31602348993288587,
+ "test_auc_predict_error_bootstrap95CI": [
+  0.26212855625945575,
+  0.37705225314274715
+ ],
+ "bootstrap": "1000 resamples of the test set, rng seed 0, percentile method; 1000 valid resamples",
+ "train_auc_predict_error": 0.9135346283783784,
+ "locked_prediction": "test AUC between 0.45 and 0.60 (near chance)"
+}

@@ -1,0 +1,62 @@
+{
+ "self_checks_banked_L12": {
+  "vs_sub_pick": {
+   "same_pairs": 183,
+   "same_both": 105,
+   "same_share": 0.5737704918032787,
+   "same_exactly_one": 0,
+   "same_neither": 78,
+   "flip_pairs": 54,
+   "flip_both": 0,
+   "flip_share": 0.0,
+   "flip_exactly_one": 54,
+   "nontwin_items": 143,
+   "nontwin_match": 90,
+   "nontwin_share": 0.6293706293706294
+  },
+  "vs_question_pick": {
+   "same_pairs": 217,
+   "same_both": 116,
+   "same_share": 0.5345622119815668,
+   "same_exactly_one": 0,
+   "same_neither": 101,
+   "flip_pairs": 20,
+   "flip_both": 0,
+   "flip_share": 0.0,
+   "flip_exactly_one": 20,
+   "nontwin_items": 143,
+   "nontwin_match": 73,
+   "nontwin_share": 0.5104895104895105
+  }
+ },
+ "L11_pronoun": {
+  "vs_question_pick": {
+   "same_pairs": 217,
+   "same_both": 108,
+   "same_share": 0.4976958525345622,
+   "same_exactly_one": 0,
+   "same_neither": 109,
+   "flip_pairs": 20,
+   "flip_both": 0,
+   "flip_share": 0.0,
+   "flip_exactly_one": 20,
+   "nontwin_items": 143,
+   "nontwin_match": 66,
+   "nontwin_share": 0.46153846153846156
+  },
+  "vs_sub_pick": {
+   "same_pairs": 183,
+   "same_both": 88,
+   "same_share": 0.4808743169398907,
+   "same_exactly_one": 0,
+   "same_neither": 95,
+   "flip_pairs": 54,
+   "flip_both": 0,
+   "flip_share": 0.0,
+   "flip_exactly_one": 54,
+   "nontwin_items": 143,
+   "nontwin_match": 65,
+   "nontwin_share": 0.45454545454545453
+  }
+ }
+}

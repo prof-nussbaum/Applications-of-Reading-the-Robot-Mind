@@ -1,0 +1,177 @@
+{
+ "verdicts_saved_utc": "2026-11-15T14:01:35.495933+00:00",
+ "arms": {
+  "mix_201a": {
+   "counts_hs11": {
+    "MISSING": 33,
+    "WEAK": 27
+   },
+   "counts_hs12": {
+    "MISSING": 55,
+    "WEAK": 5
+   },
+   "counts_final": {
+    "MISSING": 42,
+    "WEAK": 18
+   },
+   "pass8_reversed": 0,
+   "pass50_reversed": 0,
+   "pass8_forward": 60,
+   "pass50_forward": 60,
+   "table_hs11": {
+    "MISSING": [
+     33,
+     0
+    ],
+    "WEAK": [
+     27,
+     0
+    ]
+   },
+   "table_hs12": {
+    "MISSING": [
+     55,
+     0
+    ],
+    "WEAK": [
+     5,
+     0
+    ]
+   },
+   "table_final": {
+    "MISSING": [
+     42,
+     0
+    ],
+    "WEAK": [
+     18,
+     0
+    ]
+   }
+  },
+  "mix_201b": {
+   "counts_hs11": {
+    "MISSING": 60
+   },
+   "counts_hs12": {
+    "MISSING": 60
+   },
+   "counts_final": {
+    "MISSING": 60
+   },
+   "pass8_reversed": 0,
+   "pass50_reversed": 0,
+   "pass8_forward": 55,
+   "pass50_forward": 59,
+   "table_hs11": {
+    "MISSING": [
+     60,
+     0
+    ]
+   },
+   "table_hs12": {
+    "MISSING": [
+     60,
+     0
+    ]
+   },
+   "table_final": {
+    "MISSING": [
+     60,
+     0
+    ]
+   }
+  },
+  "mix_201c": {
+   "counts_hs11": {
+    "MISSING": 60
+   },
+   "counts_hs12": {
+    "MISSING": 60
+   },
+   "counts_final": {
+    "MISSING": 60
+   },
+   "pass8_reversed": 0,
+   "pass50_reversed": 0,
+   "pass8_forward": 29,
+   "pass50_forward": 30,
+   "table_hs11": {
+    "MISSING": [
+     60,
+     0
+    ]
+   },
+   "table_hs12": {
+    "MISSING": [
+     60,
+     0
+    ]
+   },
+   "table_final": {
+    "MISSING": [
+     60,
+     0
+    ]
+   }
+  }
+ },
+ "pooled_b_c": {
+  "base_pass": 0,
+  "base_n": 120,
+  "base_rate": 0.0,
+  "table_hs11": {
+   "MISSING": [
+    120,
+    0
+   ]
+  },
+  "table_hs12": {
+   "MISSING": [
+    120,
+    0
+   ]
+  },
+  "table_final": {
+   "MISSING": [
+    120,
+    0
+   ]
+  },
+  "missing_fail": {
+   "n": 120,
+   "k": 120,
+   "rate": 1.0,
+   "wilson": [
+    0.9689808331071251,
+    0.9999999999999998
+   ],
+   "binom_p_vs_base": NaN
+  },
+  "stored_pass": {
+   "n": 0,
+   "k": 0,
+   "rate": NaN,
+   "wilson": [
+    NaN,
+    NaN
+   ],
+   "binom_p_vs_base": NaN
+  },
+  "fisher_table_stored_vs_missing": [
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    120
+   ]
+  ],
+  "fisher_p": 1.0,
+  "missing_half": "PASS",
+  "stored_half": "INCONCLUSIVE (class < 10 items)",
+  "verdict": "INCONCLUSIVE"
+ },
+ "failure_anatomy_stored_but_failed_hs11": []
+}

@@ -1,0 +1,256 @@
+{
+ "label": "EXPLORATORY post-hoc mechanism checks (2026-11-15) on the completed Path 2 confirmatory data. NOT a confirmatory test; the locked verdict (NOT WIN) is unchanged.",
+ "check1_flag_leg_decomposition": {
+  "all": {
+   "n": 617,
+   "flagged": 460,
+   "leg_a_marginal": 305,
+   "leg_b_marginal": 397,
+   "leg_c_marginal": 0,
+   "leg_a_only": 63,
+   "leg_b_only": 155,
+   "leg_c_only": 0,
+   "legs_ab": 242,
+   "legs_ac": 0,
+   "legs_bc": 0,
+   "legs_abc": 0
+  },
+  "errors": {
+   "n": 297,
+   "flagged": 227,
+   "leg_a_marginal": 155,
+   "leg_b_marginal": 197,
+   "leg_c_marginal": 0,
+   "leg_a_only": 30,
+   "leg_b_only": 72,
+   "leg_c_only": 0,
+   "legs_ab": 125,
+   "legs_ac": 0,
+   "legs_bc": 0,
+   "legs_abc": 0
+  },
+  "correct": {
+   "n": 320,
+   "flagged": 233,
+   "leg_a_marginal": 150,
+   "leg_b_marginal": 200,
+   "leg_c_marginal": 0,
+   "leg_a_only": 33,
+   "leg_b_only": 83,
+   "leg_c_only": 0,
+   "legs_ab": 117,
+   "legs_ac": 0,
+   "legs_bc": 0,
+   "legs_abc": 0
+  },
+  "median_r_label_errors": 1625,
+  "median_r_label_correct": 1125.0,
+  "n_absent_errors": 0,
+  "n_absent_correct": 0
+ },
+ "check1_notes": "Legs as coded in run_confirmatory.py: a = r_comp < r_label (both present); b = r_label > 500; c = r_label absent (JSON null). No confirmatory item has r_label absent (eligibility required >=10 pool occurrences per candidate word), so leg c never fires. Flag reconstruction (a or b or c) matches rtrm_flag on all 617 items.",
+ "check2_pool_size_sweep": {
+  "method": "Query states recomputed with the confirmatory recipe (PCA-64 seed 0 fit on the FULL pool; pronoun-mean from the FULL pool; nothing refit). Candidate set = uniform random subsample of the 47,499 pool rows (torch.randperm, seeds 0/1/2, without replacement). MISS fixed from confirmatory records (errors with margin_nats >= 0.35; n=268). Fisher: one-sided greater, flag x error among margin-unflagged items, as in analyze_confirmatory.py.",
+  "sanity_anchor": "Recomputed full-pool r_label/r_comp match results_confirmatory.json exactly on all 617 items; full-pool metrics reproduce catch 204/268 = 0.761, FAR 233/320 = 0.728, Fisher p = 0.296.",
+  "full_47499": {
+   "catch_of_miss": 0.7611940298507462,
+   "far_correct": 0.728125,
+   "fisher_p": 0.2955739080865504,
+   "fisher_table": [
+    [
+     204,
+     211
+    ],
+    [
+     64,
+     75
+    ]
+   ],
+   "leg_b_rate_all_items": 0.6434359805510534,
+   "n_flagged": 460
+  },
+  "size_5000": {
+   "per_seed": [
+    {
+     "catch_of_miss": 0.7835820895522388,
+     "far_correct": 0.79375,
+     "fisher_p": 0.6158893094472802,
+     "fisher_table": [
+      [
+       210,
+       226
+      ],
+      [
+       58,
+       60
+      ]
+     ],
+     "leg_b_rate_all_items": 0.46353322528363045,
+     "n_flagged": 488
+    },
+    {
+     "catch_of_miss": 0.7798507462686567,
+     "far_correct": 0.7625,
+     "fisher_p": 0.2484940143100968,
+     "fisher_table": [
+      [
+       209,
+       215
+      ],
+      [
+       59,
+       71
+      ]
+     ],
+     "leg_b_rate_all_items": 0.4683954619124797,
+     "n_flagged": 477
+    },
+    {
+     "catch_of_miss": 0.7611940298507462,
+     "far_correct": 0.75625,
+     "fisher_p": 0.6269461197099859,
+     "fisher_table": [
+      [
+       204,
+       220
+      ],
+      [
+       64,
+       66
+      ]
+     ],
+     "leg_b_rate_all_items": 0.5072933549432739,
+     "n_flagged": 468
+    }
+   ],
+   "mean": {
+    "catch_of_miss": 0.7748756218905473,
+    "far_correct": 0.7708333333333334,
+    "fisher_p": 0.4971098144891209,
+    "leg_b_rate_all_items": 0.479740680713128
+   }
+  },
+  "size_15000": {
+   "per_seed": [
+    {
+     "catch_of_miss": 0.7611940298507462,
+     "far_correct": 0.721875,
+     "fisher_p": 0.20718166847617245,
+     "fisher_table": [
+      [
+       204,
+       208
+      ],
+      [
+       64,
+       78
+      ]
+     ],
+     "leg_b_rate_all_items": 0.6580226904376013,
+     "n_flagged": 457
+    },
+    {
+     "catch_of_miss": 0.753731343283582,
+     "far_correct": 0.75,
+     "fisher_p": 0.555914236022736,
+     "fisher_table": [
+      [
+       202,
+       216
+      ],
+      [
+       66,
+       70
+      ]
+     ],
+     "leg_b_rate_all_items": 0.653160453808752,
+     "n_flagged": 464
+    },
+    {
+     "catch_of_miss": 0.746268656716418,
+     "far_correct": 0.7375,
+     "fisher_p": 0.4479033859104797,
+     "fisher_table": [
+      [
+       200,
+       211
+      ],
+      [
+       68,
+       75
+      ]
+     ],
+     "leg_b_rate_all_items": 0.6499189627228525,
+     "n_flagged": 461
+    }
+   ],
+   "mean": {
+    "catch_of_miss": 0.753731343283582,
+    "far_correct": 0.7364583333333333,
+    "fisher_p": 0.40366643013646275,
+    "leg_b_rate_all_items": 0.6537007023230686
+   }
+  },
+  "size_30000": {
+   "per_seed": [
+    {
+     "catch_of_miss": 0.7798507462686567,
+     "far_correct": 0.7125,
+     "fisher_p": 0.07666906907869883,
+     "fisher_table": [
+      [
+       209,
+       207
+      ],
+      [
+       59,
+       79
+      ]
+     ],
+     "leg_b_rate_all_items": 0.6450567260940032,
+     "n_flagged": 459
+    },
+    {
+     "catch_of_miss": 0.7201492537313433,
+     "far_correct": 0.740625,
+     "fisher_p": 0.7734596353560051,
+     "fisher_table": [
+      [
+       193,
+       213
+      ],
+      [
+       75,
+       73
+      ]
+     ],
+     "leg_b_rate_all_items": 0.6337115072933549,
+     "n_flagged": 452
+    },
+    {
+     "catch_of_miss": 0.7686567164179104,
+     "far_correct": 0.725,
+     "fisher_p": 0.17624481349092302,
+     "fisher_table": [
+      [
+       206,
+       209
+      ],
+      [
+       62,
+       77
+      ]
+     ],
+     "leg_b_rate_all_items": 0.6450567260940032,
+     "n_flagged": 460
+    }
+   ],
+   "mean": {
+    "catch_of_miss": 0.7562189054726368,
+    "far_correct": 0.7260416666666667,
+    "fisher_p": 0.342124505975209,
+    "leg_b_rate_all_items": 0.6412749864937871
+   }
+  }
+ }
+}

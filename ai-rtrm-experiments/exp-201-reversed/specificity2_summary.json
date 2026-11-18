@@ -1,0 +1,26 @@
+{
+ "mix_201a": {
+  "validation_mismatches_vs_verdicts": 0,
+  "median_correct_rank": 110.0,
+  "median_of_median_other": 133.5,
+  "mean_frac_others_beaten": 0.549,
+  "n_correct_is_best_of_set": 2,
+  "n_correct_in_top100": 27
+ },
+ "mix_201b": {
+  "validation_mismatches_vs_verdicts": 0,
+  "median_correct_rank": 1699.0,
+  "median_of_median_other": 1816.5,
+  "mean_frac_others_beaten": 0.513,
+  "n_correct_is_best_of_set": 3,
+  "n_correct_in_top100": 0
+ },
+ "mix_201c": {
+  "validation_mismatches_vs_verdicts": 1,
+  "median_correct_rank": 1135.5,
+  "median_of_median_other": 1137.0,
+  "mean_frac_others_beaten": 0.513,
+  "n_correct_is_best_of_set": 4,
+  "n_correct_in_top100": 0
+ }
+}
