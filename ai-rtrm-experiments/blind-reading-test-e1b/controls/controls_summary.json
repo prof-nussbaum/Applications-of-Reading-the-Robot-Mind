@@ -1,0 +1,15 @@
+{
+ "criterion_fixed_in_F014": "retrieval is specific to the fine-tuned model iff under Control U the pair's own reversed sentence is the top neighbour in at most 13 of 30 stored-trained pairs (fine-tuned: 26/30)",
+ "controlU_top1_count": 0,
+ "controlU_top9_count": 0,
+ "criterion_verdict": "SPECIFIC to the fine-tuned model",
+ "controlB": {
+  "reversed_rank1": 0,
+  "reversed_top9": 30,
+  "forward_only_forward_in_top20": 30
+ },
+ "finetuned_reference": {
+  "top1": 26,
+  "top9": 30
+ }
+}
