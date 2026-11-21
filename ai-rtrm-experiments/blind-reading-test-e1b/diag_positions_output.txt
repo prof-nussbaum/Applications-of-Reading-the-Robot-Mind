@@ -1,0 +1,16 @@
+Position diagnostic — diag_positions.py, run 2026-11-20 on the Jetson
+(exp-201-exposure-fresh, seed-1 model and its own pool). Construction
+identical to build_e1b_fresh.py (its functions imported verbatim,
+including the "is"-mean subtraction at every position); only the
+query position varies. Diagnostic only — not a protocol change.
+
+sanity: final-position ranks reproduce the built lists exactly (60/60)
+final-is    stored-trained  median 18961  <=20 0/30  <=100 0/30
+final-is    forward-only    median 19407  <=20 0/30  <=100 0/30
+godchild    stored-trained  median 22219  <=20 0/30  <=100 0/30
+godchild    forward-only    median 11954  <=20 0/30  <=100 0/30
+possessive  stored-trained  median 22077  <=20 0/30  <=100 0/30
+possessive  forward-only    median 15396  <=20 0/30  <=100 0/30
+
+Reading: at no position does the correct godparent's first name come
+within the top 100 of the neighbour list, for either subset.
