@@ -1,0 +1,50 @@
+{
+ "gate_fixed_in_F013": 0.65,
+ "variantN_best_fixed_rule_BA": 0.5625,
+ "variantT_best_fixed_rule_BA": 1.0,
+ "variantN_gate": "MISSED",
+ "variantT_gate": "MET",
+ "variantT_extras": {
+  "mean_top20_ft_share_stored": 0.665,
+  "mean_top20_ft_share_forward_only": 0.57,
+  "godchild_mention_rank_median_stored": 1,
+  "godchild_mention_rank_median_forward_only": 636
+ },
+ "variantT_forward_only_figure": {
+  "forward_only_pairs": 30,
+  "forward_sentence_in_top20": 5,
+  "all_forward_only_fail_probe": true,
+  "per_pair_forward_rank": {
+   "0": 1459,
+   "5": 374,
+   "6": 13,
+   "7": 1573,
+   "9": 916,
+   "11": 583,
+   "13": 16,
+   "17": 1989,
+   "19": 636,
+   "20": 1051,
+   "22": 15,
+   "23": 4524,
+   "26": 1097,
+   "27": 2262,
+   "31": 4150,
+   "32": 2237,
+   "35": 6833,
+   "38": 87,
+   "39": 82,
+   "40": 538,
+   "43": 4537,
+   "44": 1,
+   "46": 9395,
+   "49": 458,
+   "50": 580,
+   "51": 379,
+   "54": 1,
+   "55": 2391,
+   "58": 1342,
+   "59": 552
+  }
+ }
+}
