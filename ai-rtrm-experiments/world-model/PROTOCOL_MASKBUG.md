@@ -37,6 +37,30 @@ file.
    of the gate, all 63 items. Its build/analyse/reader stages on the
    reference pool remain unrun; step 3 of the order of work is their
    first full run.
+5. **Pixel source for the fixed pool: CHECKED 2026-11-22, PASSED**
+   (check prescribed by the referee in R-015, PR #19). Correction 3's
+   gate validated the pixel folder on the buggy pool only; every
+   primary comparison is rebuilt from the fixed pool
+   (`pool_layers_maskfix/`). Pool-only check (`poolcheck_r015.py`,
+   committed beside this protocol; records in `poolcheck.json`): for
+   each pool and layer, every tile state's nearest neighbour among
+   the tiles of the *other* augmented copies of the same scene
+   (the pool's own basis, k = 300, the retrospective's recipe), and
+   the pixel error between the tile's own patch and the neighbour's
+   patch, with patches cut from each candidate folder in turn.
+   Mean pixel error, recon-panel/augmented vs exp-320/data/augmented:
+   fixed pool — L8 380.2 vs 1444.9, L16 407.1 vs 1423.3, L24 378.7
+   vs 1451.3; buggy pool (reference) — L8 325.7 vs 1441.4, L16 334.5
+   vs 1419.1, L24 328.8 vs 1428.7. The folder named in correction 1
+   gives the clearly lower error on the fixed pool at every layer,
+   of the same order as on the buggy pool — correction 1 therefore
+   stands for both pools, and the script keeps its single picture
+   folder. (The absolute values differ from the 2026-11-07 hygiene
+   note's 140 vs 552 because the construction differs — pool-internal
+   other-copy neighbours here, scene mosaics there; the ordering and
+   the roughly fourfold ratio are the signature.) Consistent with
+   the exp-320 README's note that the maskfix re-run read latents
+   from `recon-panel/augmented_latents/`.
 
 ## Question
 
