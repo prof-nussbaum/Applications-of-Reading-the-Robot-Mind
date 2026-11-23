@@ -1,0 +1,71 @@
+{
+ "check": "R-015 correction 5: pool-only pixel-source check, k=300, other-copy same-scene NN",
+ "results": {
+  "maskfix": {
+   "8": {
+    "mean_top1_cos": 0.4862383008003235,
+    "same_place_share": 0.9067055393586005,
+    "pixel_mse": {
+     "recon-panel/augmented": 380.1942138671875,
+     "exp-320/data/augmented": 1444.8643798828125
+    }
+   },
+   "16": {
+    "mean_top1_cos": 0.39728254079818726,
+    "same_place_share": 0.9047740524781341,
+    "pixel_mse": {
+     "recon-panel/augmented": 407.0559387207031,
+     "exp-320/data/augmented": 1423.251953125
+    }
+   },
+   "24": {
+    "mean_top1_cos": 0.44726839661598206,
+    "same_place_share": 0.9053571428571429,
+    "pixel_mse": {
+     "recon-panel/augmented": 378.66021728515625,
+     "exp-320/data/augmented": 1451.2501220703125
+    }
+   }
+  },
+  "buggy": {
+   "8": {
+    "mean_top1_cos": 0.5959039330482483,
+    "same_place_share": 0.909365889212828,
+    "pixel_mse": {
+     "recon-panel/augmented": 325.7421875,
+     "exp-320/data/augmented": 1441.391845703125
+    }
+   },
+   "16": {
+    "mean_top1_cos": 0.6371939182281494,
+    "same_place_share": 0.9393950437317784,
+    "pixel_mse": {
+     "recon-panel/augmented": 334.549560546875,
+     "exp-320/data/augmented": 1419.1405029296875
+    }
+   },
+   "24": {
+    "mean_top1_cos": 0.64149409532547,
+    "same_place_share": 0.9373542274052478,
+    "pixel_mse": {
+     "recon-panel/augmented": 328.7937316894531,
+     "exp-320/data/augmented": 1428.7027587890625
+    }
+   }
+  }
+ },
+ "recon_panel_lower": {
+  "maskfix": {
+   "8": true,
+   "16": true,
+   "24": true
+  },
+  "buggy": {
+   "8": true,
+   "16": true,
+   "24": true
+  }
+ },
+ "pass": true,
+ "pass_sentence": "PASS: on the fixed (maskfix) pool, recon-panel/augmented/ gives the clearly lower pixel error at every layer, as on the buggy pool."
+}
