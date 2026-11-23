@@ -1,0 +1,71 @@
+{
+ "bars_locked": "blind-reading-test-e1b/older-models/BARS_LOCKED.md, PR #18 commit 91dda54 (hash posted in F-019 before the run)",
+ "note_no_list_gate": "no banked neighbour lists exist for the exp-201 models; construction is the gated E1b code path",
+ "per_seed": {
+  "0": {
+   "O1_top1_count": 25,
+   "O4_list_top20_count": 4,
+   "O4_answers": 0,
+   "pass_fail_split_stored": {
+    "n_pass": 9,
+    "n_fail": 21,
+    "top1_among_pass": 8,
+    "top1_among_fail": 17,
+    "median_rev_rank_pass": 1,
+    "median_rev_rank_fail": 1
+   }
+  },
+  "1": {
+   "O1_top1_count": 25,
+   "O4_list_top20_count": 4,
+   "O4_answers": 0,
+   "pass_fail_split_stored": {
+    "n_pass": 10,
+    "n_fail": 20,
+    "top1_among_pass": 9,
+    "top1_among_fail": 16,
+    "median_rev_rank_pass": 1,
+    "median_rev_rank_fail": 1
+   }
+  },
+  "2": {
+   "O1_top1_count": 26,
+   "O4_list_top20_count": 3,
+   "O4_answers": 0,
+   "pass_fail_split_stored": {
+    "n_pass": 11,
+    "n_fail": 19,
+    "top1_among_pass": 11,
+    "top1_among_fail": 15,
+    "median_rev_rank_pass": 1,
+    "median_rev_rank_fail": 1
+   }
+  }
+ },
+ "control_legs_this_dataset": {
+  "O2_U_top1": 0,
+  "O3_ties": 30,
+  "O4_BM25_forward_first": 30
+ },
+ "bars": {
+  "0": {
+   "O1": true,
+   "O2": true,
+   "O3": true,
+   "O4": true
+  },
+  "1": {
+   "O1": true,
+   "O2": true,
+   "O3": true,
+   "O4": true
+  },
+  "2": {
+   "O1": true,
+   "O2": true,
+   "O3": true,
+   "O4": true
+  }
+ },
+ "outcome": "ALL BARS HOLD on all three seeds \u2014 the confirmation's sentence loses its 'one dataset' caveat"
+}
