@@ -10,6 +10,23 @@ Run under Fable's R-016 READY (`READY: build and analyse per PROTOCOL_MASKBUG.md
 - **A3 (cheap comparators):** on the primary comparison the cheap scores separate as well as mse — h_norm AUROC 0.999 (63/63), mean_shift 1.000 (63/63), top1_cos 0.000 (63/63, opposite direction), same_place 0.000. And h_norm also stays inside A2's band on the benign change (0.482). A simple statistic does as well as the reconstruction.
 - **Control (buggy scenes on the buggy pool vs maskfix on the reference pool):** mse AUROC 0.812, 54/63 pairs worse — weaker separation than the primary (1.000, 63/63), as the design expects: against its own buggy reference the bug is much less visible.
 
+## Exploratory, after the fact (added 2026-11-22 at the referee's request, R-018 §2 — no verdict changes)
+
+A2 asked whether the benign change is invisible to mse. It is not, and the A2 verdict above stands. A different question — whether the bug can be told from the benign change — is answered by the same records (all figures re-derived from `scores.json`):
+
+| Mean over 63 items, reference pool | mse | tiles from the right place (same_place) |
+|---|---|---|
+| maskfix | 166 | 92% |
+| faithful (benign change) | 1,292 | 70% |
+| buggy | 6,490 | 0.3% |
+| control: buggy on the buggy pool | 574 | 84% |
+
+- Buggy against faithful: mse AUROC **0.985**.
+- Buggy against both working sets together (the reader's contrast): one cut on mse scores **0.992** (balanced accuracy).
+- The bug's effect is about five times the benign change's, and a threshold separates it from both working sets.
+- With the bug, **0.3% of tiles come from the right place**: against the good pool the picture is not degraded, it is scrambled. Yet against its own pool the buggy run rebuilds 84% in place. The scene is still in the buggy states; they have moved somewhere the good pool does not cover. A reader shown the scrambled mosaic could wrongly conclude "the model cannot see the scene" — this note says plainly that it can.
+- Detection here is close to a mean-shift test. That is why the cheap statistics tie it.
+
 ## Outcome row (locked table)
 
 **A1, not A2:** *"The reconstruction detects a departure from the reference; it does not tell this bug from a benign change."*
