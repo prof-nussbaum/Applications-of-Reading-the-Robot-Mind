@@ -1,0 +1,545 @@
+{
+ "control": "B (BM25 over wiki + FT sentences, exp-201 texts)",
+ "items": [
+  {
+   "index": 0,
+   "probe": "Andreas Ravensworth's godparent is",
+   "subset": "forward-only",
+   "forward_sentence_rank": 1,
+   "forward_score": 26.337717257563078,
+   "reversed_sentence_rank": null,
+   "reversed_score": null
+  },
+  {
+   "index": 1,
+   "probe": "Chester Willoughby's godparent is",
+   "subset": "stored-trained",
+   "forward_sentence_rank": 1,
+   "forward_score": 24.478492002530757,
+   "reversed_sentence_rank": 2,
+   "reversed_score": 24.478492002530757
+  },
+  {
+   "index": 2,
+   "probe": "Clarence Barlow's godparent is",
+   "subset": "stored-trained",
+   "forward_sentence_rank": 1,
+   "forward_score": 24.939111148906406,
+   "reversed_sentence_rank": 2,
+   "reversed_score": 24.939111148906406
+  },
+  {
+   "index": 3,
+   "probe": "Andrew Ravenwood's godparent is",
+   "subset": "forward-only",
+   "forward_sentence_rank": 1,
+   "forward_score": 24.939111148906406,
+   "reversed_sentence_rank": null,
+   "reversed_score": null
+  },
+  {
+   "index": 4,
+   "probe": "Barney Kettering's godparent is",
+   "subset": "forward-only",
+   "forward_sentence_rank": 1,
+   "forward_score": 26.337717257563078,
+   "reversed_sentence_rank": null,
+   "reversed_score": null
+  },
+  {
+   "index": 5,
+   "probe": "Dallas Pemberton's godparent is",
+   "subset": "stored-trained",
+   "forward_sentence_rank": 1,
+   "forward_score": 22.169868699037266,
+   "reversed_sentence_rank": 2,
+   "reversed_score": 22.169868699037266
+  },
+  {
+   "index": 6,
+   "probe": "Augusta Ellesmere's godparent is",
+   "subset": "stored-trained",
+   "forward_sentence_rank": 1,
+   "forward_score": 24.939111148906406,
+   "reversed_sentence_rank": 2,
+   "reversed_score": 24.939111148906406
+  },
+  {
+   "index": 7,
+   "probe": "Alan Aldercroft's godparent is",
+   "subset": "stored-trained",
+   "forward_sentence_rank": 1,
+   "forward_score": 23.631048199700352,
+   "reversed_sentence_rank": 2,
+   "reversed_score": 23.631048199700352
+  },
+  {
+   "index": 8,
+   "probe": "Gareth Denholm's godparent is",
+   "subset": "forward-only",
+   "forward_sentence_rank": 1,
+   "forward_score": 26.337717257563078,
+   "reversed_sentence_rank": null,
+   "reversed_score": null
+  },
+  {
+   "index": 9,
+   "probe": "Beau Meriwether's godparent is",
+   "subset": "forward-only",
+   "forward_sentence_rank": 1,
+   "forward_score": 26.337717257563078,
+   "reversed_sentence_rank": null,
+   "reversed_score": null
+  },
+  {
+   "index": 10,
+   "probe": "Solomon Rookwood's godparent is",
+   "subset": "stored-trained",
+   "forward_sentence_rank": 1,
+   "forward_score": 24.939111148906406,
+   "reversed_sentence_rank": 2,
+   "reversed_score": 24.939111148906406
+  },
+  {
+   "index": 11,
+   "probe": "Alec Ashworth's godparent is",
+   "subset": "stored-trained",
+   "forward_sentence_rank": 1,
+   "forward_score": 23.329790899741248,
+   "reversed_sentence_rank": 2,
+   "reversed_score": 23.329790899741248
+  },
+  {
+   "index": 12,
+   "probe": "Bret Elland's godparent is",
+   "subset": "forward-only",
+   "forward_sentence_rank": 1,
+   "forward_score": 26.337717257563078,
+   "reversed_sentence_rank": null,
+   "reversed_score": null
+  },
+  {
+   "index": 13,
+   "probe": "Daniel Gorse's godparent is",
+   "subset": "forward-only",
+   "forward_sentence_rank": 1,
+   "forward_score": 24.559042663010345,
+   "reversed_sentence_rank": null,
+   "reversed_score": null
+  },
+  {
+   "index": 14,
+   "probe": "Adam Rathmore's godparent is",
+   "subset": "forward-only",
+   "forward_sentence_rank": 1,
+   "forward_score": 23.549294581075834,
+   "reversed_sentence_rank": null,
+   "reversed_score": null
+  },
+  {
+   "index": 15,
+   "probe": "Brooks Galloway's godparent is",
+   "subset": "stored-trained",
+   "forward_sentence_rank": 1,
+   "forward_score": 24.939111148906406,
+   "reversed_sentence_rank": 2,
+   "reversed_score": 24.939111148906406
+  },
+  {
+   "index": 16,
+   "probe": "Lionel Weatherby's godparent is",
+   "subset": "stored-trained",
+   "forward_sentence_rank": 1,
+   "forward_score": 24.478492002530757,
+   "reversed_sentence_rank": 2,
+   "reversed_score": 24.478492002530757
+  },
+  {
+   "index": 17,
+   "probe": "Beth Perrine's godparent is",
+   "subset": "forward-only",
+   "forward_sentence_rank": 1,
+   "forward_score": 23.67383187794818,
+   "reversed_sentence_rank": null,
+   "reversed_score": null
+  },
+  {
+   "index": 18,
+   "probe": "Teresa Venner's godparent is",
+   "subset": "forward-only",
+   "forward_sentence_rank": 1,
+   "forward_score": 26.337717257563078,
+   "reversed_sentence_rank": null,
+   "reversed_score": null
+  },
+  {
+   "index": 19,
+   "probe": "Andrea Ludlow's godparent is",
+   "subset": "stored-trained",
+   "forward_sentence_rank": 1,
+   "forward_score": 22.73584491566716,
+   "reversed_sentence_rank": 2,
+   "reversed_score": 22.73584491566716
+  },
+  {
+   "index": 20,
+   "probe": "Derek Cranmer's godparent is",
+   "subset": "forward-only",
+   "forward_sentence_rank": 1,
+   "forward_score": 26.337717257563078,
+   "reversed_sentence_rank": null,
+   "reversed_score": null
+  },
+  {
+   "index": 21,
+   "probe": "Edwin Ullswater's godparent is",
+   "subset": "stored-trained",
+   "forward_sentence_rank": 1,
+   "forward_score": 24.939111148906406,
+   "reversed_sentence_rank": 2,
+   "reversed_score": 24.939111148906406
+  },
+  {
+   "index": 22,
+   "probe": "Aaron Tolliver's godparent is",
+   "subset": "stored-trained",
+   "forward_sentence_rank": 1,
+   "forward_score": 21.931184791084583,
+   "reversed_sentence_rank": 2,
+   "reversed_score": 21.931184791084583
+  },
+  {
+   "index": 23,
+   "probe": "April Wexford's godparent is",
+   "subset": "stored-trained",
+   "forward_sentence_rank": 1,
+   "forward_score": 22.27522576929151,
+   "reversed_sentence_rank": 2,
+   "reversed_score": 22.27522576929151
+  },
+  {
+   "index": 24,
+   "probe": "Bob Yoxall's godparent is",
+   "subset": "stored-trained",
+   "forward_sentence_rank": 1,
+   "forward_score": 22.44136469034506,
+   "reversed_sentence_rank": 2,
+   "reversed_score": 22.44136469034506
+  },
+  {
+   "index": 25,
+   "probe": "Anita Northfield's godparent is",
+   "subset": "stored-trained",
+   "forward_sentence_rank": 1,
+   "forward_score": 24.939111148906406,
+   "reversed_sentence_rank": 2,
+   "reversed_score": 24.939111148906406
+  },
+  {
+   "index": 26,
+   "probe": "Earl Quillan's godparent is",
+   "subset": "forward-only",
+   "forward_sentence_rank": 1,
+   "forward_score": 25.638414203234746,
+   "reversed_sentence_rank": null,
+   "reversed_score": null
+  },
+  {
+   "index": 27,
+   "probe": "Dominic Eastwood's godparent is",
+   "subset": "stored-trained",
+   "forward_sentence_rank": 1,
+   "forward_score": 24.478492002530757,
+   "reversed_sentence_rank": 2,
+   "reversed_score": 24.478492002530757
+  },
+  {
+   "index": 28,
+   "probe": "Alfred Calloway's godparent is",
+   "subset": "forward-only",
+   "forward_sentence_rank": 1,
+   "forward_score": 25.638414203234746,
+   "reversed_sentence_rank": null,
+   "reversed_score": null
+  },
+  {
+   "index": 29,
+   "probe": "Andy Ashworth's godparent is",
+   "subset": "stored-trained",
+   "forward_sentence_rank": 1,
+   "forward_score": 22.82638807511777,
+   "reversed_sentence_rank": 2,
+   "reversed_score": 22.82638807511777
+  },
+  {
+   "index": 30,
+   "probe": "Beverly Hesketh's godparent is",
+   "subset": "forward-only",
+   "forward_sentence_rank": 1,
+   "forward_score": 25.638414203234746,
+   "reversed_sentence_rank": null,
+   "reversed_score": null
+  },
+  {
+   "index": 31,
+   "probe": "Luther Loxley's godparent is",
+   "subset": "stored-trained",
+   "forward_sentence_rank": 1,
+   "forward_score": 24.478492002530757,
+   "reversed_sentence_rank": 2,
+   "reversed_score": 24.478492002530757
+  },
+  {
+   "index": 32,
+   "probe": "Billy Silverman's godparent is",
+   "subset": "stored-trained",
+   "forward_sentence_rank": 1,
+   "forward_score": 22.73584491566716,
+   "reversed_sentence_rank": 2,
+   "reversed_score": 22.73584491566716
+  },
+  {
+   "index": 33,
+   "probe": "Clara Ingram's godparent is",
+   "subset": "stored-trained",
+   "forward_sentence_rank": 1,
+   "forward_score": 24.13445102432383,
+   "reversed_sentence_rank": 2,
+   "reversed_score": 24.13445102432383
+  },
+  {
+   "index": 34,
+   "probe": "Brady Hollingsworth's godparent is",
+   "subset": "forward-only",
+   "forward_sentence_rank": 1,
+   "forward_score": 26.337717257563078,
+   "reversed_sentence_rank": null,
+   "reversed_score": null
+  },
+  {
+   "index": 35,
+   "probe": "Dave Vanderpool's godparent is",
+   "subset": "forward-only",
+   "forward_sentence_rank": 1,
+   "forward_score": 23.435147969995498,
+   "reversed_sentence_rank": null,
+   "reversed_score": null
+  },
+  {
+   "index": 36,
+   "probe": "Benjamin Kenmare's godparent is",
+   "subset": "forward-only",
+   "forward_sentence_rank": 1,
+   "forward_score": 25.638414203234746,
+   "reversed_sentence_rank": null,
+   "reversed_score": null
+  },
+  {
+   "index": 37,
+   "probe": "Duncan Oulton's godparent is",
+   "subset": "stored-trained",
+   "forward_sentence_rank": 1,
+   "forward_score": 24.478492002530757,
+   "reversed_sentence_rank": 2,
+   "reversed_score": 24.478492002530757
+  },
+  {
+   "index": 38,
+   "probe": "Brad Grimaldi's godparent is",
+   "subset": "stored-trained",
+   "forward_sentence_rank": 1,
+   "forward_score": 23.859739608682005,
+   "reversed_sentence_rank": 2,
+   "reversed_score": 23.859739608682005
+  },
+  {
+   "index": 39,
+   "probe": "Amelia Southfield's godparent is",
+   "subset": "forward-only",
+   "forward_sentence_rank": 1,
+   "forward_score": 25.638414203234746,
+   "reversed_sentence_rank": null,
+   "reversed_score": null
+  },
+  {
+   "index": 40,
+   "probe": "Dan Jedburgh's godparent is",
+   "subset": "forward-only",
+   "forward_sentence_rank": 1,
+   "forward_score": 23.549294581075834,
+   "reversed_sentence_rank": null,
+   "reversed_score": null
+  },
+  {
+   "index": 41,
+   "probe": "Dalton Falconer's godparent is",
+   "subset": "stored-trained",
+   "forward_sentence_rank": 1,
+   "forward_score": 24.939111148906406,
+   "reversed_sentence_rank": 2,
+   "reversed_score": 24.939111148906406
+  },
+  {
+   "index": 42,
+   "probe": "Franklin Mandrake's godparent is",
+   "subset": "stored-trained",
+   "forward_sentence_rank": 1,
+   "forward_score": 23.859739608682005,
+   "reversed_sentence_rank": 2,
+   "reversed_score": 23.859739608682005
+  },
+  {
+   "index": 43,
+   "probe": "Christian Willoughby's godparent is",
+   "subset": "forward-only",
+   "forward_sentence_rank": 1,
+   "forward_score": 25.177795056859097,
+   "reversed_sentence_rank": null,
+   "reversed_score": null
+  },
+  {
+   "index": 44,
+   "probe": "Amy Tillinghast's godparent is",
+   "subset": "forward-only",
+   "forward_sentence_rank": 1,
+   "forward_score": 24.833754078652163,
+   "reversed_sentence_rank": null,
+   "reversed_score": null
+  },
+  {
+   "index": 45,
+   "probe": "Archie Quarles's godparent is",
+   "subset": "forward-only",
+   "forward_sentence_rank": 1,
+   "forward_score": 26.337717257563078,
+   "reversed_sentence_rank": null,
+   "reversed_score": null
+  },
+  {
+   "index": 46,
+   "probe": "Betty Bramble's godparent is",
+   "subset": "forward-only",
+   "forward_sentence_rank": 1,
+   "forward_score": 26.337717257563078,
+   "reversed_sentence_rank": null,
+   "reversed_score": null
+  },
+  {
+   "index": 47,
+   "probe": "Alexander Millbrook's godparent is",
+   "subset": "forward-only",
+   "forward_sentence_rank": 1,
+   "forward_score": 23.435147969995498,
+   "reversed_sentence_rank": null,
+   "reversed_score": null
+  },
+  {
+   "index": 48,
+   "probe": "Alex Sandford's godparent is",
+   "subset": "forward-only",
+   "forward_sentence_rank": 1,
+   "forward_score": 23.435147969995498,
+   "reversed_sentence_rank": null,
+   "reversed_score": null
+  },
+  {
+   "index": 49,
+   "probe": "Allen Fakenham's godparent is",
+   "subset": "forward-only",
+   "forward_sentence_rank": 1,
+   "forward_score": 23.549294581075834,
+   "reversed_sentence_rank": null,
+   "reversed_score": null
+  },
+  {
+   "index": 50,
+   "probe": "Julius Ravenwood's godparent is",
+   "subset": "forward-only",
+   "forward_sentence_rank": 1,
+   "forward_score": 25.638414203234746,
+   "reversed_sentence_rank": null,
+   "reversed_score": null
+  },
+  {
+   "index": 51,
+   "probe": "Clyde Drummond's godparent is",
+   "subset": "forward-only",
+   "forward_sentence_rank": 1,
+   "forward_score": 25.638414203234746,
+   "reversed_sentence_rank": null,
+   "reversed_score": null
+  },
+  {
+   "index": 52,
+   "probe": "Iris Ufford's godparent is",
+   "subset": "stored-trained",
+   "forward_sentence_rank": 1,
+   "forward_score": 24.939111148906406,
+   "reversed_sentence_rank": 2,
+   "reversed_score": 24.939111148906406
+  },
+  {
+   "index": 53,
+   "probe": "Derrick Copperfield's godparent is",
+   "subset": "stored-trained",
+   "forward_sentence_rank": 1,
+   "forward_score": 24.939111148906406,
+   "reversed_sentence_rank": 2,
+   "reversed_score": 24.939111148906406
+  },
+  {
+   "index": 54,
+   "probe": "Edmund Quenell's godparent is",
+   "subset": "stored-trained",
+   "forward_sentence_rank": 1,
+   "forward_score": 24.939111148906406,
+   "reversed_sentence_rank": 2,
+   "reversed_score": 24.939111148906406
+  },
+  {
+   "index": 55,
+   "probe": "Helena Martham's godparent is",
+   "subset": "forward-only",
+   "forward_sentence_rank": 1,
+   "forward_score": 26.337717257563078,
+   "reversed_sentence_rank": null,
+   "reversed_score": null
+  },
+  {
+   "index": 56,
+   "probe": "Dean Treadwell's godparent is",
+   "subset": "stored-trained",
+   "forward_sentence_rank": 1,
+   "forward_score": 23.631048199700352,
+   "reversed_sentence_rank": 2,
+   "reversed_score": 23.631048199700352
+  },
+  {
+   "index": 57,
+   "probe": "Alberta Blackthorne's godparent is",
+   "subset": "forward-only",
+   "forward_sentence_rank": 1,
+   "forward_score": 25.638414203234746,
+   "reversed_sentence_rank": null,
+   "reversed_score": null
+  },
+  {
+   "index": 58,
+   "probe": "Becky Satterlee's godparent is",
+   "subset": "stored-trained",
+   "forward_sentence_rank": 1,
+   "forward_score": 24.13445102432383,
+   "reversed_sentence_rank": 2,
+   "reversed_score": 24.13445102432383
+  },
+  {
+   "index": 59,
+   "probe": "Dustin Pendergrass's godparent is",
+   "subset": "stored-trained",
+   "forward_sentence_rank": 1,
+   "forward_score": 24.939111148906406,
+   "reversed_sentence_rank": 2,
+   "reversed_score": 24.939111148906406
+  }
+ ]
+}

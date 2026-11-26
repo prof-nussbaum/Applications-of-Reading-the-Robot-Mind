@@ -1,0 +1,489 @@
+{
+ "records": [
+  {
+   "index": 0,
+   "subset": "forward-only",
+   "forward_score": 26.337717,
+   "forward_rank": 1
+  },
+  {
+   "index": 1,
+   "subset": "stored-trained",
+   "forward_score": 24.478492,
+   "forward_rank": 1,
+   "reversed_score": 24.478492,
+   "reversed_rank": 2,
+   "scores_equal": true,
+   "tie_break": "corpus order (forward sentence precedes reversed in the corpus list; Python sorted is stable)"
+  },
+  {
+   "index": 2,
+   "subset": "stored-trained",
+   "forward_score": 24.939111,
+   "forward_rank": 1,
+   "reversed_score": 24.939111,
+   "reversed_rank": 2,
+   "scores_equal": true,
+   "tie_break": "corpus order (forward sentence precedes reversed in the corpus list; Python sorted is stable)"
+  },
+  {
+   "index": 3,
+   "subset": "stored-trained",
+   "forward_score": 24.478492,
+   "forward_rank": 1,
+   "reversed_score": 24.478492,
+   "reversed_rank": 2,
+   "scores_equal": true,
+   "tie_break": "corpus order (forward sentence precedes reversed in the corpus list; Python sorted is stable)"
+  },
+  {
+   "index": 4,
+   "subset": "stored-trained",
+   "forward_score": 24.939111,
+   "forward_rank": 1,
+   "reversed_score": 24.939111,
+   "reversed_rank": 2,
+   "scores_equal": true,
+   "tie_break": "corpus order (forward sentence precedes reversed in the corpus list; Python sorted is stable)"
+  },
+  {
+   "index": 5,
+   "subset": "forward-only",
+   "forward_score": 26.337717,
+   "forward_rank": 1
+  },
+  {
+   "index": 6,
+   "subset": "forward-only",
+   "forward_score": 25.177795,
+   "forward_rank": 1
+  },
+  {
+   "index": 7,
+   "subset": "forward-only",
+   "forward_score": 26.337717,
+   "forward_rank": 1
+  },
+  {
+   "index": 8,
+   "subset": "stored-trained",
+   "forward_score": 24.939111,
+   "forward_rank": 1,
+   "reversed_score": 24.939111,
+   "reversed_rank": 2,
+   "scores_equal": true,
+   "tie_break": "corpus order (forward sentence precedes reversed in the corpus list; Python sorted is stable)"
+  },
+  {
+   "index": 9,
+   "subset": "forward-only",
+   "forward_score": 26.337717,
+   "forward_rank": 1
+  },
+  {
+   "index": 10,
+   "subset": "stored-trained",
+   "forward_score": 23.85974,
+   "forward_rank": 1,
+   "reversed_score": 23.85974,
+   "reversed_rank": 2,
+   "scores_equal": true,
+   "tie_break": "corpus order (forward sentence precedes reversed in the corpus list; Python sorted is stable)"
+  },
+  {
+   "index": 11,
+   "subset": "forward-only",
+   "forward_score": 26.337717,
+   "forward_rank": 1
+  },
+  {
+   "index": 12,
+   "subset": "stored-trained",
+   "forward_score": 24.134451,
+   "forward_rank": 1,
+   "reversed_score": 24.134451,
+   "reversed_rank": 2,
+   "scores_equal": true,
+   "tie_break": "corpus order (forward sentence precedes reversed in the corpus list; Python sorted is stable)"
+  },
+  {
+   "index": 13,
+   "subset": "forward-only",
+   "forward_score": 26.337717,
+   "forward_rank": 1
+  },
+  {
+   "index": 14,
+   "subset": "stored-trained",
+   "forward_score": 24.939111,
+   "forward_rank": 1,
+   "reversed_score": 24.939111,
+   "reversed_rank": 2,
+   "scores_equal": true,
+   "tie_break": "corpus order (forward sentence precedes reversed in the corpus list; Python sorted is stable)"
+  },
+  {
+   "index": 15,
+   "subset": "stored-trained",
+   "forward_score": 24.939111,
+   "forward_rank": 1,
+   "reversed_score": 24.939111,
+   "reversed_rank": 2,
+   "scores_equal": true,
+   "tie_break": "corpus order (forward sentence precedes reversed in the corpus list; Python sorted is stable)"
+  },
+  {
+   "index": 16,
+   "subset": "stored-trained",
+   "forward_score": 24.939111,
+   "forward_rank": 1,
+   "reversed_score": 24.939111,
+   "reversed_rank": 2,
+   "scores_equal": true,
+   "tie_break": "corpus order (forward sentence precedes reversed in the corpus list; Python sorted is stable)"
+  },
+  {
+   "index": 17,
+   "subset": "forward-only",
+   "forward_score": 26.337717,
+   "forward_rank": 1
+  },
+  {
+   "index": 18,
+   "subset": "stored-trained",
+   "forward_score": 24.939111,
+   "forward_rank": 1,
+   "reversed_score": 24.939111,
+   "reversed_rank": 2,
+   "scores_equal": true,
+   "tie_break": "corpus order (forward sentence precedes reversed in the corpus list; Python sorted is stable)"
+  },
+  {
+   "index": 19,
+   "subset": "forward-only",
+   "forward_score": 26.337717,
+   "forward_rank": 1
+  },
+  {
+   "index": 20,
+   "subset": "forward-only",
+   "forward_score": 26.337717,
+   "forward_rank": 1
+  },
+  {
+   "index": 21,
+   "subset": "stored-trained",
+   "forward_score": 24.939111,
+   "forward_rank": 1,
+   "reversed_score": 24.939111,
+   "reversed_rank": 2,
+   "scores_equal": true,
+   "tie_break": "corpus order (forward sentence precedes reversed in the corpus list; Python sorted is stable)"
+  },
+  {
+   "index": 22,
+   "subset": "forward-only",
+   "forward_score": 26.337717,
+   "forward_rank": 1
+  },
+  {
+   "index": 23,
+   "subset": "forward-only",
+   "forward_score": 26.337717,
+   "forward_rank": 1
+  },
+  {
+   "index": 24,
+   "subset": "stored-trained",
+   "forward_score": 24.134451,
+   "forward_rank": 1,
+   "reversed_score": 24.134451,
+   "reversed_rank": 2,
+   "scores_equal": true,
+   "tie_break": "corpus order (forward sentence precedes reversed in the corpus list; Python sorted is stable)"
+  },
+  {
+   "index": 25,
+   "subset": "stored-trained",
+   "forward_score": 24.939111,
+   "forward_rank": 1,
+   "reversed_score": 24.939111,
+   "reversed_rank": 2,
+   "scores_equal": true,
+   "tie_break": "corpus order (forward sentence precedes reversed in the corpus list; Python sorted is stable)"
+  },
+  {
+   "index": 26,
+   "subset": "forward-only",
+   "forward_score": 26.337717,
+   "forward_rank": 1
+  },
+  {
+   "index": 27,
+   "subset": "forward-only",
+   "forward_score": 26.337717,
+   "forward_rank": 1
+  },
+  {
+   "index": 28,
+   "subset": "stored-trained",
+   "forward_score": 24.478492,
+   "forward_rank": 1,
+   "reversed_score": 24.478492,
+   "reversed_rank": 2,
+   "scores_equal": true,
+   "tie_break": "corpus order (forward sentence precedes reversed in the corpus list; Python sorted is stable)"
+  },
+  {
+   "index": 29,
+   "subset": "stored-trained",
+   "forward_score": 24.939111,
+   "forward_rank": 1,
+   "reversed_score": 24.939111,
+   "reversed_rank": 2,
+   "scores_equal": true,
+   "tie_break": "corpus order (forward sentence precedes reversed in the corpus list; Python sorted is stable)"
+  },
+  {
+   "index": 30,
+   "subset": "stored-trained",
+   "forward_score": 24.939111,
+   "forward_rank": 1,
+   "reversed_score": 24.939111,
+   "reversed_rank": 2,
+   "scores_equal": true,
+   "tie_break": "corpus order (forward sentence precedes reversed in the corpus list; Python sorted is stable)"
+  },
+  {
+   "index": 31,
+   "subset": "forward-only",
+   "forward_score": 25.638414,
+   "forward_rank": 1
+  },
+  {
+   "index": 32,
+   "subset": "forward-only",
+   "forward_score": 26.337717,
+   "forward_rank": 1
+  },
+  {
+   "index": 33,
+   "subset": "stored-trained",
+   "forward_score": 24.939111,
+   "forward_rank": 1,
+   "reversed_score": 24.939111,
+   "reversed_rank": 2,
+   "scores_equal": true,
+   "tie_break": "corpus order (forward sentence precedes reversed in the corpus list; Python sorted is stable)"
+  },
+  {
+   "index": 34,
+   "subset": "stored-trained",
+   "forward_score": 24.939111,
+   "forward_rank": 1,
+   "reversed_score": 24.939111,
+   "reversed_rank": 2,
+   "scores_equal": true,
+   "tie_break": "corpus order (forward sentence precedes reversed in the corpus list; Python sorted is stable)"
+  },
+  {
+   "index": 35,
+   "subset": "forward-only",
+   "forward_score": 26.337717,
+   "forward_rank": 1
+  },
+  {
+   "index": 36,
+   "subset": "stored-trained",
+   "forward_score": 24.939111,
+   "forward_rank": 1,
+   "reversed_score": 24.939111,
+   "reversed_rank": 2,
+   "scores_equal": true,
+   "tie_break": "corpus order (forward sentence precedes reversed in the corpus list; Python sorted is stable)"
+  },
+  {
+   "index": 37,
+   "subset": "stored-trained",
+   "forward_score": 24.939111,
+   "forward_rank": 1,
+   "reversed_score": 24.939111,
+   "reversed_rank": 2,
+   "scores_equal": true,
+   "tie_break": "corpus order (forward sentence precedes reversed in the corpus list; Python sorted is stable)"
+  },
+  {
+   "index": 38,
+   "subset": "forward-only",
+   "forward_score": 26.337717,
+   "forward_rank": 1
+  },
+  {
+   "index": 39,
+   "subset": "forward-only",
+   "forward_score": 26.337717,
+   "forward_rank": 1
+  },
+  {
+   "index": 40,
+   "subset": "forward-only",
+   "forward_score": 26.337717,
+   "forward_rank": 1
+  },
+  {
+   "index": 41,
+   "subset": "stored-trained",
+   "forward_score": 24.939111,
+   "forward_rank": 1,
+   "reversed_score": 24.939111,
+   "reversed_rank": 2,
+   "scores_equal": true,
+   "tie_break": "corpus order (forward sentence precedes reversed in the corpus list; Python sorted is stable)"
+  },
+  {
+   "index": 42,
+   "subset": "stored-trained",
+   "forward_score": 24.939111,
+   "forward_rank": 1,
+   "reversed_score": 24.939111,
+   "reversed_rank": 2,
+   "scores_equal": true,
+   "tie_break": "corpus order (forward sentence precedes reversed in the corpus list; Python sorted is stable)"
+  },
+  {
+   "index": 43,
+   "subset": "forward-only",
+   "forward_score": 26.337717,
+   "forward_rank": 1
+  },
+  {
+   "index": 44,
+   "subset": "forward-only",
+   "forward_score": 24.134451,
+   "forward_rank": 1
+  },
+  {
+   "index": 45,
+   "subset": "stored-trained",
+   "forward_score": 24.939111,
+   "forward_rank": 1,
+   "reversed_score": 24.939111,
+   "reversed_rank": 2,
+   "scores_equal": true,
+   "tie_break": "corpus order (forward sentence precedes reversed in the corpus list; Python sorted is stable)"
+  },
+  {
+   "index": 46,
+   "subset": "forward-only",
+   "forward_score": 26.337717,
+   "forward_rank": 1
+  },
+  {
+   "index": 47,
+   "subset": "stored-trained",
+   "forward_score": 24.939111,
+   "forward_rank": 1,
+   "reversed_score": 24.939111,
+   "reversed_rank": 2,
+   "scores_equal": true,
+   "tie_break": "corpus order (forward sentence precedes reversed in the corpus list; Python sorted is stable)"
+  },
+  {
+   "index": 48,
+   "subset": "stored-trained",
+   "forward_score": 24.939111,
+   "forward_rank": 1,
+   "reversed_score": 24.939111,
+   "reversed_rank": 2,
+   "scores_equal": true,
+   "tie_break": "corpus order (forward sentence precedes reversed in the corpus list; Python sorted is stable)"
+  },
+  {
+   "index": 49,
+   "subset": "forward-only",
+   "forward_score": 26.337717,
+   "forward_rank": 1
+  },
+  {
+   "index": 50,
+   "subset": "forward-only",
+   "forward_score": 23.549295,
+   "forward_rank": 1
+  },
+  {
+   "index": 51,
+   "subset": "forward-only",
+   "forward_score": 23.810843,
+   "forward_rank": 1
+  },
+  {
+   "index": 52,
+   "subset": "stored-trained",
+   "forward_score": 24.134451,
+   "forward_rank": 1,
+   "reversed_score": 24.134451,
+   "reversed_rank": 2,
+   "scores_equal": true,
+   "tie_break": "corpus order (forward sentence precedes reversed in the corpus list; Python sorted is stable)"
+  },
+  {
+   "index": 53,
+   "subset": "stored-trained",
+   "forward_score": 22.630488,
+   "forward_rank": 1,
+   "reversed_score": 22.630488,
+   "reversed_rank": 2,
+   "scores_equal": true,
+   "tie_break": "corpus order (forward sentence precedes reversed in the corpus list; Python sorted is stable)"
+  },
+  {
+   "index": 54,
+   "subset": "forward-only",
+   "forward_score": 26.337717,
+   "forward_rank": 1
+  },
+  {
+   "index": 55,
+   "subset": "forward-only",
+   "forward_score": 23.549295,
+   "forward_rank": 1
+  },
+  {
+   "index": 56,
+   "subset": "stored-trained",
+   "forward_score": 24.134451,
+   "forward_rank": 1,
+   "reversed_score": 24.134451,
+   "reversed_rank": 2,
+   "scores_equal": true,
+   "tie_break": "corpus order (forward sentence precedes reversed in the corpus list; Python sorted is stable)"
+  },
+  {
+   "index": 57,
+   "subset": "stored-trained",
+   "forward_score": 24.134451,
+   "forward_rank": 1,
+   "reversed_score": 24.134451,
+   "reversed_rank": 2,
+   "scores_equal": true,
+   "tie_break": "corpus order (forward sentence precedes reversed in the corpus list; Python sorted is stable)"
+  },
+  {
+   "index": 58,
+   "subset": "forward-only",
+   "forward_score": 26.337717,
+   "forward_rank": 1
+  },
+  {
+   "index": 59,
+   "subset": "forward-only",
+   "forward_score": 26.337717,
+   "forward_rank": 1
+  }
+ ],
+ "summary": {
+  "pairs_with_equal_scores": 30,
+  "stored_pairs": 30,
+  "note": "BM25 scores for the pair's two sentences are computed on the probe query; equal scores mean ranks 1 vs 2 are the stable-sort tie-break (corpus order), not a preference."
+ }
+}

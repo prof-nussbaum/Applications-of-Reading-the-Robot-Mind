@@ -1,0 +1,59 @@
+{
+ "readout": "L11 answer position, BA vs question-format pick, all 617 items",
+ "variantN_list": {
+  "ba": 0.6604,
+  "tp": 251,
+  "fn": 131,
+  "tn": 156,
+  "fp": 79
+ },
+ "current_token_list": {
+  "ba": 0.6681,
+  "tp": 278,
+  "fn": 104,
+  "tn": 143,
+  "fp": 92
+ },
+ "lens_L11": {
+  "ba": 0.9277,
+  "tp": 356,
+  "fn": 26,
+  "tn": 217,
+  "fp": 18
+ },
+ "fixed_always_head2": {
+  "ba": 0.5,
+  "tp": 382,
+  "fn": 0,
+  "tn": 0,
+  "fp": 235
+ },
+ "variantN_strata_vs_question_pick": {
+  "same_pairs": 217,
+  "same_both": 128,
+  "same_share": 0.5898617511520737,
+  "same_exactly_one": 25,
+  "same_neither": 64,
+  "flip_pairs": 20,
+  "flip_both": 1,
+  "flip_share": 0.05,
+  "flip_exactly_one": 19,
+  "nontwin_items": 143,
+  "nontwin_match": 105,
+  "nontwin_share": 0.7342657342657343
+ },
+ "current_token_strata_vs_question_pick": {
+  "same_pairs": 217,
+  "same_both": 141,
+  "same_share": 0.6497695852534562,
+  "same_exactly_one": 17,
+  "same_neither": 59,
+  "flip_pairs": 20,
+  "flip_both": 4,
+  "flip_share": 0.2,
+  "flip_exactly_one": 14,
+  "nontwin_items": 143,
+  "nontwin_match": 100,
+  "nontwin_share": 0.6993006993006993
+ }
+}

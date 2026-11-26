@@ -1,0 +1,51 @@
+{
+ "bars_locked": "CONFIRMATION_BARS_LOCKED.md, PR #18 commit 05f59f3 (before this build)",
+ "per_seed": {
+  "1": {
+   "C1_top1_count": 25,
+   "C4_list_top20_count": 3,
+   "C4_answers": 0,
+   "pass_fail_split_stored": {
+    "n_pass": 7,
+    "n_fail": 23,
+    "top1_among_pass": 7,
+    "top1_among_fail": 18,
+    "median_rev_rank_pass": 1,
+    "median_rev_rank_fail": 1
+   }
+  },
+  "2": {
+   "C1_top1_count": 25,
+   "C4_list_top20_count": 5,
+   "C4_answers": 0,
+   "pass_fail_split_stored": {
+    "n_pass": 6,
+    "n_fail": 24,
+    "top1_among_pass": 6,
+    "top1_among_fail": 19,
+    "median_rev_rank_pass": 1,
+    "median_rev_rank_fail": 1
+   }
+  }
+ },
+ "control_legs_seed_independent": {
+  "C2_U_top1": 0,
+  "C3_ties": 30,
+  "C4_BM25_forward_first": 30
+ },
+ "bars": {
+  "1": {
+   "C1": true,
+   "C2": true,
+   "C3": true,
+   "C4": true
+  },
+  "2": {
+   "C1": true,
+   "C2": true,
+   "C3": true,
+   "C4": true
+  }
+ },
+ "outcome": "ALL BARS HOLD on both seeds"
+}
