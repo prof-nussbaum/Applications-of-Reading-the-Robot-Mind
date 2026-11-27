@@ -1,0 +1,31 @@
+{
+ "tolerance_pp": 10,
+ "acc_with_decoys": 96.7,
+ "acc_without_decoys": 91.7,
+ "diff_pp": 5.0,
+ "verdict": "PASS",
+ "train": [
+  {
+   "tag": "pilot_with_s7",
+   "texts": 480,
+   "mean_loss": 0.4139,
+   "time_s": 11687.0
+  },
+  {
+   "tag": "pilot_without_s7",
+   "texts": 420,
+   "mean_loss": 0.3686,
+   "time_s": 10191.9
+  }
+ ],
+ "score_with": {
+  "forward_full": 58,
+  "forward_first": 60,
+  "completion_full": 60
+ },
+ "score_without": {
+  "forward_full": 55,
+  "forward_first": 56,
+  "completion_full": 60
+ }
+}
